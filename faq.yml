@@ -27,3 +27,5 @@
 - question: Où trouver des entreprises capables de développer un logiciel libre ?
 - question: Puis-je interdire la réutilisation commerciale des codes sources publiés ?
 - question: Avez-vous un dépôt Git exemplaire ?
+- question: Quelle est la différence entre GitHub et GitLab ?
+- question: Qu'est-ce que SourceHut et pourquoi publier sur cette forge ?
