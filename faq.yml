@@ -14,3 +14,12 @@
 - question: Existe-t-il une forge interministérielle publique ?
 - question: Pouvez-vous m'aider avec Git ?
 - question: Est-il interdit de publier sur GitHub ?
+- question: Comment créer un SBOM ("software bill of materials") ?
+- question: Comment détecter et effacer des secrets dans mon historique Git ?
+- question: Qu'est-ce que le "copyleft" ?
+- question: Quelle est la différence entre copyleft faible et fort ?
+- question: Sous quelle licence dois-je publier ma documentation ?
+- question: Quelles langues utiliser pour mon code source et ma documentation ?
+- question: Qu'est-ce qu'un "fork" ?
+- question: Quelle différence entre "algorithme public" et "code source" ?
+- question: Dois-je utiliser Software Heritage ?
