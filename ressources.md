@@ -1,3 +1,8 @@
+# Guides existants
+
+- https://guides.etalab.gouv.fr/logiciels/
+- https://guide-juridique-logiciel-libre.etalab.gouv.fr
+
 # Politiques logiciels libres d'organismes publics
 
 - https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Publications/Politique-du-ministere-de-la-Culture-pour-les-codes-sources-algorithmes-et-logiciels-libres
