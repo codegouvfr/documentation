@@ -1,7 +1,8 @@
-# Guides existants
+# Guides existants produits par Etalab/DINUM
 
 - https://guides.etalab.gouv.fr/logiciels/
 - https://guide-juridique-logiciel-libre.etalab.gouv.fr
+- https://www.numerique.gouv.fr/publications/politique-logiciel-libre/
 
 # Politiques logiciels libres d'organismes publics
 
@@ -12,7 +13,11 @@
 - https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences
 - https://www.etalab.gouv.fr/accompagnement-logiciels-libres
 
-# Tutoriels issus de l'administration
+# Guides issus de l'administration
+
+- https://www.ouvrirlascience.fr/science-ouverte-codes-et-logiciels/
+
+## Tutoriels
 
 - https://github.com/SocialGouv/tutoriel-gitlab
 - https://documentation-snds.health-data-hub.fr/contribuer/guide_contribution/exercices_formation.html
