@@ -1,5 +1,7 @@
 # Idées de guides
 
+https://man.sr.ht/~etalab/logiciels-libres/guides.md
+
 ## En vrac
 
 - La publication du code source d'un projet, guide de A à Z
@@ -16,6 +18,11 @@
 - Guide de sensibilisation générale au logiciel libre, par et pour les administrations
 - Guide sur les différentes activités liées au logiciel
 - Guide à destination de l'organisateur d'un hackathon
+
+### Technique
+
+- Good README
+- FAQ Troubleshooting
 
 ## Brouillons
 
