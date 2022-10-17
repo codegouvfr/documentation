@@ -23,7 +23,8 @@
 
 ||||
 |:-:|:-:|:-:|
-| Dépôt réalisé dans le cadre des échanges avec l'AMUE | https://framagit.org/bzg/logiciel-libre-ressources-introductives | Guide **non technique** sur le logiciel libre |
+| AMUE | https://framagit.org/bzg/logiciel-libre-ressources-introductives | Guide **non technique** sur le logiciel libre (dépôt réalisé dans le cadre des échanges avec l'AMUE) |
+| | https://data.amue.fr/ressources/VersLeLibre_UnOutilDAideALaDecisionAAllerVersLeLibre_VersionFinale_V2-CCBYSA.pdf | Outil VersLeLibre d'aide à la décision pour transformer les solutions de l'AMUE vers un modèle Libre |
 | INRIA | https://hal.inria.fr/hal-03346079/document > 4.3 Comprendre les logiciels libres | Guide **non technique** sur le logiciel libre |
 
 ||||
@@ -49,5 +50,4 @@
 | Sciences Po | https://medialab.sciencespo.fr/a-propos/#deontology | Déontologie |
 | Abes | https://github.com/abes-esr/abes-politique-developpement | Politique de développement informatique |
 | beta.gouv | https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences |
-
-- https://www.etalab.gouv.fr/accompagnement-logiciels-libres
+| Etalab | https://www.etalab.gouv.fr/accompagnement-logiciels-libres |
