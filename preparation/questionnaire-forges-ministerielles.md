@@ -33,16 +33,46 @@ de manière unique.
 
 Un choix parmi :
 
-- GitLab
+- github.com en gratuit
+- github.com en payant
+- GitHub en instance privée
+- GitLab CE
+- GitLab version payante
+- Tuleap CE
+- Tuleap en instance payante
 - Gitea
-- Tuleap
 - Gogs
 - SourceHut
-- Autre (préciser lequel)
+- Autre (préciser)
 
 ## Par qui est proposée cette forge ?
 
 Champ texte libre: nom du service.
+
+## Combien de groupes cette forge héberge-t-elle ?
+
+Choix parmi :
+
+- entre 1 et 50
+- entre 50 et 100
+- entre 100 et 200
+- plus de 200
+
+## Combien de dépôts de code source cette forge héberge-t-elle ?
+
+Choix parmi :
+
+- entre 1 et 50
+- entre 50 et 100
+- entre 100 et 200
+- plus de 200
+
+## Combien d'utilisateur sont inscrits ?
+
+- entre 1 et 50
+- entre 50 et 100
+- entre 100 et 200
+- plus de 200
 
 ## Comment est déployée la forge ?
 
@@ -99,12 +129,16 @@ Un choix parmi :
 - La publication vers l'extérieur du contenu des dépôts
 - Un mixte entre collaboration interne et publication vers l'extérieur
 
+## Quelle est la proportion de dépôts publics et privés ?
+
+Champ texte libre.
 
 ## Quel niveau de sensibilité ont les projets hébergés ?
 
-Champ libre: décrivez les niveaux de SIV (Système d'Importance Vitale)
-et de confidentialité (ConfDef ou SecDef) ; toute autre information
-pertinente pour comprendre la typologie des projets hébergés.
+Champ texte libre: décrivez les niveaux de SIV (Système d'Importance
+Vitale) et de confidentialité (ConfDef ou SecDef) ; toute autre
+information pertinente pour comprendre la typologie des projets
+hébergés.
 
 ## Comment s'identifie t'on sur cette forge ?
 
