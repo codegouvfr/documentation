@@ -29,7 +29,7 @@ en dépendent hors du MESR, qui mène son enquête propre via le collège
 Champ texte libre: cette information permettra d’identifier la forge
 de manière unique.
 
-## Quel est le logiciel de forge utilisé ?
+## Quel est le logiciel de forge utilisé ?
 
 Un choix parmi :
 
@@ -40,11 +40,11 @@ Un choix parmi :
 - SourceHut
 - Autre (préciser lequel)
 
-## Par qui est proposée cette forge ?
+## Par qui est proposée cette forge ?
 
 Champ texte libre: nom du service.
 
-## Comment est déployée la forge ?
+## Comment est déployée la forge ?
 
 Un choix parmi :
 
@@ -54,7 +54,7 @@ Un choix parmi :
 - Sur du cloud cercle 3
 - Je ne sais pas
 
-## Comment est infogérée la forge ?
+## Comment est infogérée la forge ?
 
 Un choix parmi :
 
@@ -62,7 +62,18 @@ Un choix parmi :
 - Via un ou des prestataires
 - Via des ETP ou % d'ETP et un ou des prestataires
 
-## Qui peut configurer la forge ?
+## Qui peut créer un compte sur la forge ?
+
+Un choix multiple :
+
+- Les agents publics du service
+- Des agents publics avec certains noms de domaine
+- Toute personne du ministère
+- Toute agent public, après validation manuelle
+- Toute personne, agent ou non, après validation manuelle
+- Ce n'est pas strictement défini
+
+## Qui peut configurer la forge ?
 
 Un choix parmi :
 
@@ -71,7 +82,7 @@ Un choix parmi :
 - Une équipe avec un administrateur et un ou des prestataires
 - Je ne sais pas
 
-## Qui peut administrer la forge ?
+## Qui peut administrer la forge ?
 
 Un choix parmi :
 
@@ -80,7 +91,7 @@ Un choix parmi :
 - Une équipe avec un administrateur et un ou des prestataires
 - Je ne sais pas
 
-## Quelle est la vocation de cette forge ?
+## Quelle est la vocation de cette forge ?
 
 Un choix parmi :
 
@@ -88,14 +99,14 @@ Un choix parmi :
 - La publication vers l'extérieur du contenu des dépôts
 - Un mixte entre collaboration interne et publication vers l'extérieur
 
-## Comment s'identifie t'on sur cette forge ?
+## Comment s'identifie t'on sur cette forge ?
 
 - Via un annuaire interne
 - Sur invitation d'un membre existant
 - Auto-inscription libre (création de compte sans validation)
 - Auto-inscription limitée (création de compte avec validation)
 
-## Quels sont les services disponibles via la forge ?
+## Quels sont les services disponibles via la forge ?
 
 - Possibilité de faire des pull ou merge requests
 - Intégration continue native (par ex. GitLab Runner ou GitHub Actions)
@@ -107,13 +118,13 @@ Un choix parmi :
 - Assurance qualité (par exemple SonarQube)
 - Autre (préciser)
 
-## Comment sont organisés les projets ?
+## Comment sont organisés les projets ?
 
 Champ libre.
 
 Le but de ce champ est de savoir s'il y a des directions qui sont
 données aux utilisateurs pour la gestion des groupes (un groupe par
-projet ? un groupe par service / département ?) mais nous laissons
+projet ? un groupe par service / département ?) mais nous laissons
 ce champ libre car les détails sont intéressants.
 
 ## Si vous hébergez votre forge, quelle politique de maintenance ?
