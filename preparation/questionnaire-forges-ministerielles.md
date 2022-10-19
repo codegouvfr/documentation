@@ -99,6 +99,13 @@ Un choix parmi :
 - La publication vers l'extérieur du contenu des dépôts
 - Un mixte entre collaboration interne et publication vers l'extérieur
 
+
+## Quel niveau de sensibilité ont les projets hébergés ?
+
+Champ libre: décrivez les niveaux de SIV (Système d'Importance Vitale)
+et de confidentialité (ConfDef ou SecDef) ; toute autre information
+pertinente pour comprendre la typologie des projets hébergés.
+
 ## Comment s'identifie t'on sur cette forge ?
 
 - Via un annuaire interne
