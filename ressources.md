@@ -55,3 +55,7 @@
 # Ressources anglophones
 
 - [The OSPO A New Tool for Digital Government](https://openforumeurope.org/publications/the-ospo-a-new-tool-for-digital-government/)
+
+# Notes sur l'open source d'autres administrations
+
+- [DoD CIO Memo for Senior Pentagon Leadership](https://dodcio.defense.gov/portals/0/documents/library/softwaredev-opensource.pdf) (24 janvier 2022)
