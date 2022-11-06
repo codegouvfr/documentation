@@ -51,3 +51,7 @@
 | Abes | https://github.com/abes-esr/abes-politique-developpement | Politique de développement informatique |
 | beta.gouv | https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences |
 | Etalab | https://www.etalab.gouv.fr/accompagnement-logiciels-libres |
+
+# Ressources anglophones
+
+- [The OSPO A New Tool for Digital Government](https://openforumeurope.org/publications/the-ospo-a-new-tool-for-digital-government/)
