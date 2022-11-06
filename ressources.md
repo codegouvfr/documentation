@@ -40,7 +40,7 @@
 | UQAM | https://gitlab.info.uqam.ca/travo/travo |
 | FSFE | https://github.com/fsfe/reuse-tool | Rend un logiciel conforme aux recommandations [REUSE](https://reuse.software/) |
 
-  # Politiques logiciels libres d'organismes publics
+# Politiques logiciels libres d'organismes publics
 
 ||||
 |:-:|:-:|:-:|
