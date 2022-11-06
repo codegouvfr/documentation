@@ -18,6 +18,7 @@ https://man.sr.ht/~etalab/logiciels-libres/guides.md
 - Guide de sensibilisation générale au logiciel libre, par et pour les administrations
 - Guide sur les différentes activités liées au logiciel
 - Guide à destination de l'organisateur d'un hackathon
+- Comment faire une miroir de mon dépôt de code ?
 
 ### Technique
 
