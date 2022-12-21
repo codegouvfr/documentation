@@ -1,11 +1,9 @@
 Outils permettant de contribuer aux explications données sur les algorithmes publics
 =======
 
-Etalab accompagne les administrateurs ministériels des données, *algorithmes* et codes sources sur la question des algorithmes publics via son pôle droits et société.  Cet accompagnement se fait aujourd'hui de deux façons: des ateliers en présentiel avec les AMDACs intéressés, de la [documentation en ligne](https://guides.etalab.gouv.fr/algorithmes/).
+Etalab accompagne les administrateurs ministériels des données, *algorithmes* et codes sources sur la question des algorithmes publics via son pôle droits et société.  Cet accompagnement se fait aujourd'hui de deux façons: des ateliers en présentiel avec les AMDACs intéressés et de la [documentation en ligne](https://guides.etalab.gouv.fr/algorithmes/).
 
-Le Lab IA et le pôle logiciels libres souhaitent contribuer à cet accompagnement en proposant des éléments de documentation technique.
-
-Nous commencerions par **très modestement lister les outils existants** et leurs contributions actuelles à l'explication de calculs effectués par l'administration sur des bases juridiques (nous élargissons donc un peu la notion « d'algorithmes publics ».)
+Le Lab IA et le pôle logiciels libres souhaitent contribuer à cet accompagnement en proposant des éléments de *documentation technique*.  Cette page est une première avancée avec quelques éléments sur des outils existants et leurs contributions actuelles à l'explication de calculs effectués par l'administration sur des bases juridiques - nous élargissons donc la notion « d'algorithmes publics ».
 
 ## OpenFisca
 
@@ -65,7 +63,7 @@ Des [milliers de tests](https://github.com/openfisca/openfisca-france/tree/maste
 
 - La Tunisie, le Mali, la Côte d'Ivoire, le Sénégal, les Émirats Arabes Unis ont prototypé des calculs avec OpenFisca.
 
-### Comment l'outil peut contribuer à éclairer des calculs de l'administration (outil de calcul direct, mise en ligne de simulateurs, etc.)
+### Comment l'outil peut contribuer à éclairer des calculs de l'administration (outil de calcul direct, mise en ligne de simulateurs, etc.) ?
 
 Le mode principal d'explication des calculs est la mise à disposition de simulateurs qui permettent aux usagers de comprendre expérimentalement le mode de calcul en faisant varier les entrées fournies.
 
@@ -73,7 +71,7 @@ Par ailleurs, le modèle étant fourni sous licence libre et les API documentée
 
 Enfin, chaque modèle et toutes ses références législatives sont directement explorables en ligne dans l'Explorateur de Législation (par exemple [le modèle français](https://legislation.fr.openfisca.org)), ce qui permet d’identifier les sources légales d’un calcul.
 
-### Quelle documentation pertinente pour un agent public qui souhaite explorer l'outil dans le cadre de la mise en oeuvre d'explications autour d'un calcul de son administration?
+### Quelle documentation pertinente pour un agent public qui souhaite explorer l'outil ?
 
 - La [documentation officielle sur openfisca.org/doc](https://openfisca.org/doc), en anglais.
 - Une prise de contact avec l'équipe cœur en écrivant à [contact@openfisca.org](mailto:contact@openfisca.org).
@@ -94,11 +92,9 @@ En 2022 et 2023, cette gouvernance est amenée à être progressivement élargie
  
 ## Publi.codes
 
-Eléments obligatoires:
- 
 ### Description courte
 
-Le langage pour les algorithmes d'intérêt public
+Public.codes est un langage pour décrire les algorithmes d'intérêt public.
 
 ### Description longue
 
@@ -106,17 +102,15 @@ Publicodes est un langage déclaratif pour modéliser des domaines métiers comp
 
 ### Usages actuels par des administrations publiques
 
-Publicodes est le coeur de mon-entreprise.fr, nosgestesclimat.fr, mesaidesvelo.fr, futur.eco. Il est utilisé aussi par le Code du Travail Numérique, et d'autres projets publics sur lesquels nous n'avons aucune visibilité.
+Publicodes est le coeur de mon-entreprise.fr, nosgestesclimat.fr, mesaidesvelo.fr, futur.eco. Il est utilisé aussi par le Code du Travail Numérique, et d'autres projets publics sur lesquels nous n'avons pas de visibilité.
 
 ### Comment l'outil peut contribuer à éclairer des calculs de l'administration (outil de calcul direct, mise en ligne de simulateurs, etc.)
 
 L'usage basique est un simple calculateur qui peut être lu et écrit par des profils non dev, notamment pour pérenniser un tableur qui s'échange en privé par mail. Le deuxième usage est d'itérer facilement et documenter l'algorithme (qui peut atteindre des dizaines de milliers de lignes) automatiquement sur un site Web ([exemple](nosgestesclimat.fr/documentation)). Le troisième usage est de générer automatiquement des formulaires complexes (avec des questions conditionnées par d'autres par exemple). 
 
-### Quelle documentation pertinente pour un agent public qui souhaite explorer l'outil dans le cadre de la mise en oeuvre d'explications autour d'un calcul de son administration?
+### Quelle documentation pertinente pour un agent public qui souhaite explorer l'outil ?
 
-La documentation officielle publi.codes. L'article qui explique l'idée fondamentale https://kont.me/vers-implémentation-officielle-de-la-loi
- 
-Autres éléments optionnels:
+Voir la documentation officielle publi.codes et [cet article](https://kont.me/vers-implémentation-officielle-de-la-loi) qui en explique l'idée fondamentale.
  
 ### Où est le code source et sous quelle licence
 
@@ -126,7 +120,7 @@ https://github.com/betagouv/publicodes, licence MIT
 
 Principalement l'équipe et les ex-membres de mon-entreprise.fr, mais une communauté aujourd'hui active et principalement centrée sur la communauté beta.
 
-### (Bonus libre :D) Événements 
+### Événements 
 
 📅 [Journée ouverte à tout le monde de présentation de publicodes le 11 janvier au "Lieu" de la DITP, Paris 15ème](https://pad.incubateur.net/s/qTHaJc9VH#)
 
@@ -172,7 +166,7 @@ Les deux avantages comparatifs de Catala par rapport à d'autres langages de pro
 * le haut niveau d'assurance et de fidélité par rapport au droit atteints grâce à la méthodologie *pair-programming* et la conception du langage et de son compilateur ;
 * la possibilité d'expliquer chaque étape du calcul en faisant le lien vers la source juridique qui justifie cette étape.
 
-### Quelle documentation pertinente pour un agent public qui souhaite explorer l'outil dans le cadre de la mise en oeuvre d'explications autour d'un calcul de son administration?
+### Quelle documentation pertinente pour un agent public qui souhaite explorer l'outil ?
 
 L'approche scientifique de Catala et les détails conceptuels de sa conception et de son implémentation sont décrits dans les papiers de recherche cités plus haut. Néamoins Catala dispose également d'une documentation plus opérationnelle : 
 
