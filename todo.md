@@ -1,6 +1,6 @@
 # Idées de guides
 
-https://man.sr.ht/~etalab/logiciels-libres/guides.md
+https://man.sr.ht/~codegouvfr/logiciels-libres/guides.md
 
 ## En vrac
 

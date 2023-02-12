@@ -3,7 +3,7 @@ Brouillon de questionnaire sur les forges ministérielles
 
 # Historique
 
-- V0.1 envoyée au [groupe de travail ouverture des codes sources](https://man.sr.ht/~etalab/logiciels-libres/gtt-ll-amdac.md) le 30 septembre 2022.
+- V0.1 envoyée au [groupe de travail ouverture des codes sources](https://man.sr.ht/~codegouvfr/logiciels-libres/gtt-ll-amdac.md) le 30 septembre 2022.
 - v0.2 publiée dans ce dépôt le 11 octobre 2022.
 
 # Introduction
@@ -13,7 +13,7 @@ dépôts de code source publiés par des organismes publics.
 
 Il collecte les métadonnées de ces dépôts via les forges identifiées,
 dont la liste est
-[publiée](https://git.sr.ht/~etalab/codegouvfr-fetch-data/blob/master/platforms.csv),
+[publiée](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/blob/master/platforms.csv),
 bon nombre d'entre elles étant déployées dans la recherche et
 l'enseignement supérieur.
 

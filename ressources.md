@@ -6,7 +6,7 @@
 | https://guide-juridique-logiciel-libre.etalab.gouv.fr | Guide juridique **interactif** sur les licences |
 | https://www.numerique.gouv.fr/publications/politique-logiciel-libre/ | Politique de contribution aux logiciels libres de l’État (contient des bonnes pratiques d'un projet libre) |
 | https://www.data.gouv.fr/fr/pages/legal/licences/ | Liste des licences autorisées pour les codes sources du secteur public |
-| https://man.sr.ht/~etalab/logiciels-libres/licences-libres-dinum.md |
+| https://man.sr.ht/~codegouvfr/logiciels-libres/licences-libres-dinum.md |
 | https://doc.eig-forever.org/ouvrir-publier.html#pourquoi-ouvrir-son-code-source | Guide **non technique** sur l'ouverture du code | 
 | https://doc.eig-forever.org/opensource-licences.html#des-licences-pour-les-logiciels-et-les-contenus | Guide **non technique** sur les licences |
 
