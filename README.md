@@ -1,4 +1,4 @@
-Ce dépôt est un dépôt de travail du [pôle logiciels libres d'Etalab](https://communs.numerique.gouv.fr/).
+Ce dépôt est un dépôt de travail de la [mission logiciels libres d'Etalab](https://code.gouv.fr).
 
 # Licence
 
