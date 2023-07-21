@@ -13,9 +13,9 @@ tasks:
       cd documentation/
       ./publish.sh
       texi2pdf index.texi
-      texi2html index.texi
+      texi2any --html --no-split index.texi
   - upload: |
-      rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@5.39.69.44:/home/web/documentation/
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@5.39.69.44:/home/web/websites/documentation/
 triggers:
   - action: email
     condition: failure
