@@ -1,0 +1,20 @@
+image: debian/testing
+packages:
+  - emacs
+  - rsync
+  - texinfo
+  - texlive
+sources:
+  - https://git.sr.ht/~codegouvfr/documentation
+secrets:
+  - eefc72cb-a612-4b95-a3e4-dae77d4f1fcf
+tasks:
+  - install: |
+      cd documentation/
+      ./publish.sh
+  - upload: |
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* 5.39.69.44:/home/web/documentation/
+triggers:
+  - action: email
+    condition: failure
+    to: bzg@gnu.org
