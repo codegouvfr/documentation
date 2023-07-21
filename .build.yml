@@ -12,6 +12,8 @@ tasks:
   - install: |
       cd documentation/
       ./publish.sh
+      texi2pdf index.texi
+      texi2html index.texi
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@5.39.69.44:/home/web/documentation/
 triggers:

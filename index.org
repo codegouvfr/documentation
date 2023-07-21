@@ -1,0 +1,11 @@
+#+title: Documentation de la mission logiciels libres
+#+author: Équipe de la mission logiciels libres
+#+date: <2023-07-21 ven.>
+
+* Préambule
+
+Un préambule.
+
+* Foire aux questions
+
+Une foire aux questions.
