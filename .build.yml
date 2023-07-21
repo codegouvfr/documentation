@@ -13,7 +13,7 @@ tasks:
       cd documentation/
       ./publish.sh
   - upload: |
-      rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* 5.39.69.44:/home/web/documentation/
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@5.39.69.44:/home/web/documentation/
 triggers:
   - action: email
     condition: failure
