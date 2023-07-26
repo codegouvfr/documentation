@@ -1,6 +1,6 @@
 #+title: Documentation de la mission logiciels libres
 #+author: Équipe de la mission logiciels libres
-#+date: <2023-07-21 ven.>
+# #+date: <2023-07-21 ven.>
 
 * Préambule
 
@@ -8,4 +8,49 @@ Un préambule.
 
 * Foire aux questions
 
-Une foire aux questions.
+** Qu'est-ce qu'un logiciel libre ?
+** Qui peut m'aider à publier mes codes sources ?
+** Sous quelle licence dois-je publier mes codes sources ?
+** Comment contacter le pôle logiciels libres ?
+** Quelle forge dois-je choisir pour publier mes codes sources ?
+** Comment attirer des contributeurs sur mes dépôts publiés ?
+** Suis-je obligé de permettre la contribution sur mes dépôts ?
+** Puis-je publier un code que je ne maintiens plus ?
+** Le prestataire doit-il m'envoyer le code source qu'il a développé pour moi ?
+** Où trouver tous les dépôts publiés par mon ministère ?
+** Qu'est-ce que le socle interministériel de logiciels libres ?
+** À quoi sert code.gouv.fr ?
+** Avez-vous un glossaire ?
+** Existe-t-il une forge interministérielle publique ?
+** Pouvez-vous m'aider avec Git ?
+** Est-il interdit de publier sur GitHub ?
+** Comment créer un SBOM ("software bill of materials") ?
+** Comment détecter et effacer des secrets dans mon historique Git ?
+** Qu'est-ce que le "copyleft" ?
+** Quelle est la différence entre copyleft faible et fort ?
+** Sous quelle licence dois-je publier ma documentation ?
+** Quelles langues utiliser pour mon code source et ma documentation ?
+** Qu'est-ce qu'un "fork" ?
+** Quelle différence entre "algorithme public" et "code source" ?
+** Dois-je utiliser Software Heritage ?
+** Puis-je créer une marque pour protéger mon logiciel libre ?
+** Où trouver des entreprises capables de développer un logiciel libre ?
+** Puis-je interdire la réutilisation commerciale des codes sources publiés ?
+** Avez-vous un dépôt Git exemplaire ?
+** Quelle est la différence entre GitHub et GitLab ?
+** Qu'est-ce que SourceHut et pourquoi publier sur cette forge ?
+** Commit, fork, AMDAC, etc. : avez-vous un glossaire ?
+** En tant qu'administration, comment soutenir un projet libre ?
+** Comment aborder le sujet de la communication au sein d'un projet de logiciel libre ?
+** Comment faire connaître mon projet de logiciel libre ?
+** Deux administrations développent la même chose, que faire ?
+** Qu'est-ce qu'un ADMAC ?
+** Comment contacter l'AMDAC de mon ministère ?
+** Puis-je, en tant que citoyen, exiger d'un organisme public qu'il publie un code source ?
+** À qui appartiennent les droits d'auteur d'un logiciel développé par une administration ?
+** Qu'est-ce qu'un Open Source Program Office (OSPO) ?
+** Qu'est-ce qu'un Copyright License Agreement (CLA) ?
+** Qu'est-ce qu'un Developer Certificate of Origin (DCO) ?
+** Quel processus de contribution mettre en place pour mon projet libre ?
+** En tant qu'agent, ai-je le droit de contribuer à un projet libre ?
+** Comment mettre fin à un projet libre ?
