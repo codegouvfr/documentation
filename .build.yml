@@ -19,4 +19,4 @@ tasks:
 triggers:
   - action: email
     condition: failure
-    to: bzg@gnu.org
+    to: bastien.guerry@code.gouv.fr
