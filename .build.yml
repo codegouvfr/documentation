@@ -7,7 +7,7 @@ packages:
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
-  - eefc72cb-a612-4b95-a3e4-dae77d4f1fcf
+  - bdd50953-add5-4ddb-9f34-9f0781900b7e
 tasks:
   - install: |
       cd documentation/
