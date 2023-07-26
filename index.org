@@ -6,6 +6,135 @@
 
 Un préambule.
 
+* Publier un code source
+
+** Cadre juridique
+
+Toute entité chargée d'une mission de service public doit publier tout
+document produit ou reçu dans le cadre de cette mission, quelle qu'en
+soit la date, le lieu de conservation et le support. Les codes
+sources, en tant que documents administratifs, relèvent de cette
+obligation (voir l'avis CADA du 8 janvier 2015 n°[[http://cada.data.gouv.fr/20144578/][20144578]]).
+
+Les codes sources concernés sont, au même titre que n'importe quelle
+autre donnée administrative publiable en open data, celles « dont la
+publication présente un intérêt économique, social, sanitaire ou
+environnemental. »
+
+Pour les licences, voir les articles [[https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=BCCCCF5B5E15C3F6CABA0952E9B5A818.tplgfr21s_3?idArticle=LEGIARTI000033219073&cidTexte=LEGITEXT000031366350&dateTexte=20190307][L323-2]] et [[https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=6A856B120BAA63F8153E8D6C8CDF40D4.tplgfr21s_3?idArticle=LEGIARTI000034504991&cidTexte=LEGITEXT000031366350&dateTexte=20190307][D323-2-1]] du Code des
+relations entre le public et les administrations.
+
+*** Pour qu'un code source soit communicable
+
+- L'obligation de communicabilité porte sur les collectivités de plus
+  de 3500 habitants et les organismes publics de plus de 50 agents.
+
+- L'organisme public ouvrant le code source doit en avoir la propriété
+  intellectuelle.
+
+- Le code source doit être « achevé » : dès lors qu'une version du
+  code est mise en oeuvre dans l'administration, cette version est
+  considérée comme « achevée ». Notamment une version dite bêta ou
+  inférieure à 1.0, si elle est effectivement utilisée, est bien
+  achevée et communicable.
+
+- Sa communication ne doit pas porter atteinte :
+
+  - au secret commercial et industriel ;
+  - à la sûreté de l'État, à la sécurité publique, à la sécurité des
+    personnes ou à la sûreté des systèmes d'information des
+    administrations ;
+  - à la recherche et à la prévention, par les services compétents,
+    d'infractions de toute nature.
+
+En dehors de ces limites, toute personne ou toute administration peut
+demander la communication d'un code source.
+
+*** Licences applicables à la publication d'un code source
+
+La liste des licences sous lesquelles un code source peut être placé
+au moment de sa diffusion est [[https://www.data.gouv.fr/fr/licences][accessible ici]].
+
+*** Guide juridique interactif
+
+Pour savoir si le code source d'un logiciel développé et utilisé par
+votre organisme public est communicable, nous vous invitons à tester
+ce [[https://guide-juridique-logiciel-libre.etalab.gouv.fr/][guide juridique interactif]].
+
+** Quels degrés d'ouverture pour les codes sources ?
+
+- *📘 Niveau A - contributif :* Le code source est publié, les
+  contributions extérieures sont activement recherchées et traitées.
+
+- *📗 Niveau B - ouvert :* Le code source est publié, les contributions
+  extérieures sont traitées mais non activement recherchées.
+
+- *📙 Niveau C - publié:* Le code source est publié mais les
+  contributions extérieures ne sont pas traitées.
+
+- *📕 Niveau D - non-communicable:* Le code source n'est pas
+  communicable au public.
+
+** Quels logiciels ouvrir à quel degré ?
+
+Tous les logiciels développés par un organisme public n'ont pas
+vocation à être ouverts au même degré.
+
+Nous proposons trois critères :
+
+1. Le logiciel est-il *un module utile à d'autres logiciels libres* (ou
+   un logiciel « monolithique » sans utilité pour d'autres logiciels
+   libres) ?
+
+2. Le logiciel répond-il a un *besoin générique* (ou à un besoin
+   spécifique à l'organisme qui le produit) ?
+
+3. L'*utilisateur final* du logiciel a-t-il un profil technique
+   (développeur, datascientiste ou designer) ?
+
+*Le niveau A* est recommandé pour les logiciels répondant à au moins
+deux critères ; le niveau B est recommandé pour ceux répondant à au
+moins un critère ; le niveau C pour ceux ne répondant à aucun de ces
+trois critères (par ex. un logiciel métier très spécifique, dont
+aucune partie ne peut être réutilisée ailleurs et dont les
+utilisateurs ne sont pas du tout des contributeurs potentiels.)
+
+Pour les logiciels ne répondant à aucun des trois critères, le niveau
+D est admissible, tant qu'aucun citoyen n'exige la communication du
+code source en question, selon le cadre juridique défini dans la loi
+pour République numérique.
+
+Bien sûr, ces critères sont *relatifs* : la modularité, la généricité et
+le potentiel de contribution des utilisateurs ne s'évaluent pas dans
+l'absolu.  Ces notions aident seulement à *prioriser les ouvertures
+logicielles*.  Le but est de *canaliser son énergie* sur les logiciels
+qui ont un bon potentiel contributif et *de communiquer clairement* sur
+la posture de l'administration dans le cas des publications simples.
+
+*** Exemples de mise en oeuvre
+
+- Une collectivité territoriale développe un outil de correction
+  grammaticale pour LibreOffice.  Ce logiciel est un module d'un
+  logiciel libre existant et il répond à un besoin générique : il est
+  pertinent d'en faire un *logiciel libre « contributif »* (niveau A).
+
+- Une administration développe un outil pour organiser la collecte de
+  données sur le web (*scraping*).  C'est un outil web « monolithique »
+  mais qui répond à un besoin rencontré hors de l'administration : il
+  peut être publié comme *logiciel libre « ouvert »* (niveau B).
+
+- Une administration centrale développe un thème pour les sites
+  qu'elle publie à l'aide de Jekyll.  Ce thème est un module d'un
+  logiciel libre existant mais il répond à un besoin spécifique de
+  l'organisme public : son code source peut être publié, mais sans
+  recherche active de contributeurs ni maintenance particulière à
+  l'égard des contributions extérieures (niveau C).
+
+Chaque organisme peut tenter de prioriser les logiciels à ouvrir
+en fonction de ces critères.
+
+** Bonnes pratiques de publication
+
 * Foire aux questions
 
 ** Qu'est-ce qu'un logiciel libre ?
