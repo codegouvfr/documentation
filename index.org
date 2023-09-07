@@ -152,6 +152,15 @@ Voir https://spdx.org/licenses/ pour la liste des licences et de leur
 validation par l'OSI ou la FSF.
 
 ** Qui peut m'aider à publier mes codes sources ?
+
+Vous pouvez interroger vos collègues et votre direction pour savoir si
+vous disposez d'une forge et/ou de comptes d'organisation dédiés où
+publier vos codes sources.
+
+À défaut de réponse, vous pouvez solliciter l'Administrateur
+Ministériel des Données, des Algorithmes et des Codes sources de votre
+ministère.  Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
+
 ** Sous quelle licence dois-je publier mes codes sources ?
 ** Comment contacter le pôle logiciels libres ?
 ** Quelle forge dois-je choisir pour publier mes codes sources ?
