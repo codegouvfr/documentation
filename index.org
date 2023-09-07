@@ -162,7 +162,10 @@ Ministériel des Données, des Algorithmes et des Codes sources de votre
 ministère.  Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
 
 ** Sous quelle licence dois-je publier mes codes sources ?
-** Comment contacter le pôle logiciels libres ?
+** Comment contacter la mission logiciels libres ?
+
+=contact@code.gouv.fr=
+
 ** Quelle forge dois-je choisir pour publier mes codes sources ?
 ** Comment attirer des contributeurs sur mes dépôts publiés ?
 ** Suis-je obligé de permettre la contribution sur mes dépôts ?
