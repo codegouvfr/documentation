@@ -169,15 +169,45 @@ ministère.  Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateu
 ** Quelle forge dois-je choisir pour publier mes codes sources ?
 ** Comment attirer des contributeurs sur mes dépôts publiés ?
 ** Suis-je obligé de permettre la contribution sur mes dépôts ?
+
+Non.
+
 ** Puis-je publier un code que je ne maintiens plus ?
+
+Oui.  Dans ce cas, indiquez bien dans le fichier ~README~ que le code
+source n'est plus maintenu.
+
+Si vous le souhaitez, vous pouvez préciser dans ce ~README~ qu'un
+nouveau mainteneur est recherché.
+
 ** Le prestataire doit-il m'envoyer le code source qu'il a développé pour moi ?
+
+Oui.
+
 ** Où trouver tous les dépôts publiés par mon ministère ?
+
+Vous pouvez chercher sur [[https://code.gouv.fr/public/#/groups][code.gouv.fr]] l'organisation qui correspond à
+votre direction ou, plus largement, à votre ministère.
+
 ** Qu'est-ce que le socle interministériel de logiciels libres ?
+
+Le SILL est le catalogue des logiciels libres recommandés pour toutes
+les administrations publiques.
+
+Il est publié par la mission logiciels libres sur [[https://code.gouv.fr/sill][code.gouv.fr/sill]] et
+tout agent public est invité à s'y créer un compte pour déclarer ses
+usages de logiciels ou se proposer comme référent d'un logiciel.
+
+Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
+
 ** À quoi sert code.gouv.fr ?
 ** Avez-vous un glossaire ?
 ** Existe-t-il une forge interministérielle publique ?
 ** Pouvez-vous m'aider avec Git ?
 ** Est-il interdit de publier sur GitHub ?
+
+Non.
+
 ** Comment créer un SBOM ("software bill of materials") ?
 ** Comment détecter et effacer des secrets dans mon historique Git ?
 ** Qu'est-ce que le "copyleft" ?
@@ -199,12 +229,44 @@ ministère.  Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateu
 ** Comment faire connaître mon projet de logiciel libre ?
 ** Deux administrations développent la même chose, que faire ?
 ** Qu'est-ce qu'un ADMAC ?
+
+AMDAC est l'acronyme de « Administrateur Ministériel des Données, des
+Algorithmes et des Codes sources ».  Les AMDACs veillent à appliquer
+le principe d'ouverture par défaut des données publiques, incluant les
+codes sources des administrations.
+
 ** Comment contacter l'AMDAC de mon ministère ?
+
+Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]] sur data.gouv.fr.
+
 ** Puis-je, en tant que citoyen, exiger d'un organisme public qu'il publie un code source ?
+
+Oui.
+
 ** À qui appartiennent les droits d'auteur d'un logiciel développé par une administration ?
+
+S'il est développé par des agents de cette administration, les droits
+patrimoniaux appartiennent à l'administration.
+
+S'il est développé par un prestataire et si le contrat a précisé que
+l'administration récupère les droits patrimoniaux du logiciel, alors
+il appartient à l'administration.
+
 ** Qu'est-ce qu'un Open Source Program Office (OSPO) ?
+
+C'est une entité dans une entreprise ou une administration dédiée à la
+définition et à la mise en oeuvre d'une stratégie open source pour
+cette entreprise ou administration.
+
+Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre entrée de blog au sujet des OSPOs]].
+
 ** Qu'est-ce qu'un Copyright License Agreement (CLA) ?
 ** Qu'est-ce qu'un Developer Certificate of Origin (DCO) ?
 ** Quel processus de contribution mettre en place pour mon projet libre ?
 ** En tant qu'agent, ai-je le droit de contribuer à un projet libre ?
+
+Oui, si votre responsable est d'accord, il n'y a aucun obstacle à ce
+que vous puissiez contribuer à des logiciels libres sur votre temps de
+travail.
+
 ** Comment mettre fin à un projet libre ?
