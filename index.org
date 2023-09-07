@@ -138,6 +138,19 @@ en fonction de ces critères.
 * Foire aux questions
 
 ** Qu'est-ce qu'un logiciel libre ?
+
+Un logiciel est dit libre si son code source est publié sous l'une des
+licences reconnue libre soit par la Free Software Foundation soit par
+l'Open Source Initiative.  Une licence libre octroie quatre libertés :
+
+- la liberté d'utiliser le logiciel
+- la liberté de copier le logiciel
+- la liberté d'étudier le logiciel
+- la liberté de modifier le logiciel et de redistribuer les versions modifiées
+
+Voir https://spdx.org/licenses/ pour la liste des licences et de leur
+validation par l'OSI ou la FSF.
+
 ** Qui peut m'aider à publier mes codes sources ?
 ** Sous quelle licence dois-je publier mes codes sources ?
 ** Comment contacter le pôle logiciels libres ?
