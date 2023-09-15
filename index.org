@@ -251,7 +251,14 @@ nouveau mainteneur est recherché.
 
 ** Le prestataire doit-il m'envoyer le code source qu'il a développé pour moi ?
 
-Oui.
+Si le contrat prévoit que le prestataire cède ses droits patrimoniaux
+sur le code source développé pour une administration, il est obligé de
+vous mettre à disposition ces codes sources.
+
+Nous recommandons d'exiger que ces codes sources soient mis à
+disposition sur une forge gérée par l'administration dès le premier
+commit : attendre le versement d'un code source après la fin d'une
+prestation est une mauvaise pratique.
 
 ** Où trouver tous les dépôts publiés par mon ministère ?
 
@@ -270,9 +277,25 @@ usages de logiciels ou se proposer comme référent d'un logiciel.
 Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
 
 ** À quoi sert code.gouv.fr ?
-** Avez-vous un glossaire ?
+
+Le site [[https://code.gouv.fr][code.gouv.fr]] est le site de présentation de l'ensemble des
+activités et produits de la mission logiciels libres de la DINUM.
+
+Il donne notamment accès au [[https://code.gouv.fr/sill][socle interministériel de logiciels libres]]
+et à [[https://code.gouv.fr/public/][la liste des codes sources publiés par des administrations]].
+
 ** Existe-t-il une forge interministérielle publique ?
+
+Non, pas à ce jour.  Pour les projets des administrations centrales
+qui ne sont pas candidats à l'ouverture, il existe une forge GitLab
+privée gérée par la DGFiP et qui accueille différents projets des
+ministères.
+
 ** Pouvez-vous m'aider avec Git ?
+
+Vous trouverez de l'aide en rejoignable le [[https://www.tchap.gouv.fr/#/room/#BlueHats21LW8XE:agent.dinum.tchap.gouv.fr][salon BlueHats]] et en
+sollicitant ses membres.
+
 ** Est-il interdit de publier sur GitHub ?
 
 Non.
@@ -282,17 +305,44 @@ Non.
 ** Qu'est-ce que le "copyleft" ?
 ** Quelle est la différence entre copyleft faible et fort ?
 ** Sous quelle licence dois-je publier ma documentation ?
+
+Le code source d'un projet d'une administration doit être publié sous
+l'une des licences logicielles prévue.  Les autres éléments doivent
+être publiés sous la licence Etalab 2.0.
+
 ** Quelles langues utiliser pour mon code source et ma documentation ?
+
+Le code source est écrit dans un langage de programmation (par exemple
+en Javascript).  Les commentaires dans le code source sont considérés
+comme faisant partie du code et doivent être écrits en anglais.
+
+Si le code source est développé en lien avec un référentiel, alors les
+noms de variable et de fonction doivent reprendre ce référentiel.  Par
+exemple, si le référentiel est en français, les noms de variable et de
+fonction seront en français.
+
+Le manuel destiné au développeur du projet ou à une personne qui va
+réutiliser le projet (l'intégrer, le déployer, etc.)  doit être écrit
+en français.
+
+Le manuel destiné à l'utilisateur final doit être écrit en français.
+
 ** Qu'est-ce qu'un "fork" ?
-** Quelle différence entre "algorithme public" et "code source" ?
+** Quelle différence entre "algorithme publique" et "code source" ?
 ** Dois-je utiliser Software Heritage ?
 ** Puis-je créer une marque pour protéger mon logiciel libre ?
 ** Où trouver des entreprises capables de développer un logiciel libre ?
 ** Puis-je interdire la réutilisation commerciale des codes sources publiés ?
+
+Non, toutes les licences libres que vous pouvez utiliser pour publier
+votre code source autorisent la réutilisation commerciale de ce code.
+
 ** Avez-vous un dépôt Git exemplaire ?
 ** Quelle est la différence entre GitHub et GitLab ?
 ** Qu'est-ce que SourceHut et pourquoi publier sur cette forge ?
-** Commit, fork, AMDAC, etc. : avez-vous un glossaire ?
+
+Voir notre entrée de blog : https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut.
+
 ** En tant qu'administration, comment soutenir un projet libre ?
 ** Comment aborder le sujet de la communication au sein d'un projet de logiciel libre ?
 ** Comment faire connaître mon projet de logiciel libre ?
