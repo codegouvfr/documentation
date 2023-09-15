@@ -135,6 +135,34 @@ en fonction de ces critères.
 
 ** Bonnes pratiques de publication
 
+* Utiliser des logiciels libres
+* Monter un "Open Source Programme Office"
+
+** Définir une stratégie open source
+
+** Qu'est-ce qu'un "Open Source Programme Office"?
+
+Voir https://code.gouv.fr/fr/blog/definition-ospo/.
+
+Voir http://preprod.codegouv.studio/choices-ospo/.
+
+** Sites web d'organismes publics engagés
+
+- https://opensource.amue.fr
+- https://opensource.paris.fr
+- https://www.health-data-hub.fr/open-source
+- https://www.france-universite-numerique.fr
+- https://socialgouv.github.io
+
+** Politiques logiciels libres
+
+- https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Publications/Politique-du-ministere-de-la-Culture-pour-les-codes-sources-algorithmes-et-logiciels-libres
+- https://www.health-data-hub.fr/open-source
+- https://medialab.sciencespo.fr/a-propos/#deontology
+- https://github.com/abes-esr/abes-politique-developpement
+- https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences
+- https://www.etalab.gouv.fr/accompagnement-logiciels-libres
+
 * Foire aux questions
 
 ** Qu'est-ce qu'un logiciel libre ?
@@ -162,6 +190,38 @@ Ministériel des Données, des Algorithmes et des Codes sources de votre
 ministère.  Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
 
 ** Sous quelle licence dois-je publier mes codes sources ?
+
+En tant que mission de service public, la loi pour une République
+numérique exige la publication des codes sources sous l'une des
+licences référencées à l'[[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034504993][article D323-2-2]] du Code des Relations entre
+le Public et les Administrations.
+
+Le portail data.gouv.fr présente ces [[https://www.data.gouv.fr/fr/pages/legal/licences/][licences de réutilisations]], pour
+les données comme pour les logiciels.
+
+Licences permissives :
+
+- Apache License 2.0
+- BSD 2-Clause "Simplified" License
+- BSD 3-Clause "New" or "Revised" License
+- CeCILL-B Free Software License Agreement
+- MIT License
+
+Licences à réciprocité :
+
+- CeCILL Free Software License Agreement v2.1
+- CeCILL-C Free Software License Agreement
+- GNU General Public License v3.0 or later
+- GNU Lesser General Public License v3.0 or later
+- GNU Affero General Public License v3.0 or later
+- Mozilla Public License 2.0
+- Eclipse Public License 2.0
+- European Union Public License 1.2
+
+Vous devez prioriser le choix d'une licence permissive et n'utiliser
+de licence à réciprocité que si la publication sous licence permissive
+présente un risque duement justifié pour l'intérêt général.
+
 ** Comment contacter la mission logiciels libres ?
 
 =contact@code.gouv.fr=
