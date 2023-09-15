@@ -224,7 +224,11 @@ présente un risque duement justifié pour l'intérêt général.
 
 ** Comment contacter la mission logiciels libres ?
 
-=contact@code.gouv.fr=
+Vous pouvez nous écrire à =contact@code.gouv.fr=.
+
+Vous pouvez aussi nous contacter lors de nos permanences en ligne.
+
+Voir https://code.gouv.fr/fr/contact/espaces-communication-bluehats/.
 
 ** Quelle forge dois-je choisir pour publier mes codes sources ?
 ** Comment attirer des contributeurs sur mes dépôts publiés ?
