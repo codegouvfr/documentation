@@ -231,6 +231,11 @@ Vous pouvez aussi nous contacter lors de nos permanences en ligne.
 Voir https://code.gouv.fr/fr/contact/espaces-communication-bluehats/.
 
 ** Quelle forge dois-je choisir pour publier mes codes sources ?
+** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
+
+Non, il n'y a pas d'obstacle légal à la publication des codes sources
+d'une administration sur github.com ou gitlab.com.
+
 ** Comment attirer des contributeurs sur mes dépôts publiés ?
 ** Suis-je obligé de permettre la contribution sur mes dépôts ?
 
