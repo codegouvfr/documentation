@@ -12,8 +12,10 @@
 (setq org-confirm-babel-evaluate nil)
 
 (dolist (org-file (directory-files-recursively default-directory "\\.org$"))
-  (let ((texi-file (concat (file-name-directory org-file)
-			   (file-name-base org-file) ".texi")))
+  (let ((file-name-basedir (concat (file-name-directory org-file)
+				   (file-name-base org-file)))
+	(texi-file (concat file-name-basedir ".texi"))
+	(md-file (concat file-name-basedir ".md")))
     (if (and (file-exists-p texi-file)
              (file-newer-than-file-p texi-file org-file))
 	(message " [skipping] unchanged %s" org-file)
@@ -21,5 +23,13 @@
       (with-current-buffer (find-file org-file)
 	(condition-case err
             (org-texinfo-export-to-texinfo)
+          (error (message (error-message-string err))))))
+    (if (and (file-exists-p md-file)
+             (file-newer-than-file-p md-file org-file))
+	(message " [skipping] unchanged %s" org-file)
+      (message "[exporting] %s" (file-relative-name org-file default-directory))
+      (with-current-buffer (find-file org-file)
+	(condition-case err
+            (org-md-export-to-markdown)
           (error (message (error-message-string err))))))))
 
