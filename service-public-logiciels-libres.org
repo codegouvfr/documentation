@@ -1,6 +1,7 @@
 #+title: Documentation de la mission logiciels libres
 #+author: Équipe de la mission logiciels libres
 #+options: toc:t
+#+language: fr
 # #+date: <2023-07-21 ven.>
 
 * Préambule
