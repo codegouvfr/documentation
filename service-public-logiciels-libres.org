@@ -140,7 +140,11 @@ en fonction de ces critères.
 * Utiliser des logiciels libres
 * Monter un "Open Source Programme Office"
 
-** Définir une stratégie open source
+** Définir une stratégie logiciels libres
+
+Une stratégie logiciels libres explique la façon dont vous allez
+*utiliser* des logiciels libres, *développer* des logiciels libres et
+*contribuer* à l'écosystème existant.
 
 ** Qu'est-ce qu'un "Open Source Programme Office"?
 
@@ -150,6 +154,9 @@ Voir http://preprod.codegouv.studio/choices-ospo/.
 
 ** Sites web d'organismes publics engagés
 
+Voir une liste d'organismes publics exposant leur engagement vis-à-vis
+du logiciel libre :
+
 - https://opensource.amue.fr
 - https://opensource.paris.fr
 - https://www.health-data-hub.fr/open-source
@@ -157,6 +164,8 @@ Voir http://preprod.codegouv.studio/choices-ospo/.
 - https://socialgouv.github.io
 
 ** Politiques logiciels libres
+
+Voici une liste de « politiques logiciels libres » :
 
 - https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Publications/Politique-du-ministere-de-la-Culture-pour-les-codes-sources-algorithmes-et-logiciels-libres
 - https://www.health-data-hub.fr/open-source
@@ -167,6 +176,8 @@ Voir http://preprod.codegouv.studio/choices-ospo/.
 
 * Foire aux questions
 
+** Comment m'assurer que le titulaire d'un marché me livre les codes sources ?
+** Comment exiger un logiciel libre dans un marché ?
 ** Qu'est-ce qu'un logiciel libre ?
 
 Un logiciel est dit libre si son code source est publié sous l'une des
