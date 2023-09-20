@@ -5,6 +5,9 @@
 # #+date: <2023-07-21 ven.>
 
 * Préambule
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: preambule.md
+  :END:
 
 Un préambule.
 
@@ -138,7 +141,7 @@ en fonction de ces critères.
 ** Bonnes pratiques de publication
 
 * Utiliser des logiciels libres
-* Monter un "Open Source Programme Office"
+* Monter un Open Source Programme Office
 
 ** Définir une stratégie logiciels libres
 
