@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
 
-# Copyright (c) DINUM, Bastien Guerry
-# SPDX-License-Identifier: GPL-3.0-or-later
-# License-Filename: LICENSES/GPL-3.0-or-later.txt
-
 ":"; exec emacs --quick --script "$0" -- "$@" # -*- mode: emacs-lisp; lexical-binding: t; -*-
+
+;; Copyright (c) DINUM, Bastien Guerry
+;; SPDX-License-Identifier: GPL-3.0-or-later
+;; License-Filename: LICENSES/GPL-3.0-or-later.txt
 
 (require 'ox-texinfo)
 (require 'ox-md)
