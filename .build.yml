@@ -13,7 +13,6 @@ tasks:
       cd documentation/
       ./publish.sh
       texi2pdf index.texi
-      texi2any --html --no-split index.texi
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@code.gouv.fr:/home/web/websites/documentation/
 triggers:
