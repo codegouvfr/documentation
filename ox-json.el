@@ -67,6 +67,7 @@
 
 (require 'cl-lib)
 ;; (require 's)
+(load-file "s.el")
 (require 'json)
 (require 'ox)
 (require 'org-element)
