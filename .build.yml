@@ -4,14 +4,21 @@ packages:
   - rsync
   - texinfo
   - texlive
+  - default-jre
+  - clojure
+  - curl
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
   - bdd50953-add5-4ddb-9f34-9f0781900b7e
 tasks:
   - install: |
+      curl -sLO https://raw.githubusercontent.com/babashka/babashka/master/install
+      chmod +x install
+      ./install
       cd documentation/
       emacs --script publish.el
+      ../spit-faq-from-json.clj
       texi2pdf index.texi
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@code.gouv.fr:/home/web/websites/documentation/
