@@ -1,18 +1,14 @@
-#!/usr/bin/env sh
-
-":"; exec emacs --quick --script "$0" -- "$@" # -*- mode: emacs-lisp; lexical-binding: t; -*-
-
 ;; Copyright (c) DINUM, Bastien Guerry
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 ;; License-Filename: LICENSES/GPL-3.0-or-later.txt
 
 (require 'ox-texinfo)
 (require 'ox-md)
+(load-file "ox-json.el")
 
 (setq make-backup-files nil
-      debug-on-error t)
-
-(setq org-confirm-babel-evaluate nil)
+      debug-on-error t
+      org-confirm-babel-evaluate nil)
 
 ;; https://gist.github.com/zzamboni/2e6ac3c4f577249d98efb224d9d34488
 (defun org-multi-file-md-export ()
@@ -46,7 +42,9 @@
   (let* ((file-name-basedir (concat (file-name-directory org-file)
 				    (file-name-base org-file)))
 	 (texi-file (concat file-name-basedir ".texi"))
+	 (json-file (concat file-name-basedir ".json"))
 	 (md-file (concat file-name-basedir ".md")))
+    ;; Export as .texi
     (if (and (file-exists-p texi-file)
              (file-newer-than-file-p texi-file org-file))
 	(message " [skipping] unchanged %s" org-file)
@@ -55,6 +53,7 @@
 	(condition-case err
             (org-texinfo-export-to-texinfo)
           (error (message (error-message-string err))))))
+    ;; Export as .md
     (if (and (file-exists-p md-file)
              (file-newer-than-file-p md-file org-file))
 	(message " [skipping] unchanged %s" org-file)
@@ -63,6 +62,16 @@
 	(condition-case err
 	    (let ((org-export-options-alist '((:headline-levels nil "H" 4))))
               (org-md-export-to-markdown))
+          (error (message (error-message-string err))))))
+    ;; Export as json
+    (if (and (file-exists-p json-file)
+             (file-newer-than-file-p json-file org-file))
+	(message " [skipping] unchanged %s" org-file)
+      (message "[exporting] %s" (file-relative-name org-file default-directory))
+      (with-current-buffer (find-file org-file)
+	(condition-case err
+	    (let ((org-export-options-alist '((:headline-levels nil "H" 4))))
+              (ox-json-export-to-file))
           (error (message (error-message-string err)))))))
   (with-current-buffer (find-file org-file)
     (condition-case err

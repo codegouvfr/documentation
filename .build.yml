@@ -2,6 +2,7 @@ image: debian/testing
 packages:
   - emacs
   - rsync
+  - wget
   - texinfo
   - texlive
 sources:
@@ -11,7 +12,8 @@ secrets:
 tasks:
   - install: |
       cd documentation/
-      ./publish.sh
+      wget https://raw.githubusercontent.com/jlumpe/ox-json/master/ox-json.el
+      emacs --script publish.el
       texi2pdf index.texi
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@code.gouv.fr:/home/web/websites/documentation/
