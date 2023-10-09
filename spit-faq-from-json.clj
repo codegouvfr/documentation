@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/home/build/bb
 
 ;; Copyright (c) DINUM, Bastien Guerry
 ;; SPDX-License-Identifier: EPL-2.0

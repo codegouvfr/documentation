@@ -15,7 +15,7 @@ tasks:
   - install: |
       curl -sLO https://raw.githubusercontent.com/babashka/babashka/master/install
       chmod +x install
-      ./install
+      ./install --dir .
       cd documentation/
       emacs --script publish.el
       ../spit-faq-from-json.clj
