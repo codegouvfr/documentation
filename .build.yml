@@ -2,7 +2,6 @@ image: debian/testing
 packages:
   - emacs
   - rsync
-  - wget
   - texinfo
   - texlive
 sources:
@@ -12,7 +11,6 @@ secrets:
 tasks:
   - install: |
       cd documentation/
-      wget https://raw.githubusercontent.com/jlumpe/ox-json/master/ox-json.el
       emacs --script publish.el
       texi2pdf index.texi
   - upload: |
