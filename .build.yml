@@ -11,7 +11,7 @@ secrets:
 tasks:
   - install: |
       cd documentation/
-      emacs --script publish.el
+      emacs --script scripts/publish.el
       texi2pdf index.texi
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@code.gouv.fr:/home/web/websites/documentation/
