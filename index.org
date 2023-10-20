@@ -405,6 +405,35 @@ que vous puissiez contribuer à des logiciels libres sur votre temps de
 travail.
 
 ** Comment mettre fin à un projet libre ?
+* Ressources
+
+** Publiées par des organismes publics
+
+- [[https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-a-un-systeme-gnulinux/][Recommandations de sécurité relatives à un système GNU/Linux, ANSSI, 2022]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#le-poste-de-travail-linux][Le poste de travail Linux]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#web-components][Web Components]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#concentration-des-logs][Concentration des logs]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#pare-feu-applicatif][Pare-feu applicatif]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-log4j][Alternative à Log4j]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#messagerie-asynchrone-interapplicative][Messagerie asynchrone interapplicative]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#mesagerie-passerelles-de-filtrage][Messagerie : Passerelles de filtrage]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#environnement-de-d%C3%A9veloppement-informatique][Environnement de développement informatique]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#orchestration-de-conteneurs][Orchestration de conteneurs]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#gestion-de-lidentit%C3%A9][Gestion de l'identité]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#etude-centos][Etude centOS]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#logiciels-de-gmao][Logiciels de GMAO]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#espace-de-travail-collaboratif][Espace de travail collaboratif]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#tableau-de-collecte-de-donn%C3%A9es][Tableau de collecte de données]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#lopenjdk-17][L'OpenJDK 17]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#autorit%C3%A9-de-certification][Autorité de certification]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#solution-de-vpn][Solution de VPN]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-mecm][Alternative à MECM]]
+
+** Publiées hors de l'administration
+
+*** En français
+*** En anglais
+
 * Glossaire
 
 ** Algorithme
