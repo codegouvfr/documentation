@@ -12,6 +12,9 @@
 Un préambule.
 
 * Publier un code source
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: publier.md
+  :END:
 
 ** Cadre juridique
 
@@ -141,7 +144,14 @@ en fonction de ces critères.
 ** Bonnes pratiques de publication
 
 * Utiliser des logiciels libres
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: utiliser.md
+  :END:
+
 * Monter un Open Source Programme Office
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: ospo.md
+  :END:
 
 ** Définir une stratégie logiciels libres
 
@@ -178,6 +188,9 @@ Voici une liste de « politiques logiciels libres » :
 - https://www.etalab.gouv.fr/accompagnement-logiciels-libres
 
 * Foire aux questions
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: faq.md
+  :END:
 
 ** Comment m'assurer que le titulaire d'un marché me livre les codes sources ?
 ** Comment exiger un logiciel libre dans un marché ?
@@ -406,6 +419,9 @@ travail.
 
 ** Comment mettre fin à un projet libre ?
 * Ressources
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: ressources.md
+  :END:
 
 ** Publiées par des organismes publics
 
@@ -435,6 +451,9 @@ travail.
 *** En anglais
 
 * Glossaire
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: glossaire.md
+  :END:
 
 ** Algorithme
    :PROPERTIES:
