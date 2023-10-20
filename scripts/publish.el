@@ -4,7 +4,6 @@
 
 (require 'ox-texinfo)
 (require 'ox-md)
-(load-file "/home/build/documentation/scripts/s.el")
 (load-file "/home/build/documentation/scripts/ox-json.el")
 
 (setq make-backup-files nil

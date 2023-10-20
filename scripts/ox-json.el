@@ -67,7 +67,7 @@
 
 (require 'cl-lib)
 ;; (require 's)
-(load-file "s.el")
+(load-file "/home/build/documentation/scripts/s.el")
 (require 'json)
 (require 'ox)
 (require 'org-element)
