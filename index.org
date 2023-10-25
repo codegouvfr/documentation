@@ -448,6 +448,11 @@ travail.
 ** Publiées hors de l'administration
 
 *** En français
+
+- http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2012_TGD.pdf
+- http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2011_TGD.pdf
+- [[https://hal.science/hal-02434287v2][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
+
 *** En anglais
 
 * Glossaire
