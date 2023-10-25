@@ -1,4 +1,4 @@
-Ce dépôt est un dépôt de travail de la [mission logiciels libres d'Etalab](https://code.gouv.fr).
+Ce dépôt est un dépôt de travail de la [mission logiciels libres de la DINUM](https://code.gouv.fr).
 
 Voir [git.sr.ht/~codegouvfr/documentation](https://git.sr.ht/~codegouvfr/documentation) pour contribuer.
 
