@@ -444,6 +444,8 @@ travail.
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#autorit%C3%A9-de-certification][Autorité de certification]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#solution-de-vpn][Solution de VPN]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-mecm][Alternative à MECM]]
+- [[https://hal.science/hal-02434287][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
+- https://espacechercheurs.enpc.fr/sites/default/files/logigramme_a_plat.pdf
 
 ** Publiées hors de l'administration
 
@@ -454,6 +456,9 @@ travail.
 - [[https://hal.science/hal-02434287v2][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
 
 *** En anglais
+
+- https://www.rants.org/2011/04/open-source-license-flowchart/
+- https://opensource.guide/fr/
 
 * Glossaire
   :PROPERTIES:
