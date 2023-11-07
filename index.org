@@ -143,6 +143,8 @@ en fonction de ces critères.
 
 ** Bonnes pratiques de publication
 
+** Bonnes pratiques pour la documentation
+
 * Utiliser des logiciels libres
   :PROPERTIES:
   :EXPORT_FILE_NAME: utiliser.md
