@@ -1,8 +1,8 @@
 Ce dépôt est un dépôt de travail de la [mission logiciels libres de la DINUM](https://code.gouv.fr).
 
-Voir [git.sr.ht/~codegouvfr/documentation](https://git.sr.ht/~codegouvfr/documentation) pour contribuer.
+Il utilise [codegouvfr/docsify-dsfr-template](https://github.com/codegouvfr/docsify-dsfr-template) pour le rendu.
 
-[Summary](_sidebar.md)
+Voir [git.sr.ht/~codegouvfr/documentation](https://git.sr.ht/~codegouvfr/documentation) pour contribuer.
 
 # Licence
 
