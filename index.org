@@ -425,7 +425,8 @@ travail.
   :EXPORT_FILE_NAME: ressources.md
   :END:
 
-** Publiées par des organismes publics
+** Documents
+*** Publiées par des organismes publics
 
 - [[https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-a-un-systeme-gnulinux/][Recommandations de sécurité relatives à un système GNU/Linux, ANSSI, 2022]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#le-poste-de-travail-linux][Le poste de travail Linux]]
@@ -449,18 +450,26 @@ travail.
 - [[https://hal.science/hal-02434287][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
 - https://espacechercheurs.enpc.fr/sites/default/files/logigramme_a_plat.pdf
 
-** Publiées hors de l'administration
+*** Publiées hors de l'administration
 
-*** En français
+**** En français
 
 - http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2012_TGD.pdf
 - http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2011_TGD.pdf
 - [[https://hal.science/hal-02434287v2][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
+- https://opensource.guide/fr/
 
-*** En anglais
+**** En anglais
 
 - https://www.rants.org/2011/04/open-source-license-flowchart/
-- https://opensource.guide/fr/
+- https://standard.publiccode.net/
+
+** Services en ligne
+
+- https://publiccode-editor.etalab.studio/ : site web facilitant la
+  création de fichiers =publiccode.yml=.
+- https://publiccodenet.github.io/assessment-eligibility/ : site web
+  pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
 
 * Glossaire
   :PROPERTIES:
