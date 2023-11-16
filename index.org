@@ -471,6 +471,10 @@ travail.
 - https://publiccodenet.github.io/assessment-eligibility/ : site web
   pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
 
+** Logiciels utiles
+
+- https://github.com/gitleaks/gitleaks
+
 * Glossaire
   :PROPERTIES:
   :EXPORT_FILE_NAME: glossaire.md
