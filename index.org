@@ -516,6 +516,13 @@ Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pou
 
 Le code source d'un programme informatique est ce qu'écrit une programmeuse ou un programmeur. Il peut s'agir de programmes complexes ou de quelques lignes. Ce code source peut être partagé sous licence libre pour permettre aux autres programmeurs de l'étudier, de le modifier, de le diffuser et de partager leurs améliorations.
 
+** Commit
+   :PROPERTIES:
+   :CUSTOM_ID: commit
+   :END:
+
+Unité de modification.
+
 ** Commun numérique
    :PROPERTIES:
    :CUSTOM_ID: commun_numérique
@@ -550,12 +557,33 @@ Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pou
 
 Les « étoiles » (« stars » en anglais) sont un moyen pour les utilisateurs des plates-formes de mettre un dépôt en favori. Pour l'instant, nous collectons cette information sur GitHub, GitLab et les instances de GitLab. Ce n'est pas une mesure de la qualité du code source.
 
+** Forge
+   :PROPERTIES:
+   :CUSTOM_ID: forge
+   :END:
+
+Outil de développement logiciel collaboratif.
+
 ** Fork
    :PROPERTIES:
    :CUSTOM_ID: fork
    :END:
 
 Un dépôt « forké » en franglais est un dépôt de code source qui a été développé à partir d'un autre.
+
+** Génie logiciel
+   :PROPERTIES:
+   :CUSTOM_ID: genie_logiciel
+   :END:
+
+Champ de l'informatique s’intéressant à la gestion et au cycle de vie des projets logiciels.
+
+** Intégration continue
+   :PROPERTIES:
+   :CUSTOM_ID: integration_continue
+   :END:
+
+Capacité pour une forge de permettre la construction automatique du logiciel depuis l'ensemble de ses sources et en fonction de certains paramètres.
 
 ** Licence
    :PROPERTIES:
@@ -583,6 +611,14 @@ GitHub permet d'avoir des comptes personnels pour y héberger du code et des «�
 Pour ajouter une organisation dans [[https://code.gouv.fr/#/groups][code.gouv.fr]], il suffit que le compte d'organisation GitHub ou le groupe GitLab soit ajouté dans [[https://git.sr.ht/~codegouvfr/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml][ce fichier]].
 
 Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte à ajouter.
+
+** Pull/merge request
+   :PROPERTIES:
+   :CUSTOM_ID: pull-merge_request.
+   :END:
+
+Proposition de révision. /Merge request/ est l'expression utilisée sur
+GitLab. /Pull request/ est l'expression utilisée sur les autres forges.
 
 ** Réutilisations
    :PROPERTIES:
@@ -612,7 +648,7 @@ Voir [[../site/sill.md][cette page]].
    :CUSTOM_ID: software_heritage
    :END:
 
-[[https://www.softwareheritage.org][Software Heritage]] est un projet dont le but est d'archiver tous les codes sources disponibles. Pour chaque dépôt référencé sur ce site, nous donnons le lien vers la version archivée sur Software Heritage.
+Initiative internationale visant à conserver pour l'Histoire les codes source des logiciels dont le code source est public.
 
 ** Tag
    :PROPERTIES:
@@ -622,3 +658,10 @@ Voir [[../site/sill.md][cette page]].
 Dans un dépôt de code source géré avec Git, un tag est un label associé à un commit. Ce label peut être annoté ou non. Un tag correspond en général à une nouvelle version du logiciel.
 
 [[https://code.gouv.fr/public/#/tags][code.gouv.fr]] recense les tags des dépôts qui possèdent un fichier =publiccode.yml=, un fichier =CONTRIBUTING.md= ou qui sont à l'origine de la publication de [[https://code.gouv.fr/#/libs][bibliothèques]].
+** Ticket
+   :PROPERTIES:
+   :CUSTOM_ID: ticket
+   :END:
+
+Déclaration en ligne d'un incident ou d'un dysfonctionnement, ou proposition d'amélioration du logiciel.
+
