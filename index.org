@@ -194,6 +194,18 @@ Voici une liste de « politiques logiciels libres » :
   :EXPORT_FILE_NAME: faq.md
   :END:
 
+** Doit-on utiliser une licence valable en droit français ?
+
+Si vous êtes un agent public ou un organisme public et que vous
+publiez un logiciel sous licence libre, vous devez utiliser les
+licences listées sur [[https://www.data.gouv.fr/fr/pages/legal/licences/][cette page]].
+
+Toutes sont valables en droit français, même si elles ne sont pas
+toutes rédigées en français.
+
+Si vous tenez absolument à utiliser une licence rédigée en français,
+vous pouvez utiliser la licence [[https://eupl.eu/1.2/fr/][EUPL 1.2]] ou l'une des licences CeCILL.
+
 ** Comment m'assurer que le titulaire d'un marché me livre les codes sources ?
 ** Comment exiger un logiciel libre dans un marché ?
 ** Qu'est-ce qu'un logiciel libre ?
