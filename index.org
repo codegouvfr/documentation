@@ -189,6 +189,14 @@ Voici une liste de « politiques logiciels libres » :
 - https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences
 - https://www.etalab.gouv.fr/accompagnement-logiciels-libres
 
+* Exemples
+
+** Un exemple d'utilisation d'un logiciel libre
+** Un exemple de publication d'un code source
+** Un exemple de contribution à un logiciel libre
+** Un exemple d'Open Source Programme Office
+** Trajectoires possibles pour un logiciel libre né dans l'administration
+
 * Foire aux questions
   :PROPERTIES:
   :EXPORT_FILE_NAME: faq.md
