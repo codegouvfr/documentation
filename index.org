@@ -475,6 +475,9 @@ travail.
 
 - https://www.rants.org/2011/04/open-source-license-flowchart/
 - https://standard.publiccode.net/
+- https://www.conventionalcommits.org/en/v1.0.0/
+- https://keepachangelog.com/fr/1.0.0/
+- https://readme.so/fr
 
 ** Services en ligne
 
