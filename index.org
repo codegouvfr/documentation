@@ -202,6 +202,10 @@ Voici une liste de « politiques logiciels libres » :
   :EXPORT_FILE_NAME: faq.md
   :END:
 
+** Existe-t-il des formations au logiciel libre dans l'administration ?
+
+- https://mentor.gouv.fr/catalog/1754
+
 ** Doit-on utiliser une licence valable en droit français ?
 
 Si vous êtes un agent public ou un organisme public et que vous
