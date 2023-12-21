@@ -110,7 +110,7 @@ utilisateurs ne sont pas du tout des contributeurs potentiels.)
 Pour les logiciels ne répondant à aucun des trois critères, le niveau
 D est admissible, tant qu'aucun citoyen n'exige la communication du
 code source en question, selon le cadre juridique défini dans la loi
-pour République numérique.
+pour une République numérique.
 
 Bien sûr, ces critères sont *relatifs* : la modularité, la généricité et
 le potentiel de contribution des utilisateurs ne s'évaluent pas dans
@@ -165,7 +165,7 @@ Une stratégie logiciels libres explique la façon dont vous allez
 
 Voir https://code.gouv.fr/fr/blog/definition-ospo/.
 
-Voir http://preprod.codegouv.studio/choices-ospo/.
+Voir http://preprod.codegouv.fr/choices-ospo/.
 
 ** Sites web d'organismes publics engagés
 
@@ -228,7 +228,7 @@ logiciel libre.
 
 Si le nom du logiciel est le même que le nom d'une marque portée par
 une entreprise éditrice, veillez bien à préciser que c'est le logiciel
-libre qui est eixgé, indépendamment de son éditeur.
+libre qui est exigé, indépendamment de son éditeur.
 
 ** Qu'est-ce qu'un logiciel libre ?
 
@@ -358,7 +358,7 @@ ministères.
 
 ** Pouvez-vous m'aider avec Git ?
 
-Vous trouverez de l'aide en rejoignable le [[https://www.tchap.gouv.fr/#/room/#BlueHats21LW8XE:agent.dinum.tchap.gouv.fr][salon BlueHats]] et en
+Vous trouverez de l'aide en rejoignant le [[https://www.tchap.gouv.fr/#/room/#BlueHats21LW8XE:agent.dinum.tchap.gouv.fr][salon BlueHats]] et en
 sollicitant ses membres.
 
 ** Est-il interdit de publier sur GitHub ?
