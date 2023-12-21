@@ -202,9 +202,10 @@ Voici une liste de « politiques logiciels libres » :
   :EXPORT_FILE_NAME: faq.md
   :END:
 
-** Existe-t-il des formations au logiciel libre dans l'administration ?
+** Existe-t-il des formations aux logiciels libres dans l'administration ?
 
-- https://mentor.gouv.fr/catalog/1754
+Si vous êtes agent public avec un accès à la plateforme Mentor, vous
+pouvez consulter [[https://mentor.gouv.fr/catalog/1754][une capsule introductive]] produite par la DINUM.
 
 ** Doit-on utiliser une licence valable en droit français ?
 
@@ -219,7 +220,16 @@ Si vous tenez absolument à utiliser une licence rédigée en français,
 vous pouvez utiliser la licence [[https://eupl.eu/1.2/fr/][EUPL 1.2]] ou l'une des licences CeCILL.
 
 ** Comment m'assurer que le titulaire d'un marché me livre les codes sources ?
-** Comment exiger un logiciel libre dans un marché ?
+** Comment exiger un logiciel libre dans un marché public ?
+
+En tant qu'organisme public, vous avez tout à fait le droit de publier
+un marché exigeant un logiciel libre et/ou des services autour d'un
+logiciel libre.
+
+Si le nom du logiciel est le même que le nom d'une marque portée par
+une entreprise éditrice, veillez bien à préciser que c'est le logiciel
+libre qui est eixgé, indépendamment de son éditeur.
+
 ** Qu'est-ce qu'un logiciel libre ?
 
 Un logiciel est dit libre si son code source est publié sous l'une des
@@ -285,14 +295,14 @@ Vous pouvez aussi nous contacter lors de nos permanences en ligne.
 
 Voir https://code.gouv.fr/fr/contact/espaces-communication-bluehats/.
 
-** Quelle forge dois-je choisir pour publier mes codes sources ?
+** TODO Quelle forge dois-je choisir pour publier mes codes sources ?
 ** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
 
 Non, il n'y a pas d'obstacle légal à la publication des codes sources
 d'une administration sur github.com ou gitlab.com.
 
-** Comment attirer des contributeurs sur mes dépôts publiés ?
-** Suis-je obligé de permettre la contribution sur mes dépôts ?
+** TODO Comment attirer des contributeurs sur mes dépôts publiés ?
+** TODO Suis-je obligé de permettre la contribution sur mes dépôts ?
 
 Non.
 
