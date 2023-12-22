@@ -11,7 +11,12 @@
 
 Cette documentation est en construction.
 
-Pour tout commentaire ou suggestion, vous pouvez nous [[https://code.gouv.fr/fr/contact/][contacter]].
+* Utiliser des logiciels libres
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: utiliser.md
+  :END:
+
+En construction.
 
 * Publier un code source
   :PROPERTIES:
@@ -147,13 +152,6 @@ en fonction de ces critères.
 
 ** Bonnes pratiques pour la documentation
 
-* Utiliser des logiciels libres
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: utiliser.md
-  :END:
-
-En construction.
-
 * Monter un Open Source Programme Office
   :PROPERTIES:
   :EXPORT_FILE_NAME: ospo.md
@@ -194,6 +192,9 @@ Voici une liste de « politiques logiciels libres » :
 - https://www.etalab.gouv.fr/accompagnement-logiciels-libres
 
 * Exemples
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: exemples.md
+  :END:
 
 En construction.
 
