@@ -11,8 +11,6 @@
 
 Cette documentation est en construction.
 
-Elle est lisible [[https://code.gouv.fr/documentation/][en ligne]] et [[https://code.gouv.fr/documentation/logiciels-libres-et-secteur-public.pdf][en PDF]].
-
 Pour tout commentaire ou suggestion, vous pouvez nous [[https://code.gouv.fr/fr/contact/][contacter]].
 
 * Publier un code source
