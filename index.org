@@ -173,6 +173,7 @@ En construction.
 Cette FAQ est en construction.  Si vous avez des questions que vous
 voulez voir figurer ici, n'hésitez pas à [[mailto:contact@code.gouv.fr][nous écrire]].
 
+** Qu'est-ce que [[https://data.code.gouv.fr][data.code.gouv.fr]] ?
 ** Existe-t-il des formations aux logiciels libres dans l'administration ?
 
 Si vous êtes agent public avec un accès à la plateforme Mentor, vous
