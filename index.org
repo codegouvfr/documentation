@@ -1,5 +1,5 @@
-#+title: Les logiciels libres dans l'administration publique
-#+subtitle: Utiliser, publier et contribuer
+#+title: Logiciels libres et administration publique
+#+subtitle: Utiliser, publier, contribuer, définir et déployer une stratégie
 #+author: Équipe de la mission logiciels libres
 #+options: toc:t
 #+language: fr
