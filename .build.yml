@@ -13,6 +13,7 @@ tasks:
       cd documentation/
       emacs --script scripts/publish.el
       texi2pdf index.texi
+      mv index.pdf logiciels-libres-et-secteur-public.pdf
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@code.gouv.fr:/home/web/websites/documentation/
 triggers:
