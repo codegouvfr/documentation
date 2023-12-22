@@ -1,15 +1,15 @@
-#+title: Documentation de la mission logiciels libres
+#+title: Les logiciels libres dans l'administration publique
+#+subtitle: Utiliser, publier et contribuer
 #+author: Équipe de la mission logiciels libres
 #+options: toc:t
 #+language: fr
-# #+date: <2023-07-21 ven.>
 
 * Préambule
   :PROPERTIES:
   :EXPORT_FILE_NAME: preambule.md
   :END:
 
-Un préambule.
+En construction.
 
 * Publier un code source
   :PROPERTIES:
@@ -150,6 +150,8 @@ en fonction de ces critères.
   :EXPORT_FILE_NAME: utiliser.md
   :END:
 
+En construction.
+
 * Monter un Open Source Programme Office
   :PROPERTIES:
   :EXPORT_FILE_NAME: ospo.md
@@ -191,6 +193,8 @@ Voici une liste de « politiques logiciels libres » :
 
 * Exemples
 
+En construction.
+
 ** Un exemple d'utilisation d'un logiciel libre
 ** Un exemple de publication d'un code source
 ** Un exemple de contribution à un logiciel libre
@@ -201,6 +205,9 @@ Voici une liste de « politiques logiciels libres » :
   :PROPERTIES:
   :EXPORT_FILE_NAME: faq.md
   :END:
+
+Cette FAQ est en construction.  Si vous avez des questions que vous
+voulez voir figurer ici, n'hésitez pas à [[mailto:contact@code.gouv.fr][nous écrire]].
 
 ** Existe-t-il des formations aux logiciels libres dans l'administration ?
 
@@ -241,7 +248,7 @@ l'Open Source Initiative.  Une licence libre octroie quatre libertés :
 - la liberté d'étudier le logiciel
 - la liberté de modifier le logiciel et de redistribuer les versions modifiées
 
-Voir https://spdx.org/licenses/ pour la liste des licences et de leur
+Voir [[https://spdx.org/licenses/][spdx.org/licenses]] pour la liste des licences et de leur
 validation par l'OSI ou la FSF.
 
 ** Qui peut m'aider à publier mes codes sources ?
@@ -295,14 +302,14 @@ Vous pouvez aussi nous contacter lors de nos permanences en ligne.
 
 Voir https://code.gouv.fr/fr/contact/espaces-communication-bluehats/.
 
-** TODO Quelle forge dois-je choisir pour publier mes codes sources ?
+** Quelle forge dois-je choisir pour publier mes codes sources ?
 ** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
 
 Non, il n'y a pas d'obstacle légal à la publication des codes sources
 d'une administration sur github.com ou gitlab.com.
 
-** TODO Comment attirer des contributeurs sur mes dépôts publiés ?
-** TODO Suis-je obligé de permettre la contribution sur mes dépôts ?
+** Comment attirer des contributeurs sur mes dépôts publiés ?
+** Suis-je obligé de permettre la contribution sur mes dépôts ?
 
 Non.
 
@@ -503,7 +510,7 @@ travail.
 
 ** Services en ligne
 
-- https://publiccode-editor.etalab.studio/ : site web facilitant la
+- https://publiccode-editor.etalab.studio : site web facilitant la
   création de fichiers =publiccode.yml=.
 - https://publiccodenet.github.io/assessment-eligibility/ : site web
   pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
