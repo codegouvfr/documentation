@@ -19,7 +19,7 @@ pour le rendu.
 
 # Licence
 
-2022-2023 Mission logiciels libres, DINUM.
+2022-2024 Mission logiciels libres, DINUM.
 
 Le contenu de ce dépôt est publié sous licence
 [Etalab-2.0](LICENSES/Etalab-2.0.md) pour le texte et sous
