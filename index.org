@@ -9,14 +9,25 @@
   :EXPORT_FILE_NAME: preambule.md
   :END:
 
-Cette documentation est en construction.
+Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de
+[[https://www.numerique.gouv.fr/][direction interministérielle du numérique]]. Sa rédaction est
+collaborative : tous les organismes publics ayant une expertise sur
+les logiciels libres, qu'ils en utilisent, y contribuent ou en
+publient, sont invités à faire évoluer cette documentation.
+
+Les sujets abordés portent sur ce qui distingue un logiciel libre : il
+ne sera pas directement question de logiciels sous licence non libre,
+ni de service en ligne, ni des bonnes pratiques de développement qui
+valent, pour certains, quelle que soit la licence des logiciels.
 
 * Utiliser des logiciels libres
   :PROPERTIES:
   :EXPORT_FILE_NAME: utiliser.md
   :END:
 
-En construction.
+** Trouver des solutions libres
+** Trouver de l'expertise sur une solution libre
+** Savoir si on peut faire évoluer une solution libre
 
 * Publier un code source
   :PROPERTIES:
