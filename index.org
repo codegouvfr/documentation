@@ -10,10 +10,11 @@
   :END:
 
 Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de
-[[https://www.numerique.gouv.fr/][direction interministérielle du numérique]]. Sa rédaction est
-collaborative : tous les organismes publics ayant une expertise sur
-les logiciels libres, qu'ils en utilisent, y contribuent ou en
-publient, sont invités à faire évoluer cette documentation.
+[[https://www.numerique.gouv.fr/][direction interministérielle du numérique]]. 
+
+Sa rédaction est collaborative : tous les organismes publics ayant une
+expertise sur les logiciels libres, qu'ils en utilisent, y contribuent
+ou en publient, sont invités à faire évoluer cette documentation.
 
 Les sujets abordés portent sur ce qui distingue un logiciel libre : il
 ne sera pas directement question de logiciels sous licence non libre,
@@ -121,8 +122,8 @@ Chaque organisme peut tenter de prioriser les logiciels à ouvrir
 en fonction de ces critères.
 
 ** Bonnes pratiques de publication
-
 ** Bonnes pratiques pour la documentation
+** Les politiques ministérielles déjà publiées
 
 * Monter un Open Source Programme Office
   :PROPERTIES:
@@ -168,7 +169,8 @@ Voici une liste de « politiques logiciels libres » :
   :EXPORT_FILE_NAME: exemples.md
   :END:
 
-En construction.
+Cette section viendra documenter des exemples utiles à l'illustration
+des différents sujets.
 
 ** Un exemple d'utilisation d'un logiciel libre
 ** Un exemple de publication d'un code source
