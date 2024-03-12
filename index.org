@@ -10,7 +10,7 @@
   :END:
 
 Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de
-[[https://www.numerique.gouv.fr/][direction interministérielle du numérique]]. 
+[[https://www.numerique.gouv.fr/][direction interministérielle du numérique]].
 
 Sa rédaction est collaborative : tous les organismes publics ayant une
 expertise sur les logiciels libres, qu'ils en utilisent, y contribuent
@@ -183,14 +183,25 @@ des différents sujets.
   :EXPORT_FILE_NAME: faq.md
   :END:
 
-Cette FAQ est en construction.  Si vous avez des questions que vous
-voulez voir figurer ici, n'hésitez pas à [[mailto:contact@code.gouv.fr][nous écrire]].
+Cette FAQ est en construction. Si vous avez des questions que vous voulez voir figurer ici, n'hésitez pas à nous écrire à =contact@code.gouv.fr=.
 
 ** Qu'est-ce que [[https://data.code.gouv.fr][data.code.gouv.fr]] ?
+
+[[https://data.code.gouv.fr][data.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour collecter
+des données sur les forges où sont publiés des dépôts d'organismes
+publics.
+
+À terme, ce sont les données exposées via [[https://data.code.gouv.fr][data.code.gouv.fr]] qui
+seront utilisées pour l'interface d'exploration des codes sources
+[[https://code.gouv.fr/public/][code.gouv.fr/public/]].
+
 ** Existe-t-il des formations aux logiciels libres dans l'administration ?
 
 Si vous êtes agent public avec un accès à la plateforme Mentor, vous
 pouvez consulter [[https://mentor.gouv.fr/catalog/1754][une capsule introductive]] produite par la DINUM.
+
+Si vous avez connaissance de formations logiciels libres proposées aux
+agents publics, n'hésitez pas à nous les [[https://code.gouv.fr/fr/contact/][signaler]].
 
 ** Doit-on utiliser une licence valable en droit français ?
 
@@ -202,18 +213,35 @@ Toutes sont valables en droit français, même si elles ne sont pas
 toutes rédigées en français.
 
 Si vous tenez absolument à utiliser une licence rédigée en français,
-vous pouvez utiliser la licence [[https://eupl.eu/1.2/fr/][EUPL 1.2]] ou l'une des licences CeCILL.
+vous pouvez utiliser la licence [[https://eupl.eu/1.2/fr/][EUPL 1.2]] ou l'une des licences [[http://cecill.info/][CeCILL]].
 
 ** Comment m'assurer que le titulaire d'un marché me livre les codes sources ?
+
+Vous pouvez l'exiger dans votre marché.
+
+En pratique, vous pourrez l'exiger sur tout ou partie du système que
+vous souhaitez développer et exploiter.
+
+Si vous prévoyez d'ouvrir un code source développé pour vos besoins,
+vous devez exiger que la propriété de ce code vous soit cédée et qu'il
+vous soit livré.
+
+Voir l'[[https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043310689][Arrêté du 30 mars 2021]] portant approbation du cahier des
+clauses administratives générales des marchés publics de techniques de
+l'information et de la communication.
+
 ** Comment exiger un logiciel libre dans un marché public ?
 
-En tant qu'organisme public, vous avez tout à fait le droit de publier
-un marché exigeant un logiciel libre et/ou des services autour d'un
-logiciel libre.
+En tant qu'organisme public, vous avez le droit de publier un marché
+exigeant un logiciel libre et/ou des services autour d'un logiciel
+libre.
 
 Si le nom du logiciel est le même que le nom d'une marque portée par
 une entreprise éditrice, veillez bien à préciser que c'est le logiciel
 libre qui est exigé, indépendamment de son éditeur.
+
+Voir la section 5.6 du livre [[https://www.lgdj.fr/droit-des-logiciels-9782130626152.html][Droit des logiciels]] de F. Pellegrini et
+S. Canevet qui porte sur ce sujet.
 
 ** Qu'est-ce qu'un logiciel libre ?
 
@@ -237,7 +265,15 @@ publier vos codes sources.
 
 À défaut de réponse, vous pouvez solliciter l'Administrateur
 Ministériel des Données, des Algorithmes et des Codes sources de votre
-ministère.  Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
+ministère. Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
+
+Vous pouvez enfin solliciter directement la mission logiciels libres
+en écrivant à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]].
+
+Dès que vous publiez un code développé par votre administration,
+assurez-vous que la forge et l'organisation via laquelle vous publiez
+sont référencés sur [[https://code.gouv.fr/public/][code.gouv.fr/public]] : si ce n'est pas le cas,
+[[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
 
 ** Sous quelle licence dois-je publier mes codes sources ?
 
@@ -281,22 +317,44 @@ Vous pouvez aussi nous contacter lors de nos permanences en ligne.
 Voir https://code.gouv.fr/fr/contact/espaces-communication-bluehats/.
 
 ** Quelle forge dois-je choisir pour publier mes codes sources ?
+
+Vous pouvez vérifier sur [[https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/blob/main/platforms.csv][cette liste]] si votre organisme public déploie
+une forge et si oui, contacter les personnes en interne qui pourront
+vous aider à y publier vos codes sources.
+
+Si vous êtes une administration centrale et souhaitez publier sur  une
+forge interministérielle, vous pouvez contacter les responsables de la
+forge [[https://gitlab.mim-libre.fr][gitlab.mim-libre.fr]].
+
+Si vous souhaitez publier sur une forge hébergée en France via le
+partenariat que la DINUM a avec l'ADULLACT, vous pouvez contacter les
+responsables de la forge [[https://gitlab.adullact.net][gitlab.adullact.net]].
+
+Sinon, vous pouvez publier votre code sur la forge de votre choix, par
+exemple [[https://gitlab.com][gitlab.com]], [[https://github.com][github.com]] ou [[https://sourcehut.org/][SourceHut]].
+
 ** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
 
 Non, il n'y a pas d'obstacle légal à la publication des codes sources
 d'une administration sur github.com ou gitlab.com.
 
 ** Comment attirer des contributeurs sur mes dépôts publiés ?
+
+Vous pouvez faciliter les contributions en publiant un fichier
+=CONTRIBUTING.md= à la racine de votre dépôt ou vous expliquerez aux
+potentiels contributeurs le moyen de vous aider.
+
 ** Suis-je obligé de permettre la contribution sur mes dépôts ?
 
-Non.
+Non. Vous pouvez consulter à ce sujet nos propositions sur [[https://code.gouv.fr/documentation/#/publier?id=quels-degr%c3%a9s-d39ouverture-pour-les-codes-sources-][les degrés
+d'ouverture]].
 
 ** Puis-je publier un code que je ne maintiens plus ?
 
-Oui.  Dans ce cas, indiquez bien dans le fichier ~README~ que le code
+Oui. Dans ce cas, indiquez bien dans le fichier ~README.md~ que le code
 source n'est plus maintenu.
 
-Si vous le souhaitez, vous pouvez préciser dans ce ~README~ qu'un
+Si vous le souhaitez, vous pouvez préciser dans ce ~README.md~ qu'un
 nouveau mainteneur est recherché.
 
 ** Le prestataire doit-il m'envoyer le code source qu'il a développé pour moi ?
@@ -312,8 +370,8 @@ prestation est une mauvaise pratique.
 
 ** Où trouver tous les dépôts publiés par mon ministère ?
 
-Vous pouvez chercher sur [[https://code.gouv.fr/public/#/groups][code.gouv.fr]] l'organisation qui correspond à
-votre direction ou, plus largement, à votre ministère.
+Vous pouvez chercher sur [[https://code.gouv.fr/public/#/groups][code.gouv.fr/public]] l'organisation qui
+correspond à votre direction ou, plus largement, à votre ministère.
 
 ** Qu'est-ce que le socle interministériel de logiciels libres ?
 
@@ -336,19 +394,15 @@ et à [[https://code.gouv.fr/public/][la liste des codes sources publiés par de
 
 ** Existe-t-il une forge interministérielle publique ?
 
-Non, pas à ce jour.  Pour les projets des administrations centrales
-qui ne sont pas candidats à l'ouverture, il existe une forge GitLab
-privée gérée par la DGFiP et qui accueille différents projets des
-ministères.
+À ce jour, [[https://gitlab.mim-libre.fr/][gitlab.mim-libre.fr]] fait office de forge interministérielle.
+
+Pour les projets des administrations centrales qui ne sont pas
+ouverts, il existe une forge GitLab privée gérée par la DGFiP.
 
 ** Pouvez-vous m'aider avec Git ?
 
-Vous trouverez de l'aide en rejoignant le [[https://www.tchap.gouv.fr/#/room/#BlueHats21LW8XE:agent.dinum.tchap.gouv.fr][salon BlueHats]] et en
-sollicitant ses membres.
-
-** Est-il interdit de publier sur GitHub ?
-
-Non.
+Vous trouverez de l'aide en contactant l'un des membres de la
+communauté [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][BlueHats]].
 
 ** Comment créer un SBOM ("software bill of materials") ?
 ** Comment détecter et effacer des secrets dans mon historique Git ?
@@ -357,7 +411,7 @@ Non.
 ** Sous quelle licence dois-je publier ma documentation ?
 
 Le code source d'un projet d'une administration doit être publié sous
-l'une des licences logicielles prévue.  Les autres éléments doivent
+l'une des licences logicielles prévue. Les autres éléments doivent
 être publiés sous la licence Etalab 2.0.
 
 ** Quelles langues utiliser pour mon code source et ma documentation ?
@@ -430,6 +484,10 @@ cette entreprise ou administration.
 Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre entrée de blog au sujet des OSPOs]].
 
 ** Qu'est-ce qu'un Copyright License Agreement (CLA) ?
+
+- https://contributoragreements.org
+- https://www.harmonyagreements.org
+
 ** Qu'est-ce qu'un Developer Certificate of Origin (DCO) ?
 ** Quel processus de contribution mettre en place pour mon projet libre ?
 ** En tant qu'agent, ai-je le droit de contribuer à un projet libre ?
@@ -489,7 +547,7 @@ travail.
 ** Services en ligne
 
 - https://publiccode-editor.etalab.studio : site web facilitant la
-  création de fichiers =publiccode.yml=.
+  création de fichiers ~publiccode.yml~.
 - https://publiccodenet.github.io/assessment-eligibility/ : site web
   pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
 
@@ -632,7 +690,7 @@ GitHub permet d'avoir des comptes personnels pour y héberger du code et des «�
 
 Pour ajouter une organisation dans [[https://code.gouv.fr/#/groups][code.gouv.fr]], il suffit que le compte d'organisation GitHub ou le groupe GitLab soit ajouté dans [[https://git.sr.ht/~codegouvfr/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml][ce fichier]].
 
-Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte à ajouter.
+Vous pouvez écrire à =contact@code.gouv.fr= pour nous indiquer un compte à ajouter.
 
 ** Pull/merge request
    :PROPERTIES:
@@ -679,7 +737,7 @@ Initiative internationale visant à conserver pour l'Histoire les codes source d
 
 Dans un dépôt de code source géré avec Git, un tag est un label associé à un commit. Ce label peut être annoté ou non. Un tag correspond en général à une nouvelle version du logiciel.
 
-[[https://code.gouv.fr/public/#/tags][code.gouv.fr]] recense les tags des dépôts qui possèdent un fichier =publiccode.yml=, un fichier =CONTRIBUTING.md= ou qui sont à l'origine de la publication de [[https://code.gouv.fr/#/libs][bibliothèques]].
+[[https://code.gouv.fr/public/#/tags][code.gouv.fr]] recense les tags des dépôts qui possèdent un fichier ~publiccode.yml~, un fichier ~CONTRIBUTING.md~ ou qui sont à l'origine de la publication de [[https://code.gouv.fr/#/libs][bibliothèques]].
 ** Ticket
    :PROPERTIES:
    :CUSTOM_ID: ticket
