@@ -121,6 +121,24 @@ la posture de l'administration dans le cas des publications simples.
 Chaque organisme peut tenter de prioriser les logiciels à ouvrir
 en fonction de ces critères.
 
+** Bonnes pratiques de nommage des organisations/groupes et dépôts
+
+Un bon nom de dépôt décrit la finalité du code source du dépôt.
+
+Un bon nom d'organisation décrit l'équipe qui porte les dépôts.
+
+Il vaut mieux plusieurs organisations avec des noms stables que peu
+d'organisations avec des mauvais noms.
+
+Le nom d'organisation doit être explicite et minimaliste :
+
+- évitez les acronymes correspondant à une entité administrative, sauf si vous êtes certain que cet acronyme va perdurer dans le temps ;
+- éviter de préfixer ou suffixer un nom d'organisation avec un acronyme administratif.
+
+Exemple de mauvais nom : https://github.com/DISIC/ car il était prévisible que l'acronyme ne serait plus d'actualité.
+
+Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
+
 ** Bonnes pratiques de publication
 ** Bonnes pratiques pour la documentation
 ** Les politiques ministérielles déjà publiées
@@ -194,6 +212,21 @@ publics.
 À terme, ce sont les données exposées via [[https://data.code.gouv.fr][data.code.gouv.fr]] qui
 seront utilisées pour l'interface d'exploration des codes sources
 [[https://code.gouv.fr/public/][code.gouv.fr/public/]].
+
+** Une administration peut-elle faire de l'innersource ?
+
+https://innersourcecommons.org/zh/learn/books/understanding-the-innersource-checklist/
+
+** Comment mettre en place une gouvernance open source dans une administration ?
+
+- https://gitlab.eclipse.org/eclipse/os-gov/os-gov
+- https://gitlab.ow2.org/ggi/my-ggi-board
+- https://ospo-alliance.org/ggi/methodology/#automatic-setup-using-the-ggi-deployment-feature
+
+** Comment mesurer la maturité d'un projet open source ?
+
+- market readiness level
+- https://github.com/finos/open-source-readiness
 
 ** Existe-t-il des formations aux logiciels libres dans l'administration ?
 
