@@ -85,32 +85,34 @@ ce [[https://guide-juridique-logiciel-libre.etalab.gouv.fr/][guide juridique int
 ** Quels logiciels ouvrir à quel degré ?
 
 Tous les logiciels développés par un organisme public n'ont pas
-vocation à être ouverts au même degré.
+vocation à être ouverts au même degré. Pour définir votre stratégie et
+adopter le bon degré d'ouverture, nous vous proposons ces questions :
 
-Nous proposons trois critères :
-
-1. Le logiciel est-il *un module utile à d'autres logiciels libres* (ou un logiciel « monolithique » sans utilité pour d'autres logiciels libres) ?
-2. Le logiciel répond-il a un *besoin générique* (ou à un besoin spécifique à l'organisme qui le produit) ?
-3. L'*utilisateur final* du logiciel a-t-il un profil technique (développeur, datascientiste ou designer) ?
+1. Le logiciel est-il *un module utile à d'autres logiciels libres* (vs un logiciel « monolithique » sans utilité pour d'autres logiciels libres) ?
+2. Le logiciel répond-il a un *besoin générique* (vs à un besoin spécifique à l'organisme qui le produit) ?
+3. Le logiciel doit-il bientôt être *maintenu et développé par d'autres* (vs votre administration s'engage sur du long terme) ?
+4. L'*utilisateur final* du logiciel a-t-il un *profil technique* (développeur, datascientiste ou designer vs un utilisateur non-technique) ?
 
 *Le niveau A* est recommandé pour les logiciels répondant à au moins
 deux critères ; le niveau B est recommandé pour ceux répondant à au
 moins un critère ; le niveau C pour ceux ne répondant à aucun de ces
-trois critères (par ex. un logiciel métier très spécifique, dont
-aucune partie ne peut être réutilisée ailleurs et dont les
-utilisateurs ne sont pas du tout des contributeurs potentiels.)
+critères (par ex. un logiciel métier très spécifique, dont aucune
+partie ne peut être réutilisée ailleurs, qui n'a pas vocation à être
+repris par d'autres et dont les utilisateurs ne sont pas du tout des
+contributeurs potentiels.)
 
-Pour les logiciels ne répondant à aucun des trois critères, le niveau
-D est admissible, tant qu'aucun citoyen n'exige la communication du
-code source en question, selon le cadre juridique défini dans la loi
-pour une République numérique.
+Pour les logiciels ne répondant à aucun de ces critères, le niveau D
+est admissible, tant qu'aucun citoyen n'exige la communication du code
+source en question, selon le cadre juridique défini dans la loi pour
+une République numérique.
 
-Bien sûr, ces critères sont *relatifs* : la modularité, la généricité et
-le potentiel de contribution des utilisateurs ne s'évaluent pas dans
-l'absolu.  Ces notions aident seulement à *prioriser les ouvertures
-logicielles*.  Le but est de *canaliser son énergie* sur les logiciels
-qui ont un bon potentiel contributif et *de communiquer clairement* sur
-la posture de l'administration dans le cas des publications simples.
+Bien sûr, ces critères sont *relatifs* : la modularité, la généricité,
+le besoin de reprise par d'autre et le potentiel de contribution des
+utilisateurs ne s'évaluent pas /in abstracto/. Ces notions sont
+proposées pour aider à *prioriser les ouvertures logicielles*. Le but
+est de *canaliser votre énergie* sur les logiciels qui ont un bon
+potentiel contributif et *de communiquer clairement* sur la posture de
+l'administration dans le cas des publications simples.
 
 *** Exemples de mise en oeuvre
 
@@ -215,7 +217,21 @@ seront utilisées pour l'interface d'exploration des codes sources
 
 ** Une administration peut-elle faire de l'innersource ?
 
-https://innersourcecommons.org/zh/learn/books/understanding-the-innersource-checklist/
+La notion d'/innersource/ désigne l'adoption des pratiques de
+développement logiciels open source au sein d'une organisation, sans
+partager les codes publiquement.
+
+Si vous n'êtes pas obligés de publier certains codes sources, vous
+pouvez les développer via des organisations ou des dépôts privés ou
+via une forge privée.
+
+La démarche d'/innersource/ suppose néanmoins une *visibilité partagée*
+sur ce qui est développé par les uns et les autres et un encouragement
+à contribuer aux dépôts partagés.
+
+Pour aller plus loin, vous pouvez lire le livre "[[https://innersourcecommons.org/zh/learn/books/understanding-the-innersource-checklist/][Understanding the
+InnerSource Checklist]]" publié en 2017 chez O’Reilly Media par Silona
+Bonewald.
 
 ** Comment mettre en place une gouvernance open source dans une administration ?
 
@@ -225,8 +241,10 @@ https://innersourcecommons.org/zh/learn/books/understanding-the-innersource-chec
 
 ** Comment mesurer la maturité d'un projet open source ?
 
-- market readiness level
-- https://github.com/finos/open-source-readiness
+La fondation OW2 propose un outil de mesure de la maturité Open Source
+d'un projet, le [[https://www.ow2.org/view/MRL/][Market readiness level]].
+
+Une autre structure propose une variante, l'"[[https://github.com/finos/open-source-readiness][Open Source Readiness]]".
 
 ** Existe-t-il des formations aux logiciels libres dans l'administration ?
 
@@ -583,10 +601,16 @@ travail.
   création de fichiers ~publiccode.yml~.
 - https://publiccodenet.github.io/assessment-eligibility/ : site web
   pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
+- https://github.com/finos/open-source-readiness
+- https://www.ow2.org/view/MRL/
 
 ** Logiciels utiles
 
 - https://github.com/gitleaks/gitleaks
+
+** Livres
+
+- https://innersourcecommons.org/zh/learn/books/understanding-the-innersource-checklist/
 
 * Glossaire
   :PROPERTIES:
