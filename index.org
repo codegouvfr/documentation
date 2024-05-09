@@ -91,7 +91,7 @@ adopter le bon degré d'ouverture, nous vous proposons ces questions :
 1. Le logiciel est-il *un module utile à d'autres logiciels libres* (vs un logiciel « monolithique » sans utilité pour d'autres logiciels libres) ?
 2. Le logiciel répond-il a un *besoin générique* (vs à un besoin spécifique à l'organisme qui le produit) ?
 3. Le logiciel doit-il bientôt être *maintenu et développé par d'autres* (vs votre administration s'engage sur du long terme) ?
-4. L'*utilisateur final* du logiciel a-t-il un *profil technique* (développeur, datascientiste ou designer vs un utilisateur non-technique) ?
+4. L'*utilisateur final* du logiciel a-t-il un *profil technique* (développeur, datascientiste ou designer vs un utilisateur non-technique) ?
 
 *Le niveau A* est recommandé pour les logiciels répondant à au moins
 deux critères ; le niveau B est recommandé pour ceux répondant à au
@@ -215,7 +215,7 @@ publics.
 seront utilisées pour l'interface d'exploration des codes sources
 [[https://code.gouv.fr/public/][code.gouv.fr/public/]].
 
-** Une administration peut-elle faire de l'innersource ?
+** Une administration peut-elle faire de l'« inner source » ?
 
 La notion d'/innersource/ désigne l'adoption des pratiques de
 développement logiciels open source au sein d'une organisation, sans
@@ -233,18 +233,24 @@ Pour aller plus loin, vous pouvez lire le livre "[[https://innersourcecommons.or
 InnerSource Checklist]]" publié en 2017 chez O’Reilly Media par Silona
 Bonewald.
 
-** Comment mettre en place une gouvernance open source dans une administration ?
+** Comment mettre en place une gouvernance open source dans un projet ?
 
-- https://gitlab.eclipse.org/eclipse/os-gov/os-gov
-- https://gitlab.ow2.org/ggi/my-ggi-board
-- https://ospo-alliance.org/ggi/methodology/#automatic-setup-using-the-ggi-deployment-feature
+Pour mettre en place une gouvernance open source dans un projet, vous
+pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce guide [EN]​]] de la fondation Eclipse.
 
-** Comment mesurer la maturité d'un projet open source ?
+** Comment mettre en place une gouvernance open source dans une organisation ?
+
+Pour mettre en place une gouvernance open source dans une
+organisation, vous pouvez vous référer à la [[https://www.ow2.org/view/OSS_Governance/][Good Governance Initiative]]
+développée et promue par la fondation OW2.  Vous pouvez consulter [[https://gitlab.ow2.org/ggi/my-ggi-board][cet
+outil]] permettant de la mesurer, et le [[https://ospo-alliance.org/ggi/methodology/#automatic-setup-using-the-ggi-deployment-feature][déployer]].
+
+** Comment mesurer la maturité d'un projet open source ?
 
 La fondation OW2 propose un outil de mesure de la maturité Open Source
 d'un projet, le [[https://www.ow2.org/view/MRL/][Market readiness level]].
 
-Une autre structure propose une variante, l'"[[https://github.com/finos/open-source-readiness][Open Source Readiness]]".
+Une autre structure propose une variante, l'[[https://github.com/finos/open-source-readiness][Open Source Readiness]].
 
 ** Existe-t-il des formations aux logiciels libres dans l'administration ?
 
@@ -435,7 +441,7 @@ usages de logiciels ou se proposer comme référent d'un logiciel.
 
 Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
 
-** À quoi sert code.gouv.fr ?
+** À quoi sert code.gouv.fr ?
 
 Le site [[https://code.gouv.fr][code.gouv.fr]] est le site de présentation de l'ensemble des
 activités et produits de la mission logiciels libres de la DINUM.
@@ -483,9 +489,34 @@ en français.
 Le manuel destiné à l'utilisateur final doit être écrit en français.
 
 ** Qu'est-ce qu'un "fork" ?
-** Quelle différence entre "algorithme publique" et "code source" ?
-** Dois-je utiliser Software Heritage ?
+
+Soit B le fork du code source A : le fork B (ou la « dérivation » B)
+est une nouvelle version de A dont les version successives (B2, B3,
+etc.) s'écarteront des versions successives de A (A2, A3, etc.)
+
+Un fork est généralement créé lorsque les contributeurs d'un projet
+sont en désaccord et qu'une partie des contributeurs décide de créer
+une version divergente.
+
+** Quelle différence entre "algorithme public" et "code source" ?
+
+L'expression « algorithme public » désigne de façon relâchée les
+algorithmes définis et utilisés par une administration et qui relèvent
+des obligations d'open data. Vous pouvez consulter [[https://guides.etalab.gouv.fr/algorithmes/][ce guide d'Etalab]] à
+leur sujet. Ces « algorithmes » ne sont pas systématiquement exprimés
+sous forme de code source.
+
+Un code source est la version lisible par un humain d'un programme
+informatique : une partie relève de l'algorithmique, d'autres de la
+documentation, de la gestion de données, etc.
+
+Les obligations de publication des algorithmes publics et les
+obligations de publication des codes sources ne se confondent pas.
+
 ** Puis-je créer une marque pour protéger mon logiciel libre ?
+
+Oui.
+
 ** Où trouver des entreprises capables de développer un logiciel libre ?
 ** Puis-je interdire la réutilisation commerciale des codes sources publiés ?
 
@@ -493,29 +524,44 @@ Non, toutes les licences libres que vous pouvez utiliser pour publier
 votre code source autorisent la réutilisation commerciale de ce code.
 
 ** Avez-vous un dépôt Git exemplaire ?
+
+Pas encore.
+
 ** Quelle est la différence entre GitHub et GitLab ?
 ** Qu'est-ce que SourceHut et pourquoi publier sur cette forge ?
 
-Voir notre entrée de blog : https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut.
+Voir notre entrée de blog :
+https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut.
 
 ** En tant qu'administration, comment soutenir un projet libre ?
 ** Comment aborder le sujet de la communication au sein d'un projet de logiciel libre ?
-** Comment faire connaître mon projet de logiciel libre ?
+** Comment faire connaître le logiciel libre que mon administration développe ?
+
+Vous pouvez consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des
+pistes.
+
 ** Deux administrations développent la même chose, que faire ?
+
+Si vous avez identifié les porteurs de ces projets, envoyez leur un
+mail pour les mettre en contact en ajoutant =contact@code.gouv.fr= en
+copie.
+
 ** Qu'est-ce qu'un ADMAC ?
 
 AMDAC est l'acronyme de « Administrateur Ministériel des Données, des
-Algorithmes et des Codes sources ».  Les AMDACs veillent à appliquer
-le principe d'ouverture par défaut des données publiques, incluant les
+Algorithmes et des Codes sources ». Les AMDACs veillent à appliquer le
+principe d'ouverture par défaut des données publiques, incluant les
 codes sources des administrations.
 
 ** Comment contacter l'AMDAC de mon ministère ?
 
-Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]] sur data.gouv.fr.
+Vous trouverez sur data.gouv.fr [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
 
 ** Puis-je, en tant que citoyen, exiger d'un organisme public qu'il publie un code source ?
 
-Oui.
+Oui, si la publication de ce code source entre bien dans les
+obligations de l'administration. Ce [[https://code.gouv.fr/guides/juridique/][guide juridique]] donne les liens
+vers les textes pertinents.
 
 ** À qui appartiennent les droits d'auteur d'un logiciel développé par une administration ?
 
@@ -540,7 +586,25 @@ Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre entrée de blog au s
 - https://www.harmonyagreements.org
 
 ** Qu'est-ce qu'un Developer Certificate of Origin (DCO) ?
+
+Le /Developer Certificate of Origin/ est un texte que les contributeurs
+d'un projet libre sont invités à accepter /avant/ de contribuer: il
+donne la garantie au projet que le contributeur a fait toutes les
+vérifications nécessaires au sujet de sa contribution.
+
+Voir https://developercertificate.org qui est le texte du DCO pour le
+noyau Linux.
+
+Il est d'usage que la signature des commits (avec =git commit -s=)
+signifie que le contributeur accepte le DCO déclaré par le projet.
+
 ** Quel processus de contribution mettre en place pour mon projet libre ?
+
+Vous pouvez exiger un DCO et/ou un CLA (voir plus haut).
+
+La convention est de décrire les modalités de contribution en anglais
+dans un fichier =CONTRIBUTING.md= à la racine du dépôt.
+
 ** En tant qu'agent, ai-je le droit de contribuer à un projet libre ?
 
 Oui, si votre responsable est d'accord, il n'y a aucun obstacle à ce
@@ -548,6 +612,7 @@ que vous puissiez contribuer à des logiciels libres sur votre temps de
 travail.
 
 ** Comment mettre fin à un projet libre ?
+
 * Ressources
   :PROPERTIES:
   :EXPORT_FILE_NAME: ressources.md
