@@ -215,6 +215,28 @@ publics.
 seront utilisées pour l'interface d'exploration des codes sources
 [[https://code.gouv.fr/public/][code.gouv.fr/public/]].
 
+** Quels points vérifier avant d'ouvrir un code source existant ?
+
+Juridique :
+
+- Les licences des dépendances appelées par votre code source.
+- Les licences des codes sources modifiés et/ou améliorés par votre code.
+- Quelles licences pouvez/voulez-vous utiliser pour votre code ?
+- Vos licences choisies sont-elles bien déclarées dans votre code (cf.
+  les conventions de https://reuse.software) ?
+
+Sécurité :
+
+- Est-ce que l'historique Git de votre dépôt contient des données sensibles ?
+- Avez-vous testé les éléments de sécurité de votre code ?
+
+Documentation :
+
+- Avez-vous une documentation pour l'utilisateur final ?
+- Avez-vous une documentation pour l'administrateur système ?
+- Avez-vous une documentation pour les contributeurs ?
+
+** Comment construire une communauté open source autour de son projet ?
 ** Une administration peut-elle faire de l'« inner source » ?
 
 La notion d'/innersource/ désigne l'adoption des pratiques de
