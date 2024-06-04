@@ -1,8 +1,8 @@
 #+title: Logiciels libres et administration publique
 #+subtitle: Utiliser, publier, contribuer, définir et déployer une stratégie
 #+author: Équipe de la mission logiciels libres
-#+language: fr
 #+options: toc:t
+#+language: fr
 
 * Préambule
   :PROPERTIES:
