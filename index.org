@@ -14,7 +14,7 @@ Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logi
 
 Sa rédaction est collaborative : tous les organismes publics ayant une
 expertise sur les logiciels libres, qu'ils en utilisent, y contribuent
-ou en publient, sont invités à faire évoluer cette documentation.
+ou en publient, sont invités à faire évoluer ces contenus.
 
 Les sujets abordés portent sur ce qui distingue un logiciel libre : il
 ne sera pas directement question de logiciels sous licence non libre,
