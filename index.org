@@ -82,6 +82,8 @@ Pour savoir si le code source d'un logiciel développé et utilisé par
 votre organisme public est communicable, nous vous invitons à tester
 ce [[https://guide-juridique-logiciel-libre.etalab.gouv.fr/][guide juridique interactif]].
 
+*** Licences : les indispensables à connaître
+
 ** Quels degrés d'ouverture pour les codes sources ?
 
 - *📘 Niveau A - contributif :* Le code source est publié, les contributions
@@ -510,8 +512,36 @@ communauté [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][B
 
 ** Comment créer un SBOM ("software bill of materials") ?
 ** Comment détecter et effacer des secrets dans mon historique Git ?
-** Qu'est-ce que le "copyleft" ?
+** Qu'est-ce que le « copyleft » ?
+
+Le mot « copyleft » est un jeu de mots avec le mot « copyright » (le droit
+d’auteur aux États-Unis). Ce terme est révélateur du mouvement du logiciel
+libre qui, au lieu de se battre contre le /copyright/, a utilisé ses mécanismes
+de protection des œuvres pour garantir les [[https://www.gnu.org/philosophy/free-sw.fr.html#four-freedoms][libertés essentielles des
+utilisateurs logiciels]]. Le /copyleft/ va plus loin que de simplement donner les
+quatre libertés aux logiciels ; il les protège en garantissant l’interdiction
+d’ajout de restrictions aux redistributions et contributions du logiciels.
+
+La [[https://www.gnu.org/licenses/gpl-3.0.en.html][licence GPL]] est l’exemple paradigmatique d’une licence copyleft. Le domaine
+public l’est aussi, bien qu’il ne soit pas une licence en tant que telle, mais
+un statut juridique en droit de la propriété intellectuelle.
+
+Les licences copyleft se distinguent des licences permissives qui, elles,
+n’interdisent pas l’ajout de restrictions.
+
 ** Quelle est la différence entre copyleft faible et fort ?
+La notion de copyleft /faible/ ou /fort/ se réfère aux obligations plus ou
+moins fortes appliquées aux œuvres dérivées.
+
+Le copyleft /fort/ impose que la redistribution de l’œuvre, modifiée ou non,
+ainsi que des nouveaux composants, doit se faire sous la même licence. A
+contrario, le copyleft /faible/ n’impose pas les nouveaux composants à être
+distribués sous la même licence.
+
+Le copyleft faible est souvent utilisé pour les librairies logiciels qui
+permet une réutilisation plus simple de la librairie et d’ajouter des
+composants logiciels sous différentes licences, potentiellement privatrices.
+
 ** Sous quelle licence dois-je publier ma documentation ?
 
 Le code source d'un projet d'une administration doit être publié sous
