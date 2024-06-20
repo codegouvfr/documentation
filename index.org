@@ -541,6 +541,10 @@ Soit B le fork du code source A : le fork B (ou la « dérivation » B)
 est une nouvelle version de A dont les version successives (B2, B3,
 etc.) s'écarteront des versions successives de A (A2, A3, etc.)
 
+Autrement dit, un fork est une copie du code source d’un projet sur lequel des
+personnes peuvent contribuer au code sans être dépendantes des mainteneurs du
+projet originel.
+
 Un fork est généralement créé lorsque les contributeurs d'un projet
 sont en désaccord et qu'une partie des contributeurs décide de créer
 une version divergente.
@@ -565,6 +569,11 @@ obligations de publication des codes sources ne se confondent pas.
 Oui.
 
 ** Où trouver des entreprises capables de développer un logiciel libre ?
+
+Il n’y a pas de catalogue centralisé exhaustif, mais des initiatives
+existent. Notamment, le [[https://cnll.fr/][CNLL]] regroupe les principales associations et
+entreprises de l’écosystème open source en France.
+
 ** Puis-je interdire la réutilisation commerciale des codes sources publiés ?
 
 Non, toutes les licences libres que vous pouvez utiliser pour publier
