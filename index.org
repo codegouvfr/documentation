@@ -614,6 +614,20 @@ votre code source autorisent la réutilisation commerciale de ce code.
 Pas encore.
 
 ** Quelle est la différence entre GitHub et GitLab ?
+La principale différence entre GitHub et Gitlab se trouve dans la licence et le
+modèle économique.
+
+GitHub est un logiciel propriétaire ; son code n’est ni visible, ni
+modifiable. GitLab est un logiciel tout au plus open source, sous la licence
+MIT, ou, a minima, /source available/. Cela signife que l’on peut voir et
+étudier le code source, mais on ne peut pas le réutiliser librement.
+
+GitHub a un modèle très classique : c’est une platforme basée sur un logiciel
+propriétaire. GitLab a un modèle dit /open core/ : une version du logiciel
+communautaire open source ([[https://gitlab.com/rluna-gitlab/gitlab-ce][GitLab CE]]), et une version plus complète avec des
+fonctionnalités supplémentaires propriétaires payantes disponible sous une
+licence /source available/.
+
 ** Qu'est-ce que SourceHut et pourquoi publier sur cette forge ?
 
 Voir notre entrée de blog :
