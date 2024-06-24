@@ -643,8 +643,21 @@ licence /source available/.
 
 ** Qu'est-ce que SourceHut et pourquoi publier sur cette forge ?
 
-Voir notre entrée de blog :
-https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut.
+Lire notre [[https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut][entrée de blog à ce sujet]].
+
+Pour résumer, voici les raisons :
+
+- Le service sr.ht (proposé par SourceHut) utilise uniquement des
+  logiciels entièrement libre.
+- Parmi les forges dont le code source est entièrement libre, SourceHut
+  est la seule qui propose à la fois de l'intégration continue et des
+  listes de discussion.
+- Si vous voulez contribuer à un projet, vous n'avez pas besoin de créer
+  de compte sur SourceHut : il suffit d'une adresse de courriel pour
+  envoyer des correctifs et proposer des idées.
+- SourceHut et son service sr.ht ne collecte aucune donnée de ses
+  utilisateurs.
+
 
 ** En tant qu'administration, comment soutenir un projet libre ?
 ** Comment aborder le sujet de la communication au sein d'un projet de logiciel libre ?
