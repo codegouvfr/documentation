@@ -12,6 +12,14 @@
 Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de la
 [[https://www.numerique.gouv.fr/][direction interministérielle du numérique]].
 
+Elle s’adresse à plusieurs audience :
+
+- Les équipes métier et chefs de projet qui souhaitent publier code
+  source de leurs projets et applications sous licence libre
+- Les DSI pour l’utilisation des logiciels libres dans leur SI
+- Aux directeurs d’aministration et les équipes métier prêtes à
+  s’investir dans la création dans un /Open Source Program Office/ (OSPO)
+
 Sa rédaction est collaborative : tous les organismes publics ayant une
 expertise sur les logiciels libres, qu'ils en utilisent, y contribuent
 ou en publient, sont invités à faire évoluer ces contenus.
@@ -130,6 +138,10 @@ proposées pour aider à *prioriser les ouvertures logicielles*. Le but
 est de *canaliser votre énergie* sur les logiciels qui ont un bon
 potentiel contributif et *de communiquer clairement* sur la posture de
 l'administration dans le cas des publications simples.
+
+** Référencement et standardisation
+- TODO
+  - ajouter éléments sur publicode.yml (et codemeta.json)
 
 *** Exemples de mise en oeuvre
 
