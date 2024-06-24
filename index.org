@@ -512,6 +512,19 @@ communauté [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][B
 
 ** Comment créer un SBOM ("software bill of materials") ?
 ** Comment détecter et effacer des secrets dans mon historique Git ?
+
+Adopter les bonnes pratiques dès la création du dépôt git est
+crucial. Ces bonnes pratiques sont nombreuses, mais notamment utiliser
+des variables d’environnements pour les secrets plutôt que de les écrire
+noir sur blanc dans les fichiers committés.
+
+Néanmoins, si l’erreur a était faite, ou que le projet était d’abord
+fermé et cherche maintenant à s’ouvrir, il existe certains outils :
+
+- [[https://github.com/trufflesecurity/trufflehog][TruffleHog]] sous AGPL
+- [[https://github.com/gitleaks/gitleaks][Gitleaks]] sous MIT
+- [[https://github.com/Yelp/detect-secrets][Detect Secrets]] sous Apache 2
+
 ** Qu'est-ce que le « copyleft » ?
 
 Le mot « copyleft » est un jeu de mots avec le mot « copyright » (le droit
