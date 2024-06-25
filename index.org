@@ -35,8 +35,66 @@ valent, pour certains, quelle que soit la licence des logiciels.
   :END:
 
 ** Trouver des solutions libres
+Pour trouver des solutions libres, plusieurs approches existent, toutes
+aussi imparfaites les unes que les autres.
+
+D’abord, pour l’administration publique, la mission logiciels libres
+recense des logiciels libres sur trois pages web :
+- [[https://code.gouv.fr/sill][code.gouv.fr/sill]] permet d’identifier facilement quels sont les
+  logiciels libres utilisés par l’adiministration, leur version
+  utilisée, et d’avoir un référent du logiciel à contacter pour avoir
+  plus d’informations. Nous vous recommandons de commencer par là.
+- [[https://code.gouv.fr/fr/awesome/][code.gouv.fr/awesome]] liste les logiciels libres développés par les
+  administrations à fort potentiel de réutilisation.
+- [[https://code.gouv.fr/sources][code.gouv.fr/sources]] liste de manière centralisée les dépôts de codes
+  sources développés ou achetés par l’administration ainsi que les
+  organisations disponibles sur les forges. Le site permet de parcourir
+  et trier les données en fonction de multiples critères.
 ** Trouver de l'expertise sur une solution libre
+Le site mentionné plus haut ([[https://code.gouv.fr/sill][code.gouv.fr/sill]]) est un excellent point
+de départ pour les adiministrations. Non seulement vous pouvez contacter
+le référent ou la référente du logiciel libre qui, de fait, le connaît
+et l’utilise dans son administration, mais le site recense aussi des
+prestataires sur le logiciel en particulier capables de vous fournir de
+l’expertise.
+
+[[https://code.gouv.fr/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/][Les marchés interministériels support et exprite à l’usage des logiciels
+libres]] est aussi une bonne ressource.
+
+De façon plus gérénale, il existe plusieurs consortiums et ensembles
+d’organisations qui tentent de rassembler l’expertise sur les solutions
+libres. On notera de façon non-exhaustive :
+- le [[https://cnll.fr/][CNLL]] : regroupe les principales associations et entreprises de
+  l’écosystème open source en France.
+- [[https://www.opensource-experts.com/][Open source experts]] (OSE) : plusieurs entreprises du libre se sont
+ rassemblées pour créer un guichet unique
+
 ** Savoir si on peut faire évoluer une solution libre
+Là est toute la force du logiciel libre. Vous êtes libre de prendre le
+code et de l’adapter à vos besoins spécifiques (tant que vous respectez
+la licence) et anisi potentiellement contribuer à son amélioration pour
+le bénéfice de tous.
+
+Cette liberté a des répercussions économiques bénéfiques puisque
+n’importe qu’elle peut apporter du support au logiciel, et chaque
+entreprise ou individu apportant leurs contributions mutualisent la
+charge de travail.
+
+La réponse est donc un grand *oui* ! Il est tout à fait possible de
+faire évoluer une solution libre. Pour savoir comment le faire, vous
+pouvez vous référer [[*Trouver des solutions libres][sections ci-dessus.]]
+
+
+
+** Se répérer dans l’écosytème logiciel libre et open source
+
+*** Dans l’administration
+
+*** Hors administration
+
+** Quelle attention au modèle économique ?
+
+*** Des /success stories/
 
 * Publier un code source
   :PROPERTIES:
@@ -162,6 +220,11 @@ l'administration dans le cas des publications simples.
 Chaque organisme peut tenter de prioriser les logiciels à ouvrir
 en fonction de ces critères.
 
+** Bonnes pratiques de gouvernance
+
+** Bonnes pratiques de communication
+
+** Bonnes pratiques pour la documentation
 ** Bonnes pratiques de nommage des organisations/groupes et dépôts
 
 Un bon nom de dépôt décrit la finalité du code source du dépôt.
@@ -180,8 +243,8 @@ Exemple de mauvais nom : https://github.com/DISIC/ car il était prévisible qu
 
 Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
-** Bonnes pratiques de publication
-** Bonnes pratiques pour la documentation
+p** Bonnes pratiques de publication
+** Métriques de qualité d’un projet libre
 ** Les politiques ministérielles déjà publiées
 
 * Monter un Open Source Programme Office
@@ -236,6 +299,21 @@ des différents sujets.
 ** Un exemple de contribution à un logiciel libre
 ** Un exemple d'Open Source Programme Office
 ** Trajectoires possibles pour un logiciel libre né dans l'administration
+
+* Modèles de dépôts git exemplaires
+- généralités:
+  - Exmplaire sur les messages de commit en anglais
+  - Exemplaire sur la doc utilisateur en français
+  - Exemplaire sur la doc dev en anglais
+  - Exemplaire sur les noms de variable dans la langue du référentiel (FR, EN)
+  - Exemplaire sur les commentaires dans le code qui sont en anglais
+
+** Pour une librairie
+
+** Pour une startup d’État
+
+** Pour un projet d’intérêt général sensible
+- utiliser la licence AGPL
 
 * Foire aux questions
   :PROPERTIES:
