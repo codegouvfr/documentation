@@ -86,15 +86,15 @@ pouvez vous référer [[*Trouver des solutions libres][sections ci-dessus.]]
 
 
 
-** Se répérer dans l’écosytème logiciel libre et open source
+** NEXT Se répérer dans l’écosytème logiciel libre et open source
 
-*** Dans l’administration
+*** NEXT Dans l’administration
 
-*** Hors administration
+*** NEXT Hors administration
 
-** Quelle attention au modèle économique ?
+** NEXT [#A] Quelle attention au modèle économique ?
 
-*** Des /success stories/
+*** NEXT Des /success stories/
 
 * Publier un code source
   :PROPERTIES:
@@ -197,7 +197,7 @@ est de *canaliser votre énergie* sur les logiciels qui ont un bon
 potentiel contributif et *de communiquer clairement* sur la posture de
 l'administration dans le cas des publications simples.
 
-** Référencement et standardisation
+** NEXT Référencement et standardisation
 - TODO
   - ajouter éléments sur publicode.yml (et codemeta.json)
 
@@ -220,11 +220,11 @@ l'administration dans le cas des publications simples.
 Chaque organisme peut tenter de prioriser les logiciels à ouvrir
 en fonction de ces critères.
 
-** Bonnes pratiques de gouvernance
+** NEXT Bonnes pratiques de gouvernance
 
-** Bonnes pratiques de communication
+** NEXT Bonnes pratiques de communication
 
-** Bonnes pratiques pour la documentation
+** NEXT Bonnes pratiques pour la documentation
 ** Bonnes pratiques de nommage des organisations/groupes et dépôts
 
 Un bon nom de dépôt décrit la finalité du code source du dépôt.
@@ -243,22 +243,22 @@ Exemple de mauvais nom : https://github.com/DISIC/ car il était prévisible qu
 
 Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
-p** Bonnes pratiques de publication
-** Métriques de qualité d’un projet libre
-** Les politiques ministérielles déjà publiées
+** NEXT Bonnes pratiques de publication
+** NEXT Métriques de qualité d’un projet libre
+** NEXT Les politiques ministérielles déjà publiées
 
 * Monter un Open Source Programme Office
   :PROPERTIES:
   :EXPORT_FILE_NAME: ospo.md
   :END:
 
-** Définir une stratégie logiciels libres
+** NEXT Définir une stratégie logiciels libres
 
 Une stratégie logiciels libres explique la façon dont vous allez
 *utiliser* des logiciels libres, *développer* des logiciels libres et
 *contribuer* à l'écosystème existant.
 
-** Qu'est-ce qu'un "Open Source Programme Office"?
+** NEXT Qu'est-ce qu'un "Open Source Programme Office"?
 
 Voir https://code.gouv.fr/fr/blog/definition-ospo/.
 
@@ -294,11 +294,11 @@ Voici une liste de « politiques logiciels libres » :
 Cette section viendra documenter des exemples utiles à l'illustration
 des différents sujets.
 
-** Un exemple d'utilisation d'un logiciel libre
-** Un exemple de publication d'un code source
-** Un exemple de contribution à un logiciel libre
-** Un exemple d'Open Source Programme Office
-** Trajectoires possibles pour un logiciel libre né dans l'administration
+** NEXT Un exemple d'utilisation d'un logiciel libre
+** NEXT Un exemple de publication d'un code source
+** NEXT Un exemple de contribution à un logiciel libre
+** NEXT Un exemple d'Open Source Programme Office
+** NEXT Trajectoires possibles pour un logiciel libre né dans l'administration
 
 * Modèles de dépôts git exemplaires
 - généralités:
@@ -308,11 +308,11 @@ des différents sujets.
   - Exemplaire sur les noms de variable dans la langue du référentiel (FR, EN)
   - Exemplaire sur les commentaires dans le code qui sont en anglais
 
-** Pour une librairie
+** NEXT Pour une librairie
 
-** Pour une startup d’État
+** NEXT Pour une startup d’État
 
-** Pour un projet d’intérêt général sensible
+** NEXT Pour un projet d’intérêt général sensible
 - utiliser la licence AGPL
 
 * Foire aux questions
@@ -353,7 +353,7 @@ Documentation :
 - Avez-vous une documentation pour l'administrateur système ?
 - Avez-vous une documentation pour les contributeurs ?
 
-** Comment construire une communauté open source autour de son projet ?
+** NEXT Comment construire une communauté open source autour de son projet ?
 ** Une administration peut-elle faire de l'« inner source » ?
 
 La notion d'/innersource/ désigne l'adoption des pratiques de
@@ -749,7 +749,7 @@ un guichet unique : [[https://www.opensource-experts.com/][Open source experts]]
 Non, toutes les licences libres que vous pouvez utiliser pour publier
 votre code source autorisent la réutilisation commerciale de ce code.
 
-** Avez-vous un dépôt Git exemplaire ?
+** NEXT Avez-vous un dépôt Git exemplaire ?
 
 Pas encore.
 
@@ -793,9 +793,9 @@ Pour résumer, voici les raisons :
   utilisateurs.
 
 
-** En tant qu'administration, comment soutenir un projet libre ?
-** Comment aborder le sujet de la communication au sein d'un projet de logiciel libre ?
-** Comment faire connaître le logiciel libre que mon administration développe ?
+** NEXT En tant qu'administration, comment soutenir un projet libre ?
+** NEXT Comment aborder le sujet de la communication au sein d'un projet de logiciel libre ?
+** NEXT Comment faire connaître le logiciel libre que mon administration développe ?
 
 Vous pouvez consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des
 pistes.
@@ -871,7 +871,7 @@ Oui, si votre responsable est d'accord, il n'y a aucun obstacle à ce
 que vous puissiez contribuer à des logiciels libres sur votre temps de
 travail.
 
-** Comment mettre fin à un projet libre ?
+** NEXT Comment mettre fin à un projet libre ?
 
 * Ressources
   :PROPERTIES:
