@@ -638,7 +638,7 @@ sous licence permissive, les copyleft peuvent l'obliger à respecter
 certaines obligations.
 
 Ces obligations diffèrent selon que la licence est à copyleft [[*Quelle est la différence entre copyleft faible et fort ?][faible
-ou fort]]. 
+ou fort]].
 
 Certains jugent préférables d'utiliser des licences à copyleft fort,
 d'autres d'utiliser des licences permissives.
@@ -656,17 +656,26 @@ source X qui reste sous sa licence permissive, à compter que le ou les
 auteurs ne changent pas sa licence.
 
 ** Quelle est la différence entre copyleft faible et fort ?
-La notion de copyleft /faible/ ou /fort/ se réfère aux obligations plus ou
-moins fortes appliquées aux personnes voulant redistribuer une œuvre.
+La notion de copyleft /faible/ ou /fort/ se réfère aux obligations plus
+ou moins fortes appliquées aux personnes voulant redistribuer une œuvre.
 
-Le copyleft /fort/ impose que la redistribution de l’œuvre, modifiée ou non,
-ainsi que des nouveaux composants, doit se faire sous la même licence. A
-contrario, le copyleft /faible/ n’impose pas les nouveaux composants à être
-distribués sous la même licence.
+Le copyleft /fort/ impose que la redistribution de l’œuvre, modifiée ou
+non, ainsi que les logiciels liés, doit se faire sous la même licence,
+(ou une licence à copyleft fort compatible). A contrario, le copyleft
+/faible/ n’impose pas les logiciels liés à être distribués sous la même
+licence, mais impose toute redistribution du logiciel à l’être sous la
+même licence (ou une licence compatible).
+
+Un logiciel lié désigne tout composant assemblé avec le logiciel final
+lors de l’édition de lien (quelle soit dynamique ou statique). En
+générale, ce sont des bibliothèques logiciels qui, seules n’ont pas de
+grande utilité, répondant à des fonctions de bases, mais nécessaires au
+fonctionnement d’un logiciel complet.
 
 Le copyleft faible est souvent utilisé pour les librairies logiciels qui
 permet une réutilisation plus simple de la librairie et d’ajouter des
-composants logiciels sous différentes licences, potentiellement privatrices.
+composants logiciels sous différentes licences, potentiellement
+privatrices.
 
 ** Sous quelle licence dois-je publier ma documentation ?
 
