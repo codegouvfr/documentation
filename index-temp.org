@@ -85,7 +85,7 @@ l’expertise.
 [[https://code.gouv.fr/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/][Les marchés interministériels support et exprite à l’usage des logiciels
 libres]] est aussi une bonne ressource.
 
-De façon plus gérénale, il existe plusieurs consortiums et ensembles
+De façon plus générale, il existe plusieurs consortiums et ensembles
 d’organisations qui tentent de rassembler l’expertise sur les solutions
 libres. On notera de façon non-exhaustive :
 - le [[https://cnll.fr/][CNLL]] : regroupe les principales associations et entreprises de
@@ -93,33 +93,44 @@ libres. On notera de façon non-exhaustive :
 - [[https://www.opensource-experts.com/][Open source experts]] (OSE) : plusieurs entreprises du libre se sont
  rassemblées pour créer un guichet unique
 
-** Savoir si on peut faire évoluer une solution libre
+** Faire évoluer une solution libre
 Là est toute la force du logiciel libre. Vous êtes libre de prendre le
 code et de l’adapter à vos besoins spécifiques (tant que vous respectez
-la licence) et anisi potentiellement contribuer à son amélioration pour
+la licence) et ainsi potentiellement contribuer à son amélioration pour
 le bénéfice de tous.
 
 Cette liberté a des répercussions économiques bénéfiques puisque
-n’importe qu’elle peut apporter du support au logiciel, et chaque
+n’importe qui peut apporter du support au logiciel, et chaque
 entreprise ou individu apportant leurs contributions mutualisent la
 charge de travail.
 
-La réponse est donc un grand *oui* ! Il est tout à fait possible de
-faire évoluer une solution libre. Pour savoir comment le faire, vous
-pouvez vous référer [[*Trouver des solutions libres][sections ci-dessus.]]
-
-
-** NEXT Bonnes pratiques de publication
-- Quelles sont les bonnes pratiques de publications ?
-- Voir good governance handbook
-- Mettre README.md, CONTRIBUTING.md, LICENCE.md
-
-** NEXT Bonnes pratiques pour la documentation
-- Les bonnes pratiques pour la documentatition
-- writesthedocs
+Il est donc *tout à fait possible de faire évoluer une solution libre*. Pour
+savoir comment le faire, vous pouvez vous référer [[*Trouver des solutions libres][sections ci-dessus.]]
 
 ** NEXT Les politiques ministérielles déjà publiées
-** NEXT Se répérer dans l’écosytème logiciel libre et open source
+
+Vous pouvez lire notre [[https://code.gouv.fr/fr/blog/lengagement-des-ministeres-sur-louverture-des-codes-sources-et-lutilisation-de-logiciels-libres-retour-sur-les-feuilles-de-route-publiees-en-septembre-2021/][entrée de blog sur le sujet]]. Pour résumé, voici
+une liste des politique ministérielles déjà publiées concernant le
+logiciel libre :
+
+- [[https://www.data.gouv.fr/fr/datasets/r/ff2c204d-4a92-417c-be2a-12e8d4c2b2a6][Ministère de la Cohésion des Territoires et des Relations avec les Collectivités Territoriales]]
+- [[https://www.data.gouv.fr/fr/datasets/r/b02f6070-2473-4873-8dc3-c3da71d6a0be][Ministère des Solidarités et de la Santé]]
+- [[https://www.data.gouv.fr/fr/datasets/r/25f0f375-df81-4cc5-8eae-c277a729923f][ministère de la Transition Écologique]]
+- [[https://www.data.gouv.fr/fr/datasets/r/953b4f68-63fa-45fd-b1f6-ab868203e7f0][ministère de l’Agriculture et de l’Alimentation]]
+- [[https://www.data.gouv.fr/fr/datasets/r/7cd10fc7-11c2-4485-996c-d718c184efcf][ministère de l’Intérieur]]
+- [[https://www.data.gouv.fr/fr/datasets/r/81d2c866-c2ba-4204-9f2c-a6da16423248][ministère de la Justice]]
+- [[https://www.data.gouv.fr/fr/datasets/r/561b8f8f-9fe1-4d2e-8dbf-c4212b7f7d7f][ministère de l’Économie, des Finances et de la Relance]]
+- [[https://www.data.gouv.fr/fr/datasets/r/be61f13d-06d6-40ea-87dd-df7b2918f2e2][ministère de l’Enseignement Supérieur, de la Recherche et del’Innovation]]
+- [[https://www.data.gouv.fr/fr/datasets/r/03b43dc4-b92f-4d40-9b7e-598dcd61c420][ministère de la Transformation et de la Fonction publiques]]
+- [[Services du Premier ministre][Services du Premier ministre]]
+- [[https://www.data.gouv.fr/fr/datasets/r/2332ad66-0344-4325-ba71-e65517318e22][ministère de la Culture]]
+- [[https://www.data.gouv.fr/fr/datasets/r/25f0f375-df81-4cc5-8eae-c277a729923f][ministère de la Transition Écologique]]
+- [[https://www.data.gouv.fr/fr/datasets/r/e9174d55-3ad6-4959-a40b-5818f829fd7f][ministère du Travail, de l’Emploi et de l’Insertion]]
+- [[https://www.data.gouv.fr/fr/datasets/r/0b7e6089-9100-47ba-bc15-ea17013da4ed][ministère de l’Éducation nationale, de la Jeunesse et des Sports]]
+- [[https://www.data.gouv.fr/fr/datasets/r/be61f13d-06d6-40ea-87dd-df7b2918f2e2][ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation]]
+
+
+** NEXT Se repérer dans l’écosystème logiciel libre et open source
 
 *** NEXT Dans l’administration
 
