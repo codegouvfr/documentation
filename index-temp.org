@@ -85,16 +85,27 @@ faire évoluer une solution libre. Pour savoir comment le faire, vous
 pouvez vous référer [[*Trouver des solutions libres][sections ci-dessus.]]
 
 
+** NEXT Bonnes pratiques de publication
+- Quelles sont les bonnes pratiques de publications ?
+- Voir good governance handbook
+- Mettre README.md, CONTRIBUTING.md, LICENCE.md
 
+** NEXT Bonnes pratiques pour la documentation
+- Les bonnes pratiques pour la documentatition
+- writesthedocs
+
+** NEXT Les politiques ministérielles déjà publiées
 ** NEXT Se répérer dans l’écosytème logiciel libre et open source
 
 *** NEXT Dans l’administration
 
 *** NEXT Hors administration
 
-** NEXT [#A] Quelle attention au modèle économique ?
+** STRT [#A] Quelle attention au modèle économique ?
 
 *** NEXT Des /success stories/
+
+** NEXT Le marché public pour le logiciel libre
 
 * Publier un code source
   :PROPERTIES:
@@ -872,6 +883,12 @@ que vous puissiez contribuer à des logiciels libres sur votre temps de
 travail.
 
 ** NEXT Comment mettre fin à un projet libre ?
+
+** NEXT Comment faire pour démarer la démarche d’ouverture du code source
+
+** NEXT Comment intéragir avec la DSI dans le cadre de l’ouverture d’un code source ?
+
+** NEXT [#A] Qu’est-ce que cela apporte au-delà du respect de la législation ?
 
 * Ressources
   :PROPERTIES:
