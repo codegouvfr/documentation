@@ -678,10 +678,10 @@ licence, mais impose toute redistribution du logiciel à l’être sous la
 même licence (ou une licence compatible).
 
 Un logiciel lié désigne tout composant assemblé avec le logiciel final
-lors de l’édition de lien (quelle soit dynamique ou statique). En
-générale, ce sont des bibliothèques logicielles qui, seules n’ont pas de
-grande utilité, répondant à des fonctions de bases, mais nécessaires au
-fonctionnement d’un logiciel complet.
+lors de l’édition de lien. En générale, ce sont des bibliothèques
+logicielles qui, seules n’ont pas de grande utilité, répondant à des
+fonctions de bases, mais nécessaires au fonctionnement d’un logiciel
+complet.
 
 Le copyleft faible est souvent utilisé pour les bibliothèques logicielles qui
 permet une réutilisation plus simple de la bibliothèque et d’ajouter des
