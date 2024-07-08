@@ -38,18 +38,42 @@ valent, pour certains, quelle que soit la licence des logiciels.
 Pour trouver des solutions libres, plusieurs approches existent, toutes
 aussi imparfaites les unes que les autres.
 
-D’abord, pour l’administration publique, la mission logiciels libres
+D’abord, pour les administrations publiques, la mission logiciels libres
 recense des logiciels libres sur trois pages web :
-- [[https://code.gouv.fr/sill][code.gouv.fr/sill]] permet d’identifier facilement quels sont les
-  logiciels libres utilisés par l’adiministration, leur version
-  utilisée, et d’avoir un référent du logiciel à contacter pour avoir
-  plus d’informations. Nous vous recommandons de commencer par là.
+- [[https://code.gouv.fr/sill][code.gouv.fr/sill]] permet d’identifier facilement les logiciels libres
+  utilisés par l’administration, leur version utilisée, et d’avoir un
+  référent du logiciel à contacter pour avoir plus d’informations. Nous
+  vous recommandons de commencer par là.
 - [[https://code.gouv.fr/fr/awesome/][code.gouv.fr/awesome]] liste les logiciels libres développés par les
   administrations à fort potentiel de réutilisation.
 - [[https://code.gouv.fr/sources][code.gouv.fr/sources]] liste de manière centralisée les dépôts de codes
   sources développés ou achetés par l’administration ainsi que les
   organisations disponibles sur les forges. Le site permet de parcourir
-  et trier les données en fonction de multiples critères.
+  et de trier les données en fonction de multiples critères.
+
+Ensuite, l’utilisation des moteurs de recherches classiques font
+généralement l’affaire. Avec l’utilisation des mots clefs « open source »
+et « logiciel libre », les résultats sont satisfaisants. Néanmoins, des
+recherches plus abouties sont nécessaires : aller sur le site web
+principal du logiciel, vérifier si la licence est indiqué ; mieux
+encore, trouver le dépôt de code source du logiciel et vérifier à la
+source quelle licence est apposée sur le logiciel.
+
+Enfin, il est aussi possible d’aller voir sur des platformes telles que
+github.com, gitlab.com, sr.ht (sourcehut), mais aussi des platformes
+spécialisées pour un langage comme [[https://pypi.org/][pypi.org]] (Python) ou [[https://www.npmjs.com/][npmjs.com]]
+(JavaScript) pour trouver des modules logiciels.
+
+!> *Attention*, la présence d’un dépôt logiciel sur ces platformes
+n’implique en aucun cas l’existence d’une licence libre ; il faut
+toujours vérifier sur le dépôt officiel (ou le site web officiel) la
+licence apposée sur le code. Même un code source sur github.com avec
+tous les éléments nécessaires pour télécharger, compiler, et faire
+tourner le logiciel sur votre machine n’implique pas un logiciel
+libre. *Si il n’y a pas de licence libre, ou toute autre licence
+explicitant vos libertés, vous n’avez pas le droit de copier, modifier,
+redistribuer le logiciel*.
+
 ** Trouver de l'expertise sur une solution libre
 Le site mentionné plus haut ([[https://code.gouv.fr/sill][code.gouv.fr/sill]]) est un excellent point
 de départ pour les adiministrations. Non seulement vous pouvez contacter
@@ -102,6 +126,18 @@ pouvez vous référer [[*Trouver des solutions libres][sections ci-dessus.]]
 *** NEXT Hors administration
 
 ** STRT [#A] Quelle attention au modèle économique ?
+
+*** Pour les administrations
+
+*** Pour les entreprises
+
+[[https://hal.science/hal-03454801/document][Nicolas Jullien, Robert Viseur. Les stratégies open-sources selon le
+paradigme des modèles économiques. Systèmes d’Information et Management,
+2021, 26 (3), pp.67-103. 10.3917/sim.213.0067. hal-03454801]]
+
+Voir cet étude notamment, en particulier le tableau page 23 qui
+identifie 8 modèles économiques différents en fonction des différents
+modes de captation de valeur et des types d’activités.
 
 *** NEXT Des /success stories/
 
