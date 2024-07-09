@@ -104,7 +104,6 @@ libres. On notera de façon non-exhaustive :
   l’écosystème open source en France.
 - [[https://www.opensource-experts.com/][Open source experts]] (OSE) : plusieurs entreprises du libre se sont
  rassemblées pour créer un guichet unique
-
 ** Faire évoluer une solution libre
 Là est toute la force du logiciel libre. Vous êtes libre de prendre le
 code et de l’adapter à vos besoins spécifiques (tant que vous respectez
@@ -119,10 +118,10 @@ charge de travail.
 Il est donc *tout à fait possible de faire évoluer une solution libre*. Pour
 savoir comment le faire, vous pouvez vous référer [[*Trouver des solutions libres][sections ci-dessus.]]
 
-** NEXT Les politiques ministérielles déjà publiées
+** Les politiques ministérielles déjà publiées
 
 Vous pouvez lire notre [[https://code.gouv.fr/fr/blog/lengagement-des-ministeres-sur-louverture-des-codes-sources-et-lutilisation-de-logiciels-libres-retour-sur-les-feuilles-de-route-publiees-en-septembre-2021/][entrée de blog sur le sujet]]. Pour résumé, voici
-une liste des politique ministérielles déjà publiées concernant le
+une liste des politiques ministérielles déjà publiées concernant le
 logiciel libre :
 
 - [[https://www.data.gouv.fr/fr/datasets/r/ff2c204d-4a92-417c-be2a-12e8d4c2b2a6][Ministère de la Cohésion des Territoires et des Relations avec les Collectivités Territoriales]]
@@ -142,11 +141,95 @@ logiciel libre :
 - [[https://www.data.gouv.fr/fr/datasets/r/be61f13d-06d6-40ea-87dd-df7b2918f2e2][ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation]]
 
 
-** NEXT Se repérer dans l’écosystème logiciel libre et open source
+** Se repérer dans l’écosystème logiciel libre et open source
 
-*** NEXT Dans l’administration
+L’écosystème du logiciel libre peut être un peu déroutant au
+début. L’une des raisons principales et que, par philosophie, les
+acteurs du libre sont politiques. Cette vision politique, bien qu’elle
+ne représente pas tout le monde, tend vers la décentralisation des
+pouvoirs et combat les monopoles. Par conséquent, l’écosystème du libre
+tend à être très décentralisé, sans point unique où trouver toute les
+communautés, tous les logiciels, et toutes les ressources.
 
-*** NEXT Hors administration
+Cela étant dit, pour se repérer dans l’écosystème un certains nombres de
+points généraux peuvent aider :
+- Connaître et comprendre les [[https://fr.wikipedia.org/wiki/Logiciel_libre][fondements du logiciel libre]]
+- Connaître et comprendre [[*Licences : les indispensables à connaître][les indispensables des licences libres]]   
+  - Explorer les licences :
+    - [[https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses][Utiliser l’outil de comparaison des licences de l’UE]]
+    - Utiliser l’outil de [[https://code.gouv.fr/sources][code.gouv.fr/sources]] pour explorer les
+      licences les plus utilisées et créées par l’administration.
+- Explorer les communautés des différents logiciels ou écosystèmes qui
+  ont chacune des façons différentes d’interagir, de communiquer, de
+  participer (par exemple la [[https://www.debian.org/devel/constitution][constitution de la communauté
+  Debian]])
+- Suivre l’actualité du logiciel libre ([[https://code.gouv.fr/fr/bluehats/tags/gazette/][gazette BlueHats]], [[https://www.linux-magazine.com/][Linux
+  Magazine]], [[https://linuxfr.org/][LinuxFr.org]], [[https://lwn.net/][lwn.net]], les sites d’organisations et
+  associations sur le [[https://fediverse.party/][fediverse]] sur l’instance [[https://fosstodon.org/explore][fosstodon]], par exemple,
+  ou encore les lettres d’informations de Framasoft, de l’April, etc.)
+
+Une fois cette culture du libre acquise, il sera plus facile de se
+repérer et de rentrer en contact avec les différentes communautés.
+
+*** Dans l’administration
+
+Dans l’administration publique, il existe la communauté [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][BlueHats]]. Animée
+principalement par la DINUM avec des [[https://code.gouv.fr/fr/bluehats/tags/gazette/][ateliers]] et des [[https://code.gouv.fr/fr/bluehats/tags/rencontre/][rencontres]] où les
+administrations sont invitées à prendre part à ce mouvement, la
+communauté regroupe toutes les personnes contribuant aux logiciels
+libres développés et/ou utilisés par l'administration publique.
+
+*** Hors administration
+
+En dehors de l’administration publique, l’écosystème du logiciel libre
+est vivement animé par des associations et entreprises du libres.
+
+On notera les associations fondatrices du mouvement logiciel libre par
+la /[[https://www.fsf.org/][Free Software Foundation]]/, et de l’open source avec la /[[https://opensource.org/][Open Source
+Initiative]]/.
+
+Il y a des fondations structurantes de l’écosystème des logiciels libres
+orientées commerce et industrie :
+- [[HTTPS://www.linuxfoundation.org/][Linux Foundation]], un consortium à but non lucratif visant à protéger
+  et standardiser le noyaux Linux en procurant les ressources pour
+  concurrencer les autres systèmes d'exploitation.
+- [[https://www.ow2.org/][OW2]], un consortium visant à développer une base de logiciel
+  d’infrastructure open source.
+- [[https://www.apache.org/][Apache Software Foundation]], dont le projet emblématique est le [[https://fr.wikipedia.org/wiki/Apache_HTTP_Server][serveur
+  HTTP Apache]] et [[https://fr.wikipedia.org/wiki/Licence_Apache][sa licence]], est une communauté de développeurs open
+  source.
+- La [[https://www.mozilla.org/fr/][Mozilla Foundation]], dont le projet emblématique est Firefox et sa
+  [[https://fr.wikipedia.org/wiki/Mozilla_Public_License][licence MPL]], vise à promouvoir un internet sûr et ouvert pour tous
+  en suivant [[https://www.mozilla.org/fr/about/manifesto/][son manifeste]].
+
+Aussi, plusieurs fondations et associations soutiennent un projet en
+particulier :
+- [[https://www.documentfoundation.org/][The Document Foundation]] portant le projet LibreOffice et le format
+  ouvert [[https://opendocumentformat.org/][ODF]].
+- [[https://foundation.gnome.org/][GNOME Foundation]] portant le projet [[https://www.gnome.org/][GNOME]], un environnement de bureau
+  entièrement libre.
+- [[https://matrix.org/][La Fondation Matrix]] portant le projet Matrix, un protocole ouvert pour des
+  communications décentralisées et sécurisées.
+
+Des associations plus spécifiques ancrées géographiquement :
+- [[https://fsfe.org/][/Free Software Foundation Europe/]], promouvant le logiciel libre au
+  niveau de l’Union Européenne.
+- [[https://framasoft.org/][Framasfot]], en France, promouvant le logiciel libre, et une société
+  libre et décentralisée
+- [[https://aful.org/][l’AFUL]], l’Association Francophone des Utilisateurs de Logiciels Libres
+- [[https://www.april.org/][l’April]], en France, promouvant le logiciel libre pour une société libre
+- [[https://adullact.org/][l’Adullact]], soutenant l'action des Administrations et Collectivités
+  territoriales dans le but de « promouvoir, développer et maintenir un
+  patrimoine de logiciels libres utiles aux missions de service public. »
+
+Cette liste ne se prétend absolument pas être exhaustive, mais donne une idée
+de la structuration de l’écosystème, de sa taille, et de sa
+diversité. Une liste plus complète a été rédigée sur le [[https://wiki.april.org/w/Liste_des_associations_du_libre,_projets,_langages,_communaut%C3%A9s][wiki de l’April]].
+
+Enfin, il y aussi un écosystème d’entreprises du libre dont nous avons
+parler dans [[*Trouver de l'expertise sur une solution libre][cette section]], et pour lesquelles nous allons nous pencher sur
+leur modèles économiques dans la section suivante.
+
 
 ** STRT [#A] Quelle attention au modèle économique ?
 
