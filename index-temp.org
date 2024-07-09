@@ -51,6 +51,18 @@ recense des logiciels libres sur trois pages web :
   organisations disponibles sur les forges. Le site permet de parcourir
   et de trier les données en fonction de multiples critères.
 
+
+beta.gouv.fr a aussi un outil appelé [[https://etabli.incubateur.net/][établi]] répertoriant les logiciels de
+l’administration publique avec une fiche descriptive orientée métier
+constituée par une intelligence artificielle. Cet outil fait
+abstractions des notions techniques (bibliothèque utilisée, etc.) peu
+utiles pour l’utilisateur qu’il soit développeur, agent public, ou
+citoyen. Il donne un résumé fonctionnel du logiciel (envoi de mail,
+tableur, etc.). Un assistant IA est aussi disponible permettant
+d’affiner ses recherches pour être sûr de ne pas louper un logiciel à
+potentiel de réutilisation. *Attention*, cet outil référence tant des
+logiciels libres que des logiciels propriétaires.
+
 Ensuite, l’utilisation des moteurs de recherches classiques font
 généralement l’affaire. Avec l’utilisation des mots clefs « open source »
 et « logiciel libre », les résultats sont satisfaisants. Néanmoins, des
