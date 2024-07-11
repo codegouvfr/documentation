@@ -154,7 +154,7 @@ communautés, tous les logiciels, et toutes les ressources.
 Cela étant dit, pour se repérer dans l’écosystème un certains nombres de
 points généraux peuvent aider :
 - Connaître et comprendre les [[https://fr.wikipedia.org/wiki/Logiciel_libre][fondements du logiciel libre]]
-- Connaître et comprendre [[*Licences : les indispensables à connaître][les indispensables des licences libres]]   
+- Connaître et comprendre [[*Licences : les indispensables à connaître][les indispensables des licences libres]]
   - Explorer les licences :
     - [[https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses][Utiliser l’outil de comparaison des licences de l’UE]]
     - Utiliser l’outil de [[https://code.gouv.fr/sources][code.gouv.fr/sources]] pour explorer les
@@ -222,32 +222,235 @@ Des associations plus spécifiques ancrées géographiquement :
   territoriales dans le but de « promouvoir, développer et maintenir un
   patrimoine de logiciels libres utiles aux missions de service public. »
 
-Cette liste ne se prétend absolument pas être exhaustive, mais donne une idée
-de la structuration de l’écosystème, de sa taille, et de sa
+Cette liste ne se prétend absolument pas être exhaustive, mais donne une
+idée de la structuration de l’écosystème, de sa taille, et de sa
 diversité. Une liste plus complète a été rédigée sur le [[https://wiki.april.org/w/Liste_des_associations_du_libre,_projets,_langages,_communaut%C3%A9s][wiki de l’April]].
 
 Enfin, il y aussi un écosystème d’entreprises du libre dont nous avons
-parler dans [[*Trouver de l'expertise sur une solution libre][cette section]], et pour lesquelles nous allons nous pencher sur
+parlé dans [[*Trouver de l'expertise sur une solution libre][cette section]], et pour lesquelles nous allons nous pencher sur
 leur modèles économiques dans la section suivante.
 
 
-** STRT [#A] Quelle attention au modèle économique ?
+** Quelle attention porter aux modèles économiques des entreprises ?
 
-*** Pour les administrations
+Le modèle économique classique d’une entreprise créant du logiciel
+propriétaire est en général de tirer profit de la vente de licence. Les
+entreprises du libre, pouvant vendre la licence, mais celle-ci pouvant
+être redistribuer gratuitement par le premier acheteur, ont donc dû
+trouver d’autres moyens de valoriser leurs logiciels.
 
-*** Pour les entreprises
+Il convient de lister les modèles économiques en fonction des
+interactions possibles entre les entreprises et les administrations
+publiques (DSI, DAC, etc.) afin qu’ils se posent les questions
+pertinentes lorsqu’ils font affaire avec des entreprises du libre.
 
-[[https://hal.science/hal-03454801/document][Nicolas Jullien, Robert Viseur. Les stratégies open-sources selon le
-paradigme des modèles économiques. Systèmes d’Information et Management,
-2021, 26 (3), pp.67-103. 10.3917/sim.213.0067. hal-03454801]]
 
-Voir cet étude notamment, en particulier le tableau page 23 qui
-identifie 8 modèles économiques différents en fonction des différents
-modes de captation de valeur et des types d’activités.
+*** Utilisation de logiciel libre par l’administration
+
+Lorsque vous souhaitez utiliser du logiciel libre dans votre parc
+d’infrastructure, plusieurs entreprises du libre peuvent répondre à vos
+différents besoins, avec chacune des modèles différents, qui ne sont
+pas mutuellement exclusifs.
+
+La liste suivante n’est pas exhaustive. Pour plus de détail, nous vous
+redirigeons vers ces documents :
+
+- [[https://cnll.fr/media/LivretBleu_ModelesEconomiques_GT-LogicielLibre_Systematic.pdf][Le livret bleu du CNLL]]
+- [[https://aful.org/professionnels/modeles-economiques-logiciels-libres/differents-modeles][Le dossier de l’Aful]]
+- [[https://hal.science/hal-03454801/document][Cette étude revue]], par les pairs, de Nicolas Jullie et Robert Viseur,
+  en particulier le tableau page 23 qui identifie 8 modèles économiques
+  en fonction des différents modes de captation de valeur et des types
+  d’activités
+
+**** Services de déploiements
+
+L’un des modèles les plus évident pour valoriser des logiciels libres en
+tant qu’entreprise est le SaaS (/Software as a Service/) consistant à
+fournir un service de déploiement de logiciel libre managé dans le
+/cloud/. Par « SaaS » ou « managé » on entend que tout est pris en
+charge : la maintenance et les mises à jour des machines et de toute la
+stack logiciel nécessaire. Vous ne vous souciez de rien. En général,
+cela vient avec une garantie de disponibilité, un /Service Level
+Agreement/ (SLA).
+
+[[https://indiehosters.net/][Indie Hosters]] est un exemple.
+
+**** Intégrateur logiciel
+
+L’intégrateur logiciel propose des services pour exploiter le logiciel
+libre sur la totalité de son cycle de vie. Il réemploie le code source
+communautaire existant et accompagne ses clients dans le déploiements du
+logiciel, que ce soit sur site, sur le cloud, ou simplement sur les
+postes de travail. Il personnalise aussi en fonction des attentes de ses
+clients (personnalisation graphique, mais aussi ajout de fonctionnalités
+spécifiques, etc.).
+
+L’intégrateur tire alors profit de l’intégration de la solution logiciel
+dans l’environnement du client, mais aussi dans les conseils qu’il peut
+lui apporter, et dans la maintenance applicative.
+
+**** Éditeur logiciel
+
+L’éditeur logiciel libre édite et distribue des produits sous une
+licence libre. De là, on peut distinguer trois façons de faire du
+profit.
+
+***** Modèle /Open Core/
+
+Le modèle /Open Core/ consiste a éditer un logiciel de base sous licence
+libre (souvent appeler la « version communautaire ») et vendre des
+extensions propriétaires, ou vendre des outils de développement
+propriétaires au dessus du logiciel.
+
+Un exemple du premier cas est Gitlab ou Odoo. Un exemple du second cas
+est [[https://www.zend.com/][Zend]] qui vend son environnement de développement [[https://www.zend.com/products/zend-studio][Zend Studio PHP]].
+
+***** Modèle double licence
+
+Un modèle a double licence signifie qu’une solution logiciel est
+disponible sous une licence libre et une autre propriétaire, en général
+commerciale.
+
+Il existe plusieurs scénarios de modèle à double licence :
+
+1. Un scénario où l’utilisateur final peut choisir l’une ou l’autre
+   licence. L’idée est de prendre une licence de type copyleft avec
+   beaucoup de restrictions afin que les utilisateurs commerciaux se
+   reportent vers la licence commerciale payante pour soit ne pas
+   s’embarrasser avec les problèmes de conformités légales de la licence
+   copyleft dans une solution intégrée propriétaire, soit développer sur
+   le logiciel sans avoir à dévoiler leurs contributions.
+
+2. Un scénario où plusieurs licences s’appliquent en même temps sur le
+   logiciel. Cela arrive surtout lorsque certaines briques logiciels
+   sont utilisées et leurs licences sont peu compatibles. Ce n’est pas
+   par essence un modèle économique.
+
+Il est aussi possible qu’une solution logiciel ne soit pas sous double
+licence par défaut, mais qu’il y est un changement au court du
+temps. Par exemple :
+
+1. Une licence propriétaire chronodégradable en licence libre.
+
+2. Une licence propriétaire comportant une clause de réversibilité en
+   licence libre si, par exemple, l’entreprise est amené à
+   disparaître.
+
+
+***** Open source professionnel
+
+L’open source professionnel (terme employé par le CNLL dans son [[https://cnll.fr/media/LivretBleu_ModelesEconomiques_GT-LogicielLibre_Systematic.pdf][livret
+bleu]]) désigne les autres moyens qu’une entreprise peut tirer du profit à
+partir d’un logiciel libre.
+
+Cela peut venir du support, de la maintenance, de la documentation, du
+conseil, de formations. Pour avoir des revenus récurrents, une
+entreprise peut facture du support forfaitaire, des garanties de
+fonctionnement et juridique.
+
+*** Contribution de l’administration à un logiciel libre
+
+La contribution de l’administration à un logiciel libre, qu’il soit
+communautaire ou édité par une entreprise privée, requiert, dans la
+majorité des cas, un DCO ou CLA.
+
+Ces contrats ou ces /agreement/ sont un moyen, plus ou moins simple, de
+donner un accord de contribution aux développeurs et de permettre à
+l’entité gérant le projet de distribuer ces contributions sous sa
+licence.
+
+Le *CLA*, /Contributor Licence Agreement/, est un document légal devant
+être signé par le contributeur clarifiant les termes et conditions de sa
+contribution, établissant qu’il a le droit de contribuer (le contenu lui
+appartient, son employeur a donné l’accord, etc.) /et/ que le projet a
+le droit d’utiliser ce contenu (changer de licence sur le contenu, le
+redistribuer). Cela permet au projet de se protéger contre de potentiel
+attaque en justice en lien avec le droit d’auteur des contributions.
+
+*ICLA* et *CCLA* sont des déclinaisons plus spécifiques du CLA,
+/Individual Contributor Licence Agreement/ et /Corporate Contributor
+Licence Agreement/ respectivement. Le ICLA concerne les individus
+contribuant en leur nom propre en dehors de toute organisation ou
+employeur. Le CCLA concerne la contribution d’une entreprise sur le
+projet d’une autre entreprise. En général, ces documents légaux sont
+basés sur les [[https://www.apache.org/licenses/contributor-agreements.html][CLA de la fondation Apache]].
+
+Parce que les CLAs sont des documents légaux, le département juridique
+doit se charger de les signer et de garder une trace de ces éléments,
+rendant le processus lourd.
+
+Par conséquent la fondation Linux, et plusieurs autres organisations qui
+ont suivi, sont passées au *DCO*, /[[https://developercertificate.org/][Developer Certificate of
+Origin]]/. Celui-ci n’est pas un contrat légal, mais un mécanisme plus
+simple indiquant qu’un contributeur a le droit de contribuer au code et
+qu'il concède leur contribution sous la licence libre choisie par le
+projet. Un DCO requiert simplement de signer (/sign-off/) chaque commit.
+
+Les administrations, DSI, ou tout autre agent et administration
+publique, doivent prendre en compte ces éléments, mis en perspectives
+avec les modèles économiques des entreprises avant de contribuer à leur
+projet. Une attention particulière doit être portée au CLAs.
+
+Par exemple, l’entreprise Element (derrière le protocole Matrix et
+Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][font signer un CLA avec une exception à la AGPL pour pouvoir
+vendre du code source]] contribué (par des auteurs extérieurs à Element)
+sous une licence propriétaire.
+
+*** Publication
+
+S’agissant d’une administration publique qui publie des codes sources
+sous licences libres, il faut bien comprendre que les libertés octroyés
+par ces licences permettent en tout temps à n’importe quel acteur de
+réutiliser le code produits par des agents public et ce à même à des
+fins lucratives.
+
+Si les codes sources sont estimés représenter une menace avérée pour
+l’intérêt général, alors un choix de licence à copyleft fort est
+fortement conseillé. Pour plus de détails sur le copyleft fort, [[la section ][se
+référer à cette section]]. Attention, le copyleft fort n’empêche pas la
+vente des codes sources.
+
+*** /Openwashing/
+
+Depuis un certain temps, le logiciel libre a gagné la bataille contre le
+logiciel propriétaire pour ce qui est des serveurs et autres utilités de
+développement. Par conséquent, beaucoup d’entreprises se vendent comme
+étant « open source » alors qu’elles ne publient pas de code libre.
+
+/Openwashing/, dérivé du /greenwashing/ (et tout les autres mots-valises
+en -/washing/). Le mot /[[https://www.fauxpensource.org/][fauxpen]]/ signifie la même chose :
+
+> Description d'un logiciel qui prétend être open source, mais qui ne
+dispose pas de toutes les libertés requises par la définition de l'Open
+Source Initiative [ou de la FSF].
+
+Trois questions fondamentales à se poser pour savoir si c’est un projet
+libre :
+
+!> Est-ce que la licence garantie les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]] ou
+répond aux critères de la [[http://www.opensource.org/osd.html][définition de l’OSI]] ?
+
+Pour vous faciliter la vie, l’OSI maintient une [[http://www.opensource.org/licenses][liste de licences
+acceptées]].
+
+[[https://github.com/redis/redis?tab=License-1-ov-file][Redis]] et [[https://github.com/hashicorp/terraform?tab=License-1-ov-file][Terraform]] sont des exemples.
 
 *** NEXT Des /success stories/
 
+Les /success stories/ dans le privée sont désormais compliquées à
+dénombrer. En vrac, on peut citer : [[https://www.orekit.org/][Orekit]], [[https://www.redhat.com/en][RedHat]] (du moins pendant de
+nombreuses années), [[https://www.mozilla.org/en-US/][Mozilla]], [[https://axelor.com/][Axelior]], [[https://www.eclipse.org/org/][Eclipse]]…
+
+Pour le public on peut citer : [[https://lutece.paris.fr/fr/][Lutece de la ville de Paris]], [[https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html][un état
+fédéral allemand fait passer 30 000 PC sous Linux et LibreOffice]], [[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][Le
+système de design de l’État (DSFR) permet entre 3,1 et 4,9 M€
+d’économies par an]]…
+
 ** NEXT Le marché public pour le logiciel libre
+
+- dire les commandes du marché public peuvent demander un logiciel libre
+  en particulier
+  - Canevet page 524
 
 * Publier un code source
   :PROPERTIES:
@@ -398,7 +601,6 @@ Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
 ** NEXT Bonnes pratiques de publication
 ** NEXT Métriques de qualité d’un projet libre
-** NEXT Les politiques ministérielles déjà publiées
 
 * Monter un Open Source Programme Office
   :PROPERTIES:
