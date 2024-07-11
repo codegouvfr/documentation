@@ -435,16 +435,17 @@ acceptées]].
 
 [[https://github.com/redis/redis?tab=License-1-ov-file][Redis]] et [[https://github.com/hashicorp/terraform?tab=License-1-ov-file][Terraform]] sont des exemples.
 
-*** NEXT Des /success stories/
+*** Des /success stories/
 
 Les /success stories/ dans le privée sont désormais compliquées à
 dénombrer. En vrac, on peut citer : [[https://www.orekit.org/][Orekit]], [[https://www.redhat.com/en][RedHat]] (du moins pendant de
 nombreuses années), [[https://www.mozilla.org/en-US/][Mozilla]], [[https://axelor.com/][Axelior]], [[https://www.eclipse.org/org/][Eclipse]]…
 
 Pour le public on peut citer : [[https://lutece.paris.fr/fr/][Lutece de la ville de Paris]], [[https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html][un état
-fédéral allemand fait passer 30 000 PC sous Linux et LibreOffice]], [[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][Le
-système de design de l’État (DSFR) permet entre 3,1 et 4,9 M€
-d’économies par an]]…
+fédéral allemand fait passer 30 000 PC sous Linux et LibreOffice]],
+[[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][Lesystème de design de l’État (DSFR) permet entre 3,1 et 4,9 M€
+d’économies par an (note de bas page 86)]]. Vous pouvez voir une liste
+plus complète sur [[https://code.gouv.fr/awesome][code.gouv.fr/awesome]].
 
 ** NEXT Le marché public pour le logiciel libre
 
