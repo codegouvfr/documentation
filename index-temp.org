@@ -12,12 +12,12 @@
 Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de la
 [[https://www.numerique.gouv.fr/][direction interministérielle du numérique]].
 
-Elle s’adresse à plusieurs audience :
+Elle s’adresse à plusieurs audiences :
 
-- Les équipes métier et chefs de projet qui souhaitent publier code
+- Les équipes métier et chefs de projet qui souhaitent publier le code
   source de leurs projets et applications sous licence libre
 - Les DSI pour l’utilisation des logiciels libres dans leur SI
-- Aux directeurs d’aministration et les équipes métier prêtes à
+- Aux directeurs d’administration et les équipes métier prêtes à
   s’investir dans la création dans un /Open Source Program Office/ (OSPO)
 
 Sa rédaction est collaborative : tous les organismes publics ayant une
@@ -38,8 +38,8 @@ valent, pour certains, quelle que soit la licence des logiciels.
 Pour trouver des solutions libres, plusieurs approches existent, toutes
 aussi imparfaites les unes que les autres.
 
-D’abord, pour les administrations publiques, la mission logiciels libres
-recense des logiciels libres sur trois pages web :
+D’abord, la mission logiciels libres recense des logiciels libres sur
+trois pages web :
 - [[https://code.gouv.fr/sill][code.gouv.fr/sill]] permet d’identifier facilement les logiciels libres
   utilisés par l’administration, leur version utilisée, et d’avoir un
   référent du logiciel à contacter pour avoir plus d’informations. Nous
@@ -52,31 +52,32 @@ recense des logiciels libres sur trois pages web :
   et de trier les données en fonction de multiples critères.
 
 
-beta.gouv.fr a aussi un outil appelé [[https://etabli.incubateur.net/][établi]] répertoriant les logiciels de
-l’administration publique avec une fiche descriptive orientée métier
+beta.gouv.fr a aussi un outil appelé [[https://etabli.incubateur.net/][établi]] répertoriant les logiciels
+de l’administration publique avec une fiche descriptive orientée métier
 constituée par une intelligence artificielle. Cet outil fait
 abstractions des notions techniques (bibliothèque utilisée, etc.) peu
 utiles pour l’utilisateur qu’il soit développeur, agent public, ou
 citoyen. Il donne un résumé fonctionnel du logiciel (envoi de mail,
 tableur, etc.). Un assistant IA est aussi disponible permettant
-d’affiner ses recherches pour être sûr de ne pas louper un logiciel à
-potentiel de réutilisation. *Attention*, cet outil référence tant des
-logiciels libres que des logiciels propriétaires.
+d’affiner ses recherches pour être sûr de ne pas passer à côté d’un
+logiciel à potentiel de réutilisation. *Attention*, cet outil référence
+tant des logiciels libres que des logiciels propriétaires.
 
 Ensuite, l’utilisation des moteurs de recherches classiques font
-généralement l’affaire. Avec l’utilisation des mots clefs « open source »
-et « logiciel libre », les résultats sont satisfaisants. Néanmoins, des
-recherches plus abouties sont nécessaires : aller sur le site web
-principal du logiciel, vérifier si la licence est indiqué ; mieux
-encore, trouver le dépôt de code source du logiciel et vérifier à la
-source quelle licence est apposée sur le logiciel.
+généralement l’affaire. Avec l’utilisation des mots clefs « open
+source » et « logiciel libre », les résultats sont
+satisfaisants. Néanmoins, des recherches plus abouties sont
+nécessaires : aller sur le site web principal du logiciel, vérifier si
+la licence est indiquée ; mieux encore, trouver le dépôt de code source
+du logiciel et vérifier à la source quelle licence est apposée sur le
+code.
 
-Enfin, il est aussi possible d’aller voir sur des platformes telles que
-github.com, gitlab.com, sr.ht (sourcehut), mais aussi des platformes
-spécialisées pour un langage comme [[https://pypi.org/][pypi.org]] (Python) ou [[https://www.npmjs.com/][npmjs.com]]
-(JavaScript) pour trouver des modules logiciels.
+Enfin, il est aussi possible d’aller voir sur des plateformes telles que
+github.com, gitlab.com, sr.ht (sourcehut), et des plateformes dédiées à
+un écosystème comme [[https://pypi.org/][pypi.org]] (Python) ou [[https://www.npmjs.com/][npmjs.com]] (JavaScript) pour
+trouver des modules logiciels.
 
-!> *Attention*, la présence d’un dépôt logiciel sur ces platformes
+!> *Attention*, la présence d’un dépôt logiciel sur ces plateformes
 n’implique en aucun cas l’existence d’une licence libre ; il faut
 toujours vérifier sur le dépôt officiel (ou le site web officiel) la
 licence apposée sur le code. Même un code source sur github.com avec
@@ -87,23 +88,23 @@ explicitant vos libertés, vous n’avez pas le droit de copier, modifier,
 redistribuer le logiciel*.
 
 ** Trouver de l'expertise sur une solution libre
-Le site mentionné plus haut ([[https://code.gouv.fr/sill][code.gouv.fr/sill]]) est un excellent point
-de départ pour les adiministrations. Non seulement vous pouvez contacter
-le référent ou la référente du logiciel libre qui, de fait, le connaît
-et l’utilise dans son administration, mais le site recense aussi des
-prestataires sur le logiciel en particulier capables de vous fournir de
-l’expertise.
+Le site [[https://code.gouv.fr/sill][code.gouv.fr/sill]] est un excellent point de départ pour les
+administrations. Non seulement vous pouvez contacter le référent ou la
+référente du logiciel libre qui, de fait, le connaît et l’utilise dans
+son administration, mais le site recense aussi des prestataires sur le
+logiciel spécifique capables de vous fournir de l’expertise.
 
-[[https://code.gouv.fr/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/][Les marchés interministériels support et exprite à l’usage des logiciels
+[[https://code.gouv.fr/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/][Les marchés interministériels support et expertise à l’usage des logiciels
 libres]] est aussi une bonne ressource.
 
 De façon plus générale, il existe plusieurs consortiums et ensembles
 d’organisations qui tentent de rassembler l’expertise sur les solutions
-libres. On notera de façon non-exhaustive :
+libres. On notera de manière non exhaustive :
 - le [[https://cnll.fr/][CNLL]] : regroupe les principales associations et entreprises de
-  l’écosystème open source en France.
+  l’écosystème open source en France
 - [[https://www.opensource-experts.com/][Open source experts]] (OSE) : plusieurs entreprises du libre se sont
- rassemblées pour créer un guichet unique
+ rassemblées pour créer un guichet unique.
+
 ** Faire évoluer une solution libre
 Là est toute la force du logiciel libre. Vous êtes libre de prendre le
 code et de l’adapter à vos besoins spécifiques (tant que vous respectez
@@ -116,11 +117,11 @@ entreprise ou individu apportant leurs contributions mutualisent la
 charge de travail.
 
 Il est donc *tout à fait possible de faire évoluer une solution libre*. Pour
-savoir comment le faire, vous pouvez vous référer [[*Trouver des solutions libres][sections ci-dessus.]]
+savoir comment le faire, vous pouvez vous référer à la [[*Trouver des solutions libres][sections ci-dessus.]]
 
 ** Les politiques ministérielles déjà publiées
 
-Vous pouvez lire notre [[https://code.gouv.fr/fr/blog/lengagement-des-ministeres-sur-louverture-des-codes-sources-et-lutilisation-de-logiciels-libres-retour-sur-les-feuilles-de-route-publiees-en-septembre-2021/][entrée de blog sur le sujet]]. Pour résumé, voici
+Vous pouvez lire notre [[https://code.gouv.fr/fr/blog/lengagement-des-ministeres-sur-louverture-des-codes-sources-et-lutilisation-de-logiciels-libres-retour-sur-les-feuilles-de-route-publiees-en-septembre-2021/][entrée de blog sur le sujet]]. Pour résumer, voici
 une liste des politiques ministérielles déjà publiées concernant le
 logiciel libre :
 
@@ -133,7 +134,7 @@ logiciel libre :
 - [[https://www.data.gouv.fr/fr/datasets/r/561b8f8f-9fe1-4d2e-8dbf-c4212b7f7d7f][ministère de l’Économie, des Finances et de la Relance]]
 - [[https://www.data.gouv.fr/fr/datasets/r/be61f13d-06d6-40ea-87dd-df7b2918f2e2][ministère de l’Enseignement Supérieur, de la Recherche et del’Innovation]]
 - [[https://www.data.gouv.fr/fr/datasets/r/03b43dc4-b92f-4d40-9b7e-598dcd61c420][ministère de la Transformation et de la Fonction publiques]]
-- [[Services du Premier ministre][Services du Premier ministre]]
+- [[https://www.data.gouv.fr/fr/datasets/r/a1ce2c8e-54c4-4e24-aaaf-8f3b7620cf34][Services du Premier ministre]]
 - [[https://www.data.gouv.fr/fr/datasets/r/2332ad66-0344-4325-ba71-e65517318e22][ministère de la Culture]]
 - [[https://www.data.gouv.fr/fr/datasets/r/25f0f375-df81-4cc5-8eae-c277a729923f][ministère de la Transition Écologique]]
 - [[https://www.data.gouv.fr/fr/datasets/r/e9174d55-3ad6-4959-a40b-5818f829fd7f][ministère du Travail, de l’Emploi et de l’Insertion]]
@@ -151,7 +152,7 @@ pouvoirs et combat les monopoles. Par conséquent, l’écosystème du libre
 tend à être très décentralisé, sans point unique où trouver toute les
 communautés, tous les logiciels, et toutes les ressources.
 
-Cela étant dit, pour se repérer dans l’écosystème un certains nombres de
+Cela étant dit, pour se repérer dans l’écosystème, un certain nombres de
 points généraux peuvent aider :
 - Connaître et comprendre les [[https://fr.wikipedia.org/wiki/Logiciel_libre][fondements du logiciel libre]]
 - Connaître et comprendre [[*Licences : les indispensables à connaître][les indispensables des licences libres]]
@@ -165,7 +166,7 @@ points généraux peuvent aider :
   Debian]])
 - Suivre l’actualité du logiciel libre ([[https://code.gouv.fr/fr/bluehats/tags/gazette/][gazette BlueHats]], [[https://www.linux-magazine.com/][Linux
   Magazine]], [[https://linuxfr.org/][LinuxFr.org]], [[https://lwn.net/][lwn.net]], les sites d’organisations et
-  associations sur le [[https://fediverse.party/][fediverse]] sur l’instance [[https://fosstodon.org/explore][fosstodon]], par exemple,
+  associations sur le [[https://fediverse.party/][fediverse]], sur l’instance [[https://fosstodon.org/explore][fosstodon]], par exemple,
   ou encore les lettres d’informations de Framasoft, de l’April, etc.)
 
 Une fois cette culture du libre acquise, il sera plus facile de se
@@ -182,16 +183,16 @@ libres développés et/ou utilisés par l'administration publique.
 *** Hors administration
 
 En dehors de l’administration publique, l’écosystème du logiciel libre
-est vivement animé par des associations et entreprises du libres.
+est vivement animé par des associations et entreprises du libre.
 
 On notera les associations fondatrices du mouvement logiciel libre par
 la /[[https://www.fsf.org/][Free Software Foundation]]/, et de l’open source avec la /[[https://opensource.org/][Open Source
-Initiative]]/.
+Initiativeff]]/.
 
 Il y a des fondations structurantes de l’écosystème des logiciels libres
 orientées commerce et industrie :
 - [[HTTPS://www.linuxfoundation.org/][Linux Foundation]], un consortium à but non lucratif visant à protéger
-  et standardiser le noyaux Linux en procurant les ressources pour
+  et standardiser le noyau Linux en procurant les ressources pour
   concurrencer les autres systèmes d'exploitation.
 - [[https://www.ow2.org/][OW2]], un consortium visant à développer une base de logiciel
   d’infrastructure open source.
@@ -213,7 +214,7 @@ particulier :
 
 Des associations plus spécifiques ancrées géographiquement :
 - [[https://fsfe.org/][/Free Software Foundation Europe/]], promouvant le logiciel libre au
-  niveau de l’Union Européenne.
+  niveau de l’Union européenne.
 - [[https://framasoft.org/][Framasfot]], en France, promouvant le logiciel libre, et une société
   libre et décentralisée
 - [[https://aful.org/][l’AFUL]], l’Association Francophone des Utilisateurs de Logiciels Libres
@@ -226,9 +227,8 @@ Cette liste ne se prétend absolument pas être exhaustive, mais donne une
 idée de la structuration de l’écosystème, de sa taille, et de sa
 diversité. Une liste plus complète a été rédigée sur le [[https://wiki.april.org/w/Liste_des_associations_du_libre,_projets,_langages,_communaut%C3%A9s][wiki de l’April]].
 
-Enfin, il y aussi un écosystème d’entreprises du libre dont nous avons
-parlé dans [[*Trouver de l'expertise sur une solution libre][cette section]], et pour lesquelles nous allons nous pencher sur
-leur modèles économiques dans la section suivante.
+Enfin, il y a aussi un écosystème d’entreprises du libre dont nous avons
+parlé dans [[*Trouver de l'expertise sur une solution libre][cette section]].
 
 
 ** Quelle attention porter aux modèles économiques des entreprises ?
@@ -236,7 +236,7 @@ leur modèles économiques dans la section suivante.
 Le modèle économique classique d’une entreprise créant du logiciel
 propriétaire est en général de tirer profit de la vente de licence. Les
 entreprises du libre, pouvant vendre la licence, mais celle-ci pouvant
-être redistribuer gratuitement par le premier acheteur, ont donc dû
+être redistribuée gratuitement par le premier acheteur, ont donc dû
 trouver d’autres moyens de valoriser leurs logiciels.
 
 Il convient de lister les modèles économiques en fonction des
@@ -249,22 +249,22 @@ pertinentes lorsqu’ils font affaire avec des entreprises du libre.
 
 Lorsque vous souhaitez utiliser du logiciel libre dans votre parc
 d’infrastructure, plusieurs entreprises du libre peuvent répondre à vos
-différents besoins, avec chacune des modèles différents, qui ne sont
-pas mutuellement exclusifs.
+différents besoins, chacune avec des modèles différents, qui ne sont pas
+mutuellement exclusifs.
 
 La liste suivante n’est pas exhaustive. Pour plus de détail, nous vous
 redirigeons vers ces documents :
 
 - [[https://cnll.fr/media/LivretBleu_ModelesEconomiques_GT-LogicielLibre_Systematic.pdf][Le livret bleu du CNLL]]
 - [[https://aful.org/professionnels/modeles-economiques-logiciels-libres/differents-modeles][Le dossier de l’Aful]]
-- [[https://hal.science/hal-03454801/document][Cette étude revue]], par les pairs, de Nicolas Jullie et Robert Viseur,
+- [[https://hal.science/hal-03454801/document][Cette étude]], revue par les pairs, de Nicolas Jullie et Robert Viseur,
   en particulier le tableau page 23 qui identifie 8 modèles économiques
   en fonction des différents modes de captation de valeur et des types
   d’activités
 
 **** Services de déploiements
 
-L’un des modèles les plus évident pour valoriser des logiciels libres en
+L’un des modèles les plus évidents pour valoriser des logiciels libres en
 tant qu’entreprise est le SaaS (/Software as a Service/) consistant à
 fournir un service de déploiement de logiciel libre managé dans le
 /cloud/. Par « SaaS » ou « managé » on entend que tout est pris en
@@ -279,7 +279,7 @@ Agreement/ (SLA).
 
 L’intégrateur logiciel propose des services pour exploiter le logiciel
 libre sur la totalité de son cycle de vie. Il réemploie le code source
-communautaire existant et accompagne ses clients dans le déploiements du
+communautaire existant et accompagne ses clients dans le déploiement du
 logiciel, que ce soit sur site, sur le cloud, ou simplement sur les
 postes de travail. Il personnalise aussi en fonction des attentes de ses
 clients (personnalisation graphique, mais aussi ajout de fonctionnalités
@@ -297,44 +297,45 @@ profit.
 
 ***** Modèle /Open Core/
 
-Le modèle /Open Core/ consiste a éditer un logiciel de base sous licence
-libre (souvent appeler la « version communautaire ») et vendre des
-extensions propriétaires, ou vendre des outils de développement
-propriétaires au dessus du logiciel.
+Le modèle /Open Core/ consiste à éditer un logiciel de base sous licence
+libre et vendre des extensions propriétaires, ou vendre des outils de
+développement propriétaires au-dessus du logiciel. Dans ce modèle la
+version libre est souvent appelée la « version communautaire », ou
+« CE » pour /Community Edition/ en opposition à « EE » pour /Entreprise
+Edition/.
 
 Un exemple du premier cas est Gitlab ou Odoo. Un exemple du second cas
 est [[https://www.zend.com/][Zend]] qui vend son environnement de développement [[https://www.zend.com/products/zend-studio][Zend Studio PHP]].
 
 ***** Modèle double licence
 
-Un modèle a double licence signifie qu’une solution logiciel est
+Un modèle à double licence signifie qu’une solution logiciel est
 disponible sous une licence libre et une autre propriétaire, en général
 commerciale.
 
 Il existe plusieurs scénarios de modèle à double licence :
 
-1. Un scénario où l’utilisateur final peut choisir l’une ou l’autre
-   licence. L’idée est de prendre une licence de type copyleft avec
-   beaucoup de restrictions afin que les utilisateurs commerciaux se
-   reportent vers la licence commerciale payante pour soit ne pas
-   s’embarrasser avec les problèmes de conformités légales de la licence
-   copyleft dans une solution intégrée propriétaire, soit développer sur
-   le logiciel sans avoir à dévoiler leurs contributions.
+1. L’utilisateur final peut choisir l’une ou l’autre licence. L’idée est
+   de prendre une licence de type copyleft avec beaucoup de restrictions
+   afin que les utilisateurs commerciaux se reportent vers la licence
+   commerciale payante pour soit ne pas s’embarrasser avec les problèmes
+   de conformités légales de la licence copyleft dans une solution
+   intégrée propriétaire, soit développer sur le logiciel sans avoir à
+   dévoiler leurs contributions.
 
-2. Un scénario où plusieurs licences s’appliquent en même temps sur le
-   logiciel. Cela arrive surtout lorsque certaines briques logiciels
-   sont utilisées et leurs licences sont peu compatibles. Ce n’est pas
-   par essence un modèle économique.
+2. Plusieurs licences s’appliquent en même temps sur le logiciel. Cela
+   arrive surtout lorsque certaines briques logicielles sont utilisées
+   et leurs licences sont peu compatibles. Ce n’est pas par essence un
+   modèle économique.
 
-Il est aussi possible qu’une solution logiciel ne soit pas sous double
-licence par défaut, mais qu’il y est un changement au court du
+Il est aussi possible qu’une solution logicielle ne soit pas sous double
+licence par défaut, mais qu’il y est un changement au cours du
 temps. Par exemple :
 
 1. Une licence propriétaire chronodégradable en licence libre.
 
 2. Une licence propriétaire comportant une clause de réversibilité en
-   licence libre si, par exemple, l’entreprise est amené à
-   disparaître.
+   licence libre si, par exemple, l’entreprise est amenée à disparaître.
 
 
 ***** Open source professionnel
@@ -344,7 +345,7 @@ bleu]]) désigne les autres moyens qu’une entreprise peut tirer du profit à
 partir d’un logiciel libre.
 
 Cela peut venir du support, de la maintenance, de la documentation, du
-conseil, de formations. Pour avoir des revenus récurrents, une
+conseil, de formations, etc. Pour avoir des revenus récurrents, une
 entreprise peut facture du support forfaitaire, des garanties de
 fonctionnement et juridique.
 
@@ -364,8 +365,9 @@ Le *CLA*, /Contributor Licence Agreement/, est un document légal devant
 contribution, établissant qu’il a le droit de contribuer (le contenu lui
 appartient, son employeur a donné l’accord, etc.) /et/ que le projet a
 le droit d’utiliser ce contenu (changer de licence sur le contenu, le
-redistribuer). Cela permet au projet de se protéger contre de potentiel
-attaque en justice en lien avec le droit d’auteur des contributions.
+redistribuer). Cela permet au projet de se protéger contre de
+potentielles attaques en justice en lien avec le droit d’auteur des
+contributions.
 
 *ICLA* et *CCLA* sont des déclinaisons plus spécifiques du CLA,
 /Individual Contributor Licence Agreement/ et /Corporate Contributor
@@ -379,7 +381,7 @@ Parce que les CLAs sont des documents légaux, le département juridique
 doit se charger de les signer et de garder une trace de ces éléments,
 rendant le processus lourd.
 
-Par conséquent la fondation Linux, et plusieurs autres organisations qui
+Par conséquent, la fondation Linux, et plusieurs autres organisations qui
 ont suivi, sont passées au *DCO*, /[[https://developercertificate.org/][Developer Certificate of
 Origin]]/. Celui-ci n’est pas un contrat légal, mais un mécanisme plus
 simple indiquant qu’un contributeur a le droit de contribuer au code et
@@ -392,16 +394,16 @@ avec les modèles économiques des entreprises avant de contribuer à leur
 projet. Une attention particulière doit être portée au CLAs.
 
 Par exemple, l’entreprise Element (derrière le protocole Matrix et
-Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][font signer un CLA avec une exception à la AGPL pour pouvoir
-vendre du code source]] contribué (par des auteurs extérieurs à Element)
-sous une licence propriétaire.
+l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][font signer un CLA avec une exception à l’AGPL pour
+pouvoir vendre du code source]] contribué par des auteurs extérieurs à
+Element sous une licence propriétaire.
 
 *** Publication
 
 S’agissant d’une administration publique qui publie des codes sources
-sous licences libres, il faut bien comprendre que les libertés octroyés
+sous licences libres, il faut bien comprendre que les libertés octroyées
 par ces licences permettent en tout temps à n’importe quel acteur de
-réutiliser le code produits par des agents public et ce à même à des
+réutiliser le code produits par des agents public, et ce, même à des
 fins lucratives.
 
 Si les codes sources sont estimés représenter une menace avérée pour
@@ -417,14 +419,14 @@ logiciel propriétaire pour ce qui est des serveurs et autres utilités de
 développement. Par conséquent, beaucoup d’entreprises se vendent comme
 étant « open source » alors qu’elles ne publient pas de code libre.
 
-/Openwashing/, dérivé du /greenwashing/ (et tout les autres mots-valises
-en -/washing/). Le mot /[[https://www.fauxpensource.org/][fauxpen]]/ signifie la même chose :
+/Openwashing/, est dérivé du mot /greenwashing/ (et tous les autres
+mots-valises en -/washing/). Le mot /[[https://www.fauxpensource.org/][fauxpen]]/ signifie la même chose :
 
 > Description d'un logiciel qui prétend être open source, mais qui ne
 dispose pas de toutes les libertés requises par la définition de l'Open
 Source Initiative [ou de la FSF].
 
-Trois questions fondamentales à se poser pour savoir si c’est un projet
+une question fondamentale à se poser pour savoir si c’est un projet
 libre :
 
 !> Est-ce que la licence garantie les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]] ou
@@ -433,19 +435,21 @@ répond aux critères de la [[http://www.opensource.org/osd.html][définition de
 Pour vous faciliter la vie, l’OSI maintient une [[http://www.opensource.org/licenses][liste de licences
 acceptées]].
 
-[[https://github.com/redis/redis?tab=License-1-ov-file][Redis]] et [[https://github.com/hashicorp/terraform?tab=License-1-ov-file][Terraform]] sont des exemples.
+[[https://github.com/redis/redis?tab=License-1-ov-file][Redis]] et [[https://github.com/hashicorp/terraform?tab=License-1-ov-file][Terraform]] sont des exemples d’entreprise surfant sur
+l’/openwashing/.
 
 *** Des /success stories/
 
-Les /success stories/ dans le privée sont désormais compliquées à
+Les /success stories/ dans le privé sont désormais compliquées à
 dénombrer. En vrac, on peut citer : [[https://www.orekit.org/][Orekit]], [[https://www.redhat.com/en][RedHat]] (du moins pendant de
 nombreuses années), [[https://www.mozilla.org/en-US/][Mozilla]], [[https://axelor.com/][Axelior]], [[https://www.eclipse.org/org/][Eclipse]]…
 
-Pour le public on peut citer : [[https://lutece.paris.fr/fr/][Lutece de la ville de Paris]], [[https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html][un état
-fédéral allemand fait passer 30 000 PC sous Linux et LibreOffice]],
-[[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][Lesystème de design de l’État (DSFR) permet entre 3,1 et 4,9 M€
-d’économies par an (note de bas page 86)]]. Vous pouvez voir une liste
-plus complète sur [[https://code.gouv.fr/awesome][code.gouv.fr/awesome]].
+Pour le public, on peut citer : [[https://lutece.paris.fr/fr/][Lutece de la ville de Paris]], [[https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html][le fait
+qu’un État fédéral allemand fait passer 30 000 PC sous Linux et
+LibreOffice]], [[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][le fait que le système de design de l’État (DSFR) permet
+entre 3,1 et 4,9 M€ d’économies par an (note de bas page 86)]]. Vous
+pouvez voir une liste plus complète de logiciel libre à fort potentiel
+de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
 
 ** NEXT Le marché public pour le logiciel libre
 
