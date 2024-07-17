@@ -21,7 +21,7 @@ Elle s’adresse à plusieurs audiences :
   s’investir dans la création dans un /Open Source Program Office/ (OSPO)
 
 Sa rédaction est collaborative : tous les organismes publics ayant une
-expertise sur les logiciels libres, qu'ils en utilisent, y contribuent
+pexpertise sur les logiciels libres, qu'ils en utilisent, y contribuent
 ou en publient, sont invités à faire évoluer ces contenus.
 
 Les sujets abordés portent sur ce qui distingue un logiciel libre ; il
@@ -63,7 +63,7 @@ d’affiner ses recherches pour être sûr de ne pas passer à côté d’un
 logiciel à potentiel de réutilisation. *Attention*, cet outil référence
 tant des logiciels libres que des logiciels propriétaires.
 
-Ensuite, l’utilisation des moteurs de recherches classiques font
+Ensuite, l’utilisation des moteurs de recherche classiques fait
 généralement l’affaire. Avec l’utilisation des mots clefs « open
 source » et « logiciel libre », les résultats sont
 satisfaisants. Néanmoins, des recherches plus abouties sont
@@ -117,7 +117,7 @@ entreprise ou individu apportant leurs contributions mutualisent la
 charge de travail.
 
 Il est donc *tout à fait possible de faire évoluer une solution libre*. Pour
-savoir comment le faire, vous pouvez vous référer à la [[*Trouver des solutions libres][sections ci-dessus.]]
+savoir comment le faire, vous pouvez vous référer à la [[*Trouver des solutions libres][section ci-dessus.]]
 
 ** Les politiques ministérielles déjà publiées
 
@@ -145,14 +145,14 @@ logiciel libre :
 ** Se repérer dans l’écosystème logiciel libre et open source
 
 L’écosystème du logiciel libre peut être un peu déroutant au
-début. L’une des raisons principales et que, par philosophie, les
+début. L’une des raisons principales est que, par philosophie, les
 acteurs du libre sont politiques. Cette vision politique, bien qu’elle
 ne représente pas tout le monde, tend vers la décentralisation des
 pouvoirs et combat les monopoles. Par conséquent, l’écosystème du libre
-tend à être très décentralisé, sans point unique où trouver toute les
+tend à être très décentralisé, sans point unique où trouver toutes les
 communautés, tous les logiciels, et toutes les ressources.
 
-Cela étant dit, pour se repérer dans l’écosystème, un certain nombres de
+Cela étant dit, pour se repérer dans l’écosystème, un certain nombre de
 points généraux peuvent aider :
 - Connaître et comprendre les [[https://fr.wikipedia.org/wiki/Logiciel_libre][fondements du logiciel libre]]
 - Connaître et comprendre [[*Licences : les indispensables à connaître][les indispensables des licences libres]]
@@ -187,7 +187,7 @@ est vivement animé par des associations et entreprises du libre.
 
 On notera les associations fondatrices du mouvement logiciel libre par
 la /[[https://www.fsf.org/][Free Software Foundation]]/, et de l’open source avec la /[[https://opensource.org/][Open Source
-Initiativeff]]/.
+Initiative]]/.
 
 Il y a des fondations structurantes de l’écosystème des logiciels libres
 orientées commerce et industrie :
@@ -329,7 +329,7 @@ Il existe plusieurs scénarios de modèle à double licence :
    modèle économique.
 
 Il est aussi possible qu’une solution logicielle ne soit pas sous double
-licence par défaut, mais qu’il y est un changement au cours du
+licence par défaut, mais qu’il y ait un changement au cours du
 temps. Par exemple :
 
 1. Une licence propriétaire chronodégradable en licence libre.
@@ -346,7 +346,7 @@ partir d’un logiciel libre.
 
 Cela peut venir du support, de la maintenance, de la documentation, du
 conseil, de formations, etc. Pour avoir des revenus récurrents, une
-entreprise peut facture du support forfaitaire, des garanties de
+entreprise peut facturer du support forfaitaire, des garanties de
 fonctionnement et juridique.
 
 *** Contribution de l’administration à un logiciel libre
@@ -381,8 +381,8 @@ Parce que les CLAs sont des documents légaux, le département juridique
 doit se charger de les signer et de garder une trace de ces éléments,
 rendant le processus lourd.
 
-Par conséquent, la fondation Linux, et plusieurs autres organisations qui
-ont suivi, sont passées au *DCO*, /[[https://developercertificate.org/][Developer Certificate of
+Par conséquent, la fondation Linux, et plusieurs autres organisations
+qui ont suivi, sont passées au *DCO*, /[[https://developercertificate.org/][Developer Certificate of
 Origin]]/. Celui-ci n’est pas un contrat légal, mais un mécanisme plus
 simple indiquant qu’un contributeur a le droit de contribuer au code et
 qu'il concède leur contribution sous la licence libre choisie par le
@@ -394,7 +394,7 @@ avec les modèles économiques des entreprises avant de contribuer à leur
 projet. Une attention particulière doit être portée au CLAs.
 
 Par exemple, l’entreprise Element (derrière le protocole Matrix et
-l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][font signer un CLA avec une exception à l’AGPL pour
+l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][fait signer un CLA avec une exception à l’AGPL pour
 pouvoir vendre du code source]] contribué par des auteurs extérieurs à
 Element sous une licence propriétaire.
 
@@ -403,12 +403,12 @@ Element sous une licence propriétaire.
 S’agissant d’une administration publique qui publie des codes sources
 sous licences libres, il faut bien comprendre que les libertés octroyées
 par ces licences permettent en tout temps à n’importe quel acteur de
-réutiliser le code produits par des agents public, et ce, même à des
+réutiliser le code produit par des agents publics, et ce, même à des
 fins lucratives.
 
 Si les codes sources sont estimés représenter une menace avérée pour
 l’intérêt général, alors un choix de licence à copyleft fort est
-fortement conseillé. Pour plus de détails sur le copyleft fort, [[la section ][se
+fortement conseillé. Pour plus de détails sur le copyleft fort, [[*Qu'est-ce que le « copyleft » ?][se
 référer à cette section]]. Attention, le copyleft fort n’empêche pas la
 vente des codes sources.
 
@@ -432,8 +432,8 @@ libre :
 !> Est-ce que la licence garantie les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]] ou
 répond aux critères de la [[http://www.opensource.org/osd.html][définition de l’OSI]] ?
 
-Pour vous faciliter la vie, l’OSI maintient une [[http://www.opensource.org/licenses][liste de licences
-acceptées]].
+Pour vous faciliter la vie, l’OSI maintient une
+[[http://www.opensource.org/licenses][liste de licences acceptées]].
 
 [[https://github.com/redis/redis?tab=License-1-ov-file][Redis]] et [[https://github.com/hashicorp/terraform?tab=License-1-ov-file][Terraform]] sont des exemples d’entreprise surfant sur
 l’/openwashing/.
@@ -446,7 +446,7 @@ nombreuses années), [[https://www.mozilla.org/en-US/][Mozilla]], [[https://axel
 
 Pour le public, on peut citer : [[https://lutece.paris.fr/fr/][Lutece de la ville de Paris]], [[https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html][le fait
 qu’un État fédéral allemand fait passer 30 000 PC sous Linux et
-LibreOffice]], [[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][le fait que le système de design de l’État (DSFR) permet
+LibreOffice]], [[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][lefait que le système de design de l’État (DSFR) permet
 entre 3,1 et 4,9 M€ d’économies par an (note de bas page 86)]]. Vous
 pouvez voir une liste plus complète de logiciel libre à fort potentiel
 de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
