@@ -116,8 +116,7 @@ n’importe qui peut apporter du support au logiciel, et chaque
 entreprise ou individu apportant leurs contributions mutualisent la
 charge de travail.
 
-Il est donc *tout à fait possible de faire évoluer une solution libre*. Pour
-savoir comment le faire, vous pouvez vous référer à la [[*Trouver des solutions libres][section ci-dessus.]]
+Il est donc *tout à fait possible de faire évoluer une solution libre*.
 
 ** Les politiques ministérielles déjà publiées
 
@@ -353,7 +352,8 @@ fonctionnement et juridique.
 
 La contribution de l’administration à un logiciel libre, qu’il soit
 communautaire ou édité par une entreprise privée, requiert, dans la
-majorité des cas, un DCO ou CLA.
+majorité des cas, un DCO (/Developer Certificate of Origin/) ou CLA
+(/Contributor Licence Agreement/).
 
 Ces contrats ou ces /agreement/ sont un moyen, plus ou moins simple, de
 donner un accord de contribution aux développeurs et de permettre à
@@ -400,17 +400,19 @@ Element sous une licence propriétaire.
 
 *** Publication
 
-S’agissant d’une administration publique qui publie des codes sources
-sous licences libres, il faut bien comprendre que les libertés octroyées
-par ces licences permettent en tout temps à n’importe quel acteur de
-réutiliser le code produit par des agents publics, et ce, même à des
-fins lucratives.
+La doctrine de la DINUM sur les licences à utiliser pour la publication
+des codes sources est d’utiliser des licences permissives. Lorsqu’une
+administration publique publie des codes sources sous licences libres,
+les libertés octroyées par ces licences permettent en tout temps à
+n’importe quel acteur de réutiliser le code produit par des agents
+publics, et ce, même à des fins lucratives.
 
-Si les codes sources sont estimés représenter une menace avérée pour
-l’intérêt général, alors un choix de licence à copyleft fort est
-fortement conseillé. Pour plus de détails sur le copyleft fort, [[*Qu'est-ce que le « copyleft » ?][se
-référer à cette section]]. Attention, le copyleft fort n’empêche pas la
-vente des codes sources.
+Si la réutilisation et l’intégration d’un code source dans un modèle
+propriétaire est considéré comme une menace avérée pour l’intérêt
+général, alors un choix de licence à copyleft fort est fortement
+conseillé. Pour plus de détails sur le copyleft fort, [[*Qu'est-ce que le « copyleft » ?][se référer à cette
+section]]. Attention, le copyleft fort n’empêche pas la vente des codes
+sources.
 
 *** /Openwashing/
 
@@ -429,8 +431,9 @@ Source Initiative [ou de la FSF].
 une question fondamentale à se poser pour savoir si c’est un projet
 libre :
 
-!> Est-ce que la licence garantie les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]] ou
-répond aux critères de la [[http://www.opensource.org/osd.html][définition de l’OSI]] ?
+!> Est-ce que la licence garantie les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]]
+(étudier, copier, modifier, redistribuer) ou répond aux critères de la
+[[http://www.opensource.org/osd.html][définition de l’OSI]] ?
 
 Pour vous faciliter la vie, l’OSI maintient une
 [[http://www.opensource.org/licenses][liste de licences acceptées]].
