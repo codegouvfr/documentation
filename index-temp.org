@@ -1501,10 +1501,16 @@ Capacité pour une forge de permettre la construction automatique du logiciel de
 Une licence logicielle est un contrat passé entre les auteurs d'un logiciel et ses réutilisateurs. Les licences dites « libres » accordent aux utilisateurs le droit de réutiliser le code source d'un logiciel.
 
 ** Logiciel
+   :PROPERTIES:
+   :CUSTOM ID: logiciel
+   :END:
 
-TODO : définir logiciel notamment la différence avec un code source. La
-question : Qu'est ce qu'un dépôt de code source et en quoi est-ce
-différent d'un logiciel ?
+Un logiciel est un ensemble de séquences d’instructions interprétables
+par une machine. À la différence d’un code source qui est aussi /un
+ensemble de séquence d’instructions/ (mais lisible par l’humain), les
+instructions sont en code objet, généralement en binaire.
+
+
 
 ** Logiciel libre
    :PROPERTIES:
