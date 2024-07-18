@@ -29,6 +29,9 @@ ne sera pas directement question de logiciels sous licence non libre,
 ni de service en ligne, ni des bonnes pratiques de développement qui
 valent, pour certains, quelle que soit la licence des logiciels.
 
+Si vous êtes nouveau dans le milieu du logiciel libre, [[../glossaire.md][un glossaire est
+disponible]].
+
 * Utiliser des logiciels libres
   :PROPERTIES:
   :EXPORT_FILE_NAME: utiliser.md
@@ -282,11 +285,16 @@ communautaire existant et accompagne ses clients dans le déploiement du
 logiciel, que ce soit sur site, sur le cloud, ou simplement sur les
 postes de travail. Il personnalise aussi en fonction des attentes de ses
 clients (personnalisation graphique, mais aussi ajout de fonctionnalités
-spécifiques, etc.).
+spécifiques, etc.). Suivant la licence du logiciel de base,
+l’intégrateur peut être en mesure d’ajouter des couches propriétaires si
+le client l’exige. Néanmoins, cela n’est généralement ni dans l’intérêt
+du client, ni dans l’intérêt de l’intégrateur puisqu’ils s’éloigneraient
+des bénéfices de la mutualisation des efforts ; il est plus intéressant
+de fournir les ajouts sous licence libre.
 
-L’intégrateur tire alors profit de l’intégration de la solution logiciel
-dans l’environnement du client, mais aussi dans les conseils qu’il peut
-lui apporter, et dans la maintenance applicative.
+L’intégrateur tire profit de l’intégration de la solution logiciel dans
+l’environnement du client, mais aussi dans les conseils qu’il peut lui
+apporter, et dans la maintenance applicative.
 
 **** Éditeur logiciel
 
@@ -405,14 +413,31 @@ des codes sources est d’utiliser des licences permissives. Lorsqu’une
 administration publique publie des codes sources sous licences libres,
 les libertés octroyées par ces licences permettent en tout temps à
 n’importe quel acteur de réutiliser le code produit par des agents
-publics, et ce, même à des fins lucratives.
+publics, et ce, même à des fins lucratives et d’intégration dans un
+logiciel propriétaire.
 
 Si la réutilisation et l’intégration d’un code source dans un modèle
 propriétaire est considéré comme une menace avérée pour l’intérêt
 général, alors un choix de licence à copyleft fort est fortement
-conseillé. Pour plus de détails sur le copyleft fort, [[*Qu'est-ce que le « copyleft » ?][se référer à cette
-section]]. Attention, le copyleft fort n’empêche pas la vente des codes
-sources.
+conseillé, voire, dans le cas de menace de SaaS (/Software as a
+Service/), la licence AGPL. La notion « d’intérêt général » est laissée
+à l’interprétation des administrations.
+
+Par exemple, une mission de service public finance le développement d’un
+logiciel A, publie son code source, et en fait un service pour les
+autres administrations. Ensuite, une entreprise privée prend ce code
+source A, l’améliore en code source B, et vend un service SaaS
+(/Software as a Service/) basé sur B aux administrations. L’État aura
+alors payé deux fois le service, la mission de service public n’aura
+plus de raison d’exister, et les améliorations faites par l’entreprise
+ne seront pas redistribuées. Dans ce cas de figure là, mettre le code
+source A sous la licence AGPL (qui oblige la redistribution des
+contributions sous la même licence même lorsque le logiciel est
+distribué en SaaS) est fortement conseillé.
+
+Pour plus de détails sur le copyleft fort, [[*Qu'est-ce que le « copyleft » ?][se référer à cette
+section]]. Attention, le copyleft fort (ou la licence AGPL) n’empêche pas
+la vente des codes sources.
 
 *** /Openwashing/
 
@@ -1474,6 +1499,12 @@ Capacité pour une forge de permettre la construction automatique du logiciel de
    :END:
 
 Une licence logicielle est un contrat passé entre les auteurs d'un logiciel et ses réutilisateurs. Les licences dites « libres » accordent aux utilisateurs le droit de réutiliser le code source d'un logiciel.
+
+** Logiciel
+
+TODO : définir logiciel notamment la différence avec un code source. La
+question : Qu'est ce qu'un dépôt de code source et en quoi est-ce
+différent d'un logiciel ?
 
 ** Logiciel libre
    :PROPERTIES:
