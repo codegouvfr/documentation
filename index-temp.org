@@ -1322,6 +1322,25 @@ https://www.numerique.gouv.fr/publications/politique-logiciel-libre/
 
 ** NEXT [#A] Qu’est-ce que cela apporte au-delà du respect de la législation ?
 
+** NEXT En tant qu'agent de l'état, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? si oui dans quelles conditions ?
+
+Réponse de Bastien :
+
+la réponse est "oui, si vous avez l'accord de votre manager".
+
+Le document qui acte de cette possibilité de contribuer à des logiciels
+libres existants est effectivement la politique de contribution open
+source de 2018.
+
+C'est aussi quelque chose que nous réaffirmerons dans la documentation
+de la mission logiciels libres: https://code.gouv.fr/documentation/
+
+Dans les faits, ça peut être plus compliqué que de simplement obtenir
+l'accord de votre manager, notamment s'il y a un CLA à signer pour
+contribuer au projet (là il faudra que vos services juridiques s'en
+mêlent). S'il n'y a qu'un DCO (https://developercertificate.org), vous
+pouvez l'accepter sans mobiliser vos services juridiques.
+
 * Ressources
   :PROPERTIES:
   :EXPORT_FILE_NAME: ressources.md
