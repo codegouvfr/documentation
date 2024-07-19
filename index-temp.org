@@ -481,11 +481,52 @@ entre 3,1 et 4,9 M€ d’économies par an (note de bas page 86)]]. Vous
 pouvez voir une liste plus complète de logiciel libre à fort potentiel
 de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
 
-** NEXT Le marché public pour le logiciel libre
+** STRT Le marché public pour le logiciel libre
+
+La commande publique *peut faire appel à un logiciel libre précis*.
+
+En effet, à défaut des logiciels privatifs, un logiciel libre peut être
+utilisé, copié, modifié, par n’importe qui, y compris des entreprises
+concurrentes proposant des services autour d’un logiciel libre. Dans ce
+cadre là, exiger un logiciel libre précis ne déroge en rien aux
+principes de libertés d’accés et d’égalité de traitement du Code des
+marchés publics. Le logiciel libre, /par définition/, garantit le
+principe d’égalité.
+
+Plus encore, la commande publique *peut exiger une solution numérique
+faite de logiciels libres*.
+
+En effet, l’aspect libre d’un logiciel, déterminé par sa /licence
+libre/, est une caractéristique juridique. Rien ne s’oppose à ce que la
+commande publique requiert des solutions logicielles avec comme
+caractéristiques juridiques la possibilité de copier, modifier, et
+redistribuer.
+
+Néanmoins, précisons. La commande publique ne sera pas sur l’acquisition
+d’un logiciel libre, mais sur la prestation de service autour de ce
+logiciel libre.
+
+Un cas particulier cependant : une commande publique portant sur le
+développement d’un logiciel libre. Dans ce cas-là, deux points
+d’attention. D’abord la dévolution des droits de propriété
+intellectuelle doit être prévue par une clause spécifique. [[https://adullact.org/IMG/pdf/GuideLLadministrations-V1.2.0.pdf][Le guide de
+l’adullact va plus loin]]. Ensuite, vient la question de l’égalité des
+candidats. Ce cas est plus délicat lorsqu’une entreprise est déjà engagé
+dans la gouvernance d’un logiciel libre que l’administration pourrait
+être amené à passer commande. Néamoins, cela ne saurait remettre en
+cause l’égalité des candidats, puisque le logiciel étant libre, chacun
+est libre de créer un /fork/ et d’avoir droit de /commit/ par défaut,
+d’autant plus que chaque candidat a en réalité tout intérêt à mutualiser
+les efforts et éviter les /forks/. [[https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2011-09-30/350431][La décision du Conseil d’État]] du 30
+septembre 2001 va dans ce sens.
+
 
 - dire les commandes du marché public peuvent demander un logiciel libre
   en particulier
   - Canevet page 524
+- mentionner le cadre de la loi qui donne la priorité aux logiciels libre
+  - par exemple loi « relative à l’enseginement supérieur et à la
+    recherche » article 6 modifiant artcile L.123-4-1
 
 * Publier un code source
   :PROPERTIES:
