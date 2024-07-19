@@ -123,11 +123,12 @@ Il est donc *tout à fait possible de faire évoluer une solution libre*.
 
 ** Les politiques ministérielles déjà publiées
 
-Vous pouvez lire notre [[https://code.gouv.fr/fr/blog/lengagement-des-ministeres-sur-louverture-des-codes-sources-et-lutilisation-de-logiciels-libres-retour-sur-les-feuilles-de-route-publiees-en-septembre-2021/][entrée de blog sur le sujet]]. Pour résumer, voici
-une liste des politiques ministérielles déjà publiées concernant le
-logiciel libre :
+Vous pouvez lire notre [[https://code.gouv.fr/fr/blog/lengagement-des-ministeres-sur-louverture-des-codes-sources-et-lutilisation-de-logiciels-libres-retour-sur-les-feuilles-de-route-publiees-en-septembre-2021/][entrée de blog sur les feuilles de routes]]. Pour
+résumer, voici une liste des politiques ministérielles déjà publiées
+concernant le logiciel libre :
 
-- [[https://www.data.gouv.fr/fr/datasets/r/ff2c204d-4a92-417c-be2a-12e8d4c2b2a6][Ministère de la Cohésion des Territoires et des Relations avec les Collectivités Territoriales]]
+- [[https://www.data.gouv.fr/fr/datasets/r/ff2c204d-4a92-417c-be2a-12e8d4c2b2a6][Ministère de la Cohésion des Territoires et des Relations avec les
+  Collectivités Territoriales]]
 - [[https://www.data.gouv.fr/fr/datasets/r/b02f6070-2473-4873-8dc3-c3da71d6a0be][Ministère des Solidarités et de la Santé]]
 - [[https://www.data.gouv.fr/fr/datasets/r/25f0f375-df81-4cc5-8eae-c277a729923f][ministère de la Transition Écologique]]
 - [[https://www.data.gouv.fr/fr/datasets/r/953b4f68-63fa-45fd-b1f6-ab868203e7f0][ministère de l’Agriculture et de l’Alimentation]]
@@ -354,19 +355,19 @@ partir d’un logiciel libre.
 Cela peut venir du support, de la maintenance, de la documentation, du
 conseil, de formations, etc. Pour avoir des revenus récurrents, une
 entreprise peut facturer du support forfaitaire, des garanties de
-fonctionnement et juridique.
+fonctionnement et juridiques.
 
 *** Contribution de l’administration à un logiciel libre
 
 La contribution de l’administration à un logiciel libre, qu’il soit
-communautaire ou édité par une entreprise privée, requiert, dans la
-majorité des cas, un DCO (/Developer Certificate of Origin/) ou CLA
+communautaire ou édité par une entreprise privée, requiert, dans
+certains cas, un DCO (/Developer Certificate of Origin/) ou un CLA
 (/Contributor Licence Agreement/).
 
 Ces contrats ou ces /agreement/ sont un moyen, plus ou moins simple, de
-donner un accord de contribution aux développeurs et de permettre à
-l’entité gérant le projet de distribuer ces contributions sous sa
-licence.
+donner un accord d’utilisation des contributions des développeurs à
+l’entité gérant le projet et de lui permettre d’utiliser et de
+distribuer ces contributions sous sa licence.
 
 Le *CLA*, /Contributor Licence Agreement/, est un document légal devant
 être signé par le contributeur clarifiant les termes et conditions de sa
@@ -383,7 +384,7 @@ Licence Agreement/ respectivement. Le ICLA concerne les individus
 contribuant en leur nom propre en dehors de toute organisation ou
 employeur. Le CCLA concerne la contribution d’une entreprise sur le
 projet d’une autre entreprise. En général, ces documents légaux sont
-basés sur les [[https://www.apache.org/licenses/contributor-agreements.html][CLA de la fondation Apache]].
+basés sur la [[https://www.apache.org/licenses/contributor-agreements.html][CLA de la fondation Apache]].
 
 Parce que les CLAs sont des documents légaux, le département juridique
 doit se charger de les signer et de garder une trace de ces éléments,
@@ -392,9 +393,10 @@ rendant le processus lourd.
 Par conséquent, la fondation Linux, et plusieurs autres organisations
 qui ont suivi, sont passées au *DCO*, /[[https://developercertificate.org/][Developer Certificate of
 Origin]]/. Celui-ci n’est pas un contrat légal, mais un mécanisme plus
-simple indiquant qu’un contributeur a le droit de contribuer au code et
-qu'il concède leur contribution sous la licence libre choisie par le
-projet. Un DCO requiert simplement de signer (/sign-off/) chaque commit.
+simple indiquant qu’un contributeur a le droit de contribuer son code et
+qu'il donne son accord pour que ses contributions soient utilisées et
+redistribuées sous la licence libre choisie par le projet. Un DCO
+requiert simplement de signer (/sign-off/) chaque commit.
 
 Les administrations, DSI, ou tout autre agent et administration
 publique, doivent prendre en compte ces éléments, mis en perspectives
@@ -421,7 +423,7 @@ propriétaire est considéré comme une menace avérée pour l’intérêt
 général, alors un choix de licence à copyleft fort est fortement
 conseillé, voire, dans le cas de menace de SaaS (/Software as a
 Service/), la licence AGPL. La notion « d’intérêt général » est laissée
-à l’interprétation des administrations.
+à l’appréciation des administrations.
 
 Par exemple, une mission de service public finance le développement d’un
 logiciel A, publie son code source, et en fait un service pour les
@@ -430,7 +432,7 @@ source A, l’améliore en code source B, et vend un service SaaS
 (/Software as a Service/) basé sur B aux administrations. L’État aura
 alors payé deux fois le service, la mission de service public n’aura
 plus de raison d’exister, et les améliorations faites par l’entreprise
-ne seront pas redistribuées. Dans ce cas de figure là, mettre le code
+ne seront pas redistribuées. Dans ce cas de figure, mettre le code
 source A sous la licence AGPL (qui oblige la redistribution des
 contributions sous la même licence même lorsque le logiciel est
 distribué en SaaS) est fortement conseillé.
@@ -536,6 +538,7 @@ au moment de sa diffusion est [[https://www.data.gouv.fr/fr/licences][accessible
 Pour savoir si le code source d'un logiciel développé et utilisé par
 votre organisme public est communicable, nous vous invitons à tester
 ce [[https://guide-juridique-logiciel-libre.etalab.gouv.fr/][guide juridique interactif]].
+
 
 *** Licences : les indispensables à connaître
 
