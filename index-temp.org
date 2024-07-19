@@ -1363,24 +1363,32 @@ https://www.numerique.gouv.fr/publications/politique-logiciel-libre/
 
 ** NEXT [#A] Qu’est-ce que cela apporte au-delà du respect de la législation ?
 
-** NEXT En tant qu'agent de l'état, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? si oui dans quelles conditions ?
+** NEXT En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? Si oui dans quelles conditions ?
 
-Réponse de Bastien :
+Si le logiciel est réalisé par un ou plusieurs salariés dans le cadre
+d'une relation de subordination à leur employeur : les droits moraux
+restent acquis aux auteurs mais les droits d'exploitation sont transmis
+de plein droit à l'employeur. Cette disposition est valable pour l'agent
+dans ses missions de services publics (Art. L. [[https://www.legifrance.gouv.fr/codes/id/LEGIARTI000006278959/2024-07-19/?isSuggest=true][131-3-1 du Code de la
+propriété intellectuelle]]).
 
-la réponse est "oui, si vous avez l'accord de votre manager".
+Si le logiciel est réalisé sur le temps libre de l'auteur, de sa propre
+initiative, avec ses propres moyens techniques et sans rapport avec sa
+fonction : il est alors auteur de plein droit et dispose à sa guise de
+l'ensemble des prérogatives liées à l'expression en particulier des
+droits d'exploitation.
+
+Donc en tant qu’agent de l’État, il est possible de contribuer si vous
+avez l’accord de votre hiérarchie.
 
 Le document qui acte de cette possibilité de contribuer à des logiciels
-libres existants est effectivement la politique de contribution open
-source de 2018.
+libres existants est la [[https://www.numerique.gouv.fr/publications/politique-logiciel-libre/][politique de contribution open source de 2018]].
 
-C'est aussi quelque chose que nous réaffirmerons dans la documentation
-de la mission logiciels libres: https://code.gouv.fr/documentation/
-
-Dans les faits, ça peut être plus compliqué que de simplement obtenir
-l'accord de votre manager, notamment s'il y a un CLA à signer pour
-contribuer au projet (là il faudra que vos services juridiques s'en
-mêlent). S'il n'y a qu'un DCO (https://developercertificate.org), vous
-pouvez l'accepter sans mobiliser vos services juridiques.
+Cependant, ça peut être plus compliqué que de simplement obtenir
+l'accord de la hiérarchie, notamment s'il faut signer un [[*Contribution de l’administration à un logiciel libre][CLA]] pour
+contribuer au projet. Dans ce cas-là, les services juridiques devront
+s'en mêlent. S'il n'y a qu'un [[https://developercertificate.org][DCO]], vous pouvez l'accepter sans mobiliser
+vos services juridiques.
 
 * Ressources
   :PROPERTIES:
