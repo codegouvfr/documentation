@@ -626,7 +626,7 @@ votre organisme public est communicable, nous vous invitons à tester
 ce [[https://guide-juridique-logiciel-libre.etalab.gouv.fr/][guide juridique interactif]].
 
 
-*** Licences : les indispensables à connaître
+*** NEXT Licences : les indispensables à connaître
 
 ** Quels degrés d'ouverture pour les codes sources ?
 
@@ -674,6 +674,64 @@ proposées pour aider à *prioriser les ouvertures logicielles*. Le but
 est de *canaliser votre énergie* sur les logiciels qui ont un bon
 potentiel contributif et *de communiquer clairement* sur la posture de
 l'administration dans le cas des publications simples.
+
+** Responsabilité de l’administration publique
+
+Quelle est la responsabilité engagée par une collectivité publique (État
+ou collectivité locale) qui met à disposition un logiciel sous licence
+de logiciel libre ?
+
+Généralement licences libres et licences propriétaires de logiciel
+rejettent toutes responsabilités quant aux dommages directs et indirects
+que pourraient causer l'utilisation du logiciel. Une telle clause
+est-elle compatible avec le droit français ?
+
+En droit français, la limitation, voire l'exonération de responsabilité,
+est autorisée en matière contractuelle. La protection du consommateur
+suppose néanmoins que l'exclusion totale de responsabilité ne soit pas
+admise quand le contrat est passé avec un consommateur ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032227122?init=true&page=1&query=L.132-1+du+code+de+la+consommation&searchField=ALL&tab_selection=all][art. L.132-1 du
+code de la consommation]]).
+
+Il en est de même pour les produits défectueux, l'article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006438975/1998-05-21][1386-15 du
+code civil]] ne permettant pas que soit écartée par voie contractuelle la
+responsabilité de ce fait, sauf entre professionnels. Dans la mesure où
+le logiciel s'adresse manifestement à des professionnels et des
+informaticiens, et c'est le cas des applications portées par les
+administrations, l'exclusion de responsabilité pour les dommages directs
+est ainsi admise.
+
+Concernant la responsabilité de l'administration en matière de
+contrefaçon, le risque existe même lorsque le logiciel n'est pas diffusé
+comme logiciel libre ; mais une diffusion large expose plus facilement à
+ce risque.
+
+*Contrefaçon en matière de droit d'auteur* : le logiciel diffusé inclut un
+composant ou même un bout de code source pour lequel l'administration
+n'a pas les droits de diffusion. La responsabilité de l'administration
+est engagée. Toutefois si le logiciel a été produit dans le cadre d'un
+marché public, il conviendra de rechercher la responsabilité du
+prestataire coupable de négligence ou même plagiaire sur les
+développements spécifiques dans le *rapport de conformité*.
+
+Le risque de différends entre l'administration engagée dans une démarche
+de mutualisation et les acteurs du logiciel libre est très faible et
+devrait se résoudre à l'amiable tant les objectifs des uns et des autres
+convergent.
+
+*Contrefaçon en matière de marque* : une marque est un signe distinctif
+(logo), un mot ou un groupe de mots servant de reconnaissance légale
+pour un produit, une société… Il est de la responsabilité de
+l'administration, de s'assurer que la mise à disposition du logiciel ne
+contrefait pas une marque déposée. En particulier concernant le nom du
+logiciel, il faudra vérifier qu'il n'empiète pas sur une marque
+déposée. D'une façon générale, la mutualisation d'un logiciel doit se
+faire en marque blanche, sans signe distinctif autre que celui de
+l'administration.
+
+*Contrefaçon en matière de brevet* : Les brevets logiciels en tant que
+tels, en France et en Europe n'ont pas de reconnaissance juridique. La
+[[https://fr.wikipedia.org/wiki/Convention_sur_le_brevet_europ%C3%A9en][Convention sur le brevet européen]] (CBE) l'indique clairement dans son
+[[https://www.epo.org/fr/legal/epc/2020/a52.html][article 52]].
 
 ** NEXT Référencement et standardisation
 - TODO
