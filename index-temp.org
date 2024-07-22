@@ -43,12 +43,11 @@ aussi imparfaites les unes que les autres.
 
 D’abord, la mission logiciels libres recense des logiciels libres sur
 trois pages web :
-- [[https://code.gouv.fr/sill][code.gouv.fr/sill]] permet d’identifier facilement les logiciels libres
-  utilisés par l’administration, leur version utilisée, et d’avoir un
-  référent du logiciel à contacter pour avoir plus d’informations. Nous
-  vous recommandons de commencer par là.
 - [[https://code.gouv.fr/fr/awesome/][code.gouv.fr/awesome]] liste les logiciels libres développés par les
   administrations à fort potentiel de réutilisation.
+- [[https://code.gouv.fr/sill][code.gouv.fr/sill]] permet d’identifier facilement les logiciels libres
+  utilisés par l’administration, leur version utilisée, et d’avoir un
+  référent du logiciel à contacter pour avoir plus d’informations.
 - [[https://code.gouv.fr/sources][code.gouv.fr/sources]] liste de manière centralisée les dépôts de codes
   sources développés ou achetés par l’administration ainsi que les
   organisations disponibles sur les forges. Le site permet de parcourir
@@ -58,15 +57,42 @@ trois pages web :
 beta.gouv.fr a aussi un outil appelé [[https://etabli.incubateur.net/][établi]] répertoriant les logiciels
 de l’administration publique avec une fiche descriptive orientée métier
 constituée par une intelligence artificielle. Cet outil fait
-abstractions des notions techniques (bibliothèque utilisée, etc.) peu
-utiles pour l’utilisateur qu’il soit développeur, agent public, ou
-citoyen. Il donne un résumé fonctionnel du logiciel (envoi de mail,
-tableur, etc.). Un assistant IA est aussi disponible permettant
-d’affiner ses recherches pour être sûr de ne pas passer à côté d’un
-logiciel à potentiel de réutilisation. *Attention*, cet outil référence
-tant des logiciels libres que des logiciels propriétaires.
+abstractions des notions techniques (bibliothèque utilisée, etc.). Il
+donne un résumé fonctionnel du logiciel (envoi de mail, tableur,
+etc.). Un assistant IA est aussi disponible permettant d’affiner ses
+recherches pour être sûr de ne pas passer à côté d’un logiciel à
+potentiel de réutilisation. *Attention*, cet outil référence tant des
+logiciels libres que des logiciels propriétaires.
 
-Ensuite, l’utilisation des moteurs de recherche classiques fait
+Ensuite, Un certain nombre de sites collaboratifs sont réputés fournir
+exclusivement des logiciels sous licence libre ; c'est même une
+condition de l'hébergement sur ces sites :
+
+- [[http://www.framasoft.net/][Framasoft]] : Ce site propose une base référençant plus de 1200
+  applications sous licence libre et disponible sous Windows. Figurer
+  dans cette base est une bonne garantie du caractère libre d'un
+  logiciel.
+- [[http://adullact.net/][Adullact]] : Sur ce site une vérification précise du caractère libre
+  de l’application est opérée avant toute mise à disposition, c'est une
+  condition de l'hébergement.
+- [[http://www.apache.org/][Apache]] : La gouvernance autour des projets de la fondation Apache est
+  très forte. De part ses statuts elle héberge exclusivement des projets
+  sous licence Apache Licence. Le caractère libre des composants est
+  garanti.
+- [[http://www.debian.org/][Debian]] : le fait pour une application d'être packagée par la
+  communauté Debian dans les sections « main » et « contrib » des dépôts
+  de la distribution, est une forte garantie de son caractère libre. Ce
+  sont d'ailleurs les principes du logiciel libre selon Debian qui ont
+  donnés naissance aux 10 critères permettant de qualifier une licence
+  open source selon l'Open Source Initative. Depuis la page
+  http://www.debian.org/distrib/packages il est possible de rechercher
+  un logiciel afin de vérifier qu'il appartient bien au section « Main »
+  ou « contrib ».
+- [[http://directory.fsf.org/][FSF]]/[[http://directory.fsf.org/][UNESCO Free Software Directory]] : La Free Software Foundation et
+  l'UNESCO ont recensé plus de 16 900 logiciels pour lesquels le caractère
+  libre de la licence a été vérifié.
+
+Aussi, l’utilisation des moteurs de recherche classiques fait
 généralement l’affaire. Avec l’utilisation des mots clefs « open
 source » et « logiciel libre », les résultats sont
 satisfaisants. Néanmoins, des recherches plus abouties sont
@@ -82,13 +108,32 @@ trouver des modules logiciels.
 
 !> *Attention*, la présence d’un dépôt logiciel sur ces plateformes
 n’implique en aucun cas l’existence d’une licence libre ; il faut
-toujours vérifier sur le dépôt officiel (ou le site web officiel) la
-licence apposée sur le code. Même un code source sur github.com avec
-tous les éléments nécessaires pour télécharger, compiler, et faire
-tourner le logiciel sur votre machine n’implique pas un logiciel
-libre. *Si il n’y a pas de licence libre, ou toute autre licence
-explicitant vos libertés, vous n’avez pas le droit de copier, modifier,
-redistribuer le logiciel*.
+toujours vérifier sur le dépôt officiel la licence apposée sur le
+code. Même un code source sur github.com avec tous les éléments
+nécessaires pour télécharger, compiler, et faire tourner le logiciel sur
+votre machine n’implique pas un logiciel libre. *Si il n’y a pas de
+licence libre, ou toute autre licence explicitant vos libertés, vous
+n’avez pas le droit de copier, modifier, redistribuer le logiciel*.
+
+*** Comment vérifier la licence d'un logiciel ?
+
+Une simple recherche sur internet permet de localiser le site de
+présentation et de mise à disposition du logiciel. Une fois l'URL du
+site identifié, une recherche du mot « license » limitée au site doit
+permettre de localiser une page indiquant sous quelle licence le
+logiciel est mis à disposition. Par exemple, pour le projet LibreOffice :
+
+- Une recherche de « Evolvica » donne l'url du site projet : http://www.libreoffice.org
+- Une recherche de `license site:https://www.libreoffice.org/` donne la
+  page https://www.libreoffice.org/about-us/licenses qui contient effectivement
+  les éléments d'informations relatifs à la licence
+
+s’il n'est pas possible de trouver une information directe et fiable sur
+la licence d'un logiciel avec la technique précendente, il faut se
+rendre sur le dépôt de code source du logiciel (sur github.com,
+gitlab.com, sr.ht, ou les instances locales comme libre
+https://forge.apps.education.fr/explore). La licence devrait se trouver
+à la racine du dépôt.
 
 ** Trouver de l'expertise sur une solution libre
 Le site [[https://code.gouv.fr/sill][code.gouv.fr/sill]] est un excellent point de départ pour les
