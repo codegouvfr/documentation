@@ -761,6 +761,70 @@ en fonction de ces critères.
 ** NEXT Bonnes pratiques de communication
 
 ** NEXT Bonnes pratiques pour la documentation
+
+*** La licence pour la documentation
+
+[[https://www.gnu.org/licenses/fdl-1.3.html][La licence GFDL]] (/GNU Free Documentation License/), rédigée par la FSF,
+est une forme de /copyleft/ destinée à être utilisée sur un manuel, un
+guide ou tout autre document afin d’assurer à chacun la liberté
+effective de le copier et de le redistribuer, avec ou sans
+modifications, que ce soit à des fins commerciales ou non commerciales.
+
+[[https://creativecommons.org/share-your-work/cclicenses/][Les licences Creative commons]] ont été conçues pour permettre, à la
+manière des licences de logiciel libre, la diffusion des oeuvres
+encadrées par le droit d’auteur, mais distinctes du logiciel.
+
+Voici les deux licences les plus utiles dans le contexte des travaux des
+administrations. Elles ont en commun le respect du nom de l’auteur,
+c’est la clause de « paternité ».
+
+[[https://creativecommons.org/licenses/by-sa/4.0/][Creative commons « paternité - partage à l’identique »]], (CC-BY-SA)
+
+Cette licence s’apparente à une licence de logiciel libre de type
+copyleft. Ainsi toute oeuvre dérivée (l’oeuvre avec des modifications)
+pourra être redistribuée à condition de conserver la licence
+initiale. Un éventuel usage commercial est possible, sans l’autorisation
+de l’auteur.
+
+Une telle licence permettra la publication de documents dont la nature
+évolutive est claire. C’est particulièrement vrai pour la documentation
+logicielle, documents d’analyse fonctionnelle, d’architecture, de
+conception technique, d’installation, d’exploitation, ainsi que les
+guides et tutoriels utilisateurs. Un contributeur pourra ainsi
+redistribuer, s’il le souhaite, une nouvelle version du logiciel, avec
+une documentation mise à jour.
+
+[[https://creativecommons.org/licenses/by-nc/4.0/][Creative commons « paternité-pas de modification »]], (CC-BY-ND)
+
+Cette licence interdit de redistribuer toute version modifiée de
+l’oeuvre. Comme il n’est pas possible de créer une oeuvre dérivée, il
+n’y a pas de pertinence à exiger le partage à l’identique. Cette licence
+est incompatible avec l’esprit d’une licence libre. Un usage commercial
+est possible, sans l’autorisation de l’auteur. Ce type de licence
+convient à la publication :
+- de textes officiels : textes juridiques, rapports publics, lettres de
+  mission, cadres techniques
+- de documents factuels ou contractuels : compte-rendus de réunion,
+  points de décisions, CCTP, CCAP
+- de documents de communication : communiqués politiques , interviews
+  institutionnelles ou nominatives, témoignages, discours
+
+Il est possible d’interdire les usages commerciaux en ajoutant une
+clause « Pas d’utilisation commerciale ». Une telle déclinaison existe
+pour chacune des licences précédemment citées. Mais en interdisant un
+usage commercial sur les oeuvres, qu’interdit-t’on en vérité ?
+
+Il est interdit au licencié de tirer un profit commercial ou une
+compensation financière quelconque de la présentation, de la
+représentation, de la communication de l’oeuvre pour quelques supports,
+médias, procédés techniques et formats utilisés. Par exemple une
+personne ayant compilé un CD contenant des documents sous Creative
+commons de type « pas d’utilisation commerciale » ne pourra vendre même
+à prix coûtant le CD, sans en avoir demandé l’autorisation. De même, une
+édition papier d’un document, ne peut être diffusée sauf gratuitement.
+
+
+
 ** Bonnes pratiques de nommage des organisations/groupes et dépôts
 
 Un bon nom de dépôt décrit la finalité du code source du dépôt.
