@@ -399,8 +399,8 @@ partir d’un logiciel libre.
 
 Cela peut venir du support, de la maintenance, de la documentation, du
 conseil, de formations, etc. Pour avoir des revenus récurrents, une
-entreprise peut facturer du support forfaitaire, des garanties de
-fonctionnement et juridiques.
+entreprise peut facturer du support forfaitaire, des garanties
+juridiques et de fonctionnement.
 
 *** Contribution de l’administration à un logiciel libre
 
@@ -456,12 +456,10 @@ Element sous une licence propriétaire.
 *** Publication
 
 La doctrine de la DINUM sur les licences à utiliser pour la publication
-des codes sources est d’utiliser des licences permissives. Lorsqu’une
-administration publique publie des codes sources sous licences libres,
-les libertés octroyées par ces licences permettent en tout temps à
-n’importe quel acteur de réutiliser le code produit par des agents
-publics, et ce, même à des fins lucratives et d’intégration dans un
-logiciel propriétaire.
+des codes sources est d’utiliser des licences permissives. Les libertés
+octroyées par ces licences permettent en tout temps à n’importe quel
+acteur de réutiliser le code produit par des agents publics, et ce, même
+à des fins lucratives et d’intégration dans un logiciel propriétaire.
 
 Si la réutilisation et l’intégration d’un code source dans un modèle
 propriétaire est considéré comme une menace avérée pour l’intérêt
@@ -526,52 +524,54 @@ entre 3,1 et 4,9 M€ d’économies par an (note de bas page 86)]]. Vous
 pouvez voir une liste plus complète de logiciel libre à fort potentiel
 de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
 
-** STRT Le marché public pour le logiciel libre
+** Le marché public pour le logiciel libre
 
-La commande publique *peut faire appel à un logiciel libre précis*.
-
-En effet, à défaut des logiciels privatifs, un logiciel libre peut être
-utilisé, copié, modifié, par n’importe qui, y compris des entreprises
+À défaut des logiciels privatifs, un logiciel libre peut être utilisé,
+copié, modifié, par n’importe qui, y compris des entreprises
 concurrentes proposant des services autour d’un logiciel libre. Dans ce
-cadre là, exiger un logiciel libre précis ne déroge en rien aux
-principes de libertés d’accés et d’égalité de traitement du Code des
+cadre-là, exiger un logiciel libre précis ne déroge en rien aux
+principes de libertés d’accès et d’égalité de traitement du Code des
 marchés publics. Le logiciel libre, /par définition/, garantit le
 principe d’égalité.
 
-Plus encore, la commande publique *peut exiger une solution numérique
-faite de logiciels libres*.
+La commande publique ne, en revanche, sera pas passée sur
+/l’acquisition/ d’un logiciel libre, mais sur la /prestation/ de service
+autour de ce logiciel libre.  Sauf rare exception, on n’acquiert pas un
+logiciel libre puisque l’on en dispose librement. Dans ce cas,
+l'appropriation du logiciel libre échappe aux règles du marché public.
+
+La commande publique *peut exiger une solution numérique faite de
+logiciels libres*.
 
 En effet, l’aspect libre d’un logiciel, déterminé par sa /licence
 libre/, est une caractéristique juridique. Rien ne s’oppose à ce que la
 commande publique requiert des solutions logicielles avec comme
-caractéristiques juridiques la possibilité de copier, modifier, et
-redistribuer.
+caractéristiques juridiques la possibilité de les étudier, copier,
+modifier, et redistribuer.
 
-Néanmoins, précisons. La commande publique ne sera pas sur l’acquisition
-d’un logiciel libre, mais sur la prestation de service autour de ce
-logiciel libre.
+En revanche, une commande publique portant sur le développement d’un
+logiciel libre est un cas particulier à prendre en compte. Deux
+points d’attention.
 
-Un cas particulier cependant : une commande publique portant sur le
-développement d’un logiciel libre. Dans ce cas-là, deux points
-d’attention. D’abord la dévolution des droits de propriété
-intellectuelle doit être prévue par une clause spécifique. [[https://adullact.org/IMG/pdf/GuideLLadministrations-V1.2.0.pdf][Le guide de
-l’adullact va plus loin]]. Ensuite, vient la question de l’égalité des
-candidats. Ce cas est plus délicat lorsqu’une entreprise est déjà engagé
-dans la gouvernance d’un logiciel libre que l’administration pourrait
-être amené à passer commande. Néamoins, cela ne saurait remettre en
-cause l’égalité des candidats, puisque le logiciel étant libre, chacun
-est libre de créer un /fork/ et d’avoir droit de /commit/ par défaut,
-d’autant plus que chaque candidat a en réalité tout intérêt à mutualiser
-les efforts et éviter les /forks/. [[https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2011-09-30/350431][La décision du Conseil d’État]] du 30
-septembre 2001 va dans ce sens.
+D’abord la dévolution des droits de propriété intellectuelle doit être
+prévue par une clause spécifique. L’[[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043320056][article 46]] du CCAG-TIC prévoit cette
+dévolution des droits permettant la préservation d’une mutualisation
+sous licence libre.
 
+Ensuite, vient la question de l’égalité des candidats. Ce cas est plus
+délicat lorsqu’une entreprise est déjà engagé dans la gouvernance d’un
+logiciel libre que l’administration pourrait être amené à passer
+commande. Néanmoins, cela ne saurait remettre en cause l’égalité des
+candidats, puisque le logiciel étant libre, chacun est libre de créer un
+/fork/ et d’avoir droit de /commit/ par défaut, d’autant plus que chaque
+candidat a en réalité tout intérêt à mutualiser les efforts et éviter
+les /forks/. [[https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2011-09-30/350431][La décision du Conseil d’État]] du 30 septembre 2001 va dans
+ce sens.
 
-- dire les commandes du marché public peuvent demander un logiciel libre
-  en particulier
-  - Canevet page 524
-- mentionner le cadre de la loi qui donne la priorité aux logiciels libre
-  - par exemple loi « relative à l’enseginement supérieur et à la
-    recherche » article 6 modifiant artcile L.123-4-1
+Certaines lois priorisent déjà les logiciels libres comment [[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000027736697?init=true&page=1&query=Loi+n%C2%B02013-660+du+22+juillet+2013+relative+%C3%A0+l%27enseignement+sup%C3%A9rieur+et+%C3%A0+la+recherche+&searchField=ALL&tab_selection=all][l’article 9]]
+de la LOI n° 2013-660 du 22 juillet 2013 relative à l'enseignement
+supérieur et à la recherche modifiant l’article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027747749/2013-07-24][L123-4-1 du Code de
+l’éducation]]
 
 * Publier un code source
   :PROPERTIES:
