@@ -515,7 +515,7 @@ l’/openwashing/.
 
 Les /success stories/ dans le privé sont désormais compliquées à
 dénombrer. En vrac, on peut citer : [[https://www.orekit.org/][Orekit]], [[https://www.redhat.com/en][RedHat]] (du moins pendant de
-nombreuses années), [[https://www.mozilla.org/en-US/][Mozilla]], [[https://axelor.com/][Axelior]], [[https://www.eclipse.org/org/][Eclipse]]…
+nombreuses années), [[https://www.mozilla.org/en-US/][Mozilla]], [[https://axelor.com/][Axelior]], [[https://www.eclipse.org/org/][Eclipse]], etc.
 
 Pour le public, on peut citer : [[https://lutece.paris.fr/fr/][Lutece de la ville de Paris]], [[https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html][le fait
 qu’un État fédéral allemand fait passer 30 000 PC sous Linux et
@@ -530,18 +530,20 @@ de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
 copié, modifié, par n’importe qui, y compris des entreprises
 concurrentes proposant des services autour d’un logiciel libre. Dans ce
 cadre-là, exiger un logiciel libre précis ne déroge en rien aux
-principes de libertés d’accès et d’égalité de traitement du Code des
-marchés publics. Le logiciel libre, /par définition/, garantit le
+principes de libertés d’accès et d’égalité de traitement du Code de la
+commande publique. Le logiciel libre, /par définition/, garantit le
 principe d’égalité.
 
-La commande publique ne, en revanche, sera pas passée sur
+La commande publique, en revanche, ne sera pas passée sur
 /l’acquisition/ d’un logiciel libre, mais sur la /prestation/ de service
 autour de ce logiciel libre.  Sauf rare exception, on n’acquiert pas un
 logiciel libre puisque l’on en dispose librement. Dans ce cas,
-l’appropriation du logiciel libre échappe aux règles du marché public.
+l’appropriation du logiciel libre échappe aux règles de la commande
+publique.
 
-La commande publique *peut exiger une solution numérique faite de
-logiciels libres*.
+Une administration, dans le cadre d'un marché public, *peut inclure dans
+les clauses contractuelles l'exigence d'une solution numérique basée sur
+des logiciels libres*.
 
 En effet, l’aspect libre d’un logiciel, déterminé par sa /licence
 libre/, est une caractéristique juridique. Rien ne s’oppose à ce que la
@@ -549,29 +551,29 @@ commande publique requiert des solutions logicielles avec comme
 caractéristiques juridiques la possibilité de les étudier, copier,
 modifier, et redistribuer.
 
-En revanche, une commande publique portant sur le développement d’un
+En revanche, un marché public portant sur le développement d’un
 logiciel libre est un cas particulier à prendre en compte. Deux
-points d’attention.
+points d’attention :
 
 D’abord la dévolution des droits de propriété intellectuelle doit être
 prévue par une clause spécifique. L’[[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043320056][article 46]] du CCAG-TIC prévoit cette
 dévolution des droits permettant la préservation d’une mutualisation
 sous licence libre.
 
-Ensuite, vient la question de l’égalité des candidats. Ce cas est plus
-délicat lorsqu’une entreprise est déjà engagé dans la gouvernance d’un
-logiciel libre que l’administration pourrait être amené à passer
-commande. Néanmoins, cela ne saurait remettre en cause l’égalité des
-candidats, puisque le logiciel étant libre, chacun est libre de créer un
-/fork/ et d’avoir droit de /commit/ par défaut, d’autant plus que chaque
-candidat a en réalité tout intérêt à mutualiser les efforts et éviter
-les /forks/. [[https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2011-09-30/350431][La décision du Conseil d’État]] du 30 septembre 2001 va dans
-ce sens.
+Ensuite, vient la question de l’égalité de traitement des candidats. Ce
+cas est plus délicat lorsqu’une entreprise est déjà engagée dans la
+gouvernance d’un logiciel libre que l’administration pourrait être
+amenée à passer commande. Néanmoins, cela ne saurait remettre en cause
+le principe l’égalité de traitement des candidats, puisque le logiciel
+étant libre, chacun est libre de créer un /fork/ et d’avoir droit de
+/commit/ par défaut, d’autant plus que chaque candidat a en réalité tout
+intérêt à mutualiser les efforts et éviter les /forks/. [[https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2011-09-30/350431][La décision du
+Conseil d’État]] du 30 septembre 2001 va dans ce sens.
 
-Certaines lois priorisent déjà les logiciels libres comment [[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000027736697?init=true&page=1&query=Loi+n%C2%B02013-660+du+22+juillet+2013+relative+%C3%A0+l%27enseignement+sup%C3%A9rieur+et+%C3%A0+la+recherche+&searchField=ALL&tab_selection=all][l’article 9]]
-de la LOI n° 2013-660 du 22 juillet 2013 relative à l’enseignement
-supérieur et à la recherche modifiant l’article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027747749/2013-07-24][L123-4-1 du Code de
-l’éducation]]
+Certains textes de lois priorisent déjà les logiciels libres comment
+[[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000027736697?init=true&page=1&query=Loi+n%C2%B02013-660+du+22+juillet+2013+relative+%C3%A0+l%27enseignement+sup%C3%A9rieur+et+%C3%A0+la+recherche+&searchField=ALL&tab_selection=all][l’article 9]] de la loi n° 2013-660 du 22 juillet 2013 relative à
+l’enseignement supérieur et à la recherche modifiant l’article
+[[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027747749/2013-07-24][L123-4-1du Code de l’éducation]]
 
 * Publier un code source
   :PROPERTIES:
@@ -925,7 +927,7 @@ convergent.
 
 *Contrefaçon en matière de marque* : une marque est un signe distinctif
 (logo), un mot ou un groupe de mots servant de reconnaissance légale
-pour un produit, une société… Il est de la responsabilité de
+pour un produit, une société, etc. Il est de la responsabilité de
 l’administration, de s’assurer que la mise à disposition du logiciel ne
 contrefait pas une marque déposée. En particulier concernant le nom du
 logiciel, il faudra vérifier qu’il n’empiète pas sur une marque
