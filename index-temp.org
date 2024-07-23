@@ -1277,12 +1277,6 @@ permet une réutilisation plus simple de la bibliothèque et d’ajouter des
 composants logiciels sous différentes licences, potentiellement
 privatrices.
 
-** Sous quelle licence dois-je publier ma documentation ?
-
-Le code source d’un projet d’une administration doit être publié sous
-l’une des licences logicielles prévue. Les autres éléments doivent
-être publiés sous la licence Etalab 2.0.
-
 ** Quelles langues utiliser pour mon code source et ma documentation ?
 
 Le code source est écrit dans un langage de programmation (par exemple
