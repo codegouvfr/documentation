@@ -650,8 +650,12 @@ demander la communication d’un code source.
 
 *** Licences applicables à la publication d’un code source
 
-La liste des licences sous lesquelles un code source peut être placé
-au moment de sa diffusion est [[https://www.data.gouv.fr/fr/licences][accessible ici]].
+Afin d’éviter la prolifération des licences, la loi pour une [[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033205142/2020-09-21/][République
+numérique]] a prévu la création d’une liste, fixée par décret, de licences
+qui peuvent être utilisées par les administrations pour la réutilisation
+à titre gratuit ([[https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000031366350/LEGISCTA000032255228/#LEGISCTA000032255228][Art. D.323-2-1]] du CRPA).
+
+Cette liste est [[https://www.data.gouv.fr/fr/licences][accessible ici]].
 
 *** Guide juridique interactif
 
@@ -660,16 +664,26 @@ votre organisme public est communicable, nous vous invitons à tester
 ce [[https://guide-juridique-logiciel-libre.etalab.gouv.fr/][guide juridique interactif]].
 
 
-*** NEXT Licences : les indispensables à connaître
+*** Licences : les indispensables à connaître
+
+Une licence logicielle est un contrat passé entre les auteurs d’un
+logiciel et ses réutilisateurs. Les licences libres accordent aux
+utilisateurs le droit d’étudier, copier, modifier, redistribuer le code
+source d’un logiciel.
+
+L’utilisation d’une licence libre permet de sécuriser et simplifier la
+relation entre le ou les auteurs et les utilisateurs explicitant leurs
+droits, prévenant les litiges, et la contractualisation individuelle
+pour chaque utilisateur.
 
 Une fois en possession du logiciel, à titre onéreux ou gratuit,
 l’utilisateur a l’obligation de se conformer à la licence
-l’accompagnant, sachant que tout ce qui n’est pas explicitement autorisé
-est interdit.
+l’accompagnant, sachant que *tout ce qui n’est pas explicitement
+autorisé est interdit*.
 
-Pour les licences libres, la liberté d’utiliser et modifier le logiciel
-est inconditionnelle, aucune limitation ou contrainte ne pèse sur
-l’utilisateur tant que le logiciel reste à l’intérieur de son
+Pour les licences libres, la liberté d’utiliser et de modifier le
+logiciel est inconditionnelle, aucune limitation ou contrainte ne pèse
+sur l’utilisateur tant que le logiciel reste à l’intérieur de son
 organisation. En revanche, en cas de redistribution à l’extérieur de son
 organisation, les obligations de licences doivent être respectées au
 risque d’être coupable de contrefaçon.
@@ -682,18 +696,32 @@ composants du système d’exploitation FreeBSD sous licence libre BSD sont
 utilisés pour réaliser le système d’exploitation Mac OS X. L’ensemble
 est redistribué sous une licence propriétaire.
 
-**** Le « copyleft » ?
+Exemple de licences permissives autorisé pour les administrations par
+décret :
+- Licence Ouverte version 2.0 (etalab-2.0)
+- Apache License 2.0 (Apache-2.0)
+- BSD 3-Clause "New" or "Revised" License (BSD-3-Clause)
+- CeCILL-B Free Software License Agreement (CECILL-B)
+- MIT License (MIT)
+
+**** Le « copyleft »
 
 Le mot « copyleft » est un jeu de mots avec le mot « copyright » (le
 droit d’auteur aux États-Unis). Ce terme est révélateur du mouvement du
 logiciel libre qui, au lieu de se battre contre le /copyright/, a
 utilisé ses mécanismes de protection des œuvres pour garantir les
 [[https://www.gnu.org/philosophy/free-sw.fr.html#four-freedoms][libertés essentielles des utilisateurs]]. Le /copyleft/ va plus loin que
-de simplement donner les quatre libertés aux logiciels : il interdit
-l’ajout de restrictions au code source. Ainsi, il oblige la réciprocité
-(licences dites à réciprocité ou « diffusives »).
+de simplement donner les quatre libertés aux logiciels : il oblige la
+*réciprocité* en interdisant l’ajout de restrictions des les libertés
+des utilisateurs. Ce sont des licences dites à réciprocité ou
+« diffusives ».
 
-La [[https://www.gnu.org/licenses/gpl-3.0.en.html][licence GPL]] est l’exemple paradigmatique d’une licence copyleft.
+La [[https://www.gnu.org/licenses/gpl-3.0.en.html][licence GPL]] est l’exemple paradigmatique d’une licence
+copyleft. D’autres sont :
+- CeCILL Free Software License Agreement v2.1 (CECILL-2.1)
+- GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later)
+- Mozilla Public License 2.0 (MPL-2.0)
+- European Union Public License 1.2 (EUPL-1.2)
 
 Les licences copyleft se distinguent des licences permissives qui, elles,
 autorisent l’ajout de restrictions au code redistribué.
@@ -701,30 +729,31 @@ autorisent l’ajout de restrictions au code redistribué.
 Les obligations des licences copyleft diffèrent selon que la licence est
 à copyleft [[*Quelle est la différence entre copyleft faible et fort ?][faible ou fort]].
 
-Certains jugent préférables d’utiliser des licences à copyleft fort,
-d’autres d’utiliser des licences permissives.
+Légère précision sur un malentendu régulier :
 
-Pour être plus précis :
-
-L’ajout de restrictions ne se fait pas sur le logiciel originel. Un
-logiciel X publié sous une licence permissive, le restera pour toujours.
+L’ajout de restrictions ne se fait pas sur la copie du logiciel
+originel. La copie d’un logiciel X publiée sous une licence libre, *le
+restera pour toujours* (à condition que l’auteur détienne les droits et
+l’originalité pour revendiquer ses droits d’auteur).
 
 Le code source Y ajouté au code source X (sur une autre copie du code X)
-peut être publié sous une licences plus restrictives, voire,
-propriétaire. Cependant, rien ne changera la copie originel du code
-source X restant sous sa licence permissive, à compter que le ou les
-auteurs ne changent pas sa licence.
+publié avec une licence permissive, peut être re-distribué sous une
+licence plus restrictive, voire, propriétaire. Cependant, rien ne
+changera la copie originel du code source X restant sous sa licence
+permissive, à condition que le ou les auteurs ne changent pas sa licence.
 
-***** Différence entre copyleft faible et fort ?
+***** Différence entre copyleft faible et fort
+
 La notion de copyleft /faible/ ou /fort/ se réfère aux obligations plus
 ou moins fortes appliquées aux personnes voulant redistribuer une œuvre.
 
-Le copyleft /fort/ impose que la redistribution de l’œuvre, modifiée ou
-non, ainsi que les logiciels liés, doit se faire sous la même licence,
-(ou une licence à copyleft fort compatible). A contrario, le copyleft
-/faible/ n’impose pas les logiciels liés à être distribués sous la même
-licence, mais impose toute redistribution du logiciel à l’être sous la
-même licence (ou une licence compatible).
+Le copyleft /fort/ exige que la redistribution de l’œuvre, qu’elle soit
+modifiée ou non, ainsi que les logiciels liés, soit effectuée sous la
+même licence, (ou une licence à copyleft fort compatible).
+
+A contrario, le copyleft /faible/ n’impose pas les logiciels liés à être
+distribués sous la même licence, mais impose toute redistribution du
+logiciel à l’être sous la même licence (ou une licence compatible).
 
 Une image vaut mille mots :
 
@@ -732,63 +761,76 @@ Une image vaut mille mots :
 #+NAME:   fig:licence-copyleft-diffusivite
 [[./assets/images/licence-copyleft-diffusivite.png]]
 
-
-
 Un logiciel lié désigne tout composant assemblé avec le logiciel final
 lors de l’édition de lien. En générale, ce sont des bibliothèques
-logicielles, qui seules n’ont pas de grande utilité, répondant à des
+logicielles, qui, seules, n’ont pas de grande utilité, répondant à des
 fonctions de bases, mais nécessaires au fonctionnement d’un logiciel
 complet.
 
 Le copyleft faible est souvent utilisé pour les bibliothèques
-logicielles qui permet une réutilisation plus simple de la bibliothèque
-et d’ajouter des composants logiciels sous différentes licences,
+logicielles permettant une réutilisation plus simple de la bibliothèque
+et l’ajout de composants logiciels sous différentes licences,
 potentiellement privatrices.
 
 **** Compatibilité entre licences libres
 
-#+CAPTION: Lecture des compatibilités entre les licences libres les plus populaires
+La compatibilité des licences libres est une questions qui a été étudié
+par Benjamin Jean dans son livre /Option libre/ ([[https://hal.science/hal-04136860v1/file/benjamin_jean_option_libre_licence_LAL_gnuFDL_CCby_sa_texte_complet_20120604.pdf][Benjamin Jean. Option
+Libre. 2011, 9782953918748. hal-04136860]]), duquel nous en tirons la
+table de compatibilité entre licences suivante (page 316) :
+
+#+CAPTION: Table de compatibilité entre licences
+#+NAME: fig:compatibilite-licences-jean
+[[./assets/images/table-compatibilite-jean.png]]
+
+Un élément important à remarquer est que *la compatibilité a un sens* : un
+composant sous licence A peut être compatible *vers* une licence B, mais
+la réciproque n’est pas nécessairement vraie.
+
+Par exemple, un composant sous licence CeCILL peut-être redistribué sous
+licence GPL v2. En revanche, un composant sous licence GPL v2 ne peut
+pas être redistribué sous licence CeCILL.
+
+Le principe général est que la licence du logiciel ne peut pas conférer
+plus de droits et moins d'obligations que les licences de chacun des
+composants ; on parle de compatibilité logique.
+
+Illustrons ce principe avec l'exemple d’une application que l’on
+souhaite publier sous GPL V2 et intégrant un composant sous licence
+Apache. L’ensemble des droits accordés sur le composant au titre de la
+licence Apache est intégralement repris par la GPL V2. Par contre
+certaines obligations de la licence Apache, ne sont pas exigées par la
+licence GPL V2 en matière de brevet particulièrement. Il n’est donc pas
+possible d’utiliser un composant sous licence Apache dans une
+application publiée sous GPL V2. Avec la nouvelle GPL V3 cette
+incompatibilité n’existe plus.
+
+Cependant, une incompatibilité logique peut être levée par un accord
+spécifique auprès du détenteur des droits patrimoniaux du composant que
+l’on souhaite intégrer. Cela suppose de prendre contact avec la
+communauté en charge du composant. Il est probable qu’un accord sera
+trouvé sous la forme d’une exception spécifique. Il arrive même qu’une
+clause d’exception adjointe à la licence du composant règle
+l’incompatibilité.
+
+La question de la compatibilité n’existe véritablement que lorsque l’on
+publie un logiciel sous une licence de type copyleft fort, soit par
+choix soit parce qu’un composant du logiciel est déjà sous copyleft
+fort. Le tableau montre, au moyen du triangle, la zone d’influence ou la
+licence GPL s’impose. Au delà il y a incompatibilité. Par exemple la
+présence d’un composant sous licence EPL est incompatible dans un
+logiciel sous GPL (ou sous CeCILL V2).
+
+#+CAPTION: Compatibilités entre licences libres populaires avec du copyleft fort
 #+NAME:   fig:compatibilite-licences
 [[./assets/images/compatibilite-licences.png]]
 
-En reprenant la grille de lecture proposée par Benjamin Jean10 dans son
-étude sur la compatibilité des licences libres, une licence est un
-ensemble de droits et d'obligations. Le principe est que la licence du
-logiciel ne peut pas conférer plus de droits et moins d'obligations que
-les licences de chacun des composants ; on parle de compatibilité
-logique.
-
-Illustrons ce principe avec l'exemple d'une application que l'on
-souhaite publier sous GPL V2 et intégrant un composant sous licence
-Apache. L'ensemble des droits accordés sur le composant au titre de la
-licence Apache est intégralement repris par la GPL V2. Par contre
-certaines obligations de la licence Apache, ne sont pas exigées par la
-licence GPL V2 en matière de brevet particulièrement. Il n'est donc pas
-possible d'utiliser un composant sous licence Apache dans une
-application publiée sous GPL V2. Avec la nouvelle GPL V3 cette
-incompatibilité n'existe plus.
-
-Cependant une incompatibilité logique peut être levée par un accord
-spécifique auprès du détenteur des droits patrimoniaux du composant que
-l'on souhaite intégrer. Cela suppose de prendre contact avec la
-communauté en charge du composant. Il est probable qu'un accord sera
-trouvé sous la forme d'une exception spécifique. Il arrive même qu'une
-clause d'exception adjointe à la licence du composant règle
-l'incompatibilité.
-
-La question de la compatibilité n'existe véritablement que lorsque l'on
-publie un logiciel sous une licence de type copyleft fort, soit par
-choix soit parce qu'un composant du logiciel est déjà sous copyleft
-fort. Le tableau montre, au moyen du triangle, la zone d'influence ou la
-licence GPL s'impose. Au delà il y a incompatibilité. Par exemple la
-présence d'un composant sous licence EPL est incompatible dans un
-logiciel sous GPL (ou sous CeCILL V2).
 
 Un logiciel composé de briques sous licences de type copyleft faible est
-possible. Ce n'est pas forcément facile à gérer car chaque composant va
-garder sa licence propre. Il faudra respecter chacune d'entre elles. Si
+possible. Ce n’est pas forcément facile à gérer car chaque composant va
+garder sa licence propre. Il faudra respecter chacune d’entre elles. Si
 cela est possible, on pourra re-licencier chaque composant sous une
-licence globale compatible, c'est-à-dire garantissant l'ensemble des
+licence globale compatible, c’est-à-dire garantissant l’ensemble des
 droits conférés par chacune et respectant les obligations de chacune.
 
 ** Quels degrés d’ouverture pour les codes sources ?
@@ -1847,6 +1889,21 @@ ensemble de séquence d’instructions/ (mais lisible par l’humain), les
 instructions sont en code objet, généralement en binaire.
 
 
+
+** NEXT Logiciel dérivé
+   :PROPERTIES:
+   :CUSTOM_ID: logiciel_derive
+   :END:
+
+** NEXT Logiciel composé
+   :PROPERTIES:
+   :CUSTOM_ID: logiciel_compose
+   :END:
+
+** NEXT Logiciel modifié
+   :PROPERTIES:
+   :CUSTOM_ID: logiciel_modifie
+   :END:
 
 ** Logiciel libre
    :PROPERTIES:
