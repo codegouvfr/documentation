@@ -43,16 +43,13 @@ Si ces sujets sont nouveaux pour vous, [[../glossaire.md][un glossaire est dispo
 
 ** Trouver des logiciels libres répondant à vos besoins
 
-La mission logiciels libres liste (1) des logiciels libres du secteur
-public et à forte valeur ajoutée pour toute l'administration, (2) les
-dépôts de code source publiés par tous les organismes publics et (3)
-les logiciels libres recommandés pour toute l'administration :
+La mission logiciels libres maintient plusieurs sources :
 
-- [[https://code.gouv.fr/fr/awesome/][code.gouv.fr/awesome]] liste les logiciels libres développés par les
+- [[https://code.gouv.fr/fr/awesome/][code.gouv.fr/awesome]] liste les logiciels libres développés par des
   administrations, à fort potentiel de réutilisation et à forte valeur
   ajoutée pour tout le secteur public ;
-- [[https://code.gouv.fr/sources][code.gouv.fr/sources]] liste de façon centralisée tous les dépôts de
-  codes sources publiés par l’administration sur des forges ;
+- [[https://code.gouv.fr/sources][code.gouv.fr/sources]] liste les données de tous les dépôts de codes
+  sources publiés par l’administration publique sur des forges ;
 - [[https://code.gouv.fr/sill][code.gouv.fr/sill]] liste les logiciels libres utilisés par des
   organismes publics en recommandant une version minimale et en
   permettant de contacter les référents et les utilisateurs du
