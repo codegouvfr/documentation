@@ -84,7 +84,7 @@ recherche du mot « license » limitée au site permet de localiser une
 page indiquant sous quelle licence le logiciel est mis à disposition.
 Par exemple, pour le projet LibreOffice :
 
-- une recherche de =Evolvica= donne l’url du site projet :
+- une recherche de =LibreOffice= donne l’url du site projet :
   http://www.libreoffice.org.
 - Une recherche de =license site:https://www.libreoffice.org/= donne la
   page https://www.libreoffice.org/about-us/licenses qui contient
@@ -145,7 +145,7 @@ aux logiciels libres dans/par/pour l'administration publique, en
 France et [[https://bluehats.global/][ailleurs]].
 
 Initiée par la DINUM fin 2018, elle est animée par la mission
-logiciels libres qui organise ou accueillee des [[https://code.gouv.fr/fr/bluehats/tags/gazette/][ateliers]] et des
+logiciels libres qui organise ou accueille des [[https://code.gouv.fr/fr/bluehats/tags/gazette/][ateliers]] et des
 [[https://code.gouv.fr/fr/bluehats/tags/rencontre/][rencontres]]. Les administrations sont invitées à prendre part à ce
 mouvement et peuvent solliciter la mission pour co-organiser des
 ateliers ou des rencontres.
@@ -156,7 +156,7 @@ En dehors de l’administration publique, l’écosystème du logiciel libre
 est animé par des associations et entreprises du libre.
 
 On notera les associations fondatrices du mouvement logiciel libre par
-la /[[https://www.fsf.org/][Free Software Foundation]]/, et de l’open source avec l'/[[https://opensource.org/][Open Source
+la /[[https://www.fsf.org/][Free Software Foundation]]/, et de l’open source avec l’/[[https://opensource.org/][Open Source
 Initiative]]/.
 
 Il y a des fondations structurantes de l’écosystème des logiciels
@@ -174,7 +174,7 @@ libres orientées commerce, industrie et/ou grand public :
   [[https://fr.wikipedia.org/wiki/Mozilla_Public_License][licence MPL]], vise à promouvoir un internet sûr et ouvert pour tous
   en suivant [[https://www.mozilla.org/fr/about/manifesto/][son manifeste]].
 
-D'autres fondations et associations soutiennent un projet libre en
+D’autres fondations et associations soutiennent un projet libre en
 particulier :
 
 - [[https://www.documentfoundation.org/][The Document Foundation]] portant le projet LibreOffice et le format
@@ -229,7 +229,7 @@ redirigeons vers ces documents :
 **** Services de déploiements
 
 L’un des modèles est de valoriser des logiciels libres via une offre
-SaaS (/Software as a Service/) : l'entreprise fournit un service de
+SaaS (/Software as a Service/) : l’entreprise fournit un service de
 déploiement de logiciel libre managé dans le /cloud/. Par « SaaS » ou
 « managé » on entend que tout est pris en charge : la maintenance et
 les mises à jour des machines et de toute la pile logicielle. En
@@ -278,12 +278,12 @@ est [[https://www.zend.com/][Zend]] qui vend son environnement de développement
 ***** Le modèle double licence
 
 Un modèle à double licence signifie qu’une solution logiciel est
-disponible sous une licence libre et une autre propriétaire, en
-général commerciale. L’utilisateur final peut choisir l’une ou l’autre
-licence. L’idée est en général de proposer une licence de type
-copyleft et une licence commerciale, cette dernière convenant plus aux
-utilisateurs qui souhaitent éviter les contraintes des licences
-copyleft.
+disponible sous une licence libre et une autre propriétaire, en général
+commerciale. L’utilisateur final peut choisir l’une ou l’autre
+licence. L’idée est en général de proposer une licence de type copyleft
+et une licence commerciale, cette dernière convenant plus aux
+utilisateurs qui souhaitent éviter les contraintes de réciprocité des
+licences copyleft.
 
 Il est aussi possible qu’une solution logicielle ne soit pas sous
 double licence par défaut, mais qu’il y ait un changement au cours du
@@ -299,9 +299,9 @@ Attention : ce modèle à « double licence » ne doit pas être confondu
 avec le fait, pour un dépôt de code source, de publier des éléments
 sous des licences distinctes. Par exemple, un dépôt peut publier le
 code sous licence GPL-3.0-or-later et la documentation sous FDL-1.3.
-Dans ce cas, l'utilisateur doit accepter les deux licences.
+Dans ce cas, l’utilisateur doit accepter les deux licences.
 
-***** L'open source professionnel
+***** L’open source professionnel
 
 L’open source professionnel (terme employé par le CNLL dans son [[https://cnll.fr/media/LivretBleu_ModelesEconomiques_GT-LogicielLibre_Systematic.pdf][livret
 bleu]]) désigne les autres moyens qu’une entreprise peut tirer du profit
@@ -388,8 +388,8 @@ logiciel libre puisque l’on en dispose librement. Dans ce cas,
 l’appropriation du logiciel libre échappe aux règles de la commande
 publique.
 
-Une administration, dans le cadre d'un marché public, *peut inclure
-dans les clauses contractuelles l'exigence d'une solution numérique
+Une administration, dans le cadre d’un marché public, *peut inclure
+dans les clauses contractuelles l’exigence d’une solution numérique
 basée sur des logiciels libres*.
 
 En effet, l’aspect libre d’un logiciel, déterminé par sa /licence
@@ -641,10 +641,10 @@ licence GPL v2. En revanche, un composant sous licence GPL v2 ne peut
 pas être redistribué sous licence CeCILL.
 
 Le principe général est que la licence du logiciel ne peut pas conférer
-plus de droits et moins d'obligations que les licences de chacun des
+plus de droits et moins d’obligations que les licences de chacun des
 composants ; on parle de compatibilité logique.
 
-Illustrons ce principe avec l'exemple d’une application que l’on
+Illustrons ce principe avec l’exemple d’une application que l’on
 souhaite publier sous GPL V2 et intégrant un composant sous licence
 Apache. L’ensemble des droits accordés sur le composant au titre de la
 licence Apache est intégralement repris par la GPL V2. Par contre
@@ -747,12 +747,12 @@ responsabilité ne soit pas admise quand le contrat est passé avec un
 consommateur ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032227122?init=true&page=1&query=L.132-1+du+code+de+la+consommation&searchField=ALL&tab_selection=all][art. L.132-1 du code de la consommation]]).
 
 Il en est de même pour les produits défectueux, l’article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006438975/1998-05-21][1386-15 du
-code civil]] ne permettant pas que soit écartée par voie contractuelle
-la responsabilité de ce fait, sauf entre professionnels. Dans la
-mesure où le logiciel s’adresse manifestement à des professionnels et
-des informaticiens, et c’est le cas des applications portées par les
-administrations, l’exclusion de responsabilité pour les dommages
-directs est ainsi admise.
+code civil]] ne permettant pas que soit écartée par voie contractuelle la
+responsabilité de ce fait, sauf entre professionnels. Dans la mesure où
+le logiciel s’adresse manifestement à des professionnels et des
+informaticiens, et c’est le cas des applications portées par les
+administrations, l’exclusion de responsabilité pour les dommages directs
+est ainsi admise.
 
 Concernant la responsabilité de l’administration en matière de
 contrefaçon, le risque existe même lorsque le logiciel n’est pas
