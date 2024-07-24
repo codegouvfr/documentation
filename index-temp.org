@@ -993,14 +993,15 @@ Voici une liste de « politiques logiciels libres » :
 
 Cette FAQ est en construction. Si vous avez des questions que vous voulez voir figurer ici, n’hésitez pas à nous écrire à =contact@code.gouv.fr=.
 
+** NEXT Comment construire une communauté open source autour de son projet ?
 ** Qu’est-ce que [[https://data.code.gouv.fr][data.code.gouv.fr]] ?
 
 [[https://data.code.gouv.fr][data.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour collecter
 des données sur les forges où sont publiés des dépôts d’organismes
 publics.
 
-À terme, ce sont les données exposées via [[https://data.code.gouv.fr][data.code.gouv.fr]] qui
-seront utilisées pour l’interface d’exploration des codes sources
+À terme, ce sont les données exposées via [[https://data.code.gouv.fr][data.code.gouv.fr]] qui seront
+utilisées pour l’interface d’exploration des codes sources
 [[https://code.gouv.fr/public/][code.gouv.fr/public/]].
 
 ** Quels points vérifier avant d’ouvrir un code source existant ?
@@ -1024,7 +1025,6 @@ Documentation :
 - Avez-vous une documentation pour l’administrateur système ?
 - Avez-vous une documentation pour les contributeurs ?
 
-** NEXT Comment construire une communauté open source autour de son projet ?
 ** Une administration peut-elle faire de l’« inner source » ?
 
 La notion d’/innersource/ désigne l’adoption des pratiques de
@@ -1052,7 +1052,7 @@ pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce 
 
 Pour mettre en place une gouvernance open source dans une
 organisation, vous pouvez vous référer à la [[https://www.ow2.org/view/OSS_Governance/][Good Governance Initiative]]
-développée et promue par la fondation OW2.  Vous pouvez consulter [[https://gitlab.ow2.org/ggi/my-ggi-board][cet
+développée et promue par la fondation OW2. Vous pouvez consulter [[https://gitlab.ow2.org/ggi/my-ggi-board][cet
 outil]] permettant de la mesurer, et le [[https://ospo-alliance.org/ggi/methodology/#automatic-setup-using-the-ggi-deployment-feature][déployer]].
 
 ** Comment mesurer la maturité d’un projet open source ?
@@ -1285,7 +1285,6 @@ Néanmoins, si l’erreur a été faite il existe certains outils :
 - [[https://github.com/gitleaks/gitleaks][Gitleaks]] sous MIT
 - [[https://github.com/Yelp/detect-secrets][Detect Secrets]] sous Apache 2
 - [[https://github.com/GitGuardian][Gitgardian]] sous MIT
-
 
 
 ** Quelles langues utiliser pour mon code source et ma documentation ?
