@@ -42,7 +42,7 @@
   (let* ((file-name-basedir (concat (file-name-directory org-file)
 				    (file-name-base org-file)))
 	 (texi-file (concat file-name-basedir ".texi"))
-	 (json-file (concat file-name-basedir ".json"))
+	 ;; (json-file (concat file-name-basedir ".json"))
 	 (md-file (concat file-name-basedir ".md")))
     ;; Export as .texi
     (if (and (file-exists-p texi-file)
@@ -64,15 +64,16 @@
               (org-md-export-to-markdown))
           (error (message (error-message-string err))))))
     ;; Export as json
-    (if (and (file-exists-p json-file)
-             (file-newer-than-file-p json-file org-file))
-	(message " [skipping] unchanged %s" org-file)
-      (message "[exporting] %s" (file-relative-name org-file default-directory))
-      (with-current-buffer (find-file org-file)
-	(condition-case err
-	    (let ((org-export-options-alist '((:headline-levels nil "H" 4))))
-              (ox-json-export-to-file))
-          (error (message (error-message-string err)))))))
+    ;; (if (and (file-exists-p json-file)
+    ;;          (file-newer-than-file-p json-file org-file))
+    ;; 	(message " [skipping] unchanged %s" org-file)
+    ;;   (message "[exporting] %s" (file-relative-name org-file default-directory))
+    ;;   (with-current-buffer (find-file org-file)
+    ;; 	(condition-case err
+    ;; 	    (let ((org-export-options-alist '((:headline-levels nil "H" 4))))
+    ;;           (ox-json-export-to-file))
+    ;;       (error (message (error-message-string err))))))
+    )
   (with-current-buffer (find-file org-file)
     (condition-case err
 	(org-multi-file-md-export)
