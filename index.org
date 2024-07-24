@@ -34,7 +34,7 @@ question de logiciels sous licence non libre, ni de services en ligne,
 ni des bonnes pratiques de développement qui ne sont pas spécifiques
 aux logiciels libres.
 
-Si ces sujets sont nouveaux pour vous, [[../glossaire.md][un glossaire est disponible]].
+Si ces sujets sont nouveaux pour vous, [[#glossaire][un glossaire est disponible]].
 
 * Utiliser des logiciels libres
   :PROPERTIES:
@@ -337,8 +337,9 @@ source A sous la licence AGPL (qui oblige la redistribution des
 contributions sous la même licence même lorsque le logiciel est
 distribué en SaaS) est fortement conseillé.
 
-Pour plus de détails sur le copyleft fort,[[*Le « copyleft »][se référer à cette section]].  Attention, le copyleft fort
-(ou la licence AGPL) n’empêche pas la vente des codes sources.
+Pour plus de détails sur le copyleft fort, [[file:index-temp.org::#difference-copyleft-faible-fort][se référer à cette section]].
+Attention, le copyleft fort (ou la licence AGPL) n’empêche pas la
+vente des codes sources.
 
 *** /Openwashing/
 
@@ -422,7 +423,7 @@ l’enseignement supérieur et à la recherche modifiant l’article
   :PROPERTIES:
   :EXPORT_FILE_NAME: publier.md
   :END:
-
+ 
 ** Cadre juridique
 
 Toute entité chargée d’une mission de service public doit publier tout
@@ -572,7 +573,7 @@ Les licences copyleft se distinguent des licences permissives qui, elles,
 autorisent l’ajout de restrictions au code redistribué.
 
 Les obligations des licences copyleft diffèrent selon que la licence est
-à copyleft [[*Différence entre copyleft faible et fort][faible ou fort]].
+à copyleft [[file:index-temp.org::#difference-copyleft-faible-fort][faible ou fort]].
 
 Légère précision sur un malentendu régulier :
 
@@ -804,8 +805,9 @@ prévisible que l’acronyme ne serait plus d’actualité.
 
 Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
-** Référencement et standardisation
-
+** TODO COMMENT Référencement et standardisation
+- TODO
+  - ajouter éléments sur publicode.yml (et codemeta.json)
 
 *** Exemples de mise en oeuvre
 
@@ -826,10 +828,10 @@ Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 Chaque organisme peut tenter de prioriser les logiciels à ouvrir
 en fonction de ces critères.
 
-** Bonnes pratiques de gouvernance
-** Bonnes pratiques de communication
+** TODO COMMENT Bonnes pratiques de gouvernance
+** TODO COMMENT Bonnes pratiques de communication
 
-** Bonnes pratiques pour la documentation
+** TODO COMMENT Bonnes pratiques pour la documentation
 
 *** La licence pour la documentation
 
@@ -893,8 +895,8 @@ commons de type « pas d’utilisation commerciale » ne pourra vendre même
 à prix coûtant le CD, sans en avoir demandé l’autorisation. De même, une
 édition papier d’un document, ne peut être diffusée sauf gratuitement.
 
-** Bonnes pratiques de publication
-**  Métriques de qualité d’un projet libre
+** TODO COMMENT Bonnes pratiques de publication
+** TODO COMMENT Métriques de qualité d’un projet libre
 * Contribuer à un logiciel libre
   :PROPERTIES:
   :EXPORT_FILE_NAME: contribuer.md
@@ -949,45 +951,6 @@ l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com
 pour pouvoir vendre du code source]] contribué par des auteurs
 extérieurs à Element sous une licence propriétaire.
 
-* Monter un Open Source Programme Office
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: ospo.md
-  :END:
-
-**  Définir une stratégie logiciels libres
-
-Une stratégie logiciels libres explique la façon dont vous allez
-*utiliser* des logiciels libres, *développer* des logiciels libres et
-*contribuer* à l’écosystème existant.
-
-** Qu’est-ce qu’un "Open Source Programme Office"?
-
-Voir https://code.gouv.fr/fr/blog/definition-ospo/.
-
-Voir http://preprod.codegouv.fr/choices-ospo/.
-
-** Sites web d’organismes publics engagés
-
-Voir une liste d’organismes publics exposant leur engagement vis-à-vis
-du logiciel libre :
-
-- https://opensource.amue.fr
-- https://opensource.paris.fr
-- https://www.health-data-hub.fr/open-source
-- https://www.france-universite-numerique.fr
-- https://socialgouv.github.io
-
-** Politiques logiciels libres
-
-Voici une liste de « politiques logiciels libres » :
-
-- https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Publications/Politique-du-ministere-de-la-Culture-pour-les-codes-sources-algorithmes-et-logiciels-libres
-- https://www.health-data-hub.fr/open-source
-- https://medialab.sciencespo.fr/a-propos/#deontology
-- https://github.com/abes-esr/abes-politique-developpement
-- https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences
-- https://www.etalab.gouv.fr/accompagnement-logiciels-libres
-
 * Foire aux questions
   :PROPERTIES:
   :EXPORT_FILE_NAME: faq.md
@@ -995,7 +958,7 @@ Voici une liste de « politiques logiciels libres » :
 
 Cette FAQ est en construction. Si vous avez des questions que vous voulez voir figurer ici, n’hésitez pas à nous écrire à =contact@code.gouv.fr=.
 
-** Comment construire une communauté open source autour de son projet ?
+** NEXT Comment construire une communauté open source autour de son projet ?
 ** Qu’est-ce que [[https://data.code.gouv.fr][data.code.gouv.fr]] ?
 
 [[https://data.code.gouv.fr][data.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour collecter
@@ -1355,7 +1318,7 @@ un guichet unique : [[https://www.opensource-experts.com/][Open source experts]
 Non, toutes les licences libres que vous pouvez utiliser pour publier
 votre code source autorisent la réutilisation commerciale de ce code.
 
-** Avez-vous un dépôt Git exemplaire ?
+** NEXT Avez-vous un dépôt Git exemplaire ?
 
 Pas encore.
 
@@ -1399,9 +1362,9 @@ Pour résumer, voici les raisons :
   utilisateurs.
 
 
-** En tant qu’administration, comment soutenir un projet libre ?
-** Comment aborder le sujet de la communication au sein d’un projet de logiciel libre ?
-** Comment faire connaître le logiciel libre que mon administration développe ?
+** NEXT En tant qu’administration, comment soutenir un projet libre ?
+** NEXT Comment aborder le sujet de la communication au sein d’un projet de logiciel libre ?
+** NEXT Comment faire connaître le logiciel libre que mon administration développe ?
 
 Vous pouvez consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des
 pistes.
@@ -1477,9 +1440,9 @@ Oui, si votre responsable est d’accord, il n’y a aucun obstacle à ce
 que vous puissiez contribuer à des logiciels libres sur votre temps de
 travail.
 
-** Comment mettre fin à un projet libre ?
+** NEXT Comment mettre fin à un projet libre ?
 
-** Dois-je créer un compte GitHub pour moi ou mon organisation pour contribuer aux logiciels libres ?
+** NEXT Dois-je créer un compte GitHub pour moi ou mon organisation pour contribuer aux logiciels libres ?
 
 Chercher une forge proche en consultant https://code.gouv.fr/sources/#/repos
 Un compte d’organisation car ce sont les seuls prix en compte sur code. gouv.
@@ -1489,7 +1452,7 @@ Si nouveaux codes : forge/compte d’organisation
 Si projet existant : fork sur la forge d’organisation. Les forks sont listés sur code.gouv.fr
 
 
-** Est-il souhaitable d’utiliser ma solution de gestion de code Source (GitLab, Bitbucket) en ouvrant des projets en mode public?
+** NEXT Est-il souhaitable d’utiliser ma solution de gestion de code Source (GitLab, Bitbucket) en ouvrant des projets en mode public?
 
 
 lire le rapport sur les forges REX déploiement et maintenance.
@@ -1498,11 +1461,11 @@ ce qui assurera la visibilité, c’est d’être référencé, pas le fait d’
 seules défférences fonctionnelles : pas les fonctionnalités GIT mais les fonctionnalités de la CI/CD.
 
 
-** Est-il préférable de conbribuer en tant qu’individu (prenom.nom de l’agent) ou plutôt en tant qu’organisation aux logiciels libres ? (compte individuel ou compte entreprise ?)
+** NEXT Est-il préférable de conbribuer en tant qu’individu (prenom.nom de l’agent) ou plutôt en tant qu’organisation aux logiciels libres ? (compte individuel ou compte entreprise ?)
 
 en tant qu’individu.
 
-** Comment identifier les projets succeptibles d’être en logiciel libre ?
+** NEXT Comment identifier les projets succeptibles d’être en logiciel libre ?
 
 
 les équipes métiers peuvent évaluer
@@ -1514,7 +1477,7 @@ Quels logiciels ouverts à quel degrès https://code.gouv.fr/documentation/#/pub
 
 
 
-** Quels précautions et quels points à vérifier avant d’ouvrir du code source interne à notre organisation ?
+** NEXT Quels précautions et quels points à vérifier avant d’ouvrir du code source interne à notre organisation ?
 
 
 sécurité - pas de secret dans l’historique GIT
@@ -1524,18 +1487,20 @@ https://www.data.gouv.fr/fr/pages/legal/licences/
 https://code.gouv.fr/guides/juridique/
 
 
-** Faut-il mettre en place une Gouvernance des logiciels libre au sein de l’entreprise ?
+** NEXT Faut-il mettre en place une Gouvernance des logiciels libre au sein de l’entreprise ?
 
 simplement informer le manager.
 autonomie
 https://www.numerique.gouv.fr/publications/politique-logiciel-libre/
 
 
-** Comment faire pour démarer la démarche d’ouverture du code source
+** NEXT Comment faire pour démarer la démarche d’ouverture du code source
 
-** Comment intéragir avec la DSI dans le cadre de l’ouverture d’un code source ?
+** NEXT Comment intéragir avec la DSI dans le cadre de l’ouverture d’un code source ?
 
-** En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? Si oui dans quelles conditions ?
+** NEXT [#A] Qu’est-ce que cela apporte au-delà du respect de la législation ?
+
+** NEXT En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? Si oui dans quelles conditions ?
 
 Si le logiciel est réalisé par un ou plusieurs salariés dans le cadre
 d’une relation de subordination à leur employeur : les droits moraux
@@ -1559,164 +1524,16 @@ libres existants est la [[https://www.numerique.gouv.fr/publications/politique-l
 Cependant, ça peut être plus compliqué que de simplement obtenir
 l’accord de la hiérarchie, notamment s’il faut signer un [[*Contribuer à un logiciel libre][CLA]] pour
 contribuer au projet. Dans ce cas-là, les services juridiques devront
-s’en mêlent. S’il n’y a qu’un [[https://developercertificate.org][DCO]], vous pouvez l’accepter sans mobiliser
-vos services juridiques.
-
-* Exemples
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: exemples.md
-  :END:
-
-Cette section viendra documenter des exemples utiles à l’illustration
-des différents sujets.
-
-** Un exemple d’utilisation d’un logiciel libre
-** Un exemple de publication d’un code source
-** Un exemple de contribution à un logiciel libre
-** Un exemple d’Open Source Programme Office
-** Trajectoires possibles pour un logiciel libre né dans l’administration
-
-* Ressources
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: ressources.md
-  :END:
-
-** Services en ligne utiles
-
-- https://publiccode-editor.etalab.studio : site web facilitant la
-  création de fichiers ~publiccode.yml~.
-- https://publiccodenet.github.io/assessment-eligibility/ : site web
-  pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
-- https://github.com/finos/open-source-readiness
-- https://www.ow2.org/view/MRL/
-
-** Sites référençant des logiciels libres
-   :PROPERTIES:
-   :CUSTOM_ID: repertoires-logiciels-libres
-   :END:
-
-- [[http://www.framasoft.net/][Framasoft]] : Ce site propose une base référençant plus de 1200
-  applications sous licence libre et disponible sous Windows. Figurer
-  dans cette base est une bonne garantie du caractère libre d’un
-  logiciel.
-- [[http://adullact.net/][Adullact]] : Sur ce site une vérification précise du caractère libre
-  de l’application est opérée avant toute mise à disposition, c’est une
-  condition de l’hébergement.
-- [[http://www.apache.org/][Apache]] : La gouvernance autour des projets de la fondation Apache
-  est très forte. De part ses statuts elle héberge exclusivement des
-  projets sous licence Apache Licence. Le caractère libre des
-  composants est garanti.
-- [[http://www.debian.org/][Debian]] : le fait pour une application d’être packagée par la
-  communauté Debian dans les sections « main » et « contrib » des
-  dépôts de la distribution, est une forte garantie de son caractère
-  libre. Ce sont d’ailleurs les principes du logiciel libre selon
-  Debian qui ont donnés naissance aux 10 critères permettant de
-  qualifier une licence open source selon l’Open Source Initative.
-  Depuis la page http://www.debian.org/distrib/packages il est
-  possible de rechercher un logiciel afin de vérifier qu’il appartient
-  bien au section « Main » ou « contrib ».
-- [[http://directory.fsf.org/][FSF]]/[[http://directory.fsf.org/][UNESCO Free Software Directory]] : La Free Software Foundation et
-  l’UNESCO ont recensé plus de 16 900 logiciels pour lesquels le
-  caractère libre de la licence a été vérifié.
-
-** Les politiques ministérielles
-
-Vous pouvez lire notre [[https://code.gouv.fr/fr/blog/lengagement-des-ministeres-sur-louverture-des-codes-sources-et-lutilisation-de-logiciels-libres-retour-sur-les-feuilles-de-route-publiees-en-septembre-2021/][entrée de blog de mars 2022 sur les feuilles de
-routes]].
-
-Voici une liste des politiques ministérielles déjà publiées concernant
-le logiciel libre :
-
-- [[https://www.data.gouv.fr/fr/datasets/r/ff2c204d-4a92-417c-be2a-12e8d4c2b2a6][Ministère de la Cohésion des Territoires et des Relations avec les
-  Collectivités Territoriales]]
-- [[https://www.data.gouv.fr/fr/datasets/r/b02f6070-2473-4873-8dc3-c3da71d6a0be][Ministère des Solidarités et de la Santé]]
-- [[https://www.data.gouv.fr/fr/datasets/r/25f0f375-df81-4cc5-8eae-c277a729923f][Ministère de la Transition Écologique]]
-- [[https://www.data.gouv.fr/fr/datasets/r/953b4f68-63fa-45fd-b1f6-ab868203e7f0][Ministère de l’Agriculture et de l’Alimentation]]
-- [[https://www.data.gouv.fr/fr/datasets/r/7cd10fc7-11c2-4485-996c-d718c184efcf][Ministère de l’Intérieur]]
-- [[https://www.data.gouv.fr/fr/datasets/r/81d2c866-c2ba-4204-9f2c-a6da16423248][Ministère de la Justice]]
-- [[https://www.data.gouv.fr/fr/datasets/r/561b8f8f-9fe1-4d2e-8dbf-c4212b7f7d7f][Ministère de l’Économie, des Finances et de la Relance]]
-- [[https://www.data.gouv.fr/fr/datasets/r/be61f13d-06d6-40ea-87dd-df7b2918f2e2][Ministère de l’Enseignement Supérieur, de la Recherche et del’Innovation]]
-- [[https://www.data.gouv.fr/fr/datasets/r/03b43dc4-b92f-4d40-9b7e-598dcd61c420][Ministère de la Transformation et de la Fonction publiques]]
-- [[https://www.data.gouv.fr/fr/datasets/r/a1ce2c8e-54c4-4e24-aaaf-8f3b7620cf34][Services du Premier ministre]]
-- [[https://www.data.gouv.fr/fr/datasets/r/2332ad66-0344-4325-ba71-e65517318e22][Ministère de la Culture]]
-- [[https://www.data.gouv.fr/fr/datasets/r/25f0f375-df81-4cc5-8eae-c277a729923f][Ministère de la Transition Écologique]]
-- [[https://www.data.gouv.fr/fr/datasets/r/e9174d55-3ad6-4959-a40b-5818f829fd7f][Ministère du Travail, de l’Emploi et de l’Insertion]]
-- [[https://www.data.gouv.fr/fr/datasets/r/0b7e6089-9100-47ba-bc15-ea17013da4ed][Ministère de l’Éducation nationale, de la Jeunesse et des Sports]]
-- [[https://www.data.gouv.fr/fr/datasets/r/be61f13d-06d6-40ea-87dd-df7b2918f2e2][Ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation]]
-
-** Des /success stories/
-
-Les /success stories/ dans le privé sont désormais compliquées à
-dénombrer. En vrac, on peut citer : [[https://www.orekit.org/][Orekit]], [[https://www.redhat.com/en][RedHat]] (du moins pendant
-de nombreuses années), [[https://www.mozilla.org/en-US/][Mozilla]], [[https://axelor.com/][Axelior]], [[https://www.eclipse.org/org/][Eclipse]], etc.
-
-Pour le public, on peut citer : [[https://lutece.paris.fr/fr/][Lutece de la ville de Paris]], [[https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html][le fait
-qu’un État fédéral allemand fait passer 30 000 PC sous Linux et
-LibreOffice]], [[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][lefait que le système de design de l’État (DSFR) permet
-entre 3,1 et 4,9 M€ d’économies par an (note de bas page 86)]]. Vous
-pouvez voir une liste plus complète de logiciel libre à fort potentiel
-de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
-
-** Modèles de dépôts git exemplaires
-
-- Généralités:
-  - Exmplaire sur les messages de commit en anglais
-  - Exemplaire sur la doc utilisateur en français
-  - Exemplaire sur la doc dev en anglais
-  - Exemplaire sur les noms de variable dans la langue du référentiel (FR, EN)
-  - Exemplaire sur les commentaires dans le code qui sont en anglais
-
-*** Pour une librairie
-*** Pour une startup d’État
-*** Pour un projet d’intérêt général sensible
-
-- Utiliser la licence AGPL
-
-** Documents divers
-*** Publiées par des organismes publics
-
-- [[https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-a-un-systeme-gnulinux/][Recommandations de sécurité relatives à un système GNU/Linux, ANSSI, 2022]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#le-poste-de-travail-linux][Le poste de travail Linux]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#web-components][Web Components]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#concentration-des-logs][Concentration des logs]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#pare-feu-applicatif][Pare-feu applicatif]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-log4j][Alternative à Log4j]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#messagerie-asynchrone-interapplicative][Messagerie asynchrone interapplicative]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#mesagerie-passerelles-de-filtrage][Messagerie : Passerelles de filtrage]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#environnement-de-d%C3%A9veloppement-informatique][Environnement de développement informatique]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#orchestration-de-conteneurs][Orchestration de conteneurs]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#gestion-de-lidentit%C3%A9][Gestion de l’identité]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#etude-centos][Etude centOS]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#logiciels-de-gmao][Logiciels de GMAO]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#espace-de-travail-collaboratif][Espace de travail collaboratif]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#tableau-de-collecte-de-donn%C3%A9es][Tableau de collecte de données]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#lopenjdk-17][L’OpenJDK 17]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#autorit%C3%A9-de-certification][Autorité de certification]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#solution-de-vpn][Solution de VPN]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-mecm][Alternative à MECM]]
-- [[https://hal.science/hal-02434287][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
-- https://espacechercheurs.enpc.fr/sites/default/files/logigramme_a_plat.pdf
-
-*** Publiées hors de l’administration
-**** En français
-
-- http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2012_TGD.pdf
-- http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2011_TGD.pdf
-- [[https://hal.science/hal-02434287v2][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
-- https://opensource.guide/fr/
-
-**** En anglais
-
-- https://innersourcecommons.org/zh/learn/books/understanding-the-innersource-checklist/
-- https://www.rants.org/2011/04/open-source-license-flowchart/
-- https://standard.publiccode.net/
-- https://www.conventionalcommits.org/en/v1.0.0/
-- https://keepachangelog.com/fr/1.0.0/
-- https://readme.so/fr
+s’en mêlent. S’il n’y a qu’un [[https://developercertificate.org][DCO]], vous pouvez l’accepter sans
+mobiliser vos services juridiques.
 
 * Glossaire
   :PROPERTIES:
   :EXPORT_FILE_NAME: glossaire.md
+  :CUSTOM_ID: glossaire
+  :END:
+  :LOGBOOK:
+  CLOCK: [2024-07-24 mer. 22:57]--[2024-07-24 mer. 22:59] =>  0:02
   :END:
 
 ** Algorithme
@@ -1833,30 +1650,13 @@ Une licence logicielle est un contrat passé entre les auteurs d’un logiciel e
 
 ** Logiciel
    :PROPERTIES:
-   :CUSTOM ID: logiciel
+   :CUSTOM_ID: logiciel
    :END:
 
 Un logiciel est un ensemble de séquences d’instructions interprétables
 par une machine. À la différence d’un code source qui est aussi /un
 ensemble de séquence d’instructions/ (mais lisible par l’humain), les
 instructions sont en code objet, généralement en binaire.
-
-
-
-** Logiciel dérivé
-   :PROPERTIES:
-   :CUSTOM_ID: logiciel_derive
-   :END:
-
-** Logiciel composé
-   :PROPERTIES:
-   :CUSTOM_ID: logiciel_compose
-   :END:
-
-** Logiciel modifié
-   :PROPERTIES:
-   :CUSTOM_ID: logiciel_modifie
-   :END:
 
 ** Logiciel libre
    :PROPERTIES:
@@ -1906,9 +1706,8 @@ Les codes sources développés dans le cadre de missions de service public ont v
    :END:
 
 Le socle interministériel de logiciels libres (SILL) est le catalogue de référence des logiciels libres recommandés par l’Etat pour toute l’administration.
-Voir [[../site/sill.md][cette page]].
 
-
+Voir [[https://code.gouv.fr/sill/][le site du SILL]].
 
 ** Software Heritage
    :PROPERTIES:
@@ -1931,3 +1730,212 @@ Dans un dépôt de code source géré avec Git, un tag est un label associé à 
    :END:
 
 Déclaration en ligne d’un incident ou d’un dysfonctionnement, ou proposition d’amélioration du logiciel.
+
+** TODO COMMENT Glossaire
+
+*** Logiciel dérivé
+    :PROPERTIES:
+    :CUSTOM_ID: logiciel_derive
+    :END:
+
+*** Logiciel composé
+    :PROPERTIES:
+    :CUSTOM_ID: logiciel_compose
+    :END:
+
+*** Logiciel modifié
+    :PROPERTIES:
+    :CUSTOM_ID: logiciel_modifie
+    :END:
+
+* COMMENT Monter un Open Source Programme Office
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: ospo.md
+  :END:
+
+** TODO Définir une stratégie logiciels libres
+
+Une stratégie logiciels libres explique la façon dont vous allez
+*utiliser* des logiciels libres, *développer* des logiciels libres et
+*contribuer* à l’écosystème existant.
+
+** TODO Qu’est-ce qu’un "Open Source Programme Office"?
+
+Voir https://code.gouv.fr/fr/blog/definition-ospo/.
+
+Voir http://preprod.codegouv.fr/choices-ospo/.
+
+** Sites web d’organismes publics engagés
+
+Voir une liste d’organismes publics exposant leur engagement vis-à-vis
+du logiciel libre :
+
+- https://opensource.amue.fr
+- https://opensource.paris.fr
+- https://www.health-data-hub.fr/open-source
+- https://www.france-universite-numerique.fr
+- https://socialgouv.github.io
+
+** Politiques logiciels libres
+
+Voici une liste de « politiques logiciels libres » :
+
+- https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Publications/Politique-du-ministere-de-la-Culture-pour-les-codes-sources-algorithmes-et-logiciels-libres
+- https://www.health-data-hub.fr/open-source
+- https://medialab.sciencespo.fr/a-propos/#deontology
+- https://github.com/abes-esr/abes-politique-developpement
+- https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences
+- https://www.etalab.gouv.fr/accompagnement-logiciels-libres
+
+* COMMENT Exemples
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: exemples.md
+  :END:
+
+Cette section viendra documenter des exemples utiles à l’illustration
+des différents sujets.
+
+** NEXT Un exemple d’utilisation d’un logiciel libre
+** NEXT Un exemple de publication d’un code source
+** NEXT Un exemple de contribution à un logiciel libre
+** NEXT Un exemple d’Open Source Programme Office
+** NEXT Trajectoires possibles pour un logiciel libre né dans l’administration
+
+* COMMENT Ressources
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: ressources.md
+  :END:
+
+** Services en ligne utiles
+
+- https://publiccode-editor.etalab.studio : site web facilitant la
+  création de fichiers ~publiccode.yml~.
+- https://publiccodenet.github.io/assessment-eligibility/ : site web
+  pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
+- https://github.com/finos/open-source-readiness
+- https://www.ow2.org/view/MRL/
+
+** Sites référençant des logiciels libres
+   :PROPERTIES:
+   :CUSTOM_ID: repertoires-logiciels-libres
+   :END:
+
+- [[http://www.framasoft.net/][Framasoft]] : Ce site propose une base référençant plus de 1200
+  applications sous licence libre et disponible sous Windows. Figurer
+  dans cette base est une bonne garantie du caractère libre d’un
+  logiciel.
+- [[http://adullact.net/][Adullact]] : Sur ce site une vérification précise du caractère libre
+  de l’application est opérée avant toute mise à disposition, c’est une
+  condition de l’hébergement.
+- [[http://www.apache.org/][Apache]] : La gouvernance autour des projets de la fondation Apache
+  est très forte. De part ses statuts elle héberge exclusivement des
+  projets sous licence Apache Licence. Le caractère libre des
+  composants est garanti.
+- [[http://www.debian.org/][Debian]] : le fait pour une application d’être packagée par la
+  communauté Debian dans les sections « main » et « contrib » des
+  dépôts de la distribution, est une forte garantie de son caractère
+  libre. Ce sont d’ailleurs les principes du logiciel libre selon
+  Debian qui ont donnés naissance aux 10 critères permettant de
+  qualifier une licence open source selon l’Open Source Initative.
+  Depuis la page http://www.debian.org/distrib/packages il est
+  possible de rechercher un logiciel afin de vérifier qu’il appartient
+  bien au section « Main » ou « contrib ».
+- [[http://directory.fsf.org/][FSF]]/[[http://directory.fsf.org/][UNESCO Free Software Directory]] : La Free Software Foundation et
+  l’UNESCO ont recensé plus de 16 900 logiciels pour lesquels le
+  caractère libre de la licence a été vérifié.
+
+** Les politiques ministérielles
+
+Vous pouvez lire notre [[https://code.gouv.fr/fr/blog/lengagement-des-ministeres-sur-louverture-des-codes-sources-et-lutilisation-de-logiciels-libres-retour-sur-les-feuilles-de-route-publiees-en-septembre-2021/][entrée de blog de mars 2022 sur les feuilles de
+routes]].
+
+Voici une liste des politiques ministérielles déjà publiées concernant
+le logiciel libre :
+
+- [[https://www.data.gouv.fr/fr/datasets/r/ff2c204d-4a92-417c-be2a-12e8d4c2b2a6][Ministère de la Cohésion des Territoires et des Relations avec les
+  Collectivités Territoriales]]
+- [[https://www.data.gouv.fr/fr/datasets/r/b02f6070-2473-4873-8dc3-c3da71d6a0be][Ministère des Solidarités et de la Santé]]
+- [[https://www.data.gouv.fr/fr/datasets/r/25f0f375-df81-4cc5-8eae-c277a729923f][Ministère de la Transition Écologique]]
+- [[https://www.data.gouv.fr/fr/datasets/r/953b4f68-63fa-45fd-b1f6-ab868203e7f0][Ministère de l’Agriculture et de l’Alimentation]]
+- [[https://www.data.gouv.fr/fr/datasets/r/7cd10fc7-11c2-4485-996c-d718c184efcf][Ministère de l’Intérieur]]
+- [[https://www.data.gouv.fr/fr/datasets/r/81d2c866-c2ba-4204-9f2c-a6da16423248][Ministère de la Justice]]
+- [[https://www.data.gouv.fr/fr/datasets/r/561b8f8f-9fe1-4d2e-8dbf-c4212b7f7d7f][Ministère de l’Économie, des Finances et de la Relance]]
+- [[https://www.data.gouv.fr/fr/datasets/r/be61f13d-06d6-40ea-87dd-df7b2918f2e2][Ministère de l’Enseignement Supérieur, de la Recherche et del’Innovation]]
+- [[https://www.data.gouv.fr/fr/datasets/r/03b43dc4-b92f-4d40-9b7e-598dcd61c420][Ministère de la Transformation et de la Fonction publiques]]
+- [[https://www.data.gouv.fr/fr/datasets/r/a1ce2c8e-54c4-4e24-aaaf-8f3b7620cf34][Services du Premier ministre]]
+- [[https://www.data.gouv.fr/fr/datasets/r/2332ad66-0344-4325-ba71-e65517318e22][Ministère de la Culture]]
+- [[https://www.data.gouv.fr/fr/datasets/r/25f0f375-df81-4cc5-8eae-c277a729923f][Ministère de la Transition Écologique]]
+- [[https://www.data.gouv.fr/fr/datasets/r/e9174d55-3ad6-4959-a40b-5818f829fd7f][Ministère du Travail, de l’Emploi et de l’Insertion]]
+- [[https://www.data.gouv.fr/fr/datasets/r/0b7e6089-9100-47ba-bc15-ea17013da4ed][Ministère de l’Éducation nationale, de la Jeunesse et des Sports]]
+- [[https://www.data.gouv.fr/fr/datasets/r/be61f13d-06d6-40ea-87dd-df7b2918f2e2][Ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation]]
+
+** Des /success stories/
+
+Les /success stories/ dans le privé sont désormais compliquées à
+dénombrer. En vrac, on peut citer : [[https://www.orekit.org/][Orekit]], [[https://www.redhat.com/en][RedHat]] (du moins pendant
+de nombreuses années), [[https://www.mozilla.org/en-US/][Mozilla]], [[https://axelor.com/][Axelior]], [[https://www.eclipse.org/org/][Eclipse]], etc.
+
+Pour le public, on peut citer : [[https://lutece.paris.fr/fr/][Lutece de la ville de Paris]], [[https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz.html][le fait
+qu’un État fédéral allemand fait passer 30 000 PC sous Linux et
+LibreOffice]], [[https://www.ccomptes.fr/sites/default/files/2024-07/20240710-S-2024-0754-Pilotage-transformation-numerique-Etat-par-direction-interministerielle-du-numerique.pdf][lefait que le système de design de l’État (DSFR) permet
+entre 3,1 et 4,9 M€ d’économies par an (note de bas page 86)]]. Vous
+pouvez voir une liste plus complète de logiciel libre à fort potentiel
+de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
+
+** Modèles de dépôts git exemplaires
+
+- Généralités:
+  - Exmplaire sur les messages de commit en anglais
+  - Exemplaire sur la doc utilisateur en français
+  - Exemplaire sur la doc dev en anglais
+  - Exemplaire sur les noms de variable dans la langue du référentiel (FR, EN)
+  - Exemplaire sur les commentaires dans le code qui sont en anglais
+
+*** NEXT Pour une librairie
+*** NEXT Pour une startup d’État
+*** NEXT Pour un projet d’intérêt général sensible
+
+- Utiliser la licence AGPL
+
+** Documents divers
+*** Publiées par des organismes publics
+
+- [[https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-a-un-systeme-gnulinux/][Recommandations de sécurité relatives à un système GNU/Linux, ANSSI, 2022]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#le-poste-de-travail-linux][Le poste de travail Linux]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#web-components][Web Components]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#concentration-des-logs][Concentration des logs]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#pare-feu-applicatif][Pare-feu applicatif]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-log4j][Alternative à Log4j]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#messagerie-asynchrone-interapplicative][Messagerie asynchrone interapplicative]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#mesagerie-passerelles-de-filtrage][Messagerie : Passerelles de filtrage]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#environnement-de-d%C3%A9veloppement-informatique][Environnement de développement informatique]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#orchestration-de-conteneurs][Orchestration de conteneurs]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#gestion-de-lidentit%C3%A9][Gestion de l’identité]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#etude-centos][Etude centOS]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#logiciels-de-gmao][Logiciels de GMAO]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#espace-de-travail-collaboratif][Espace de travail collaboratif]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#tableau-de-collecte-de-donn%C3%A9es][Tableau de collecte de données]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#lopenjdk-17][L’OpenJDK 17]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#autorit%C3%A9-de-certification][Autorité de certification]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#solution-de-vpn][Solution de VPN]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-mecm][Alternative à MECM]]
+- [[https://hal.science/hal-02434287][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
+- https://espacechercheurs.enpc.fr/sites/default/files/logigramme_a_plat.pdf
+
+*** Publiées hors de l’administration
+**** En français
+
+- http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2012_TGD.pdf
+- http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2011_TGD.pdf
+- [[https://hal.science/hal-02434287v2][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
+- https://opensource.guide/fr/
+
+**** En anglais
+
+- https://innersourcecommons.org/zh/learn/books/understanding-the-innersource-checklist/
+- https://www.rants.org/2011/04/open-source-license-flowchart/
+- https://standard.publiccode.net/
+- https://www.conventionalcommits.org/en/v1.0.0/
+- https://keepachangelog.com/fr/1.0.0/
+- https://readme.so/fr
+
