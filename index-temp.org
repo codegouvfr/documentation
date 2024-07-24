@@ -14,23 +14,24 @@ Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logi
 
 Elle s’adresse à plusieurs audiences :
 
-- Les équipes métier et chefs de projet qui souhaitent publier le code
-  source de leurs projets et applications sous licence libre
-- Les DSI pour l’utilisation des logiciels libres dans leur SI
-- Aux directeurs d’administration et les équipes métier prêtes à
-  s’investir dans la création dans un /Open Source Program Office/ (OSPO)
+- Les équipes métier et les chefs de projet qui souhaitent publier le
+  code source de leurs projets et applications sous licence libre ;
+- les DSI qui veulent renforcer l’utilisation des logiciels libres
+  dans leurs systèmes d'information ;
+- les directeurs d’administration et équipes métier voulant mettre en
+  cohérence leur stratégie open source en s’investissant dans un /Open
+  Source Program Office/ (OSPO).
 
-Sa rédaction est collaborative : tous les organismes publics ayant une
-pexpertise sur les logiciels libres, qu’ils en utilisent, y contribuent
-ou en publient, sont invités à faire évoluer ces contenus.
+Sa rédaction est ouvertes aux organismes publics ayant une expertise
+sur les logiciels libres, qu’ils en utilisent, y contribuent ou en
+publient.
 
 Les sujets abordés portent sur ce qui distingue un logiciel libre ; il
 ne sera pas directement question de logiciels sous licence non libre,
-ni de service en ligne, ni des bonnes pratiques de développement qui
-valent, pour certains, quelle que soit la licence des logiciels.
+ni de services en ligne, ni des bonnes pratiques de développement qui
+valent, pour la plupart, quelle que soit la licence des logiciels.
 
-Si vous êtes nouveau dans le milieu du logiciel libre, [[../glossaire.md][un glossaire est
-disponible]].
+Si ces sujets sont nouveaux pour vous, [[../glossaire.md][un glossaire est disponible]].
 
 * Utiliser des logiciels libres
   :PROPERTIES:
@@ -38,11 +39,13 @@ disponible]].
   :END:
 
 ** Trouver des solutions libres
+
 Pour trouver des solutions libres, plusieurs approches existent, toutes
 aussi imparfaites les unes que les autres.
 
 D’abord, la mission logiciels libres recense des logiciels libres sur
 trois pages web :
+
 - [[https://code.gouv.fr/fr/awesome/][code.gouv.fr/awesome]] liste les logiciels libres développés par les
   administrations à fort potentiel de réutilisation.
 - [[https://code.gouv.fr/sill][code.gouv.fr/sill]] permet d’identifier facilement les logiciels libres
