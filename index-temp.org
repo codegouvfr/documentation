@@ -14,22 +14,25 @@ Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logi
 
 Elle s’adresse à plusieurs audiences :
 
-- Les équipes métier et les chefs de projet qui souhaitent publier le
+- les équipes métier et les chefs de projet qui souhaitent /publier/ le
   code source de leurs projets et applications sous licence libre ;
-- les DSI qui veulent renforcer l’utilisation des logiciels libres
+- les équipes métier et les chefs de projet qui souhaitent /contribuer/
+  à des projets libres existants ;
+- les DSI qui veulent renforcer /l’utilisation/ des logiciels libres
   dans leurs systèmes d'information ;
 - les directeurs d’administration et équipes métier voulant mettre en
-  cohérence leur stratégie open source en s’investissant dans un /Open
-  Source Program Office/ (OSPO).
+  cohérence leur stratégie open source en s’investissant dans une
+  mission logiciels libres (MLL) ou /Open Source Program Office/ (OSPO).
 
 Sa rédaction est ouvertes aux organismes publics ayant une expertise
 sur les logiciels libres, qu’ils en utilisent, y contribuent ou en
-publient.
+publient. Voir le fichier [[https://git.sr.ht/~codegouvfr/documentation/tree/main/item/CONTRIBUTING.md][CONTRIBUTING.md]] du dépôt correspondant pour
+contribuer.
 
-Les sujets abordés portent sur ce qui distingue un logiciel libre ; il
-ne sera pas directement question de logiciels sous licence non libre,
-ni de services en ligne, ni des bonnes pratiques de développement qui
-valent, pour la plupart, quelle que soit la licence des logiciels.
+Les sujets abordés portent sur les logiciels libres ; il ne sera pas
+question de logiciels sous licence non libre, ni de services en ligne,
+ni des bonnes pratiques de développement qui ne sont pas spécifiques
+aux logiciels libres.
 
 Si ces sujets sont nouveaux pour vous, [[../glossaire.md][un glossaire est disponible]].
 
@@ -37,50 +40,51 @@ Si ces sujets sont nouveaux pour vous, [[../glossaire.md][un glossaire est dispo
   :PROPERTIES:
   :EXPORT_FILE_NAME: utiliser.md
   :END:
-** Trouver des solutions libres
 
-Pour trouver des solutions libres, plusieurs approches existent,
-toutes aussi imparfaites les unes que les autres.
+** Trouver des logiciels libres répondant à vos besoins
 
-D’abord, la mission logiciels libres recense des logiciels libres sur
-trois pages web :
+La mission logiciels libres liste (1) des logiciels libres du secteur
+public et à forte valeur ajoutée pour toute l'administration, (2) les
+dépôts de code source publiés par tous les organismes publics et (3)
+les logiciels libres recommandés pour toute l'administration :
 
 - [[https://code.gouv.fr/fr/awesome/][code.gouv.fr/awesome]] liste les logiciels libres développés par les
-  administrations à fort potentiel de réutilisation ;
-- [[https://code.gouv.fr/sill][code.gouv.fr/sill]] permet d’identifier facilement les logiciels
-  libres utilisés par l’administration, leur version recommandée et de
-  contacter les référents ou utilisateeurs du logiciel ;
-- [[https://code.gouv.fr/sources][code.gouv.fr/sources]] liste de manière centralisée tous les dépôts de
-  codes sources développés par l’administration et les organisations
-  disponibles sur les forges.
+  administrations, à fort potentiel de réutilisation et à forte valeur
+  ajoutée pour tout le secteur public ;
+- [[https://code.gouv.fr/sources][code.gouv.fr/sources]] liste de façon centralisée tous les dépôts de
+  codes sources publiés par l’administration sur des forges ;
+- [[https://code.gouv.fr/sill][code.gouv.fr/sill]] liste les logiciels libres utilisés par des
+  organismes publics en recommandant une version minimale et en
+  permettant de contacter les référents et les utilisateurs du
+  logiciel.
 
-Des sites sont réputés fournir exclusivement des logiciels sous
-licence libre (voir notre [[#repertoires-logiciels-libres][section dédiée]]).
+Nous proposons dans une [[#repertoires-logiciels-libres][section dédiée]] des sites hors administration
+qui proposent des listes de logiciels sous licence libre.
 
-L’utilisation des moteurs de recherche classiques peut aussi aider
-Avec l’utilisation des mots clefs « open source » et « logiciel
-libre », les résultats sont satisfaisants. Néanmoins, des recherches
-plus abouties sont nécessaires : aller sur le site web principal du
-logiciel, vérifier si la licence est indiquée ; mieux encore, trouver
-le dépôt de code source du logiciel et vérifier à la source quelle
-licence est apposée sur le code.
+L’utilisation des moteurs de recherche peut aussi aider. Avec les mots
+clefs « open source » et « logiciel libre », les résultats sont en
+général satisfaisants. Néanmoins, des recherches plus abouties sont
+nécessaires : aller sur le site web principal du logiciel, vérifier si
+la licence est indiquée ; mieux encore, trouver le dépôt de code
+source du logiciel et y vérifier quelle licence est apposée sur le
+code.
 
-Enfin, il est aussi possible d’aller voir sur des plateformes telles
-que [[https://github.com][github.com]], [[https://gitlab.com][gitlab.com]], [[https://sr.ht][sr.ht]] et des plateformes dédiées à un
+Enfin, il est aussi possible d’aller sur des forges comme [[https://github.com][github.com]],
+[[https://gitlab.com][gitlab.com]], [[https://sr.ht][sr.ht]] et des plateformes de distribution dédiées à un
 écosystème comme [[https://pypi.org/][pypi.org]] (Python) ou [[https://www.npmjs.com/][npmjs.com]] (JavaScript) pour
-trouver des modules logiciels.  Pour ces plateformes, vérifiez bien
-que la licence est libre.
+trouver des modules logiciels. Dans les deux cas, [[https://spdx.org/licenses/][vérifiez bien que la
+licence est libre]], c'est-à-dire approuvée telle par la Free Software
+Foundation et l'Open Source Initiative.
 
 *** Comment vérifier la licence d’un logiciel ?
 
-Une simple recherche sur internet permet de localiser le site de
-présentation et de mise à disposition du logiciel. Une fois l’URL du
-site identifié, une recherche du mot « license » limitée au site doit
-permettre de localiser une page indiquant sous quelle licence le
-logiciel est mis à disposition. Par exemple, pour le projet
-LibreOffice :
+Une recherche sur internet permet de localiser le site de présentation
+et de mise à disposition du logiciel. Une fois l’URL identifiée, une
+recherche du mot « license » limitée au site permet de localiser une
+page indiquant sous quelle licence le logiciel est mis à disposition.
+Par exemple, pour le projet LibreOffice :
 
-- Une recherche de « Evolvica » donne l’url du site projet :
+- une recherche de =Evolvica= donne l’url du site projet :
   http://www.libreoffice.org.
 - Une recherche de =license site:https://www.libreoffice.org/= donne la
   page https://www.libreoffice.org/about-us/licenses qui contient
@@ -116,7 +120,7 @@ tous.
 
 ** Se repérer dans l’écosystème des logiciels libres
 
-Pour se repérer dans cet écosystème complexe, voici quelques liens :
+Pour se repérer dans cet écosystème complexe, voici quelques liens :
 
 - Connaître et comprendre les [[https://fr.wikipedia.org/wiki/Logiciel_libre][fondements du logiciel libre]]
 - Connaître et comprendre [[*Licences : les indispensables à connaître][les indispensables des licences libres]]
@@ -717,7 +721,7 @@ est admissible, tant qu’aucun citoyen n’exige la communication du code
 source en question, selon le cadre juridique défini dans la loi pour
 une République numérique.
 
-Bien sûr, ces critères sont *relatifs* : la modularité, la généricité,
+Bien sûr, ces critères sont *relatifs* : la modularité, la généricité,
 le besoin de reprise par d’autre et le potentiel de contribution des
 utilisateurs ne s’évaluent pas /in abstracto/. Ces notions sont
 proposées pour aider à *prioriser les ouvertures logicielles*. Le but
@@ -727,53 +731,53 @@ l’administration dans le cas des publications simples.
 
 ** Responsabilité de l’administration publique
 
-Quelle est la responsabilité engagée par une collectivité publique (État
-ou collectivité locale) qui met à disposition un logiciel sous licence
-de logiciel libre ?
+Quelle est la responsabilité engagée par une collectivité publique
+(État ou collectivité locale) qui met à disposition un logiciel sous
+licence de logiciel libre ?
 
 Généralement licences libres et licences propriétaires de logiciel
-rejettent toutes responsabilités quant aux dommages directs et indirects
-que pourraient causer l’utilisation du logiciel. Une telle clause
-est-elle compatible avec le droit français ?
+rejettent toutes responsabilités quant aux dommages directs et
+indirects que pourraient causer l’utilisation du logiciel. Une telle
+clause est-elle compatible avec le droit français ?
 
-En droit français, la limitation, voire l’exonération de responsabilité,
-est autorisée en matière contractuelle. La protection du consommateur
-suppose néanmoins que l’exclusion totale de responsabilité ne soit pas
-admise quand le contrat est passé avec un consommateur ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032227122?init=true&page=1&query=L.132-1+du+code+de+la+consommation&searchField=ALL&tab_selection=all][art. L.132-1 du
-code de la consommation]]).
+En droit français, la limitation, voire l’exonération de
+responsabilité, est autorisée en matière contractuelle. La protection
+du consommateur suppose néanmoins que l’exclusion totale de
+responsabilité ne soit pas admise quand le contrat est passé avec un
+consommateur ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032227122?init=true&page=1&query=L.132-1+du+code+de+la+consommation&searchField=ALL&tab_selection=all][art. L.132-1 du code de la consommation]]).
 
 Il en est de même pour les produits défectueux, l’article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006438975/1998-05-21][1386-15 du
-code civil]] ne permettant pas que soit écartée par voie contractuelle la
-responsabilité de ce fait, sauf entre professionnels. Dans la mesure où
-le logiciel s’adresse manifestement à des professionnels et des
-informaticiens, et c’est le cas des applications portées par les
-administrations, l’exclusion de responsabilité pour les dommages directs
-est ainsi admise.
+code civil]] ne permettant pas que soit écartée par voie contractuelle
+la responsabilité de ce fait, sauf entre professionnels. Dans la
+mesure où le logiciel s’adresse manifestement à des professionnels et
+des informaticiens, et c’est le cas des applications portées par les
+administrations, l’exclusion de responsabilité pour les dommages
+directs est ainsi admise.
 
 Concernant la responsabilité de l’administration en matière de
-contrefaçon, le risque existe même lorsque le logiciel n’est pas diffusé
-comme logiciel libre ; mais une diffusion large expose plus facilement à
-ce risque.
+contrefaçon, le risque existe même lorsque le logiciel n’est pas
+diffusé comme logiciel libre ; mais une diffusion large expose plus
+facilement à ce risque.
 
-*Contrefaçon en matière de droit d’auteur* : le logiciel diffusé inclut un
-composant ou même un bout de code source pour lequel l’administration
-n’a pas les droits de diffusion. La responsabilité de l’administration
-est engagée. Toutefois si le logiciel a été produit dans le cadre d’un
-marché public, il conviendra de rechercher la responsabilité du
-prestataire coupable de négligence ou même plagiaire sur les
-développements spécifiques dans le *rapport de conformité*.
+*Contrefaçon en matière de droit d’auteur* : le logiciel diffusé inclut
+un composant ou même un bout de code source pour lequel
+l’administration n’a pas les droits de diffusion. La responsabilité de
+l’administration est engagée. Toutefois si le logiciel a été produit
+dans le cadre d’un marché public, il conviendra de rechercher la
+responsabilité du prestataire coupable de négligence ou même plagiaire
+sur les développements spécifiques dans le *rapport de conformité*.
 
-Le risque de différends entre l’administration engagée dans une démarche
-de mutualisation et les acteurs du logiciel libre est très faible et
-devrait se résoudre à l’amiable tant les objectifs des uns et des autres
-convergent.
+Le risque de différends entre l’administration engagée dans une
+démarche de mutualisation et les acteurs du logiciel libre est très
+faible et devrait se résoudre à l’amiable tant les objectifs des uns
+et des autres convergent.
 
 *Contrefaçon en matière de marque* : une marque est un signe distinctif
 (logo), un mot ou un groupe de mots servant de reconnaissance légale
 pour un produit, une société, etc. Il est de la responsabilité de
-l’administration, de s’assurer que la mise à disposition du logiciel ne
-contrefait pas une marque déposée. En particulier concernant le nom du
-logiciel, il faudra vérifier qu’il n’empiète pas sur une marque
+l’administration, de s’assurer que la mise à disposition du logiciel
+ne contrefait pas une marque déposée. En particulier concernant le nom
+du logiciel, il faudra vérifier qu’il n’empiète pas sur une marque
 déposée. D’une façon générale, la mutualisation d’un logiciel doit se
 faire en marque blanche, sans signe distinctif autre que celui de
 l’administration.
@@ -783,7 +787,28 @@ tels, en France et en Europe n’ont pas de reconnaissance juridique. La
 [[https://fr.wikipedia.org/wiki/Convention_sur_le_brevet_europ%C3%A9en][Convention sur le brevet européen]] (CBE) l’indique clairement dans son
 [[https://www.epo.org/fr/legal/epc/2020/a52.html][article 52]].
 
-** NEXT Référencement et standardisation
+** Bonnes pratiques de nommage des organisations/groupes et dépôts
+
+Un bon nom de dépôt décrit la finalité du code source du dépôt.
+
+Un bon nom d’organisation décrit l’équipe qui porte les dépôts.
+
+Il vaut mieux plusieurs organisations avec des noms stables que peu
+d’organisations avec des mauvais noms.
+
+Le nom d’organisation doit être explicite et minimaliste :
+
+- évitez les acronymes correspondant à une entité administrative, sauf
+  si vous êtes certain que cet acronyme va perdurer dans le temps ;
+- éviter de préfixer ou suffixer un nom d’organisation avec un
+  acronyme administratif.
+
+Exemple de mauvais nom : https://github.com/DISIC/ car il était
+prévisible que l’acronyme ne serait plus d’actualité.
+
+Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
+
+** TODO COMMENT Référencement et standardisation
 - TODO
   - ajouter éléments sur publicode.yml (et codemeta.json)
 
@@ -791,7 +816,7 @@ tels, en France et en Europe n’ont pas de reconnaissance juridique. La
 
 - Une collectivité territoriale développe un outil de correction grammaticale
   pour LibreOffice. Ce logiciel est un module d’un logiciel libre existant et
-  il répond à un besoin générique : il est pertinent d’en faire un *logiciel
+  il répond à un besoin générique : il est pertinent d’en faire un *logiciel
   libre « contributif »* (niveau A).
 - Une administration développe un outil pour organiser la collecte de données
   sur le web (*scraping*). C’est un outil web « monolithique » mais qui répond
@@ -806,11 +831,10 @@ tels, en France et en Europe n’ont pas de reconnaissance juridique. La
 Chaque organisme peut tenter de prioriser les logiciels à ouvrir
 en fonction de ces critères.
 
-** NEXT Bonnes pratiques de gouvernance
+** TODO COMMENT Bonnes pratiques de gouvernance
+** TODO COMMENT Bonnes pratiques de communication
 
-** NEXT Bonnes pratiques de communication
-
-** NEXT Bonnes pratiques pour la documentation
+** TODO COMMENT Bonnes pratiques pour la documentation
 
 *** La licence pour la documentation
 
@@ -852,12 +876,12 @@ l’oeuvre. Comme il n’est pas possible de créer une oeuvre dérivée, il
 n’y a pas de pertinence à exiger le partage à l’identique. Cette licence
 est incompatible avec l’esprit d’une licence libre. Un usage commercial
 est possible, sans l’autorisation de l’auteur. Ce type de licence
-convient à la publication :
-- de textes officiels : textes juridiques, rapports publics, lettres de
+convient à la publication :
+- de textes officiels : textes juridiques, rapports publics, lettres de
   mission, cadres techniques
-- de documents factuels ou contractuels : compte-rendus de réunion,
+- de documents factuels ou contractuels : compte-rendus de réunion,
   points de décisions, CCTP, CCAP
-- de documents de communication : communiqués politiques , interviews
+- de documents de communication : communiqués politiques , interviews
   institutionnelles ou nominatives, témoignages, discours
 
 Il est possible d’interdire les usages commerciaux en ajoutant une
@@ -874,29 +898,12 @@ commons de type « pas d’utilisation commerciale » ne pourra vendre même
 à prix coûtant le CD, sans en avoir demandé l’autorisation. De même, une
 édition papier d’un document, ne peut être diffusée sauf gratuitement.
 
-
-** Bonnes pratiques de nommage des organisations/groupes et dépôts
-
-Un bon nom de dépôt décrit la finalité du code source du dépôt.
-
-Un bon nom d’organisation décrit l’équipe qui porte les dépôts.
-
-Il vaut mieux plusieurs organisations avec des noms stables que peu
-d’organisations avec des mauvais noms.
-
-Le nom d’organisation doit être explicite et minimaliste :
-
-- évitez les acronymes correspondant à une entité administrative, sauf si vous êtes certain que cet acronyme va perdurer dans le temps ;
-- éviter de préfixer ou suffixer un nom d’organisation avec un acronyme administratif.
-
-Exemple de mauvais nom : https://github.com/DISIC/ car il était prévisible que l’acronyme ne serait plus d’actualité.
-
-Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
-
-** NEXT Bonnes pratiques de publication
-** NEXT Métriques de qualité d’un projet libre
-
+** TODO COMMENT Bonnes pratiques de publication
+** TODO COMMENT Métriques de qualité d’un projet libre
 * Contribuer à un logiciel libre
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: contribuer.md
+  :END:
 
 La contribution de l’administration à un logiciel libre, qu’il soit
 communautaire ou édité par une entreprise privée, requiert, dans
@@ -1139,7 +1146,7 @@ en écrivant à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]].
 
 Dès que vous publiez un code développé par votre administration,
 assurez-vous que la forge et l’organisation via laquelle vous publiez
-sont référencés sur [[https://code.gouv.fr/public/][code.gouv.fr/public]] : si ce n’est pas le cas,
+sont référencés sur [[https://code.gouv.fr/public/][code.gouv.fr/public]] : si ce n’est pas le cas,
 [[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
 
 ** Sous quelle licence dois-je publier mes codes sources ?
@@ -1232,7 +1239,7 @@ vous mettre à disposition ces codes sources.
 
 Nous recommandons d’exiger que ces codes sources soient mis à
 disposition sur une forge gérée par l’administration dès le premier
-commit : attendre le versement d’un code source après la fin d’une
+commit : attendre le versement d’un code source après la fin d’une
 prestation est une mauvaise pratique.
 
 ** Où trouver tous les dépôts publiés par mon ministère ?
@@ -1346,7 +1353,7 @@ existent. Notamment, le [[https://cnll.fr/][CNLL]] regroupe les principales asso
 entreprises de l’écosystème open source en France.
 
 Plusieurs entreprises du libre se sont rassemblées pour créer
-un guichet unique : [[https://www.opensource-experts.com/][Open source experts]] (OSE)
+un guichet unique : [[https://www.opensource-experts.com/][Open source experts]] (OSE)
 
 ** Puis-je interdire la réutilisation commerciale des codes sources publiés ?
 
@@ -1391,7 +1398,7 @@ Pour résumer, voici les raisons :
   est la seule qui propose à la fois de l’intégration continue et des
   listes de discussion.
 - Si vous voulez contribuer à un projet, vous n’avez pas besoin de créer
-  de compte sur SourceHut : il suffit d’une adresse de courriel pour
+  de compte sur SourceHut : il suffit d’une adresse de courriel pour
   envoyer des correctifs et proposer des idées.
 - SourceHut et son service sr.ht ne collecte aucune donnée de ses
   utilisateurs.
@@ -1482,9 +1489,9 @@ travail.
 Chercher une forge proche en consultant https://code.gouv.fr/sources/#/repos
 Un compte d’organisation car ce sont les seuls prix en compte sur code. gouv.
 Penser à demander de référencer la forge de l’orga à contact@code.gouv.fr
-Si l’organisation à plusieurs forges ou comptes d’orga : pas de problème.
-Si nouveaux codes : forge/compte d’organisation
-Si projet existant : fork sur la forge d’organisation. Les forks sont listés sur code.gouv.fr
+Si l’organisation à plusieurs forges ou comptes d’orga : pas de problème.
+Si nouveaux codes : forge/compte d’organisation
+Si projet existant : fork sur la forge d’organisation. Les forks sont listés sur code.gouv.fr
 
 
 ** NEXT Est-il souhaitable d’utiliser ma solution de gestion de code Source (GitLab, Bitbucket) en ouvrant des projets en mode public?
@@ -1493,7 +1500,7 @@ Si projet existant : fork sur la forge d’organisation. Les forks sont listés 
 lire le rapport sur les forges REX déploiement et maintenance.
 plutôt chercher une forge publique proche. (proche = ministère ? réseau des laboratoires ?)
 ce qui assurera la visibilité, c’est d’être référencé, pas le fait d’être sur une “grande” forge.
-seules défférences fonctionnelles : pas les fonctionnalités GIT mais les fonctionnalités de la CI/CD.
+seules défférences fonctionnelles : pas les fonctionnalités GIT mais les fonctionnalités de la CI/CD.
 
 
 ** NEXT Est-il préférable de conbribuer en tant qu’individu (prenom.nom de l’agent) ou plutôt en tant qu’organisation aux logiciels libres ? (compte individuel ou compte entreprise ?)
@@ -1504,9 +1511,9 @@ en tant qu’individu.
 
 
 les équipes métiers peuvent évaluer
-architecture des projets : modularité et généricité donnent un bonus de réemployabilité ( réutilisable par d’autres administrations).
+architecture des projets : modularité et généricité donnent un bonus de réemployabilité ( réutilisable par d’autres administrations).
 des demandes d’autres administrations
-prioriser : le plus générique, le meilleure. VS le spéicifique ou le mal écrit n’est pas un bon candidat pour une publication open-source.
+prioriser : le plus générique, le meilleure. VS le spéicifique ou le mal écrit n’est pas un bon candidat pour une publication open-source.
 Expliciter pourquoi nous publions un dépôt.
 Quels logiciels ouverts à quel degrès https://code.gouv.fr/documentation/#/publier?id=quels-logiciels-ouvrir-à-quel-degré-
 
@@ -1538,7 +1545,7 @@ https://www.numerique.gouv.fr/publications/politique-logiciel-libre/
 ** NEXT En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? Si oui dans quelles conditions ?
 
 Si le logiciel est réalisé par un ou plusieurs salariés dans le cadre
-d’une relation de subordination à leur employeur : les droits moraux
+d’une relation de subordination à leur employeur : les droits moraux
 restent acquis aux auteurs mais les droits d’exploitation sont transmis
 de plein droit à l’employeur. Cette disposition est valable pour l’agent
 dans ses missions de services publics (Art. L. [[https://www.legifrance.gouv.fr/codes/id/LEGIARTI000006278959/2024-07-19/?isSuggest=true][131-3-1 du Code de la
@@ -1546,7 +1553,7 @@ propriété intellectuelle]]).
 
 Si le logiciel est réalisé sur le temps libre de l’auteur, de sa propre
 initiative, avec ses propres moyens techniques et sans rapport avec sa
-fonction : il est alors auteur de plein droit et dispose à sa guise de
+fonction : il est alors auteur de plein droit et dispose à sa guise de
 l’ensemble des prérogatives liées à l’expression en particulier des
 droits d’exploitation.
 
@@ -1580,11 +1587,12 @@ des différents sujets.
   :PROPERTIES:
   :EXPORT_FILE_NAME: ressources.md
   :END:
+
 ** Services en ligne utiles
 
-- https://publiccode-editor.etalab.studio : site web facilitant la
+- https://publiccode-editor.etalab.studio : site web facilitant la
   création de fichiers ~publiccode.yml~.
-- https://publiccodenet.github.io/assessment-eligibility/ : site web
+- https://publiccodenet.github.io/assessment-eligibility/ : site web
   pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
 - https://github.com/finos/open-source-readiness
 - https://www.ow2.org/view/MRL/
@@ -1594,18 +1602,18 @@ des différents sujets.
    :CUSTOM_ID: repertoires-logiciels-libres
    :END:
 
-- [[http://www.framasoft.net/][Framasoft]] : Ce site propose une base référençant plus de 1200
+- [[http://www.framasoft.net/][Framasoft]] : Ce site propose une base référençant plus de 1200
   applications sous licence libre et disponible sous Windows. Figurer
   dans cette base est une bonne garantie du caractère libre d’un
   logiciel.
-- [[http://adullact.net/][Adullact]] : Sur ce site une vérification précise du caractère libre
+- [[http://adullact.net/][Adullact]] : Sur ce site une vérification précise du caractère libre
   de l’application est opérée avant toute mise à disposition, c’est une
   condition de l’hébergement.
-- [[http://www.apache.org/][Apache]] : La gouvernance autour des projets de la fondation Apache
+- [[http://www.apache.org/][Apache]] : La gouvernance autour des projets de la fondation Apache
   est très forte. De part ses statuts elle héberge exclusivement des
   projets sous licence Apache Licence. Le caractère libre des
   composants est garanti.
-- [[http://www.debian.org/][Debian]] : le fait pour une application d’être packagée par la
+- [[http://www.debian.org/][Debian]] : le fait pour une application d’être packagée par la
   communauté Debian dans les sections « main » et « contrib » des
   dépôts de la distribution, est une forte garantie de son caractère
   libre. Ce sont d’ailleurs les principes du logiciel libre selon
@@ -1614,7 +1622,7 @@ des différents sujets.
   Depuis la page http://www.debian.org/distrib/packages il est
   possible de rechercher un logiciel afin de vérifier qu’il appartient
   bien au section « Main » ou « contrib ».
-- [[http://directory.fsf.org/][FSF]]/[[http://directory.fsf.org/][UNESCO Free Software Directory]] : La Free Software Foundation et
+- [[http://directory.fsf.org/][FSF]]/[[http://directory.fsf.org/][UNESCO Free Software Directory]] : La Free Software Foundation et
   l’UNESCO ont recensé plus de 16 900 logiciels pour lesquels le
   caractère libre de la licence a été vérifié.
 
@@ -1681,7 +1689,7 @@ de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#pare-feu-applicatif][Pare-feu applicatif]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-log4j][Alternative à Log4j]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#messagerie-asynchrone-interapplicative][Messagerie asynchrone interapplicative]]
-- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#mesagerie-passerelles-de-filtrage][Messagerie : Passerelles de filtrage]]
+- [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#mesagerie-passerelles-de-filtrage][Messagerie : Passerelles de filtrage]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#environnement-de-d%C3%A9veloppement-informatique][Environnement de développement informatique]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#orchestration-de-conteneurs][Orchestration de conteneurs]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#gestion-de-lidentit%C3%A9][Gestion de l’identité]]
@@ -1693,7 +1701,7 @@ de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#autorit%C3%A9-de-certification][Autorité de certification]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#solution-de-vpn][Solution de VPN]]
 - [[https://gitlab.adullact.net/marche-sll/etudes-de-veille#alternative-%C3%A0-mecm][Alternative à MECM]]
-- [[https://hal.science/hal-02434287][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
+- [[https://hal.science/hal-02434287][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
 - https://espacechercheurs.enpc.fr/sites/default/files/logigramme_a_plat.pdf
 
 *** Publiées hors de l’administration
@@ -1701,7 +1709,7 @@ de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
 
 - http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2012_TGD.pdf
 - http://igm.univ-mlv.fr/~teresa/logicielsLIGM/documents/CoursLL/CoursLLAngers2011_TGD.pdf
-- [[https://hal.science/hal-02434287v2][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
+- [[https://hal.science/hal-02434287v2][Les logiciels de la recherche et leurs licences : trois visions sur un objet]]
 - https://opensource.guide/fr/
 
 **** En anglais
@@ -1864,7 +1872,7 @@ instructions sont en code objet, généralement en binaire.
 
 Un logiciel libre est un logiciel dont le code source est publié sous l’une des licences reconnues libres par la [[https://www.gnu.org/licenses/licenses.en.html][Free Software Foundation]] ou "open source" par l’[[https://opensource.org/licenses][Open Source Initiative]].
 
-Ces licences ont toutes en commun d’octrayer aux utilisateurs quatre libertés : celle d’/utiliser/ le programme informatique comme on le souhaite, pour toute finalité ; celle d’/étudier et de modifier/ le programme à loisir ; celle de redistribuer des copies du programme à d’autres ; celle de redistribuer des versions modifiées du programme à d’autres.
+Ces licences ont toutes en commun d’octrayer aux utilisateurs quatre libertés : celle d’/utiliser/ le programme informatique comme on le souhaite, pour toute finalité ; celle d’/étudier et de modifier/ le programme à loisir ; celle de redistribuer des copies du programme à d’autres ; celle de redistribuer des versions modifiées du programme à d’autres.
 
 ** Organisation et groupe (dans GitHub ou GitLab)
    :PROPERTIES:
