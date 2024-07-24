@@ -279,7 +279,8 @@ sous deux licences, en général une libre et une autre propriétaire.
 L’utilisateur choisit l’une ou l’autre licence. L’idée est souvent de
 proposer une licence de type copyleft et une licence non libre (ou
 « commerciale »), cette dernière préférée par les utilisateurs ou les
-entreprises voulant éviter les contraintes des licences copyleft.
+entreprises voulant éviter les contraintes de réciprocité des licences
+copyleft.
 
 Il est aussi possible qu’une solution logicielle ne soit pas sous
 double licence par défaut, mais qu’il y ait un changement au cours du
