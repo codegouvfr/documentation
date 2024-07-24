@@ -39,6 +39,7 @@ Si ces sujets sont nouveaux pour vous, [[#glossaire][un glossaire est disponible
 * Utiliser des logiciels libres
   :PROPERTIES:
   :EXPORT_FILE_NAME: utiliser.md
+  :CUSTOM_ID: utiliser
   :END:
 
 ** Trouver des logiciels libres répondant à vos besoins
@@ -422,6 +423,7 @@ l’enseignement supérieur et à la recherche modifiant l’article
 * Publier un code source
   :PROPERTIES:
   :EXPORT_FILE_NAME: publier.md
+  :CUSTOM_ID: publier
   :END:
  
 ** Cadre juridique
@@ -900,6 +902,7 @@ commons de type « pas d’utilisation commerciale » ne pourra vendre même
 * Contribuer à un logiciel libre
   :PROPERTIES:
   :EXPORT_FILE_NAME: contribuer.md
+  :CUSTOM_ID: contribuer
   :END:
 
 La contribution de l’administration à un logiciel libre, qu’il soit
@@ -954,6 +957,7 @@ extérieurs à Element sous une licence propriétaire.
 * Foire aux questions
   :PROPERTIES:
   :EXPORT_FILE_NAME: faq.md
+  :CUSTOM_ID: faq
   :END:
 
 Cette FAQ est en construction. Si vous avez des questions que vous voulez voir figurer ici, n’hésitez pas à nous écrire à =contact@code.gouv.fr=.
@@ -1594,7 +1598,7 @@ Les dépendances listées dans [[https://code.gouv.fr/#/deps][code.gouv.fr]] son
 
 ** Dépôt de code source
    :PROPERTIES:
-   :CUSTOM_ID: dépôt
+   :CUSTOM_ID: depot
    :END:
 
 Un « dépôt » est un espace dans lequel sont publiés les fichiers de code source. C’est ce que vous voyez lorsque vous visitez un lien vers un code source hébergé sur une forge. C’est aussi ce que vous pouvez copier sur votre machine pour l’explorer localement.
