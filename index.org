@@ -1532,9 +1532,6 @@ mobiliser vos services juridiques.
   :EXPORT_FILE_NAME: glossaire.md
   :CUSTOM_ID: glossaire
   :END:
-  :LOGBOOK:
-  CLOCK: [2024-07-24 mer. 22:57]--[2024-07-24 mer. 22:59] =>  0:02
-  :END:
 
 ** Algorithme
    :PROPERTIES:
