@@ -5,6 +5,8 @@ packages:
   - rsync
   - texinfo
   - texlive-full
+  - libgslcblas0
+  - libgsl27
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
