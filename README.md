@@ -2,7 +2,7 @@
 
 Cette documentation proposée par la [mission logiciels libres de la DINUM](https://code.gouv.fr) est en cours de rédaction.
 
-Vous pouvez la lire [en ligne](https://code.gouv.fr/documentation/) et [en PDF](https://code.gouv.fr/documentation/logiciels-libres-et-secteur-public.pdf).
+Vous pouvez la lire [en ligne](https://code.gouv.fr/documentation/) et [en PDF](https://code.gouv.fr/documentation/logiciels-libres-et-administration-publique.pdf).
 
 Pour y contribuer, voir [ce dépôt Git](https://git.sr.ht/~codegouvfr/documentation).
 
