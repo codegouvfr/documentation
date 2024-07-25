@@ -7,7 +7,7 @@
 
 * Préambule
   :PROPERTIES:
-  :EXPORT_FILE_NAME: _coverpage.md
+  :EXPORT_FILE_NAME: preambule.md
   :END:
 
 Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de la
@@ -512,7 +512,6 @@ Pour savoir si le code source d’un logiciel développé et utilisé par
 votre organisme public est communicable, nous vous invitons à tester
 ce [[https://guide-juridique-logiciel-libre.etalab.gouv.fr/][guide juridique interactif]].
 
-
 *** Licences : les indispensables à connaître
 
 Une licence logicielle est un contrat passé entre les auteurs d’un
@@ -608,6 +607,8 @@ Une image vaut mille mots :
 
 #+CAPTION: Diffusivité des différents types de licence (la couleur correspond à la licence)
 #+NAME:   fig:licence-copyleft-diffusivite
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
 [[./assets/images/licence-copyleft-diffusivite.png]]
 
 Un logiciel lié désigne tout composant assemblé avec le logiciel final
@@ -630,6 +631,8 @@ table de compatibilité entre licences suivante (page 316) :
 
 #+CAPTION: Table de compatibilité entre licences
 #+NAME: fig:compatibilite-licences-jean
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
 [[./assets/images/table-compatibilite-jean.png]]
 
 Un élément important à remarquer est que *la compatibilité a un sens* : un
@@ -672,8 +675,9 @@ logiciel sous GPL (ou sous CeCILL V2).
 
 #+CAPTION: Compatibilités entre licences libres populaires avec du copyleft fort
 #+NAME:   fig:compatibilite-licences
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
 [[./assets/images/compatibilite-licences.png]]
-
 
 Un logiciel composé de briques sous licences de type copyleft faible est
 possible. Ce n’est pas forcément facile à gérer car chaque composant va
@@ -871,7 +875,6 @@ extérieurs à Element sous une licence propriétaire.
 
 Cette FAQ est en construction. Si vous avez des questions que vous voulez voir figurer ici, n’hésitez pas à nous écrire à =contact@code.gouv.fr=.
 
-** NEXT Comment construire une communauté open source autour de son projet ?
 ** Qu’est-ce que [[https://data.code.gouv.fr][data.code.gouv.fr]] ?
 
 [[https://data.code.gouv.fr][data.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour collecter
@@ -1164,7 +1167,6 @@ Néanmoins, si l’erreur a été faite il existe certains outils :
 - [[https://github.com/Yelp/detect-secrets][Detect Secrets]] sous Apache 2
 - [[https://github.com/GitGuardian][Gitgardian]] sous MIT
 
-
 ** Quelles langues utiliser pour mon code source et ma documentation ?
 
 Le code source est écrit dans un langage de programmation (par exemple
@@ -1231,10 +1233,6 @@ un guichet unique : [[https://www.opensource-experts.com/][Open source experts]
 Non, toutes les licences libres que vous pouvez utiliser pour publier
 votre code source autorisent la réutilisation commerciale de ce code.
 
-** NEXT Avez-vous un dépôt Git exemplaire ?
-
-Pas encore.
-
 ** Quelle est la différence entre GitHub et GitLab ?
 Il faut d’abord distinguer le logiciel et le service en ligne :
 github.com et gitlab.com sont les services en ligne délivrés par les
@@ -1273,14 +1271,6 @@ Pour résumer, voici les raisons :
   envoyer des correctifs et proposer des idées.
 - SourceHut et son service sr.ht ne collecte aucune donnée de ses
   utilisateurs.
-
-
-** NEXT En tant qu’administration, comment soutenir un projet libre ?
-** NEXT Comment aborder le sujet de la communication au sein d’un projet de logiciel libre ?
-** NEXT Comment faire connaître le logiciel libre que mon administration développe ?
-
-Vous pouvez consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des
-pistes.
 
 ** Deux administrations développent la même chose, que faire ?
 
@@ -1352,93 +1342,6 @@ dans un fichier =CONTRIBUTING.md= à la racine du dépôt.
 Oui, si votre responsable est d’accord, il n’y a aucun obstacle à ce
 que vous puissiez contribuer à des logiciels libres sur votre temps de
 travail.
-
-** NEXT Comment mettre fin à un projet libre ?
-
-** NEXT Dois-je créer un compte GitHub pour moi ou mon organisation pour contribuer aux logiciels libres ?
-
-Chercher une forge proche en consultant https://code.gouv.fr/sources/#/repos
-Un compte d’organisation car ce sont les seuls prix en compte sur code. gouv.
-Penser à demander de référencer la forge de l’orga à contact@code.gouv.fr
-Si l’organisation à plusieurs forges ou comptes d’orga : pas de problème.
-Si nouveaux codes : forge/compte d’organisation
-Si projet existant : fork sur la forge d’organisation. Les forks sont listés sur code.gouv.fr
-
-
-** NEXT Est-il souhaitable d’utiliser ma solution de gestion de code Source (GitLab, Bitbucket) en ouvrant des projets en mode public?
-
-
-lire le rapport sur les forges REX déploiement et maintenance.
-plutôt chercher une forge publique proche. (proche = ministère ? réseau des laboratoires ?)
-ce qui assurera la visibilité, c’est d’être référencé, pas le fait d’être sur une “grande” forge.
-seules défférences fonctionnelles : pas les fonctionnalités GIT mais les fonctionnalités de la CI/CD.
-
-
-** NEXT Est-il préférable de conbribuer en tant qu’individu (prenom.nom de l’agent) ou plutôt en tant qu’organisation aux logiciels libres ? (compte individuel ou compte entreprise ?)
-
-en tant qu’individu.
-
-** NEXT Comment identifier les projets succeptibles d’être en logiciel libre ?
-
-
-les équipes métiers peuvent évaluer
-architecture des projets : modularité et généricité donnent un bonus de réemployabilité ( réutilisable par d’autres administrations).
-des demandes d’autres administrations
-prioriser : le plus générique, le meilleure. VS le spéicifique ou le mal écrit n’est pas un bon candidat pour une publication open-source.
-Expliciter pourquoi nous publions un dépôt.
-Quels logiciels ouverts à quel degrès https://code.gouv.fr/documentation/#/publier?id=quels-logiciels-ouvrir-à-quel-degré-
-
-
-
-** NEXT Quels précautions et quels points à vérifier avant d’ouvrir du code source interne à notre organisation ?
-
-
-sécurité - pas de secret dans l’historique GIT
-sécurité - ne pas augmenter la surface d’attaque ( mais ne pas sécuriser en cachant)
-legalité - choisir la licence logicielle ( en tenant compte des licences intégrées des modules et bibliothèques employées )
-https://www.data.gouv.fr/fr/pages/legal/licences/
-https://code.gouv.fr/guides/juridique/
-
-
-** NEXT Faut-il mettre en place une Gouvernance des logiciels libre au sein de l’entreprise ?
-
-simplement informer le manager.
-autonomie
-https://www.numerique.gouv.fr/publications/politique-logiciel-libre/
-
-
-** NEXT Comment faire pour démarer la démarche d’ouverture du code source
-
-** NEXT Comment intéragir avec la DSI dans le cadre de l’ouverture d’un code source ?
-
-** NEXT [#A] Qu’est-ce que cela apporte au-delà du respect de la législation ?
-
-** NEXT En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? Si oui dans quelles conditions ?
-
-Si le logiciel est réalisé par un ou plusieurs salariés dans le cadre
-d’une relation de subordination à leur employeur : les droits moraux
-restent acquis aux auteurs mais les droits d’exploitation sont transmis
-de plein droit à l’employeur. Cette disposition est valable pour l’agent
-dans ses missions de services publics (Art. L. [[https://www.legifrance.gouv.fr/codes/id/LEGIARTI000006278959/2024-07-19/?isSuggest=true][131-3-1 du Code de la
-propriété intellectuelle]]).
-
-Si le logiciel est réalisé sur le temps libre de l’auteur, de sa propre
-initiative, avec ses propres moyens techniques et sans rapport avec sa
-fonction : il est alors auteur de plein droit et dispose à sa guise de
-l’ensemble des prérogatives liées à l’expression en particulier des
-droits d’exploitation.
-
-Donc en tant qu’agent de l’État, il est possible de contribuer si vous
-avez l’accord de votre hiérarchie.
-
-Le document qui acte de cette possibilité de contribuer à des logiciels
-libres existants est la [[https://www.numerique.gouv.fr/publications/politique-logiciel-libre/][politique de contribution open source de 2018]].
-
-Cependant, ça peut être plus compliqué que de simplement obtenir
-l’accord de la hiérarchie, notamment s’il faut signer un [[*Contribuer à un logiciel libre][CLA]] pour
-contribuer au projet. Dans ce cas-là, les services juridiques devront
-s’en mêlent. S’il n’y a qu’un [[https://developercertificate.org][DCO]], vous pouvez l’accepter sans
-mobiliser vos services juridiques.
 
 * Glossaire
   :PROPERTIES:
@@ -1641,20 +1544,4 @@ Dans un dépôt de code source géré avec Git, un tag est un label associé à 
 
 Déclaration en ligne d’un incident ou d’un dysfonctionnement, ou proposition d’amélioration du logiciel.
 
-** TODO COMMENT Glossaire
-
-*** Logiciel dérivé
-    :PROPERTIES:
-    :CUSTOM_ID: logiciel_derive
-    :END:
-
-*** Logiciel composé
-    :PROPERTIES:
-    :CUSTOM_ID: logiciel_compose
-    :END:
-
-*** Logiciel modifié
-    :PROPERTIES:
-    :CUSTOM_ID: logiciel_modifie
-    :END:
 
