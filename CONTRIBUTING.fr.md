@@ -19,12 +19,14 @@ Une fois vos modifications faites, vous pouvez lancer l'export ainsi :
 
 ```
 ~$ cd documentation/
-~$ emacs --script scripts/export.el
+~$ make
 ```
 
 Ce script va générer les fichiers `.md` visuellement rendus par le script docsify contenu dans le `index.html`.
 
-Il va aussi générer un fichier `index.texi` que vous pouvez exporter en pdf avec la commande `texi2pdf index.texi`.
+Il va aussi générer un fichier `index.texi` puis l'exporter en pdf avec la commande `texi2pdf index.texi`.
+
+Pour nettoyer les fichiers générés, vous pouvez lancer la commande `make clean`.
 
 ## Modalités techniques
 
