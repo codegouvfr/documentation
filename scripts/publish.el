@@ -40,7 +40,7 @@
    "-noexport")
   nil nil)
 
-(dolist (org-file (directory-files-recursively default-directory "\\.org$"))
+(dolist (org-file '("index.org"))
   (let* ((file-name-basedir (concat (file-name-directory org-file)
 				    (file-name-base org-file)))
 	 (texi-file (concat file-name-basedir ".texi"))
