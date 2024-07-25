@@ -3,7 +3,7 @@ build:
 	texi2pdf index.texi
 
 clean:
-	rm -f *texi *log *aux *toc *pdf *info
+	rm -f *texi *log *aux *toc *pdf *info *ky *cp *fn *tp *pg *vr
 	rm -f index.md
 	rm -f preambule.md
 	rm -f utiliser.md
