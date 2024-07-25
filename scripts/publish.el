@@ -4,7 +4,8 @@
 
 (require 'ox-texinfo)
 (require 'ox-md)
-(load-file "/home/build/documentation/scripts/ox-json.el")
+(load-file "scripts/s.el")
+(load-file "scripts/ox-json.el")
 
 (setq make-backup-files nil
       debug-on-error t
@@ -79,4 +80,3 @@
     (condition-case err
 	(org-multi-file-md-export)
       (error (message (error-message-string err))))))
-

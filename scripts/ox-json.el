@@ -66,8 +66,6 @@
 (eval-when-compile (require 'cl-lib))
 
 (require 'cl-lib)
-;; (require 's)
-(load-file "/home/build/documentation/scripts/s.el")
 (require 'json)
 (require 'ox)
 (require 'org-element)
