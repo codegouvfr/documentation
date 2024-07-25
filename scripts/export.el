@@ -4,13 +4,13 @@
 
 (require 'ox-texinfo)
 (require 'ox-md)
-(load-file "scripts/s.el")
-(load-file "scripts/ox-json.el")
+;; (load-file "scripts/s.el")
+;; (load-file "scripts/ox-json.el")
 
 (setq make-backup-files nil
       debug-on-error t
       org-confirm-babel-evaluate nil
-      org-export-with-broken-links t)
+      org-export-with-broken-links 'mark)
 
 ;; https://gist.github.com/zzamboni/2e6ac3c4f577249d98efb224d9d34488
 (defun org-multi-file-md-export ()
