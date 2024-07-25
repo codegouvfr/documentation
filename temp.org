@@ -131,6 +131,98 @@ Voici une liste de « politiques logiciels libres » :
 - https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences
 - https://www.etalab.gouv.fr/accompagnement-logiciels-libres
 
+* FAQ
+** NEXT Comment construire une communauté open source autour de son projet ?
+
+** NEXT Avez-vous un dépôt Git exemplaire ?
+
+Pas encore.
+
+** NEXT En tant qu’administration, comment soutenir un projet libre ?
+** NEXT Comment aborder le sujet de la communication au sein d’un projet de logiciel libre ?
+** NEXT Comment faire connaître le logiciel libre que mon administration développe ?
+
+Vous pouvez consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des
+pistes.
+
+** NEXT Comment mettre fin à un projet libre ?
+
+** NEXT Dois-je créer un compte GitHub pour moi ou mon organisation pour contribuer aux logiciels libres ?
+
+Chercher une forge proche en consultant https://code.gouv.fr/sources/#/repos
+Un compte d’organisation car ce sont les seuls prix en compte sur code. gouv.
+Penser à demander de référencer la forge de l’orga à contact@code.gouv.fr
+Si l’organisation à plusieurs forges ou comptes d’orga : pas de problème.
+Si nouveaux codes : forge/compte d’organisation
+Si projet existant : fork sur la forge d’organisation. Les forks sont listés sur code.gouv.fr
+
+** NEXT Est-il souhaitable d’utiliser ma solution de gestion de code Source (GitLab, Bitbucket) en ouvrant des projets en mode public?
+
+lire le rapport sur les forges REX déploiement et maintenance.
+plutôt chercher une forge publique proche. (proche = ministère ? réseau des laboratoires ?)
+ce qui assurera la visibilité, c’est d’être référencé, pas le fait d’être sur une “grande” forge.
+seules défférences fonctionnelles : pas les fonctionnalités GIT mais les fonctionnalités de la CI/CD.
+
+** NEXT Est-il préférable de conbribuer en tant qu’individu (prenom.nom de l’agent) ou plutôt en tant qu’organisation aux logiciels libres ? (compte individuel ou compte entreprise ?)
+
+en tant qu’individu.
+
+** NEXT Comment identifier les projets succeptibles d’être en logiciel libre ?
+
+les équipes métiers peuvent évaluer
+architecture des projets : modularité et généricité donnent un bonus de réemployabilité ( réutilisable par d’autres administrations).
+des demandes d’autres administrations
+prioriser : le plus générique, le meilleure. VS le spéicifique ou le mal écrit n’est pas un bon candidat pour une publication open-source.
+Expliciter pourquoi nous publions un dépôt.
+Quels logiciels ouverts à quel degrès https://code.gouv.fr/documentation/#/publier?id=quels-logiciels-ouvrir-à-quel-degré-
+
+** NEXT Quels précautions et quels points à vérifier avant d’ouvrir du code source interne à notre organisation ?
+
+sécurité - pas de secret dans l’historique GIT
+sécurité - ne pas augmenter la surface d’attaque ( mais ne pas sécuriser en cachant)
+legalité - choisir la licence logicielle ( en tenant compte des licences intégrées des modules et bibliothèques employées )
+https://www.data.gouv.fr/fr/pages/legal/licences/
+https://code.gouv.fr/guides/juridique/
+
+** NEXT Faut-il mettre en place une Gouvernance des logiciels libre au sein de l’entreprise ?
+
+simplement informer le manager.
+autonomie
+https://www.numerique.gouv.fr/publications/politique-logiciel-libre/
+
+** NEXT Comment faire pour démarer la démarche d’ouverture du code source
+
+** NEXT Comment intéragir avec la DSI dans le cadre de l’ouverture d’un code source ?
+
+** NEXT [#A] Qu’est-ce que cela apporte au-delà du respect de la législation ?
+
+** NEXT En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? Si oui dans quelles conditions ?
+
+Si le logiciel est réalisé par un ou plusieurs salariés dans le cadre
+d’une relation de subordination à leur employeur : les droits moraux
+restent acquis aux auteurs mais les droits d’exploitation sont transmis
+de plein droit à l’employeur. Cette disposition est valable pour l’agent
+dans ses missions de services publics (Art. L. [[https://www.legifrance.gouv.fr/codes/id/LEGIARTI000006278959/2024-07-19/?isSuggest=true][131-3-1 du Code de la
+propriété intellectuelle]]).
+
+Si le logiciel est réalisé sur le temps libre de l’auteur, de sa propre
+initiative, avec ses propres moyens techniques et sans rapport avec sa
+fonction : il est alors auteur de plein droit et dispose à sa guise de
+l’ensemble des prérogatives liées à l’expression en particulier des
+droits d’exploitation.
+
+Donc en tant qu’agent de l’État, il est possible de contribuer si vous
+avez l’accord de votre hiérarchie.
+
+Le document qui acte de cette possibilité de contribuer à des logiciels
+libres existants est la [[https://www.numerique.gouv.fr/publications/politique-logiciel-libre/][politique de contribution open source de 2018]].
+
+Cependant, ça peut être plus compliqué que de simplement obtenir
+l’accord de la hiérarchie, notamment s’il faut signer un [[*Contribuer à un logiciel libre][CLA]] pour
+contribuer au projet. Dans ce cas-là, les services juridiques devront
+s’en mêlent. S’il n’y a qu’un [[https://developercertificate.org][DCO]], vous pouvez l’accepter sans
+mobiliser vos services juridiques.
+
 * Exemples
   :PROPERTIES:
   :EXPORT_FILE_NAME: exemples.md
@@ -144,6 +236,22 @@ des différents sujets.
 ** NEXT Un exemple de contribution à un logiciel libre
 ** NEXT Un exemple d’Open Source Programme Office
 ** NEXT Trajectoires possibles pour un logiciel libre né dans l’administration
+
+* Glossaire
+*** TODO Logiciel dérivé
+    :PROPERTIES:
+    :CUSTOM_ID: logiciel_derive
+    :END:
+
+*** TODO Logiciel composé
+    :PROPERTIES:
+    :CUSTOM_ID: logiciel_compose
+    :END:
+
+*** TODO Logiciel modifié
+    :PROPERTIES:
+    :CUSTOM_ID: logiciel_modifie
+    :END:
 
 * Ressources
   :PROPERTIES:
