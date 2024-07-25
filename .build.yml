@@ -3,7 +3,7 @@ packages:
   - emacs
   - rsync
   - texinfo
-  - texlive
+  - texlive-full
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
