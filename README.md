@@ -4,7 +4,7 @@ Cette documentation proposée par la [mission logiciels libres de la DINUM](http
 
 Vous pouvez la lire [en ligne](https://code.gouv.fr/documentation/) et [en PDF](https://code.gouv.fr/documentation/logiciels-libres-et-administration-publique.pdf).
 
-Pour y contribuer, voir [ce dépôt Git](https://git.sr.ht/~codegouvfr/documentation).
+Pour y contribuer, voir [le fichier CONTRIBUTING.md dans ce dépôt](CONTRIBUTING.md).
 
 Pour tout commentaire ou suggestion, veuillez nous [contacter](https://code.gouv.fr/fr/contact/).
 
