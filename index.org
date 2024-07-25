@@ -357,20 +357,22 @@ développement. Par conséquent, beaucoup d’entreprises se vendent comme
 /Openwashing/, est dérivé du mot /greenwashing/ (et tous les autres
 mots-valises en -/washing/). Le mot /[[https://www.fauxpensource.org/][fauxpen]]/ signifie la même chose :
 
-#+begin_quote
-Description d’un logiciel qui prétend être open source, mais qui ne
-dispose pas de toutes les libertés requises par la définition de
-l’Open Source Initiative [ou de la FSF].
-#+end_quote
+#+begin_export md
+!> Description d’un logiciel qui prétend être open source, mais qui ne dispose pas de toutes les libertés requises par la définition de l’Open Source Initiative [ou de la FSF].
+#+end_export
+
+#+begin_export texinfo
+@quotation
+Description d’un logiciel qui prétend être open source, mais qui ne dispose pas de toutes les libertés requises par la définition de l’Open Source Initiative ou de la FSF.
+@end quotation
+#+end_export
 
 Une question fondamentale à se poser pour savoir si c’est un projet
-libre : est-ce que la licence garantie les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés
-fondamentales]] (étudier, copier, modifier, redistribuer) ou répond aux
-critères de la [[http://www.opensource.org/osd.html][définition de l’OSI]] ?
+libre : la licence garantit-elle les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]]
+(étudier, copier, modifier, redistribuer) ou répond-elle aux critères
+de la [[http://www.opensource.org/osd.html][définition de l’OSI]] ?
 
 Pour vous faciliter la vie, l’OSI maintient une [[http://www.opensource.org/licenses][liste de licences acceptées]].
-
-[[https://github.com/redis/redis?tab=License-1-ov-file][Redis]] et [[https://github.com/hashicorp/terraform?tab=License-1-ov-file][Terraform]] sont des exemples d’entreprise surfant sur l’/openwashing/.
 
 ** Le marché public pour le logiciel libre
 
