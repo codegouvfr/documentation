@@ -1,12 +1,10 @@
-image: debian/unstable
+image: debian/testing
 packages:
   - emacs
   - org-mode
   - rsync
   - texinfo
   - texlive-full
-  - libgslcblas0
-  - libgsl27
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
