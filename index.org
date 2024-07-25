@@ -75,7 +75,7 @@ trouver des modules logiciels. Dans les deux cas, [[https://spdx.org/licenses/][
 licence est libre]], c'est-à-dire approuvée telle par la Free Software
 Foundation et l'Open Source Initiative.
 
-*** Comment vérifier la licence d’un logiciel ?
+*** Comment vérifier la licence d’un logiciel ?
 
 Une recherche sur internet permet de localiser le site de présentation
 et de mise à disposition du logiciel. Une fois l’URL identifiée, une
@@ -202,7 +202,7 @@ Cette liste ne prétend pas être exhaustive mais donne une idée de la
 structuration de l’écosystème, de sa taille, et de sa diversité. Une
 liste plus complète a été rédigée sur le [[https://wiki.april.org/w/Liste_des_associations_du_libre,_projets,_langages,_communaut%C3%A9s][wiki de l’April]].
 
-** Quelle attention porter aux modèles économiques des entreprises ?
+** Quelle attention porter aux modèles économiques des entreprises ?
 
 Nous abordons ici les modèles économiques des entreprises du logiciel
 libre dans la mesure où ces modèles exigent une attention particulière
@@ -362,7 +362,7 @@ libre :
 
 !> Est-ce que la licence garantie les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]]
 (étudier, copier, modifier, redistribuer) ou répond aux critères de la
-[[http://www.opensource.org/osd.html][définition de l’OSI]] ?
+[[http://www.opensource.org/osd.html][définition de l’OSI]] ?
 
 Pour vous faciliter la vie, l’OSI maintient une
 [[http://www.opensource.org/licenses][liste de licences acceptées]].
@@ -737,12 +737,12 @@ l’administration dans le cas des publications simples.
 
 Quelle est la responsabilité engagée par une collectivité publique
 (État ou collectivité locale) qui met à disposition un logiciel sous
-licence de logiciel libre ?
+licence de logiciel libre ?
 
 Généralement licences libres et licences propriétaires de logiciel
 rejettent toutes responsabilités quant aux dommages directs et
 indirects que pourraient causer l’utilisation du logiciel. Une telle
-clause est-elle compatible avec le droit français ?
+clause est-elle compatible avec le droit français ?
 
 En droit français, la limitation, voire l’exonération de
 responsabilité, est autorisée en matière contractuelle. La protection
