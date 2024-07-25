@@ -13,6 +13,8 @@
 Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de la
 [[https://www.numerique.gouv.fr/][direction interministérielle du numérique]].
 
+Vous pouvez la lire [[https://code.gouv.fr/documentation][en ligne]] et [[https://code.gouv.fr/documentation/logiciels-libres-et-administration-publique.pdf][en PDF]].
+
 Elle s’adresse à plusieurs audiences :
 
 - les équipes métier et les chefs de projet qui souhaitent /publier/ le
@@ -27,8 +29,7 @@ Elle s’adresse à plusieurs audiences :
 
 Sa rédaction est ouvertes aux organismes publics ayant une expertise
 sur les logiciels libres, qu’ils en utilisent, y contribuent ou en
-publient. Voir le fichier [[https://git.sr.ht/~codegouvfr/documentation/tree/main/item/CONTRIBUTING.md][CONTRIBUTING.md]] du dépôt correspondant pour
-contribuer.
+publient. Voir ces [[https://git.sr.ht/~codegouvfr/documentation/tree/main/item/CONTRIBUTING.fr.md][instructions pour contribuer]].
 
 Les sujets abordés portent sur les logiciels libres ; il ne sera pas
 question de logiciels sous licence non libre, ni de services en ligne,
@@ -56,9 +57,6 @@ La mission logiciels libres maintient plusieurs sources :
   organismes publics en recommandant une version minimale et en
   permettant de contacter les référents et les utilisateurs du
   logiciel.
-
-Nous proposons dans une [[#repertoires-logiciels-libres][section dédiée]] des sites hors administration
-qui proposent des listes de logiciels sous licence libre.
 
 L’utilisation des moteurs de recherche peut aussi aider. Avec les mots
 clefs « open source » et « logiciel libre », les résultats sont en
@@ -339,7 +337,7 @@ source A sous la licence AGPL (qui oblige la redistribution des
 contributions sous la même licence même lorsque le logiciel est
 distribué en SaaS) est fortement conseillé.
 
-Pour plus de détails sur le copyleft fort, [[file:index-temp.org::#difference-copyleft-faible-fort][se référer à cette section]].
+Pour plus de détails sur le copyleft fort, [[#copyleft][se référer à cette section]].
 Attention, le copyleft fort (ou la licence AGPL) n’empêche pas la
 vente des codes sources.
 
@@ -553,6 +551,9 @@ décret :
 - MIT License (MIT)
 
 **** Le « copyleft »
+     :PROPERTIES:
+     :CUSTOM_ID: copyleft
+     :END:
 
 Le mot « copyleft » est un jeu de mots avec le mot « copyright » (le
 droit d’auteur aux États-Unis). Ce terme est révélateur du mouvement du
@@ -575,7 +576,7 @@ Les licences copyleft se distinguent des licences permissives qui, elles,
 autorisent l’ajout de restrictions au code redistribué.
 
 Les obligations des licences copyleft diffèrent selon que la licence est
-à copyleft [[file:index-temp.org::#difference-copyleft-faible-fort][faible ou fort]].
+à [[#copyleft][copyleft faible ou fort]].
 
 Légère précision sur un malentendu régulier :
 
