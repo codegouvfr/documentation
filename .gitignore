@@ -3,3 +3,6 @@ todo.org
 *.patch
 *#index
 *pdf
+*log
+*aux
+*toc
