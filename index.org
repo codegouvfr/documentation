@@ -36,7 +36,13 @@ question de logiciels sous licence non libre, ni de services en ligne,
 ni des bonnes pratiques de développement qui ne sont pas spécifiques
 aux logiciels libres.
 
-Si ces sujets sont nouveaux pour vous, [[#glossaire][un glossaire est disponible]].
+#+begin_export texinfo
+Si ces sujets sont nouveaux pour vous, voir le @ref{Glossaire, , glossaire}.
+#+end_export
+
+#+begin_export md
+Si ces sujets sont nouveaux pour vous, [un glossaire est disponible](glossaire.md).
+#+end_export
 
 * Utiliser des logiciels libres
   :PROPERTIES:
