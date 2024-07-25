@@ -10,6 +10,8 @@ Pour tout commentaire ou suggestion, veuillez nous [contacter](https://code.gouv
 
 L'interface HTML utilise [docsify-dsfr-template](https://github.com/codegouvfr/docsify-dsfr-template) pour le rendu.
 
+# [Contribuer](CONTRIBUTING.fr.md)
+
 # Licence
 
 2022-2024 Mission logiciels libres, DINUM.

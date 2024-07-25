@@ -12,7 +12,7 @@ secrets:
 tasks:
   - install: |
       cd documentation/
-      emacs --script scripts/publish.el
+      emacs --script scripts/export.el
       texi2pdf index.texi
       mv index.pdf logiciels-libres-et-administration-publique.pdf
   - upload: |
