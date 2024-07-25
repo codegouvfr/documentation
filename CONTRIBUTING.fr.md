@@ -22,6 +22,10 @@ Une fois vos modifications faites, vous pouvez lancer l'export ainsi :
 ~$ emacs --script scripts/export.el
 ```
 
+Ce script va générer les fichiers `.md` visuellement rendus par le script docsify contenu dans le `index.html`.
+
+Il va aussi générer un fichier `index.texi` que vous pouvez exporter en pdf avec la commande `texi2pdf index.texi`.
+
 ## Modalités techniques
 
 Le développement de cette documentation a lieu sur [SourceHut](https://git.sr.ht/~codegouvfr/documentation).
