@@ -2,6 +2,7 @@
 #+subtitle: Utiliser, publier, contribuer, définir et déployer une stratégie
 #+author: Équipe de la mission logiciels libres
 #+date: 2022-2024
+#+language: fr
 #+options: toc:t
 #+language: fr
 
