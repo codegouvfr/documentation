@@ -1,7 +1,7 @@
 * Publier un code source
 ** TODO Référencement et standardisation
-- TODO
-  - ajouter éléments sur publicode.yml (et codemeta.json)
+
+- TODO : ajouter éléments sur publicode.yml (et codemeta.json)
 
 *** Exemples de mise en oeuvre
 
@@ -118,6 +118,7 @@ du logiciel libre :
 - https://www.health-data-hub.fr/open-source
 - https://www.france-universite-numerique.fr
 - https://socialgouv.github.io
+- https://www.recia.fr/innovation-logiciels-libres/
 
 ** Politiques logiciels libres
 
