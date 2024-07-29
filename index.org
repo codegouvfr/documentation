@@ -849,13 +849,13 @@ Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
 Une administration *peut contribuer* à un logiciel libre. Un point
 d’attention doit être porter sur comment les droits d’auteurs sont gérés
-par le projet.
+par le projet auquel l’administration veut contribuer.
 
-Si un *DCO* (/Developer Certificate of Origin/) est présent, c’est
-simple : chaque contributeur doit avoir l’accord de sa hierarchie, et
-signer avec un simple /sign-off/ chacun de ses /commits/.
+Si le projet est géré par un *DCO* (/Developer Certificate of Origin/),
+c’est simple : chaque contributeur doit avoir l’accord de sa hierarchie,
+et signer avec un simple /sign-off/ chacun de ses /commits/.
 
-Si un *CLA* (/Contributor Licence Agreement/) est présent, le service
+Si le projet est géré par un *CLA* (/Contributor Licence Agreement/), le service
 juridique de l’administration devra lire, signer, et garder le CLA de
 chaque contributeur.
 
@@ -887,7 +887,7 @@ CCLA concerne la contribution d’une entreprise sur le projet d’une
 autre entreprise. En général, ces documents légaux sont basés sur la
 [[https://www.apache.org/licenses/contributor-agreements.html][CLA de la fondation Apache]].
 
-Certains CLA permette de sous-licencier des contributions sous des
+Certains CLA permettent de sous-licencier des contributions sous des
 licences propriétaires. Par exemple, l’entreprise Element (derrière le
 protocole Matrix et l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][fait signer un CLA avec une
 exception à l’AGPL pour pouvoir vendre du code source]] contribué par des
