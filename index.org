@@ -212,6 +212,26 @@ Nous abordons ici les modèles économiques des entreprises du logiciel
 libre dans la mesure où ces modèles exigent une attention particulière
 de la part des administrations publiques.
 
+#+begin_export texinfo
+Notamment, elles doivent prendre en compte les @ref{contribuer, , CLA et DCO} mis en
+perspective avec les modèles économiques des entreprises avant de
+contribuer à leur projet. Une attention particulière doit être portée au
+CLAs.
+#+end_export
+
+#+begin_export md
+Notamment, elles doivent prendre en compte les [CLA et DCO](contribuer.md) mis en
+perspective avec les modèles économiques des entreprises avant de
+contribuer à leur projet. Une attention particulière doit être portée au
+CLAs.
+#+end_export
+
+Par exemple, l’entreprise Element (derrière le protocole Matrix et
+l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][fait signer un CLA avec une exception à l’AGPL pour
+pouvoir vendre du code source]] contribué par des auteurs extérieurs à
+Element sous une licence propriétaire ([[https://static.element.io/legal/contributor-license-agreement.pdf][Article 2 du CLA]]).
+
+
 *** Utilisation de logiciel libre par l’administration
 
 Lorsque vous souhaitez utiliser du logiciel libre dans votre parc
@@ -430,7 +450,7 @@ l’enseignement supérieur et à la recherche modifiant l’article
   :EXPORT_FILE_NAME: publier.md
   :CUSTOM_ID: publier
   :END:
- 
+
 ** Cadre juridique
 
 Toute entité chargée d’une mission de service public doit publier tout
@@ -825,10 +845,25 @@ Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
   :CUSTOM_ID: contribuer
   :END:
 
+** TL;DR
+
+Une administration *peut contribuer* à un logiciel libre. Un point
+d’attention doit être porter sur comment les droits d’auteurs sont gérés
+par le projet.
+
+Si un *DCO* (/Developer Certificate of Origin/) est présent, c’est
+simple : chaque contributeur doit avoir l’accord de sa hierarchie, et
+signer avec un simple /sign-off/ chacun de ses /commits/.
+
+Si un *CLA* (/Contributor Licence Agreement/) est présent, le service
+juridique de l’administration devra lire, signer, et garder le CLA de
+chaque contributeur.
+
+** En savoir plus
+
 La contribution de l’administration à un logiciel libre, qu’il soit
 communautaire ou édité par une entreprise privée, requiert, dans
-certains cas, un DCO (/Developer Certificate of Origin/) ou un CLA
-(/Contributor Licence Agreement/).
+certains cas, un DCO ou un CLA.
 
 Ces contrats ou ces /agreement/ sont un moyen, plus ou moins simple, de
 donner un accord d’utilisation des contributions des développeurs à
@@ -852,6 +887,13 @@ CCLA concerne la contribution d’une entreprise sur le projet d’une
 autre entreprise. En général, ces documents légaux sont basés sur la
 [[https://www.apache.org/licenses/contributor-agreements.html][CLA de la fondation Apache]].
 
+Certains CLA permette de sous-licencier des contributions sous des
+licences propriétaires. Par exemple, l’entreprise Element (derrière le
+protocole Matrix et l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][fait signer un CLA avec une
+exception à l’AGPL pour pouvoir vendre du code source]] contribué par des
+auteurs extérieurs à Element sous une licence propriétaire ([[https://static.element.io/legal/contributor-license-agreement.pdf][Article 2 du
+CLA d’Element]])
+
 Parce que les CLAs sont des documents légaux, le département juridique
 doit se charger de les signer et de garder une trace de ces éléments,
 rendant le processus lourd.
@@ -864,15 +906,6 @@ qu’il donne son accord pour que ses contributions soient utilisées et
 redistribuées sous la licence libre choisie par le projet. Un DCO
 requiert simplement de signer (/sign-off/) chaque commit.
 
-Les administrations, DSI, ou tout autre agent et administration
-publique, doivent prendre en compte ces éléments, mis en perspectives
-avec les modèles économiques des entreprises avant de contribuer à
-leur projet. Une attention particulière doit être portée au CLAs.
-
-Par exemple, l’entreprise Element (derrière le protocole Matrix et
-l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][fait signer un CLA avec une exception à l’AGPL
-pour pouvoir vendre du code source]] contribué par des auteurs
-extérieurs à Element sous une licence propriétaire.
 
 * Foire aux questions
   :PROPERTIES:
@@ -1550,5 +1583,3 @@ Dans un dépôt de code source géré avec Git, un tag est un label associé à 
    :END:
 
 Déclaration en ligne d’un incident ou d’un dysfonctionnement, ou proposition d’amélioration du logiciel.
-
-
