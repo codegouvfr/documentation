@@ -1,7 +1,5 @@
-todo.org
 *texi
-*.patch
-*#index
+*patch
 *pdf
 *log
 *aux
