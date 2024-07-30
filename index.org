@@ -37,7 +37,7 @@ ni des bonnes pratiques de développement qui ne sont pas spécifiques
 aux logiciels libres.
 
 #+begin_export texinfo
-Si ces sujets sont nouveaux pour vous, voir le @ref{Glossaire, , glossaire}.
+Si ces sujets sont nouveaux pour vous, @ref{glossaire, , un glossaire est disponible}.
 #+end_export
 
 #+begin_export md
@@ -47,7 +47,7 @@ Si ces sujets sont nouveaux pour vous, [un glossaire est disponible](glossaire.m
 * Utiliser des logiciels libres
   :PROPERTIES:
   :EXPORT_FILE_NAME: utiliser.md
-  :CUSTOM_ID: utiliser
+  :ALT_TITLE: utiliser
   :END:
 
 ** Trouver des logiciels libres répondant à vos besoins
@@ -213,7 +213,7 @@ libre dans la mesure où ces modèles exigent une attention particulière
 de la part des administrations publiques.
 
 #+begin_export texinfo
-Notamment, elles doivent prendre en compte les @ref{contribuer, , CLA et DCO} mis en
+Notamment, elles doivent prendre en compte les @ref{contribuer, , CLA et DCO}mis en
 perspective avec les modèles économiques des entreprises avant de
 contribuer à leur projet. Une attention particulière doit être portée au
 CLAs.
@@ -363,10 +363,17 @@ source A sous la licence AGPL (qui oblige la redistribution des
 contributions sous la même licence même lorsque le logiciel est
 distribué en SaaS) est fortement conseillé.
 
-Pour plus de détails sur le copyleft fort, [[#copyleft][se référer à cette section]].
+#+begin_export texinfo
+Pour plus de détails sur le copyleft fort, @ref{copyleft, , se référer à cette section}.
 Attention, le copyleft fort (ou la licence AGPL) n’empêche pas la
 vente des codes sources.
+#+end_export
 
+#+begin_export md
+Pour plus de détails sur le copyleft fort, [se référer à cette section](publier.md#copyleft).
+Attention, le copyleft fort (ou la licence AGPL) n’empêche pas la
+vente des codes sources.
+#+end_export
 *** /Openwashing/
 
 Depuis un certain temps, le logiciel libre a gagné la bataille contre le
@@ -448,7 +455,7 @@ l’enseignement supérieur et à la recherche modifiant l’article
 * Publier un code source
   :PROPERTIES:
   :EXPORT_FILE_NAME: publier.md
-  :CUSTOM_ID: publier
+  :ALT_TITLE: publier
   :END:
 
 ** Cadre juridique
@@ -578,7 +585,7 @@ décret :
 
 **** Le « copyleft »
      :PROPERTIES:
-     :CUSTOM_ID: copyleft
+     :ALT_TITLE: copyleft
      :END:
 
 Le mot « copyleft » est un jeu de mots avec le mot « copyright » (le
@@ -602,7 +609,7 @@ Les licences copyleft se distinguent des licences permissives qui, elles,
 autorisent l’ajout de restrictions au code redistribué.
 
 Les obligations des licences copyleft diffèrent selon que la licence est
-à [[#copyleft][copyleft faible ou fort]].
+à [[Contribuer à un logiciel libre][copyleft faible ou fort]].
 
 Légère précision sur un malentendu régulier :
 
@@ -842,7 +849,7 @@ Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 * Contribuer à un logiciel libre
   :PROPERTIES:
   :EXPORT_FILE_NAME: contribuer.md
-  :CUSTOM_ID: contribuer
+  :ALT_TITLE: contribuer
   :END:
 
 ** TL;DR
@@ -910,7 +917,7 @@ requiert simplement de signer (/sign-off/) chaque commit.
 * Foire aux questions
   :PROPERTIES:
   :EXPORT_FILE_NAME: faq.md
-  :CUSTOM_ID: faq
+  :ALT_TITLE: faq
   :END:
 
 Cette FAQ est en construction. Si vous avez des questions que vous voulez voir figurer ici, n’hésitez pas à nous écrire à =contact@code.gouv.fr=.
@@ -1386,12 +1393,12 @@ travail.
 * Glossaire
   :PROPERTIES:
   :EXPORT_FILE_NAME: glossaire.md
-  :CUSTOM_ID: glossaire
+  :ALT_TITLE: glossaire
   :END:
 
 ** Algorithme
    :PROPERTIES:
-   :CUSTOM_ID: algorithme
+   :ALT_TITLE: algorithme
    :END:
 
 Un algorithme est la description d’une suite d’étapes permettant d’obtenir un résultat à partir d’éléments fournis en entrée (cf. [[https://www.cnil.fr/fr/definition/algorithme][définition de la CNIL]]).
@@ -1400,7 +1407,7 @@ En informatique, cette suite d’étape est une suite d’opérations formelles 
 
 ** Algorithme public
    :PROPERTIES:
-   :CUSTOM_ID: algorithme_public
+   :ALT_TITLE: algorithme_public
    :END:
 
 Un algorithme /public/ est un suite opératoire (formelle ou non, informatisée ou non, automatisée ou non) sollicitée pour une décision administrative individuelle envers des personnes physiques ou morales, de droit public ou privé nommément désignées.
@@ -1409,7 +1416,7 @@ Voir le [[https://guides.etalab.gouv.fr/algorithmes/][guide des algorithmes publ
 
 ** Bibliothèque
    :PROPERTIES:
-   :CUSTOM_ID: bibliothèque
+   :ALT_TITLE: bibliothèque
    :END:
 
 Dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], une bibliothèque est un ensemble de fonctions distribuées sous forme de paquetage via une plateforme dédiée, par exemple https://npmjs.com.
@@ -1420,28 +1427,28 @@ Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pou
 
 ** Codes sources
    :PROPERTIES:
-   :CUSTOM_ID: code_source
+   :ALT_TITLE: code_source
    :END:
 
 Le code source d’un programme informatique est ce qu’écrit une programmeuse ou un programmeur. Il peut s’agir de programmes complexes ou de quelques lignes. Ce code source peut être partagé sous licence libre pour permettre aux autres programmeurs de l’étudier, de le modifier, de le diffuser et de partager leurs améliorations.
 
 ** Commit
    :PROPERTIES:
-   :CUSTOM_ID: commit
+   :ALT_TITLE: commit
    :END:
 
 Unité de modification.
 
 ** Commun numérique
    :PROPERTIES:
-   :CUSTOM_ID: commun_numérique
+   :ALT_TITLE: commun_numérique
    :END:
 
 Un commun numérique est une ressource disponible sous format numérique, gérée par une communauté qui définit, pour cette ressource, des règles d’utilisation et de contribution, et pour la communauté, des règles de participation.
 
 ** Dépendances logicielles
    :PROPERTIES:
-   :CUSTOM_ID: dépendances
+   :ALT_TITLE: dépendances
    :END:
 
 Un logiciel intègre souvent des briques logicielles publiées sous licence libre. Celles-ci sont appelées « dépendances ». Ce site permet de parcourir la liste des dépendances de /mise en production/, non les dépendances de /développement/ ; d’autre part, seules sont comprises les dépendances sollicitées par au moins deux dépôts.
@@ -1450,7 +1457,7 @@ Les dépendances listées dans [[https://code.gouv.fr/#/deps][code.gouv.fr]] son
 
 ** Dépôt de code source
    :PROPERTIES:
-   :CUSTOM_ID: depot
+   :ALT_TITLE: depot
    :END:
 
 Un « dépôt » est un espace dans lequel sont publiés les fichiers de code source. C’est ce que vous voyez lorsque vous visitez un lien vers un code source hébergé sur une forge. C’est aussi ce que vous pouvez copier sur votre machine pour l’explorer localement.
@@ -1461,49 +1468,49 @@ Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pou
 
 ** Étoiles (dans GitHub ou GitLab)
    :PROPERTIES:
-   :CUSTOM_ID: etoile
+   :ALT_TITLE: etoile
    :END:
 
 Les « étoiles » (« stars » en anglais) sont un moyen pour les utilisateurs des plates-formes de mettre un dépôt en favori. Pour l’instant, nous collectons cette information sur GitHub, GitLab et les instances de GitLab. Ce n’est pas une mesure de la qualité du code source.
 
 ** Forge
    :PROPERTIES:
-   :CUSTOM_ID: forge
+   :ALT_TITLE: forge
    :END:
 
 Outil de développement logiciel collaboratif.
 
 ** Fork
    :PROPERTIES:
-   :CUSTOM_ID: fork
+   :ALT_TITLE: fork
    :END:
 
 Un dépôt « forké » en franglais est un dépôt de code source qui a été développé à partir d’un autre.
 
 ** Génie logiciel
    :PROPERTIES:
-   :CUSTOM_ID: genie_logiciel
+   :ALT_TITLE: genie_logiciel
    :END:
 
 Champ de l’informatique s’intéressant à la gestion et au cycle de vie des projets logiciels.
 
 ** Intégration continue
    :PROPERTIES:
-   :CUSTOM_ID: integration_continue
+   :ALT_TITLE: integration_continue
    :END:
 
 Capacité pour une forge de permettre la construction automatique du logiciel depuis l’ensemble de ses sources et en fonction de certains paramètres.
 
 ** Licence
    :PROPERTIES:
-   :CUSTOM_ID: licence
+   :ALT_TITLE: licence
    :END:
 
 Une licence logicielle est un contrat passé entre les auteurs d’un logiciel et ses réutilisateurs. Les licences dites « libres » accordent aux utilisateurs le droit de réutiliser le code source d’un logiciel.
 
 ** Logiciel
    :PROPERTIES:
-   :CUSTOM_ID: logiciel
+   :ALT_TITLE: logiciel
    :END:
 
 Un logiciel est un ensemble de séquences d’instructions interprétables
@@ -1513,7 +1520,7 @@ instructions sont en code objet, généralement en binaire.
 
 ** Logiciel libre
    :PROPERTIES:
-   :CUSTOM_ID: logiciel_libre
+   :ALT_TITLE: logiciel_libre
    :END:
 
 Un logiciel libre est un logiciel dont le code source est publié sous l’une des licences reconnues libres par la [[https://www.gnu.org/licenses/licenses.en.html][Free Software Foundation]] ou "open source" par l’[[https://opensource.org/licenses][Open Source Initiative]].
@@ -1522,18 +1529,18 @@ Ces licences ont toutes en commun d’octrayer aux utilisateurs quatre libertés
 
 ** Organisation et groupe (dans GitHub ou GitLab)
    :PROPERTIES:
-   :CUSTOM_ID: organisation_et_groupe
+   :ALT_TITLE: organisation_et_groupe
    :END:
 
 GitHub permet d’avoir des comptes personnels pour y héberger du code et des « comptes d’organisation ». Un « groupe » est la notion plus ou moins équivalent sur les instance de GitLab. Un organisme remplissant une mission de service public peut avoir un ou plusieurs organisations et/ou groupes sur une ou plusieurs forges.
-
+p
 Pour ajouter une organisation dans [[https://code.gouv.fr/#/groups][code.gouv.fr]], il suffit que le compte d’organisation GitHub ou le groupe GitLab soit ajouté dans [[https://git.sr.ht/~codegouvfr/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml][ce fichier]].
 
 Vous pouvez écrire à =contact@code.gouv.fr= pour nous indiquer un compte à ajouter.
 
 ** Pull/merge request
    :PROPERTIES:
-   :CUSTOM_ID: pull-merge_request.
+   :ALT_TITLE: pull-merge_request.
    :END:
 
 Proposition de révision. /Merge request/ est l’expression utilisée sur
@@ -1541,21 +1548,21 @@ GitLab. /Pull request/ est l’expression utilisée sur les autres forges.
 
 ** Réutilisations
    :PROPERTIES:
-   :CUSTOM_ID: reutilisations
+   :ALT_TITLE: reutilisations
    :END:
 
 GitHub permet de connaître le nombre de dépôts qui en utilisent un autre : le nombre de ces dépôts est présenté ici dans la colonne "Réutilisations" de la liste des dépôts.
 
 ** Secteur public
    :PROPERTIES:
-   :CUSTOM_ID: secteur_public
+   :ALT_TITLE: secteur_public
    :END:
 
 Les codes sources développés dans le cadre de missions de service public ont vocation à être publiés, dans certains conditions. Ce site propose de chercher dans l’ensemble des codes sources aujourd’hui identifiés comme provenant d’un organisme remplissant une mission de service public. Il a été développé par [[https://www.etalab.gouv.fr][Etalab]].
 
 ** Socle interministériel de logiciels libres
    :PROPERTIES:
-   :CUSTOM_ID: sill
+   :ALT_TITLE: sill
    :END:
 
 Le socle interministériel de logiciels libres (SILL) est le catalogue de référence des logiciels libres recommandés par l’Etat pour toute l’administration.
@@ -1564,14 +1571,14 @@ Voir [[https://code.gouv.fr/sill/][le site du SILL]].
 
 ** Software Heritage
    :PROPERTIES:
-   :CUSTOM_ID: software_heritage
+   :ALT_TITLE: software_heritage
    :END:
 
 Initiative internationale visant à conserver pour l’Histoire les codes source des logiciels dont le code source est public.
 
 ** Tag
    :PROPERTIES:
-   :CUSTOM_ID: tag
+   :ALT_TITLE: tag
    :END:
 
 Dans un dépôt de code source géré avec Git, un tag est un label associé à un commit. Ce label peut être annoté ou non. Un tag correspond en général à une nouvelle version du logiciel.
@@ -1579,7 +1586,7 @@ Dans un dépôt de code source géré avec Git, un tag est un label associé à 
 [[https://code.gouv.fr/public/#/tags][code.gouv.fr]] recense les tags des dépôts qui possèdent un fichier ~publiccode.yml~, un fichier ~CONTRIBUTING.md~ ou qui sont à l’origine de la publication de [[https://code.gouv.fr/#/libs][bibliothèques]].
 ** Ticket
    :PROPERTIES:
-   :CUSTOM_ID: ticket
+   :ALT_TITLE: ticket
    :END:
 
 Déclaration en ligne d’un incident ou d’un dysfonctionnement, ou proposition d’amélioration du logiciel.
