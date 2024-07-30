@@ -3,7 +3,7 @@
 #+author: Équipe de la mission logiciels libres
 #+date: 2022-2024
 #+language: fr
-#+options: toc:nil
+
 
 * Préambule
   :PROPERTIES:
@@ -49,6 +49,8 @@ Si ces sujets sont nouveaux pour vous, [un glossaire est disponible](glossaire.m
   :EXPORT_FILE_NAME: utiliser.md
   :ALT_TITLE: utiliser
   :END:
+
+#+CINDEX: Logiciel libre
 
 ** Trouver des logiciels libres répondant à vos besoins
 
@@ -1590,3 +1592,8 @@ Dans un dépôt de code source géré avec Git, un tag est un label associé à 
    :END:
 
 Déclaration en ligne d’un incident ou d’un dysfonctionnement, ou proposition d’amélioration du logiciel.
+
+* Concept Index
+  :PROPERTIES:
+  :INDEX: cp
+  :END:
