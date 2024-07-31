@@ -327,7 +327,7 @@ ce cas, l'utilisateur doit accepter les deux licences.
 ***** L’open source professionnel
 
 L’open source professionnel (terme employé par le CNLL dans son [[https://cnll.fr/media/LivretBleu_ModelesEconomiques_GT-LogicielLibre_Systematic.pdf][livret
-bleu]]) désigne les autres moyens qu’une entreprise peut tirer du profit
+bleu]]) désigne les autres moyens qu’une entreprise peut tirer profit
 à partir d’un logiciel libre.
 
 Cela peut venir du support, de la maintenance, de la documentation, du
@@ -376,10 +376,10 @@ vente des codes sources.
 #+end_export
 *** /Openwashing/
 
-Depuis un certain temps, le logiciel libre a gagné la bataille contre le
-logiciel propriétaire pour ce qui est des serveurs et autres utilités de
-développement. Par conséquent, beaucoup d’entreprises se vendent comme
-étant « open source » alors qu’elles ne publient pas de code libre.
+Le logiciel libre domine le marché des serveurs et autres utilités de
+développement comparé aux logiciels propriétaires. Vu comme plus
+éthique, beaucoup d’entreprises se vendent comme étant « open source »
+alors qu’elles ne publient pas de code libre.
 
 /Openwashing/, est dérivé du mot /greenwashing/ (et tous les autres
 mots-valises en -/washing/). Le mot /[[https://www.fauxpensource.org/][fauxpen]]/ signifie la même chose :
@@ -390,14 +390,16 @@ mots-valises en -/washing/). Le mot /[[https://www.fauxpensource.org/][fauxpen]]
 
 #+begin_export texinfo
 @quotation
-Description d’un logiciel qui prétend être open source, mais qui ne dispose pas de toutes les libertés requises par la définition de l’Open Source Initiative ou de la FSF.
+Description d’un logiciel qui prétend être open source, mais qui ne dispose pas de toutes les libertés requises par la définition de l’Open Source Initiative [ou de la FSF].
 @end quotation
 #+end_export
 
-Une question fondamentale à se poser pour savoir si c’est un projet
+La question fondamentale à se poser pour savoir si c’est un projet est
 libre : la licence garantit-elle les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]]
-(étudier, copier, modifier, redistribuer) ou répond-elle aux critères
-de la [[http://www.opensource.org/osd.html][définition de l’OSI]] ?
+(étudier, copier, modifier, redistribuer) ou répond-elle aux critères de
+la [[http://www.opensource.org/osd.html][définition de l’OSI]] ?
+
+Si oui, c’est un logiciel libre. Si non, ce n’est pas un logiciel libre.
 
 Pour vous faciliter la vie, l’OSI maintient une [[http://www.opensource.org/licenses][liste de licences acceptées]].
 
@@ -512,8 +514,8 @@ moraux*.
 
 Toute personne utilisant, copiant, modifiant ou diffusant le logiciel
 sans autorisation explicite du détenteur des droits patrimoniaux est
-coupable de contrefaçon et passible de trois ans d’emprisonnement et de
-300 000 € d’amende ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655082?isSuggest=true][Art. L. 335-2 du CPI]])
+*coupable de contrefaçon et passible de trois ans d’emprisonnement et de
+300 000 € d’amende* ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655082?isSuggest=true][Art. L. 335-2 du CPI]])
 
 Concernant le logiciel, le droit d’utilisation ouvre de manière encadrée
 ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044365559?isSuggest=true][Art. L122-6-1 du CPI]]), les possibilités de :
@@ -796,6 +798,8 @@ l’administration dans le cas des publications simples.
 
 ** Responsabilité de l’administration publique
 
+*** Responsabilité en cas de produits défectueux
+
 Quelle est la responsabilité engagée par une collectivité publique
 (État ou collectivité locale) qui met à disposition un logiciel sous
 licence de logiciel libre ?
@@ -813,11 +817,14 @@ consommateur ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI00003222
 
 Il en est de même pour les produits défectueux, l’article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006438975/1998-05-21][1386-15 du
 code civil]] ne permettant pas que soit écartée par voie contractuelle la
-responsabilité de ce fait, sauf entre professionnels. Dans la mesure où
-le logiciel s’adresse manifestement à des professionnels et des
-informaticiens, et c’est le cas des applications portées par les
-administrations, l’exclusion de responsabilité pour les dommages directs
-est ainsi admise.
+responsabilité de ce fait, sauf entre professionnels.
+
+Dans la mesure où le logiciel s’adresse manifestement à des
+professionnels et des informaticiens, et c’est le cas des applications
+portées par les administrations, l’exclusion de responsabilité pour les
+dommages directs est ainsi admise.
+
+*** Responsabilité en cas de contrefaçon 
 
 Concernant la responsabilité de l’administration en matière de
 contrefaçon, le risque existe même lorsque le logiciel n’est pas
