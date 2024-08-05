@@ -4,7 +4,6 @@
 #+date: 2022-2024
 #+language: fr
 
-
 * Préambule
   :PROPERTIES:
   :EXPORT_FILE_NAME: preambule.md
@@ -947,7 +946,6 @@ qu’il donne son accord pour que ses contributions soient utilisées et
 redistribuées sous la licence libre choisie par le projet. Un DCO
 requiert simplement de signer (/sign-off/) chaque commit.
 
-
 * Foire aux questions
   :PROPERTIES:
   :EXPORT_FILE_NAME: faq.md
@@ -1618,6 +1616,7 @@ Initiative internationale visant à conserver pour l’Histoire les codes source
 Dans un dépôt de code source géré avec Git, un tag est un label associé à un commit. Ce label peut être annoté ou non. Un tag correspond en général à une nouvelle version du logiciel.
 
 [[https://code.gouv.fr/public/#/tags][code.gouv.fr]] recense les tags des dépôts qui possèdent un fichier ~publiccode.yml~, un fichier ~CONTRIBUTING.md~ ou qui sont à l’origine de la publication de [[https://code.gouv.fr/#/libs][bibliothèques]].
+
 ** Ticket
    :PROPERTIES:
    :ALT_TITLE: ticket
