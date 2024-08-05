@@ -90,6 +90,79 @@ commons de type « pas d’utilisation commerciale » ne pourra vendre même
 édition papier d’un document, ne peut être diffusée sauf gratuitement.
 
 ** TODO Bonnes pratiques de publication
+
+*** Quelle langue utilisée dans les dépôts de code source ?
+
+Notes sur les langues employées dans un dépôt de code sources :
+
+- les messages de commits doivent être rédigés en anglais ;
+
+- le code source doit lui-même privilégier l'anglais, sauf pour tout
+  ce qui relève d'un domaine métier propre à l'administration ;
+
+- la documentation utilisateur doit être rédigée en français ;
+
+- les documentations pour les développeurs et les instructions pour
+  les contributeurs doivent être rédigée en anglais.
+
+
+*** Quelle architecture de fichier ?
+
+L’architecture de fichiers d’un dépôt de code source type pour
+l’administration devrait ressembler à ça :
+
+===
+.
+├── CODE_OF_CONDUCT.fr.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.fr.md
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── publiccode.yml
+├── README.fr.md
+└── README.md
+===
+
+Potentiellement, si plusieurs licences sont appliquées au code source
+(plusieurs dépendances avec des licences différentes, la documentation
+sous une licence à part, etc.) le fichier =LICENSE.md= peut référencer
+la licence spécifique pour chaque élément du dépôt, et mettre les
+différentes licences dans un dossier LICENSES :
+
+===
+.
+├── CODE_OF_CONDUCT.fr.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.fr.md
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── LICENSES
+│   ├── CC-BY-SA-4.0
+│   └── MIT
+├── publiccode.yml
+├── README.fr.md
+└── README.md
+===
+
+*** Comment rédiger les messages de commits ?
+
+Les messages de commits devraient ressembler aux exemples suivants. Ici,
+ils sont sont rédigés en français pour en faciliter la lecture par les
+agents publics développeurs en position de publier des codes sources,
+mais devraient être rédigés en anglais.
+
+===
+- Ajout d'un fichier README
+- Ajout d'une licence et des informations sur l'auteur
+- Ajout d'une présentation générale du dépôt
+- Ajout d'instructions d'installation
+- Ajout de lien vers la documentation
+- Ajout de conventions de programmation
+- Ajout d'instructions pour les contributeurs
+- Ajout d'un fichier publiccode.yml
+===
+
+
 ** TODO Métriques de qualité d’un projet libre
 
 * Monter un Open Source Programme Office
@@ -133,10 +206,6 @@ Voici une liste de « politiques logiciels libres » :
 
 * FAQ
 ** TODO Comment construire une communauté open source autour de son projet ?
-** TODO Avez-vous un dépôt Git exemplaire ?
-
-Pas encore.
-
 ** TODO En tant qu’administration, comment soutenir un projet libre ?
 ** TODO Comment aborder le sujet de la communication au sein d’un projet de logiciel libre ?
 ** TODO Comment faire connaître le logiciel libre que mon administration développe ?
@@ -389,4 +458,3 @@ de réutilisation sur [[https://code.gouv.fr/awesome][code.gouv.efr/awesome]].
 - https://www.conventionalcommits.org/en/v1.0.0/
 - https://keepachangelog.com/fr/1.0.0/
 - https://readme.so/fr
-
