@@ -763,14 +763,14 @@ droits conférés par chacune et respectant les obligations de chacune.
 Au début du fichier ~README.md~ d'un dépôt, vous pouvez ajouter l'un de
 ces badges pour prévenir vos utilisateurs :
 
-: https://img.shields.io/badge/code.gouv.fr-contributif-blue
-: https://img.shields.io/badge/code.gouv.fr-ouvert-mediumseagreen
-: https://img.shields.io/badge/code.gouv.fr-publi%C3%A9-orange
+: https://img.shields.io/badge/code.gouv.fr-contributif-blue.svg
+: https://img.shields.io/badge/code.gouv.fr-ouvert-mediumseagreen.svg
+: https://img.shields.io/badge/code.gouv.fr-publi%C3%A9-orange.svg
 
 Si votre fichier ~README~ est écrit en markdown, vous pouvez ajouter le
 badge avec un lien vers cette documentation :
 
-: [![img](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://code.gouv.fr/documentation/#/publier)
+: [![img](https://img.shields.io/badge/code.gouv.fr-contributif-blue.svg)](https://code.gouv.fr/documentation/#/publier)
 
 ** Quels logiciels ouvrir à quel degré ?
 
