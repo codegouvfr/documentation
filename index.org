@@ -3,6 +3,7 @@
 #+author: Équipe de la mission logiciels libres
 #+date: 2022-2024
 #+language: fr
+#+option: toc:t
 
 * Préambule
   :PROPERTIES:
@@ -758,6 +759,14 @@ droits conférés par chacune et respectant les obligations de chacune.
   extérieures ne sont pas traitées.
 - *📕 Niveau D - non-communicable :* Le code source n’est pas communicable au
   public.
+
+Au début du fichier ~README.md~ d'un dépôt, vous pouvez ajouter l'une de
+ces lignes de code permettant d'afficher un badge et de prévenir vos
+utilisateurs :
+
+: https://img.shields.io/badge/code.gouv.fr-contributif-blue
+: https://img.shields.io/badge/code.gouv.fr-ouvert-mediumseagreen
+: https://img.shields.io/badge/code.gouv.fr-publi%C3%A9-orange
 
 ** Quels logiciels ouvrir à quel degré ?
 
