@@ -1,4 +1,4 @@
-<a href="https://code.gouv.fr/documentation/#/publier?id=quels-degr%c3%a9s-douverture-pour-les-codes-sources-"><img src="https://img.shields.io/badge/code.gouv.fr-contributif-blue"></a>
+[![img](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://code.gouv.fr/documentation/#/publier)
 
 # Présentation
 
