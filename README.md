@@ -6,13 +6,11 @@ Cette documentation proposée par la [mission logiciels libres de la DINUM](http
 
 Vous pouvez la lire [en ligne](https://code.gouv.fr/documentation/) et [en PDF](https://code.gouv.fr/documentation/logiciels-libres-et-administration-publique.pdf).
 
-Pour y contribuer, voir [le fichier CONTRIBUTING.md dans ce dépôt](CONTRIBUTING.md).
-
 Pour tout commentaire ou suggestion, veuillez nous [contacter](https://code.gouv.fr/fr/contact/).
 
-L'interface HTML utilise [docsify-dsfr-template](https://github.com/codegouvfr/docsify-dsfr-template) pour le rendu.
+# Contribuer
 
-# [Contribuer](CONTRIBUTING.fr.md)
+Vos contributions sont les bienvenues !  Voir ces [instructions](https://git.sr.ht/~codegouvfr/documentation/tree/main/item/CONTRIBUTING.fr.md).
 
 # Licence
 
