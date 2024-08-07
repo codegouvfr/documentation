@@ -5,9 +5,9 @@
 #+language: fr
 #+option: toc:t
 
-* Préambule
+* Introduction
   :PROPERTIES:
-  :EXPORT_FILE_NAME: preambule.md
+  :CUSTOM_ID: introduction
   :END:
 
 Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de la
@@ -46,8 +46,8 @@ Si ces sujets sont nouveaux pour vous, [un glossaire est disponible](glossaire.m
 
 * Utiliser des logiciels libres
   :PROPERTIES:
-  :EXPORT_FILE_NAME: utiliser.md
   :ALT_TITLE: utiliser
+  :CUSTOM_ID: utiliser
   :END:
 
 ** Trouver des logiciels libres répondant à vos besoins
@@ -483,8 +483,8 @@ du Code de l’éducation]]
 
 * Publier un code source
   :PROPERTIES:
-  :EXPORT_FILE_NAME: publier.md
   :ALT_TITLE: publier
+  :CUSTOM_ID: publier
   :END:
 
 ** Cadre juridique
@@ -894,8 +894,8 @@ Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
 * Contribuer à un logiciel libre
   :PROPERTIES:
-  :EXPORT_FILE_NAME: contribuer.md
   :ALT_TITLE: contribuer
+  :CUSTOM_ID: contribuer
   :END:
 
 ** TL;DR
@@ -961,8 +961,8 @@ requiert simplement de signer (/sign-off/) chaque commit.
 
 * Foire aux questions
   :PROPERTIES:
-  :EXPORT_FILE_NAME: faq.md
   :ALT_TITLE: faq
+  :CUSTOM_ID: faq
   :END:
 
 Cette FAQ est en construction. Si vous avez des questions que vous voulez voir figurer ici, n’hésitez pas à nous écrire à =contact@code.gouv.fr=.
@@ -999,6 +999,7 @@ Documentation :
 - Avez-vous une documentation pour les contributeurs ?
 
 ** Une administration peut-elle faire de l’« inner source » ?
+#+cindex: innersource
 
 La notion d’/innersource/ désigne l’adoption des pratiques de
 développement logiciels open source au sein d’une organisation, sans
@@ -1017,11 +1018,13 @@ InnerSource Checklist]]" publié en 2017 chez O’Reilly Media par Silona
 Bonewald.
 
 ** Comment mettre en place une gouvernance open source dans un projet ?
+#+cindex: gouvernance
 
 Pour mettre en place une gouvernance open source dans un projet, vous
 pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce guide [EN]​]] de la fondation Eclipse.
 
 ** Comment mettre en place une gouvernance open source dans une organisation ?
+#+cindex: gouvernance
 
 Pour mettre en place une gouvernance open source dans une
 organisation, vous pouvez vous référer à la [[https://www.ow2.org/view/OSS_Governance/][Good Governance Initiative]]
@@ -1029,6 +1032,7 @@ développée et promue par la fondation OW2. Vous pouvez consulter [[https://git
 outil]] permettant de la mesurer, et le [[https://ospo-alliance.org/ggi/methodology/#automatic-setup-using-the-ggi-deployment-feature][déployer]].
 
 ** Comment mesurer la maturité d’un projet open source ?
+#+cindex: maturité
 
 La fondation OW2 propose un outil de mesure de la maturité Open Source
 d’un projet, le [[https://www.ow2.org/view/MRL/][Market readiness level]].
@@ -1036,6 +1040,7 @@ d’un projet, le [[https://www.ow2.org/view/MRL/][Market readiness level]].
 Une autre structure propose une variante, l’[[https://github.com/finos/open-source-readiness][Open Source Readiness]].
 
 ** Existe-t-il des formations aux logiciels libres dans l’administration ?
+#+cindex: formation
 
 Si vous êtes agent public avec un accès à la plateforme Mentor, vous
 pouvez consulter [[https://mentor.gouv.fr/catalog/1754][une capsule introductive]] produite par la DINUM.
@@ -1044,6 +1049,7 @@ Si vous avez connaissance de formations logiciels libres proposées aux
 agents publics, n’hésitez pas à nous les [[https://code.gouv.fr/fr/contact/][signaler]].
 
 ** Doit-on utiliser une licence valable en droit français ?
+#+cindex: licence
 
 Si vous êtes un agent public ou un organisme public et que vous
 publiez un logiciel sous licence libre, vous devez utiliser les
@@ -1071,6 +1077,7 @@ clauses administratives générales des marchés publics de techniques de
 l’information et de la communication.
 
 ** Comment exiger un logiciel libre dans un marché public ?
+#+cindex: marché public
 
 En tant qu’organisme public, vous avez le droit de publier un marché
 exigeant un logiciel libre et/ou des services autour d’un logiciel
@@ -1084,6 +1091,7 @@ Voir la section 5.6 du livre [[https://www.lgdj.fr/droit-des-logiciels-978213062
 S. Canevet qui porte sur ce sujet.
 
 ** Qu’est-ce qu’un logiciel libre ?
+#+cindex: logiciel libre
 
 Un logiciel est dit libre si son code source est publié sous l’une des
 licences reconnue libre soit par la Free Software Foundation soit par
@@ -1098,6 +1106,7 @@ Voir [[https://spdx.org/licenses/][spdx.org/licenses]] pour la liste des licence
 validation par l’OSI ou la FSF.
 
 ** Qui peut m’aider à publier mes codes sources ?
+#+cindex: publier
 
 Vous pouvez interroger vos collègues et votre direction pour savoir si
 vous disposez d’une forge et/ou de comptes d’organisation dédiés où
@@ -1116,6 +1125,7 @@ sont référencés sur [[https://code.gouv.fr/public/][code.gouv.fr/public]] : 
 [[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
 
 ** Sous quelle licence dois-je publier mes codes sources ?
+#+cindex: licence
 
 En tant que mission de service public, la loi pour une République
 numérique exige la publication des codes sources sous l’une des
@@ -1149,6 +1159,7 @@ de licence à réciprocité que si la publication sous licence permissive
 présente un risque duement justifié pour l’intérêt général.
 
 ** Comment contacter la mission logiciels libres ?
+#+cindex: mission
 
 Vous pouvez nous écrire à =contact@code.gouv.fr=.
 
@@ -1157,6 +1168,7 @@ Vous pouvez aussi nous contacter lors de nos permanences en ligne.
 Voir https://code.gouv.fr/fr/contact/espaces-communication-bluehats/.
 
 ** Quelle forge dois-je choisir pour publier mes codes sources ?
+#+cindex: forge
 
 Vous pouvez vérifier sur [[https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/blob/main/platforms.csv][cette liste]] si votre organisme public déploie
 une forge et si oui, contacter les personnes en interne qui pourront
@@ -1174,22 +1186,27 @@ Sinon, vous pouvez publier votre code sur la forge de votre choix, par
 exemple [[https://gitlab.com][gitlab.com]], [[https://github.com][github.com]] ou [[https://sourcehut.org/][SourceHut]].
 
 ** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
+#+cindex: github.com
+#+cindex: gitlab.com
 
 Non, il n’y a pas d’obstacle légal à la publication des codes sources
 d’une administration sur github.com ou gitlab.com.
 
 ** Comment attirer des contributeurs sur mes dépôts publiés ?
+#+cindex: contributeurs
 
 Vous pouvez faciliter les contributions en publiant un fichier
 =CONTRIBUTING.md= à la racine de votre dépôt ou vous expliquerez aux
 potentiels contributeurs le moyen de vous aider.
 
 ** Suis-je obligé de permettre la contribution sur mes dépôts ?
+#+cindex: contribution
 
 Non. Vous pouvez consulter à ce sujet nos propositions sur [[https://code.gouv.fr/documentation/#/publier?id=quels-degr%c3%a9s-d39ouverture-pour-les-codes-sources-][les degrés
 d’ouverture]].
 
 ** Puis-je publier un code que je ne maintiens plus ?
+#+cindex: maintenance
 
 Oui. Dans ce cas, indiquez bien dans le fichier ~README.md~ que le code
 source n’est plus maintenu.
@@ -1437,14 +1454,15 @@ travail.
 
 * Glossaire
   :PROPERTIES:
-  :EXPORT_FILE_NAME: glossaire.md
   :ALT_TITLE: glossaire
+  :CUSTOM_ID: glossaire
   :END:
 
 ** Algorithme
    :PROPERTIES:
    :ALT_TITLE: algorithme
    :END:
+#+cindex: algorithme
 
 Un algorithme est la description d’une suite d’étapes permettant d’obtenir un résultat à partir d’éléments fournis en entrée (cf. [[https://www.cnil.fr/fr/definition/algorithme][définition de la CNIL]]).
 
@@ -1454,6 +1472,7 @@ En informatique, cette suite d’étape est une suite d’opérations formelles 
    :PROPERTIES:
    :ALT_TITLE: algorithme_public
    :END:
+#+cindex: algorithme, public
 
 Un algorithme /public/ est un suite opératoire (formelle ou non, informatisée ou non, automatisée ou non) sollicitée pour une décision administrative individuelle envers des personnes physiques ou morales, de droit public ou privé nommément désignées.
 
@@ -1463,6 +1482,7 @@ Voir le [[https://guides.etalab.gouv.fr/algorithmes/][guide des algorithmes publ
    :PROPERTIES:
    :ALT_TITLE: bibliothèque
    :END:
+#+cindex: bibliothèque
 
 Dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], une bibliothèque est un ensemble de fonctions distribuées sous forme de paquetage via une plateforme dédiée, par exemple https://npmjs.com.
 
@@ -1474,6 +1494,7 @@ Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pou
    :PROPERTIES:
    :ALT_TITLE: code_source
    :END:
+#+cindex: code source
 
 Le code source d’un programme informatique est ce qu’écrit une programmeuse ou un programmeur. Il peut s’agir de programmes complexes ou de quelques lignes. Ce code source peut être partagé sous licence libre pour permettre aux autres programmeurs de l’étudier, de le modifier, de le diffuser et de partager leurs améliorations.
 
@@ -1481,6 +1502,7 @@ Le code source d’un programme informatique est ce qu’écrit une programmeuse
    :PROPERTIES:
    :ALT_TITLE: commit
    :END:
+#+cindex: commit
 
 Unité de modification.
 
@@ -1488,6 +1510,7 @@ Unité de modification.
    :PROPERTIES:
    :ALT_TITLE: commun_numérique
    :END:
+#+cindex: commun numérique
 
 Un commun numérique est une ressource disponible sous format numérique, gérée par une communauté qui définit, pour cette ressource, des règles d’utilisation et de contribution, et pour la communauté, des règles de participation.
 
@@ -1495,6 +1518,7 @@ Un commun numérique est une ressource disponible sous format numérique, géré
    :PROPERTIES:
    :ALT_TITLE: dépendances
    :END:
+#+cindex: dépendance
 
 Un logiciel intègre souvent des briques logicielles publiées sous licence libre. Celles-ci sont appelées « dépendances ». Ce site permet de parcourir la liste des dépendances de /mise en production/, non les dépendances de /développement/ ; d’autre part, seules sont comprises les dépendances sollicitées par au moins deux dépôts.
 
@@ -1504,6 +1528,7 @@ Les dépendances listées dans [[https://code.gouv.fr/#/deps][code.gouv.fr]] son
    :PROPERTIES:
    :ALT_TITLE: depot
    :END:
+#+cindex: dépôt
 
 Un « dépôt » est un espace dans lequel sont publiés les fichiers de code source. C’est ce que vous voyez lorsque vous visitez un lien vers un code source hébergé sur une forge. C’est aussi ce que vous pouvez copier sur votre machine pour l’explorer localement.
 
@@ -1522,6 +1547,7 @@ Les « étoiles » (« stars » en anglais) sont un moyen pour les utilisate
    :PROPERTIES:
    :ALT_TITLE: forge
    :END:
+#+cindex: forge
 
 Outil de développement logiciel collaboratif.
 
@@ -1529,6 +1555,7 @@ Outil de développement logiciel collaboratif.
    :PROPERTIES:
    :ALT_TITLE: fork
    :END:
+#+cindex: fork
 
 Un dépôt « forké » en franglais est un dépôt de code source qui a été développé à partir d’un autre.
 
@@ -1543,6 +1570,7 @@ Champ de l’informatique s’intéressant à la gestion et au cycle de vie des 
    :PROPERTIES:
    :ALT_TITLE: integration_continue
    :END:
+#+cindex: intégration continue
 
 Capacité pour une forge de permettre la construction automatique du logiciel depuis l’ensemble de ses sources et en fonction de certains paramètres.
 
@@ -1550,6 +1578,7 @@ Capacité pour une forge de permettre la construction automatique du logiciel de
    :PROPERTIES:
    :ALT_TITLE: licence
    :END:
+#+cindex: licence
 
 Une licence logicielle est un contrat passé entre les auteurs d’un logiciel et ses réutilisateurs. Les licences dites « libres » accordent aux utilisateurs le droit de réutiliser le code source d’un logiciel.
 
@@ -1557,6 +1586,7 @@ Une licence logicielle est un contrat passé entre les auteurs d’un logiciel e
    :PROPERTIES:
    :ALT_TITLE: logiciel
    :END:
+#+cindex: logiciel
 
 Un logiciel est un ensemble de séquences d’instructions interprétables
 par une machine. À la différence d’un code source qui est aussi /un
@@ -1567,6 +1597,7 @@ instructions sont en code objet, généralement en binaire.
    :PROPERTIES:
    :ALT_TITLE: logiciel_libre
    :END:
+#+cindex: logiciel libre
 
 Un logiciel libre est un logiciel dont le code source est publié sous l’une des licences reconnues libres par la [[https://www.gnu.org/licenses/licenses.en.html][Free Software Foundation]] ou "open source" par l’[[https://opensource.org/licenses][Open Source Initiative]].
 
@@ -1577,16 +1608,23 @@ Ces licences ont toutes en commun d’octrayer aux utilisateurs quatre libertés
    :ALT_TITLE: organisation_et_groupe
    :END:
 
-GitHub permet d’avoir des comptes personnels pour y héberger du code et des « comptes d’organisation ». Un « groupe » est la notion plus ou moins équivalent sur les instance de GitLab. Un organisme remplissant une mission de service public peut avoir un ou plusieurs organisations et/ou groupes sur une ou plusieurs forges.
-p
-Pour ajouter une organisation dans [[https://code.gouv.fr/#/groups][code.gouv.fr]], il suffit que le compte d’organisation GitHub ou le groupe GitLab soit ajouté dans [[https://git.sr.ht/~codegouvfr/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml][ce fichier]].
+GitHub permet d’avoir des comptes personnels pour y héberger du code
+et des « comptes d’organisation ». Un « groupe » est la notion plus ou
+moins équivalent sur les instance de GitLab. Un organisme remplissant
+une mission de service public peut avoir un ou plusieurs organisations
+et/ou groupes sur une ou plusieurs forges. p Pour ajouter une
+organisation dans [[https://code.gouv.fr/#/groups][code.gouv.fr]], il suffit que le compte d’organisation
+GitHub ou le groupe GitLab soit ajouté dans [[https://git.sr.ht/~codegouvfr/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml][ce fichier]].
 
-Vous pouvez écrire à =contact@code.gouv.fr= pour nous indiquer un compte à ajouter.
+Vous pouvez écrire à =contact@code.gouv.fr= pour nous indiquer un compte
+à ajouter.
 
 ** Pull/merge request
    :PROPERTIES:
    :ALT_TITLE: pull-merge_request.
    :END:
+#+cindex: PR, MR
+#+cindex: MR, PR
 
 Proposition de révision. /Merge request/ est l’expression utilisée sur
 GitLab. /Pull request/ est l’expression utilisée sur les autres forges.
@@ -1602,6 +1640,7 @@ GitHub permet de connaître le nombre de dépôts qui en utilisent un autre : l
    :PROPERTIES:
    :ALT_TITLE: secteur_public
    :END:
+#+cindex: secteur public
 
 Les codes sources développés dans le cadre de missions de service public ont vocation à être publiés, dans certains conditions. Ce site propose de chercher dans l’ensemble des codes sources aujourd’hui identifiés comme provenant d’un organisme remplissant une mission de service public. Il a été développé par [[https://www.etalab.gouv.fr][Etalab]].
 
@@ -1609,6 +1648,8 @@ Les codes sources développés dans le cadre de missions de service public ont v
    :PROPERTIES:
    :ALT_TITLE: sill
    :END:
+#+cindex: sill
+#+cindex: socle interministériel de logiciels libres
 
 Le socle interministériel de logiciels libres (SILL) est le catalogue de référence des logiciels libres recommandés par l’Etat pour toute l’administration.
 
@@ -1618,6 +1659,7 @@ Voir [[https://code.gouv.fr/sill/][le site du SILL]].
    :PROPERTIES:
    :ALT_TITLE: software_heritage
    :END:
+#+cindex: Software Heritage
 
 Initiative internationale visant à conserver pour l’Histoire les codes source des logiciels dont le code source est public.
 
@@ -1625,6 +1667,7 @@ Initiative internationale visant à conserver pour l’Histoire les codes source
    :PROPERTIES:
    :ALT_TITLE: tag
    :END:
+#+cindex: tag
 
 Dans un dépôt de code source géré avec Git, un tag est un label associé à un commit. Ce label peut être annoté ou non. Un tag correspond en général à une nouvelle version du logiciel.
 
@@ -1634,10 +1677,12 @@ Dans un dépôt de code source géré avec Git, un tag est un label associé à 
    :PROPERTIES:
    :ALT_TITLE: ticket
    :END:
+#+cindex: ticket
 
 Déclaration en ligne d’un incident ou d’un dysfonctionnement, ou proposition d’amélioration du logiciel.
 
 * Concept Index
   :PROPERTIES:
   :INDEX: cp
+  :CUSTOM_ID: index
   :END:
