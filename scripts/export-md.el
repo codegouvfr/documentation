@@ -20,5 +20,6 @@
     (message "[exporting] %s" (file-relative-name org-file default-directory))
     (with-current-buffer (find-file org-file)
       (condition-case err
-	  (org-md-export-to-markdown)
+	  (let ((org-export-options-alist '((:toc nil))))
+	    (org-md-export-to-markdown))
         (error (message (error-message-string err)))))))
