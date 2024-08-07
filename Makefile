@@ -5,7 +5,8 @@ pdf:
 md:
 	emacs --script scripts/export.el
 	cp -r assets/ docs/
-	cp -r dsfr/css/extra.css docs/css/
+	mkdir docs/css
+	cp dsfr/css/extra.css docs/css/extra.css
 	mv index.md docs/index.md
 	cp README.md docs/about.md
 	touch mkdocs
