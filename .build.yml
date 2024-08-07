@@ -4,7 +4,7 @@ packages:
   - org-mode
   - rsync
   - python3
-  - pip
+  - pipx
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
@@ -12,7 +12,7 @@ secrets:
 tasks:
   - make_mkdocs: |
       cd documentation/
-      pip install pipenv
+      pipx install pipenv
       pipenv install --index gitlab mkdocs-dsfr
       pipenv install
       pipenv shell
