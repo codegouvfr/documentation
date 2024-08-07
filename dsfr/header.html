@@ -1,0 +1,68 @@
+<header role="banner" class="fr-header">
+	<div class="fr-header__body">
+		<div class="fr-container">
+			<div class="fr-header__body-row">
+				<div class="fr-header__brand fr-enlarge-link">
+					<div class="fr-header__brand-top">
+						<div class="fr-header__logo">
+							<p class="fr-logo" style="">
+								{{ config.theme.intitule }}
+							</p>
+						</div>
+
+						<div class="fr-header__navbar">
+							{% if config.theme.include_search_page %}
+								<button class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="modal-541" id="button-542" title="Rechercher">
+									Rechercher
+								</button>
+							{% endif %}
+							<button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-543" aria-haspopup="menu" id="button-544" title="Menu">
+								Menu
+							</button>
+						</div>
+					</div>
+					<div class="fr-header__service">
+						<a href="/" title="{{ config.theme.titre }}">
+							<p class="fr-header__service-title">
+								{{ config.theme.header.titre }}
+							</p>
+						</a>
+						<p class="fr-header__service-tagline">{{ config.theme.header.sous_titre }}</p>
+					</div>
+				</div>
+				<div class="fr-header__tools">
+					<div class="fr-header__search fr-modal" id="modal-541">
+						<div class="fr-container fr-container-lg--fluid">
+							<button class="fr-btn--close fr-btn" aria-controls="modal-541" title="Fermer">
+								Fermer
+							</button>
+							{% if config.theme.include_search_page %}
+							<form action="{{'search.html'|url}}">
+								<div class="fr-search-bar" id="search-540" role="search">
+									<label class="fr-label" for="mkdocs-search-query">
+										Rechercher
+									</label>
+									<input class="fr-input search_input search-query ui-autocomplete-input" placeholder="Rechercher" type="text"
+										   id="mkdocs-search-query" name="q">
+									<button class="fr-btn" title="Rechercher" type="submit">
+										Rechercher
+									</button>
+								</div>
+							</form>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="fr-header__menu fr-modal" id="modal-543" aria-labelledby="button-544">
+		<div class="fr-container">
+			<button class="fr-btn--close fr-btn" aria-controls="modal-543" title="Fermer">
+				Fermer
+			</button>
+			<div class="fr-header__menu-links"></div>
+			{% include "nav.html" %}
+		</div>
+	</div>
+</header>

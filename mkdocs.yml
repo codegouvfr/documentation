@@ -1,0 +1,73 @@
+site_name: Documentation 
+site_url: https://code.gouv.fr/documentation
+site_description: Documentation destinée aux administrations publiques pour recourir et contribuer aux logiciels libres et communs numériques.
+site_author: Mission logiciels libres
+
+repo_url: https://git.sr.ht/~codegouvfr/documentation
+edit_uri: tree/main/item/index.org
+
+nav:
+- Documentation: 'index.md'
+- À propos: 'about.md'
+
+theme:
+  name: dsfr
+  locale: fr
+  custom_dir: dsfr/
+  menulateral: true
+  include_search_page: true
+  show_revision_date: true
+  libelle_bouton_editer: Modifier cette page via SourceHut
+  intitule: "Direction <br> interministérielle <br> du numérique"
+  header:
+    titre: "Documentation"
+    sous_titre: "Recourir et contribuer aux logiciels libres et communs numériques"
+  footer:
+    description: "Ce site est géré par la mission logiciels libres et communs numériques de la DINUM"
+    links:
+      - name: legifrance.gouv.fr
+        url: https://legifrance.gouv.fr
+      - name: gouvernement.fr
+        url: https://gouvernement.fr
+      - name: service-public.fr
+        url: https://service-public.fr
+      - name: code.gouv.fr
+        url: https://code.gouv.fr
+
+        
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - dsfr_structure.extension.all_extensions
+  - toc:
+      permalink: ""
+  - attr_list
+  - def_list
+  - tables
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
+
+plugins:
+  - search:
+      lang: fr
+      indexing: "full"
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_section_style: list
+            members_order: source
+            show_root_heading: true
+            show_source: false
+            show_signature_annotations: true
+  - git-revision-date-localized
+  - git-authors
+  - git-revision-date
+
+watch:
+  - mkdocs
