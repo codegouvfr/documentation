@@ -5,14 +5,22 @@ packages:
   - rsync
   - texinfo
   - texlive-full
+  - python3
+  - pip
+  - pipenv
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
   - bdd50953-add5-4ddb-9f34-9f0781900b7e
 tasks:
-  - install: |
+  - make_mkdocs: |
       cd documentation/
+      pipenv install --index gitlab mkdocs-dsfr
+      pipenv install
+      pipenv shell
       make md
+  - make_pdf: |
+      cd documentation/
       make pdf
       mv index.pdf public/logiciels-libres-et-administration-publique.pdf
   - upload: |
