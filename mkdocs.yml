@@ -13,7 +13,7 @@ nav:
 theme:
   name: dsfr
   locale: fr
-  custom_dir: dsfr/
+  custom_dir: assets/dsfr/
   menulateral: true
   include_search_page: true
   show_revision_date: true

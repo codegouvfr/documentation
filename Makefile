@@ -6,7 +6,7 @@ md:
 	emacs --script scripts/export-md.el
 	cp -r assets/ docs/
 	mkdir docs/css
-	cp dsfr/css/extra.css docs/css/extra.css
+	cp assets/dsfr/css/extra.css docs/css/extra.css
 	mv index.md docs/index.md
 	cp README.md docs/about.md
 	touch mkdocs
