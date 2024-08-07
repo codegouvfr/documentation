@@ -11,3 +11,4 @@ clean:
 	rm -f contribuer.md
 	rm -f faq.md
 	rm -f glossaire.md
+	rm -fr concept-index.md
