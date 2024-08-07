@@ -1,0 +1,23 @@
+# Config par défaut
+include_search_page: true
+afficher_date_de_revision: true
+afficher_menu_lateral: true
+afficher_bouton_editer: true
+libelle_bouton_editer: Éditer dans Gitlab Forge
+
+# Config à Overrider
+intitule: "République <br> française"
+header:
+  titre: "Titre"
+  sous_titre: "Sous-titre"
+footer:
+  description: "Description à modifier"
+  links:
+    - name: legifrance.gouv.fr
+      url: https://legifrance.gouv.fr
+    - name: gouvernement.fr
+      url: https://gouvernement.fr
+    - name: service-public.fr
+      url: https://service-public.fr
+    - name: data.gouv.fr
+      url: https://data.gouv.fr

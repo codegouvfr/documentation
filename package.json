@@ -1,0 +1,22 @@
+{
+  "name": "mkdocs-dsfr",
+  "version": "0.8.1",
+  "description": "Mkdocs theme for DSFR",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "copy": "cpy dsfr.min.css dsfr.module.min.js dsfr.nomodule.min.js favicon fonts icons utility/icons artwork ../../../../dsfr/ --cwd=node_modules/@gouvfr/dsfr/dist",
+    "build": "mkdocs build",
+    "build:prod": "npm run copy && npm run build"
+  },
+  "author": "MTE Numérique écologie",
+  "license": "MIT",
+  "dependencies": {
+    "@gouvfr/dsfr": "1.12.1"
+  },
+  "devDependencies": {
+    "cpy-cli": "^4.2.0"
+  }
+}

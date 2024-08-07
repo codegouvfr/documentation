@@ -1,0 +1,34 @@
+{% if page.toc | length > 0  %}
+<div class="fr-col-12 fr-col-md-3">
+  <nav class="fr-sidemenu fr-sidemenu--sticky-full-height fr-mb-0-5v" role="navigation" aria-label="Menu latéral">
+    {% for toc_item in page.toc %}
+    <div class="fr-sidemenu__inner">
+      <button class="fr-sidemenu__btn" aria-controls="fr-sidemenu-wrapper" aria-expanded="true">{{toc_item.title}}</button>
+      <div class="fr-collapse" id="fr-sidemenu-wrapper">
+        <div class="fr-sidemenu__title">{{toc_item.title}}</div>
+        <ul class="fr-sidemenu__list">
+          {% for toc_item in toc_item.children %} {% if not toc_item.children %}
+          <li class="fr-sidemenu__item">
+            <a class="fr-sidemenu__link" href="{{ toc_item.url }}" target="_self">{{ toc_item.title }}</a>
+          </li>
+          {% else %}
+          <li class="fr-sidemenu__item">
+            <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="fr-sidemenu-item-{{loop.index}}">{{ toc_item.title }}</button>
+            <div class="fr-collapse" id="fr-sidemenu-item-{{loop.index}}">
+              <ul class="fr-sidemenu__list">
+                {% for toc_item in toc_item.children %}
+                <li class="fr-sidemenu__item">
+                  <a class="fr-sidemenu__link" href="{{ toc_item.url }}" target="_self">{{ toc_item.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </nav>
+</div>
+{% endif %}

@@ -1,0 +1,31 @@
+<nav class="fr-nav navbar-header" id="navigation-547" role="navigation" aria-label="Menu principal">
+	<ul class="fr-nav__list">
+		{% for nav_item in nav %}
+			{% if not nav_item.children %}
+				<li class="fr-nav__item">
+					<a class="fr-nav__link" href="{{ nav_item.url|url }}" target="_self" {% if nav_item.active %} aria-current="page" {% endif %}>{{ nav_item.title }}</a>
+				</li>
+			{% else %}
+				<li class="fr-nav__item">
+					<button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-776{{ loop.index }}" {% if nav_item.title in page.parent|string %} aria-current="true" {% endif %}>{{ nav_item.title }}</button>
+					<div class="fr-collapse fr-menu" id="menu-776{{ loop.index }}">
+						<ul class="fr-menu__list">
+							{% for nav_children in nav_item.children %}
+								<li>
+									<a class="fr-nav__link" {% if nav_children.active %} aria-current="page" {% endif %} href="{{ nav_children.url|url }}" target="_self">{{nav_children.title}}</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+	{% if page.edit_url and config.theme.afficher_bouton_editer %}
+	<a href="{{ page.edit_url }}" target="_blank" rel="noopener">
+		{{ config.theme.libelle_bouton_editer }}
+	</a>
+	{% endif %}
+
+
+</nav>

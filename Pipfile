@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+name = "gitlab-plugin"
+url = "https://gitlab-forge.din.developpement-durable.gouv.fr/api/v4/projects/22396/packages/pypi/simple"
+verify_ssl = false
+
+[[source]]
+url = "gitlab"
+verify_ssl = true
+name = ""
+
+[packages]
+dsfr_structure= "*"
+mkdocs-include-markdown-plugin = "*"
+mkdocs-git-revision-date-localized-plugin = "*"
+pymdown-extensions = "*"
+mkdocs-callouts = "*"
+mkdocs-redirects = "*"
+mkdocs-autorefs = "*"
+mkdocstrings = "*"
+setuptools = "*"
+build = "*"
+twine = "*"
+wheel = "*"
+mkdocs-dsfr = { index = ""}
+mkdocs = {extras = ["i18n"] }
+mkdocstrings-python = "*"
+mkdocs-git-authors-plugin = "*"
+mkdocs-git-revision-date-plugin = "*"
+mkdocs-git-committers-plugin-2 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"

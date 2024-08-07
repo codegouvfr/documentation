@@ -1,0 +1,12 @@
+{% if page.previous_page or page.next_page %}
+	<nav role="navigation" class="fr-pagination fr-mx-auto" aria-label="Pagination">
+		<ul class="fr-pagination__list">
+			<a class="fr-pagination__link fr-pagination__link--prev fr-pagination__link--lg-label" {% if page.previous_page %} href="{{ page.previous_page.url|url }}" title="{{ page.previous_page.title }}" {% else %} aria-disabled="true" role="link" {% endif %}>
+				Page précédente
+			</a>
+			<a class="fr-pagination__link fr-pagination__link--next fr-pagination__link--lg-label" {% if page.next_page %} href="{{ page.next_page.url|url }}" title="{{ page.next_page.title }}" {% else %} aria-disabled="true" role="link" {% endif %}>
+				Page suivante
+			</a>
+		</ul>
+	</nav>
+{% endif %}
