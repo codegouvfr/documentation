@@ -1,9 +1,9 @@
 pdf:
-	emacs --script scripts/export.el
+	emacs --script scripts/export-texi.el
 	texi2pdf index.texi
 
 md:
-	emacs --script scripts/export.el
+	emacs --script scripts/export-md.el
 	cp -r assets/ docs/
 	mkdir docs/css
 	cp dsfr/css/extra.css docs/css/extra.css

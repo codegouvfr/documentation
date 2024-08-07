@@ -5,6 +5,8 @@ packages:
   - rsync
   - python3
   - pipx
+  - texinfo
+  - texlive-full
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
@@ -16,6 +18,10 @@ tasks:
       /home/build/.local/bin/pipenv install --index gitlab mkdocs-dsfr
       /home/build/.local/bin/pipenv install
       make md
+  - make_pdf: |
+      cd documentation/
+      make pdf
+      mv index.pdf public/logiciels-libres-et-administration-publique.pdf
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/public/* web@code.gouv.fr:/home/web/websites/documentation/
 triggers:
