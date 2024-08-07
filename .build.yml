@@ -3,11 +3,8 @@ packages:
   - emacs
   - org-mode
   - rsync
-  - texinfo
-  - texlive-full
   - python3
   - pip
-  - pipenv
 sources:
   - https://git.sr.ht/~codegouvfr/documentation
 secrets:
@@ -15,14 +12,11 @@ secrets:
 tasks:
   - make_mkdocs: |
       cd documentation/
+      pip install pipenv
       pipenv install --index gitlab mkdocs-dsfr
       pipenv install
       pipenv shell
       make md
-  - make_pdf: |
-      cd documentation/
-      make pdf
-      mv index.pdf public/logiciels-libres-et-administration-publique.pdf
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/public/* web@code.gouv.fr:/home/web/websites/documentation/
 triggers:
