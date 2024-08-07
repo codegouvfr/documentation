@@ -12,10 +12,11 @@ secrets:
 tasks:
   - install: |
       cd documentation/
-      make
-      mv index.pdf logiciels-libres-et-administration-publique.pdf
+      make md
+      make pdf
+      mv index.pdf public/logiciels-libres-et-administration-publique.pdf
   - upload: |
-      rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/* web@code.gouv.fr:/home/web/websites/documentation/
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/public/* web@code.gouv.fr:/home/web/websites/documentation/
 triggers:
   - action: email
     condition: failure
