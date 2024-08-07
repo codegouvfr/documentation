@@ -34,7 +34,7 @@
          ;; conversion. For exporting to other formats, simply use the
          ;; correct backend name, and also change the file extension
          ;; above.
-         (org-export-to-file 'md filename nil t nil))))
+         (org-export-to-file 'md filename nil t))))
    ;; skip headlines tagged with "noexport" (this is an argument to
    ;; org-map-entries above)
    "-noexport")
