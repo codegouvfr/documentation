@@ -19,6 +19,7 @@
       (message " [skipping] unchanged %s" org-file)
     (message "[exporting] %s" (file-relative-name org-file default-directory))
     (with-current-buffer (find-file org-file)
+      (org-map-entries (lambda () (org-comment-dwim nil)) "+CUSTOM_ID=\"index\"" 'file)
       (condition-case err
 	  (let ((org-export-options-alist '((:toc nil))))
 	    (org-md-export-to-markdown))
