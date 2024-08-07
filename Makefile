@@ -13,7 +13,7 @@ md:
 	sed -i '1 i\# Documentation' docs/index.md # workaround for dsfr template
 	sed -ri 's/^(#+)/\1#/' docs/about.md
 	sed -i '1 i\# À propos' docs/about.md
-	mkdocs build -d public/
+	~/.local/bin/pipenv run mkdocs build -d public/
 
 clean:
 	rm -f *texi *log *aux *toc *pdf *info *ky *cp *fn *tp *pg *vr *cps
