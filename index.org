@@ -728,14 +728,14 @@ droits conférés par chacune et respectant les obligations de chacune.
 
 ** Quels degrés d’ouverture pour les codes sources ?
 
-- *📘 Niveau A - contributif :* Le code source est publié, les contributions
-  extérieures sont activement recherchées et traitées.
-- *📗 Niveau B - ouvert :* Le code source est publié, les contributions
+- 🟦 Niveau A - contributif :* Le code source est publié, les
+  contributions extérieures sont activement recherchées et traitées.
+- 🟩 Niveau B - ouvert :* Le code source est publié, les contributions
   extérieures sont traitées mais non activement recherchées.
-- *📙 Niveau C - publié :* Le code source est publié mais les contributions
-  extérieures ne sont pas traitées.
-- *📕 Niveau D - non-communicable :* Le code source n’est pas communicable au
-  public.
+- 🟧 Niveau C - publié :* Le code source est publié mais les
+  contributions extérieures ne sont pas traitées.
+- 🟥 Niveau D - non-communicable :* Le code source n’est pas
+  communicable au public.
 
 Au début du fichier ~README.md~ d'un dépôt, vous pouvez ajouter l'un de
 ces badges pour prévenir vos utilisateurs :
