@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9f69d9cd2adf6ca8a31fc4f5963408accb5fde6f68742a37cf14b31a009d8814"
+            "sha256": "da9943c17c566f73775bf738e40d921c2ae033d6bdcdc3fb374ca9c1607ec7e1"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,6 +17,16 @@
                 "name": "gitlab-plugin",
                 "url": "https://gitlab-forge.din.developpement-durable.gouv.fr/api/v4/projects/22396/packages/pypi/simple",
                 "verify_ssl": false
+            },
+            {
+                "name": "",
+                "url": "gitlab",
+                "verify_ssl": true
+            },
+            {
+                "name": "",
+                "url": "gitlab",
+                "verify_ssl": true
             },
             {
                 "name": "",

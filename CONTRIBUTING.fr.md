@@ -12,17 +12,33 @@ Pour tester l'export, vous devez travailler sur une machine disposant de ces log
 
 - emacs
 - org-mode
+- python3
+- pip
+- pipenv
+- make
 - texinfo
 - texlive-full
 
-Une fois vos modifications faites, vous pouvez lancer l'export ainsi :
+Une fois vos modifications faites, rendez-vous dans le dossier du projet, puis lancez la commande suivante pour construire l’environnement de développement nécessaire pour le rendu html (le rendu pdf n’en a pas besoin) :
 
 ```
 ~$ cd documentation/
-~$ make
+~$ make env
+```
+Pour nettoyer l’environnement de développement :
+
+```
+~$ make clean-env
 ```
 
-Ce script va générer les fichiers `.md` visuellement rendus par le script docsify contenu dans le `index.html`.
+Ensuite vous pouvez lancer les commandes suivantes pour soit construire le site web avec mkdocs, soit le pdf:
+
+```
+~$ make md
+~$ make pdf
+```
+
+Ce script va générer les fichiers `.md` visuellement rendus par le script mkdocs contenu dans le `/public/index.html`.
 
 Il va aussi générer un fichier `index.texi` puis l'exporter en pdf avec la commande `texi2pdf index.texi`.
 
