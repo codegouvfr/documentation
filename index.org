@@ -3,7 +3,6 @@
 #+author: Équipe de la mission logiciels libres
 #+date: 2022-2024
 #+language: fr
-#+option: toc:t
 
 * Introduction
   :PROPERTIES:
@@ -153,7 +152,7 @@ En dehors de l’administration publique, l’écosystème du logiciel libre
 est animé par des associations et entreprises du libre.
 
 On notera les associations fondatrices du mouvement logiciel libre par
-la /[[https://www.fsf.org/][Free Software Foundation]]/, et de l’open source avec l’/[[https://opensource.org/][Open Source
+la /[[https://www.fsf.org/][Free Software Foundation]]/, et de l’open source avec l'/[[https://opensource.org/][Open Source
 Initiative]]/.
 
 Il y a des fondations structurantes de l’écosystème des logiciels
@@ -870,6 +869,7 @@ prévisible que l’acronyme ne serait plus d’actualité.
 
 Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
+** Promouvoir votre projet open source
 * Contribuer à un logiciel libre
   :PROPERTIES:
   :ALT_TITLE: contribuer
@@ -979,7 +979,7 @@ Documentation :
 ** Une administration peut-elle faire de l’« inner source » ?
 #+cindex: innersource
 
-La notion d’/innersource/ désigne l’adoption des pratiques de
+La notion d'/innersource/ désigne l’adoption des pratiques de
 développement logiciels open source au sein d’une organisation, sans
 partager les codes publiquement.
 
@@ -987,7 +987,7 @@ Si vous n’êtes pas obligés de publier certains codes sources, vous
 pouvez les développer via des organisations ou des dépôts privés ou
 via une forge privée.
 
-La démarche d’/innersource/ suppose néanmoins une *visibilité partagée*
+La démarche d'/innersource/ suppose néanmoins une *visibilité partagée*
 sur ce qui est développé par les uns et les autres et un encouragement
 à contribuer aux dépôts partagés.
 
@@ -1577,9 +1577,11 @@ instructions sont en code objet, généralement en binaire.
    :END:
 #+cindex: logiciel libre
 
-Un logiciel libre est un logiciel dont le code source est publié sous l’une des licences reconnues libres par la [[https://www.gnu.org/licenses/licenses.en.html][Free Software Foundation]] ou "open source" par l’[[https://opensource.org/licenses][Open Source Initiative]].
+Un logiciel libre est un logiciel dont le code source est publié sous
+l’une des licences reconnues libres par la [[https://www.gnu.org/licenses/licenses.en.html][Free Software Foundation]] ou
+"open source" par l'[[https://opensource.org/licenses][Open Source Initiative]].
 
-Ces licences ont toutes en commun d’octrayer aux utilisateurs quatre libertés : celle d’/utiliser/ le programme informatique comme on le souhaite, pour toute finalité ; celle d’/étudier et de modifier/ le programme à loisir ; celle de redistribuer des copies du programme à d’autres ; celle de redistribuer des versions modifiées du programme à d’autres.
+Ces licences ont toutes en commun d’octrayer aux utilisateurs quatre libertés : celle d'/utiliser/ le programme informatique comme on le souhaite, pour toute finalité ; celle d'/étudier et de modifier/ le programme à loisir ; celle de redistribuer des copies du programme à d’autres ; celle de redistribuer des versions modifiées du programme à d’autres.
 
 ** Organisation et groupe (dans GitHub ou GitLab)
    :PROPERTIES:
