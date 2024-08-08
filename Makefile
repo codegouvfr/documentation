@@ -8,7 +8,7 @@ md:
 	mkdir docs/css
 	cp assets/dsfr/css/extra.css docs/css/extra.css
 	mv index.md docs/index.md
-	cp README.md docs/about.md
+	cp about.md docs/about.md
 	touch mkdocs
 	sed -i '1 i\# Documentation' docs/index.md # workaround for dsfr template
 	sed -ri 's/^(#+)/\1#/' docs/about.md
@@ -25,3 +25,4 @@ clean:
 	rm -f faq.md
 	rm -f glossaire.md
 	rm -r public docs mkdocs
+	touch index.org
