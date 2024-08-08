@@ -8,7 +8,8 @@
       debug-on-error t
       org-confirm-babel-evaluate nil
       org-export-with-broken-links t
-      org-md-toplevel-hlevel 2)
+      org-md-toplevel-hlevel 2
+      org-export-with-toc nil)
 
 (let* ((org-file "index.org")
        (file-name-basedir (concat (file-name-directory org-file)
@@ -21,6 +22,5 @@
     (with-current-buffer (find-file org-file)
       (org-map-entries (lambda () (org-comment-dwim nil)) "+CUSTOM_ID=\"index\"" 'file)
       (condition-case err
-	  (let ((org-export-options-alist '((:toc nil))))
-	    (org-md-export-to-markdown))
+	  (org-md-export-to-markdown)
         (error (message (error-message-string err)))))))

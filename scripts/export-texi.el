@@ -8,7 +8,8 @@
       debug-on-error t
       org-confirm-babel-evaluate nil
       org-export-with-broken-links t
-      org-md-toplevel-hlevel 2)
+      org-md-toplevel-hlevel 2
+      org-export-with-toc t)
 
 (let* ((org-file "index.org")
        (file-name-basedir (concat (file-name-directory org-file)
@@ -20,5 +21,5 @@
     (message "[exporting] %s" (file-relative-name org-file default-directory))
     (with-current-buffer (find-file org-file)
       (condition-case err
-          (org-texinfo-export-to-texinfo)
+	  (org-texinfo-export-to-texinfo)
         (error (message (error-message-string err)))))))
