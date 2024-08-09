@@ -1,7 +1,5 @@
 env:
 	~/.local/bin/pipenv install
-	~/.local/bin/pipenv install --index gitlab mkdocs-dsfr
-	npm install
 
 pdf:
 	emacs --script scripts/export-texi.el
@@ -9,16 +7,15 @@ pdf:
 
 md:
 	emacs --script scripts/export-md.el
-	cp -r assets/ docs/
-	mkdir docs/css
-	cp assets/dsfr/css/extra.css docs/css/extra.css
+	mkdir -p docs/assets
+	cp -r assets docs
 	mv index.md docs/index.md
 	cp about.md docs/about.md
 	touch mkdocs
 	sed -i '1 i\# Documentation' docs/index.md # workaround for dsfr template
 	sed -ri 's/^(#+)/\1#/' docs/about.md
 	sed -i '1 i\# À propos' docs/about.md
-	~/.local/bin/pipenv run npm run build:prod # which runs mkdocs build + copy dsfr
+	~/.local/bin/pipenv run mkdocs build --verbose -d public/
 
 clean:
 	rm -rf *texi *log *aux *toc *pdf *info *ky *cp *fn *tp *pg *vr *cps

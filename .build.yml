@@ -5,8 +5,6 @@ packages:
   - rsync
   - python3
   - pipx
-  - npm
-  - nodejs
   - texinfo
   - texlive-full
 sources:

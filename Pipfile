@@ -4,44 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [[source]]
+name = "gitlab"
+url = "https://gitlab-forge.din.developpement-durable.gouv.fr/api/v4/projects/20363/packages/pypi/simple"
+verify_ssl = false
+
+[[source]]
 name = "gitlab-plugin"
 url = "https://gitlab-forge.din.developpement-durable.gouv.fr/api/v4/projects/22396/packages/pypi/simple"
 verify_ssl = false
 
-[[source]]
-url = "gitlab"
-verify_ssl = true
-name = ""
-
-[[source]]
-url = "gitlab"
-verify_ssl = true
-name = ""
-
-[[source]]
-url = "gitlab"
-verify_ssl = true
-name = ""
-
 [packages]
-dsfr_structure= "*"
-mkdocs-include-markdown-plugin = "*"
-mkdocs-git-revision-date-localized-plugin = "*"
-pymdown-extensions = "*"
-mkdocs-callouts = "*"
-mkdocs-redirects = "*"
-mkdocs-autorefs = "*"
+mkdocs-dsfr = {version="0.8.1", index="pypi"}
 mkdocstrings = "*"
-setuptools = "*"
-build = "*"
-twine = "*"
-wheel = "*"
-mkdocs = {extras = ["i18n"] }
-mkdocstrings-python = "*"
+mkdocs-git-revision-date-localized-plugin = "*"
 mkdocs-git-authors-plugin = "*"
 mkdocs-git-revision-date-plugin = "*"
-mkdocs-git-committers-plugin-2 = "*"
-mkdocs-dsfr = {version = "*", index = ""}
 
 [dev-packages]
 
