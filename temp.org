@@ -291,6 +291,30 @@ contribuer au projet. Dans ce cas-là, les services juridiques devront
 s’en mêlent. S’il n’y a qu’un [[https://developercertificate.org][DCO]], vous pouvez l’accepter sans
 mobiliser vos services juridiques.
 
+** TODO Distinction entre « utilisation » et « modification » de l’AGPL
+AGPL Licence section 13:
+
+Remote Network Interaction; Use with the GNU
+General Public License.
+
+Notwithstanding any other provision of this License, if you modify the
+Program, your modified version must prominently offer all users
+interacting with it remotely through a computer network (if your version
+supports such interaction) an opportunity to receive the Corresponding
+Source of your version by providing access to the Corresponding Source
+from a network server at no charge, through some standard or customary
+means of facilitating copying of software. This Corresponding Source
+shall include the Corresponding Source for any work covered by version 3
+of the GNU General Public License that is incorporated pursuant to the
+following paragraph.
+
+- Il n’est pas question d’utilisation d’un logiciel pour tomber sous les
+  obligations de redistributions. Il faut que le logiciel soit modifié
+  pour devoir fournir le code source du logiciel qui tourne sur un
+  serveur.
+- La question : Est-ce qu’un appel d’API constitue une modification du
+  code source ?
+
 * Exemples
   :PROPERTIES:
   :EXPORT_FILE_NAME: exemples.md
