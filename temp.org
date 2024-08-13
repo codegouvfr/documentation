@@ -315,6 +315,19 @@ following paragraph.
 - La question : Est-ce qu’un appel d’API constitue une modification du
   code source ?
 
+- Soit un logiciel A sous AGPL exécuté sur une machine 1 et qui expose
+  des API en web service sur cette machine 1
+- Soit un logiciel B sur une machine 2 qui interroge les API exposées via la machine 1
+- Le logiciel B ne contient aucune ligne de code du logiciel A
+- Le logiciel B sollicite des points d'accès ("endpoints") de la machine A
+
+Est-ce que le logiciel B peut être considéré comme dérivant du code
+source du logiciel A?
+
+Le code source du logiciel B doit-il être redistribué aux utilisateurs
+du logiciel B?
+
+
 * Exemples
   :PROPERTIES:
   :EXPORT_FILE_NAME: exemples.md
