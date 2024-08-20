@@ -675,6 +675,11 @@ table de compatibilité entre licences suivante (page 316) :
 #+ATTR_TEXINFO: :width 5.5in
 [[./assets/images/table-compatibilite-jean.png]]
 
+Aussi, il existe aussi le [[https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-compatibility-checker][Joinup Licensing Assistant]] de l’UE qui est
+un outil simple pour déterminer en fonction de la licence du projet ou
+du bout de code qu’une administration publique souhaiterait intégrer
+à son projet.
+
 Un élément important à remarquer est que *la compatibilité a un sens* : un
 composant sous licence A peut être compatible *vers* une licence B, mais
 la réciproque n’est pas nécessairement vraie.
