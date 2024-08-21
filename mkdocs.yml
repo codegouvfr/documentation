@@ -41,6 +41,8 @@ markdown_extensions:
   - dsfr_structure.extension.all_extensions
   - toc:
       permalink: ""
+      permalink: false
+      anchorlink: true
   - attr_list
   - def_list
   - tables
