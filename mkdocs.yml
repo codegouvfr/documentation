@@ -32,15 +32,15 @@ theme:
         url: https://service-public.fr
       - name: code.gouv.fr
         url: https://code.gouv.fr
-
-        
-extra_css:
-  - css/extra.css
+  features:
+    - search.suggest
+    - search.highlight
 
 markdown_extensions:
   - dsfr_structure.extension.all_extensions
   - toc:
-      permalink: ""
+      permalink: false
+      anchorlink: true
   - attr_list
   - def_list
   - tables
