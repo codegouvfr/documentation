@@ -9,7 +9,7 @@
       org-confirm-babel-evaluate nil
       org-export-with-broken-links t
       org-md-toplevel-hlevel 2
-      org-export-with-toc nil)
+      org-export-with-toc nil
       org-export-headline-levels 8)
 
 (let* ((org-file "index.org")
