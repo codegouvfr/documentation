@@ -651,6 +651,8 @@ Une image vaut mille mots :
 #+ATTR_TEXINFO: :width 5.5in
 [[./assets/images/licence-copyleft-diffusivite.png]]
 
+# Fixme: l'image date de 2011 et doit être mise à jour.
+
 Un logiciel lié désigne tout composant assemblé avec le logiciel final
 lors de l’édition de lien. En générale, ce sont des bibliothèques
 logicielles, qui, seules, n’ont pas de grande utilité, répondant à des
