@@ -1149,7 +1149,7 @@ Vous trouverez sur data.gouv.fr [[https://www.data.gouv.fr/fr/datasets/liste-des
 #+cindex: gouvernance
 
 Pour mettre en place une gouvernance open source dans un projet, vous
-pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce guide [EN]​]] de la fondation Eclipse.
+pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce guide en anglais]] de la fondation Eclipse.
 
 *** Sous quelle licence dois-je publier mes codes sources ?
 #+cindex: licence
