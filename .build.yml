@@ -21,6 +21,8 @@ tasks:
       cd documentation/
       make pdf
       mv index.pdf public/logiciels-libres-et-administration-publique.pdf
+      make txt
+      mv index.txt public/logiciels-libres-et-administration-publique.txt
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av documentation/public/* web@code.gouv.fr:/home/web/websites/documentation/
 triggers:

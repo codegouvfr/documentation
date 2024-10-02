@@ -5,6 +5,9 @@ pdf:
 	emacs --script scripts/export-texi.el
 	texi2pdf index.texi
 
+txt:
+	emacs --script scripts/export-txt.el
+
 md:
 	emacs --script scripts/export-md.el
 	mkdir -p docs/assets
