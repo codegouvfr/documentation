@@ -855,7 +855,13 @@ tels, en France et en Europe n’ont pas de reconnaissance juridique. La
 [[https://fr.wikipedia.org/wiki/Convention_sur_le_brevet_europ%C3%A9en][Convention sur le brevet européen]] (CBE) l’indique clairement dans son
 [[https://www.epo.org/fr/legal/epc/2020/a52.html][article 52]].
 
-** Bonnes pratiques de nommage des organisations/groupes et dépôts
+** Où et comment publier votre code source ?
+
+*** Sur quelle forge et dans quel compte publier votre code source ?
+
+TBD.
+
+*** Bonnes pratiques de nommage des organisations/groupes et dépôts
 
 Un bon nom de dépôt décrit la finalité du code source du dépôt.
 
@@ -876,7 +882,7 @@ prévisible que l’acronyme ne serait plus d’actualité.
 
 Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
-** Promouvoir votre projet open source
+** Promouvoir votre projet de logiciel libre
 * Contribuer à un logiciel libre
   :PROPERTIES:
   :ALT_TITLE: contribuer
@@ -944,6 +950,7 @@ qu’il donne son accord pour que ses contributions soient utilisées et
 redistribuées sous la licence libre choisie par le projet. Un DCO
 requiert simplement de signer (/sign-off/) chaque commit.
 
+* Présentation de code.gouv.fr
 * Foire aux questions
   :PROPERTIES:
   :ALT_TITLE: faq
