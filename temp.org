@@ -169,17 +169,17 @@ mais devraient être rédigés en anglais.
   :PROPERTIES:
   :EXPORT_FILE_NAME: ospo.md
   :END:
-** TODO Définir une stratégie logiciels libres
-
-Une stratégie logiciels libres explique la façon dont vous allez
-*utiliser* des logiciels libres, *développer* des logiciels libres et
-*contribuer* à l’écosystème existant.
-
 ** TODO Qu’est-ce qu’un "Open Source Programme Office"?
 
 Voir https://code.gouv.fr/fr/blog/definition-ospo/.
 
 Voir http://preprod.codegouv.fr/choices-ospo/.
+
+** TODO Définir une stratégie logiciels libres
+
+Une stratégie logiciels libres explique la façon dont vous allez
+*utiliser* des logiciels libres, *développer* des logiciels libres et
+*contribuer* à l’écosystème existant.
 
 ** Sites web d’organismes publics engagés
 
@@ -326,7 +326,6 @@ source du logiciel A?
 
 Le code source du logiciel B doit-il être redistribué aux utilisateurs
 du logiciel B?
-
 
 * Exemples
   :PROPERTIES:
