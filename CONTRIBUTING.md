@@ -13,3 +13,5 @@ To send a *patch* to the mailing list, please configure your local copy of the r
 We only accept patches and commits that are signed off using the real name of the contributor.
 
 By signing off their contributions, contributors accept the [developer certificate of origin](https://developercertificate.org).
+
+We do not handle pull requests. If you don't know how to contribute without doing a pull request, make one, add `.patch` at the end of the URL of the PR, download the patch and send it as an email attachment to `~codegouvfr/dev@lists.sr.ht`.
