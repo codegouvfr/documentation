@@ -162,47 +162,7 @@ mais devraient être rédigés en anglais.
 - Ajout d'un fichier publiccode.yml
 ===
 
-
 ** TODO Métriques de qualité d’un projet libre
-
-* Monter un Open Source Programme Office
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: ospo.md
-  :END:
-** TODO Qu’est-ce qu’un "Open Source Programme Office"?
-
-Voir https://code.gouv.fr/fr/blog/definition-ospo/.
-
-Voir http://preprod.codegouv.fr/choices-ospo/.
-
-** TODO Définir une stratégie logiciels libres
-
-Une stratégie logiciels libres explique la façon dont vous allez
-*utiliser* des logiciels libres, *développer* des logiciels libres et
-*contribuer* à l’écosystème existant.
-
-** Sites web d’organismes publics engagés
-
-Voir une liste d’organismes publics exposant leur engagement vis-à-vis
-du logiciel libre :
-
-- https://opensource.amue.fr
-- https://opensource.paris.fr
-- https://www.health-data-hub.fr/open-source
-- https://www.france-universite-numerique.fr
-- https://socialgouv.github.io
-- https://www.recia.fr/innovation-logiciels-libres/
-
-** Politiques logiciels libres
-
-Voici une liste de « politiques logiciels libres » :
-
-- https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Publications/Politique-du-ministere-de-la-Culture-pour-les-codes-sources-algorithmes-et-logiciels-libres
-- https://www.health-data-hub.fr/open-source
-- https://medialab.sciencespo.fr/a-propos/#deontology
-- https://github.com/abes-esr/abes-politique-developpement
-- https://doc.incubateur.net/communaute/gerer-sa-startup-detat-ou-de-territoires-au-quotidien/je-fais-des-choix-technologique/licences
-- https://www.etalab.gouv.fr/accompagnement-logiciels-libres
 
 * FAQ
 ** TODO Comment construire une communauté open source autour de son projet ?

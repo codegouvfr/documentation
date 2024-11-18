@@ -27,6 +27,7 @@ clean:
 	rm -f utiliser.md
 	rm -f publier.md
 	rm -f contribuer.md
+	rm -f ospo.md
 	rm -f faq.md
 	rm -f glossaire.md
 	rm -rf public docs mkdocs

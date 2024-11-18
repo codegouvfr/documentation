@@ -950,6 +950,22 @@ qu’il donne son accord pour que ses contributions soient utilisées et
 redistribuées sous la licence libre choisie par le projet. Un DCO
 requiert simplement de signer (/sign-off/) chaque commit.
 
+* Monter un Open Source Programme Office
+  :PROPERTIES:
+  :ALT_TITLE: ospo
+  :CUSTOM_ID: ospo
+  :END:
+
+Un OSPO est une entité au sein d'une organisation en charge de définir
+et de mettre en oeuvre la stratégie Open Source de l'organisation.
+
+Une stratégie logiciels libres explique la façon dont vous allez
+*utiliser* des logiciels libres, *développer* des logiciels libres et
+*contribuer* à l’écosystème existant.
+
+Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre proposition de définition détaillée]] et la page où sont
+listés des [[https://code.gouv.fr/fr/ospos/][OSPOs d'organismes publics français]].
+
 * Présentation de code.gouv.fr
 * Foire aux questions
   :PROPERTIES:
