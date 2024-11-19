@@ -165,6 +165,7 @@ mais devraient être rédigés en anglais.
 ** TODO Métriques de qualité d’un projet libre
 
 * FAQ
+** TODO Une administration peut-elle sponsoriser un logiciel libre ?
 ** TODO Comment construire une communauté open source autour de son projet ?
 ** TODO En tant qu’administration, comment soutenir un projet libre ?
 ** TODO Comment aborder le sujet de la communication au sein d’un projet de logiciel libre ?
