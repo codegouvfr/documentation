@@ -16,7 +16,7 @@ theme:
   menulateral: true
   include_search_page: true
   show_revision_date: true
-  libelle_bouton_editer: Modifier cette page via SourceHut
+  libelle_bouton_editer: Modifier cette page
   intitule: "Direction <br> interministérielle <br> du numérique"
   header:
     titre: "Documentation"
