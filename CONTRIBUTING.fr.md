@@ -46,18 +46,10 @@ Pour nettoyer les fichiers générés, vous pouvez lancer la commande `make clea
 
 ## Modalités techniques
 
-Le développement de cette documentation a lieu sur [SourceHut](https://git.sr.ht/~codegouvfr/documentation).
+Le développement de cette documentation a lieu sur [SourceHut](https://github.com/codegouvfr/documentation/).
 
 Pour des commentaires privés, utilisez [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
 
-Pour les rapports de bogues, les correctifs, les demandes de fonctionnalités et les questions générales, envoyez un courriel à la liste de diffusion publique [~codegouvfr/dev@lists.sr.ht](mailto:~codegouvfr/dev@lists.sr.ht).
-
-Pour envoyer un *patch* à la liste de diffusion, veuillez configurer votre copie locale du dépôt comme suit :
-
-`git config format.subjectPrefix "PATCH documentation"`
-
-Nous n'acceptons que les patchs et les commits signés en utilisant le vrai nom du contributeur.
+Nous n'acceptons que les commits signés en utilisant le vrai nom du contributeur.
 
 En signant leurs contributions, les contributeurs acceptent le [certificat d'origine du développeur](https://developercertificate.org).
-
-Si vous ne savez pas comment contribuer autrement qu'avec des *pull requests*, faites votre PR, ajoutez `.patch` à l'URL de la PR, téléchargez le patch qui s'affiche et envoyez-le en pièce jointe à la liste `~codegouvfr/dev@lists.sr.ht`.

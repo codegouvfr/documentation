@@ -3,7 +3,7 @@ site_url: https://code.gouv.fr/documentation
 site_description: Documentation destinée aux administrations publiques pour recourir et contribuer aux logiciels libres et communs numériques.
 site_author: Mission logiciels libres
 
-repo_url: https://git.sr.ht/~codegouvfr/documentation
+repo_url: https://github.com/codegouvfr/documentation
 edit_uri: tree/main/item/index.org
 
 nav:

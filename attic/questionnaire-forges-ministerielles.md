@@ -12,8 +12,7 @@ Le site [code.gouv.fr](https://code.gouv.fr) permet d'explorer les
 dépôts de code source publiés par des organismes publics.
 
 Il collecte les métadonnées de ces dépôts via les forges identifiées,
-dont la liste est
-[publiée](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/blob/master/platforms.csv),
+dont la liste est [publiée](https://code.gouv.fr/data/platforms.csv),
 bon nombre d'entre elles étant déployées dans la recherche et
 l'enseignement supérieur.
 

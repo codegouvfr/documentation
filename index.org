@@ -28,7 +28,7 @@ Elle s’adresse à plusieurs audiences :
 
 Sa rédaction est ouvertes aux organismes publics ayant une expertise
 sur les logiciels libres, qu’ils en utilisent, y contribuent ou en
-publient. Voir ces [[https://git.sr.ht/~codegouvfr/documentation/tree/main/item/CONTRIBUTING.fr.md][instructions pour contribuer]].
+publient. Voir ces [[https://github.com/codegouvfr/documentation/blob/main/CONTRIBUTING.fr.md][instructions pour contribuer]].
 
 Les sujets abordés portent sur les logiciels libres ; il ne sera pas
 question de logiciels sous licence non libre, ni de services en ligne,
@@ -1235,7 +1235,7 @@ d’une administration sur github.com ou gitlab.com.
 *** Quelle forge dois-je choisir pour publier mes codes sources ?
 #+cindex: forge
 
-Vous pouvez vérifier sur [[https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/blob/main/platforms.csv][cette liste]] si votre organisme public déploie
+Vous pouvez vérifier sur [[https://code.gouv.fr/data/platforms.csv][cette liste]] si votre organisme public déploie
 une forge et si oui, contacter les personnes en interne qui pourront
 vous aider à y publier vos codes sources.
 
@@ -1525,7 +1525,7 @@ Voir le [[https://guides.etalab.gouv.fr/algorithmes/][guide des algorithmes publ
 
 Dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], une bibliothèque est un ensemble de fonctions distribuées sous forme de paquetage via une plateforme dédiée, par exemple https://npmjs.com.
 
-Pour ajouter une bibliothèque dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], il suffit que le compte d’organisation depuis lequel vous publiez cette bibliothèque soit ajouté à [[https://git.sr.ht/~codegouvfr/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml][ce fichier]].
+Pour ajouter une bibliothèque dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], il suffit que le compte d’organisation depuis lequel vous publiez cette bibliothèque soit ajouté à [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
 
 Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte à ajouter.
 
@@ -1571,7 +1571,7 @@ Les dépendances listées dans [[https://code.gouv.fr/#/deps][code.gouv.fr]] son
 
 Un « dépôt » est un espace dans lequel sont publiés les fichiers de code source. C’est ce que vous voyez lorsque vous visitez un lien vers un code source hébergé sur une forge. C’est aussi ce que vous pouvez copier sur votre machine pour l’explorer localement.
 
-Pour ajouter un dépôt dans [[https://code.gouv.fr/#/repos][code.gouv.fr]], envoyez-nous le compte d’organisation GitHub ou le groupe GitLab depuis lequel vous le publiez, nous l’ajouterons dans [[https://git.sr.ht/~codegouvfr/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml][ce fichier]].
+Pour ajouter un dépôt dans [[https://code.gouv.fr/#/repos][code.gouv.fr]], envoyez-nous le compte d’organisation GitHub ou le groupe GitLab depuis lequel vous le publiez, nous l’ajouterons dans [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
 
 Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte à ajouter.
 
@@ -1655,7 +1655,7 @@ moins équivalent sur les instance de GitLab. Un organisme remplissant
 une mission de service public peut avoir un ou plusieurs organisations
 et/ou groupes sur une ou plusieurs forges. p Pour ajouter une
 organisation dans [[https://code.gouv.fr/#/groups][code.gouv.fr]], il suffit que le compte d’organisation
-GitHub ou le groupe GitLab soit ajouté dans [[https://git.sr.ht/~codegouvfr/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml][ce fichier]].
+GitHub ou le groupe GitLab soit ajouté dans [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
 
 Vous pouvez écrire à =contact@code.gouv.fr= pour nous indiquer un compte
 à ajouter.
