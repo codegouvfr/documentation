@@ -6,6 +6,30 @@ Cette documentation est proposée par la [mission logiciels libres de la DINUM](
 
 Pour tout commentaire ou suggestion, veuillez nous [contacter](https://code.gouv.fr/fr/contact/).
 
+# Publier
+
+Installer `pipenv` et `mkdocs`:
+
+```
+pipx install pipenv
+pipx install mkdocs
+```
+
+Publier la documentation:
+
+```
+cd documentation/
+make env
+make md_mkdocs
+```
+
+Pour publier aussi en version `pdf` et `txt`:
+
+```
+make pdf
+make txt
+```
+
 # Contribuer
 
 Vos contributions sont les bienvenues !  Voir ces [instructions](https://github.com/codegouvfr/documentation/blob/main/CONTRIBUTING.fr.md).

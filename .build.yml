@@ -16,7 +16,7 @@ tasks:
       cd documentation/
       pipx install pipenv
       make env
-      make md
+      make md_mkdocs
   - make_pdf: |
       cd documentation/
       make pdf
