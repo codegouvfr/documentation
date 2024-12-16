@@ -1208,6 +1208,26 @@ Vous devez prioriser le choix d’une licence permissive et n’utiliser
 de licence à réciprocité que si la publication sous licence permissive
 présente un risque duement justifié pour l’intérêt général.
 
+*** Le code source hérite-t-il de la licence du langage de programmation ?
+
+Un langage de programmation ne relève pas du droit d’auteur, tout
+comme la langue française ne relève pas du droit d’auteur. En
+revanche, l’implémentation d’un langage de programmation relève du
+droit d’auteur, et une licence peut s’appliquer. Par exemple, le
+langage Python est sous licence [[https://en.wikipedia.org/wiki/Python_Software_Foundation_License][PSFL]].
+
+Le code source, qu’il soit compilé ou exécuté, n’est pas une œuvre
+dérivée du langage de programmation. Le code source n’hérite donc pas
+de la licence du langage de programmation.
+
+Ce processus est valable de façon plus générale : les droits d’auteur
+d’un logiciel ne s’appliquent pas aux résultats (ou sorties) dudit
+logiciel.
+
+Par exemple, lorsque vous convertissez un fichier .odt en PDF via
+LibreOffice, la licence LibreOffice ne s’applique ni au fichier .odt
+ni au fichier PDF, n’étant pas des œuvres dérivées du logiciel.
+
 *** Quelles langues utiliser pour mon code source et ma documentation ?
 
 Le code source est écrit dans un langage de programmation (par exemple
