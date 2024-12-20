@@ -892,16 +892,16 @@ Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 ** TL;DR
 
 Une administration *peut contribuer* à un logiciel libre. Un point
-d’attention doit être porter sur comment les droits d’auteurs sont gérés
-par le projet auquel l’administration veut contribuer.
+d’attention doit être porter sur comment les droits d’auteurs sont
+gérés par le projet auquel l’administration veut contribuer.
 
 Si le projet est géré par un *DCO* (/Developer Certificate of Origin/),
-c’est simple : chaque contributeur doit avoir l’accord de sa hierarchie,
-et signer avec un simple /sign-off/ chacun de ses /commits/.
+c’est simple : chaque contributeur doit avoir l’accord de sa
+hierarchie, et signer avec un simple /sign-off/ chacun de ses /commits/.
 
-Si le projet est géré par un *CLA* (/Contributor Licence Agreement/), le service
-juridique de l’administration devra lire, signer, et garder le CLA de
-chaque contributeur.
+Si le projet est géré par un *CLA* (/Contributor Licence Agreement/), le
+service juridique de l’administration devra lire, signer, et garder le
+CLA de chaque contributeur.
 
 ** En savoir plus
 
@@ -934,9 +934,9 @@ autre entreprise. En général, ces documents légaux sont basés sur la
 Certains CLA permettent de sous-licencier des contributions sous des
 licences propriétaires. Par exemple, l’entreprise Element (derrière le
 protocole Matrix et l’application Tchap) [[https://element.io/blog/synapse-now-lives-at-github-com-element-hq-synapse/][fait signer un CLA avec une
-exception à l’AGPL pour pouvoir vendre du code source]] contribué par des
-auteurs extérieurs à Element sous une licence propriétaire ([[https://static.element.io/legal/contributor-license-agreement.pdf][Article 2 du
-CLA d’Element]])
+exception à l’AGPL pour pouvoir vendre du code source]] contribué par
+des auteurs extérieurs à Element sous une licence propriétaire
+([[https://static.element.io/legal/contributor-license-agreement.pdf][Article 2 du CLA d’Element]])
 
 Parce que les CLAs sont des documents légaux, le département juridique
 doit se charger de les signer et de garder une trace de ces éléments,
@@ -1096,7 +1096,66 @@ Vous pouvez aussi nous contacter lors de nos permanences en ligne.
 
 Voir https://code.gouv.fr/fr/contact/espaces-communication-bluehats/.
 
-** Publier des codes sources
+** Utiliser des logiciels libres
+   :PROPERTIES:
+   :CUSTOM_ID: faq_utiliser
+   :END:
+
+*** Comment mesurer la maturité d’un logiciel libre ?
+#+cindex: maturité
+
+La fondation OW2 propose un outil de mesure de la maturité Open Source
+d’un projet, le [[https://www.ow2.org/view/MRL/][Market readiness level]].
+
+Une autre structure propose une variante, l’[[https://github.com/finos/open-source-readiness][Open Source Readiness]].
+
+*** Comment m’assurer que le titulaire d’un marché me livre les codes sources ?
+#+cindex: marché public
+
+Vous pouvez l’exiger dans votre marché.
+
+En pratique, vous pourrez l’exiger sur tout ou partie du système que
+vous souhaitez développer et exploiter.
+
+Si vous prévoyez d’ouvrir un code source développé pour vos besoins,
+vous devez exiger que la propriété de ce code vous soit cédée et qu’il
+vous soit livré.
+
+Voir l’[[https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043310689][Arrêté du 30 mars 2021]] portant approbation du cahier des
+clauses administratives générales des marchés publics de techniques de
+l’information et de la communication.
+
+*** Puis-je exiger un logiciel libre dans un marché public ?
+#+cindex: marché public
+
+En tant qu’organisme public, vous avez le droit de publier un marché
+exigeant un logiciel libre et/ou des services autour d’un logiciel
+libre.
+
+Si le nom du logiciel est le même que le nom d’une marque portée par
+une entreprise éditrice, veillez bien à préciser que c’est le logiciel
+libre qui est exigé, indépendamment de son éditeur.
+
+Voir la section 5.6 du livre [[https://www.lgdj.fr/droit-des-logiciels-9782130626152.html][Droit des logiciels]] de F. Pellegrini et
+S. Canevet qui porte sur ce sujet.
+
+*** Qu’est-ce que le socle interministériel de logiciels libres ?
+#+cindex: sill
+
+Le SILL est le catalogue des logiciels libres recommandés pour toutes
+les administrations publiques.
+
+Il est publié par la mission logiciels libres sur [[https://code.gouv.fr/sill][code.gouv.fr/sill]] et
+tout agent public est invité à s’y créer un compte pour déclarer ses
+usages de logiciels ou se proposer comme référent d’un logiciel.
+
+Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
+
+*** Comment créer un SBOM ("software bill of materials") ?
+#+cindex: SBOM
+
+** Contribuer à un logiciel libre
+** Publier un code source
    :PROPERTIES:
    :CUSTOM_ID: faq_publier
    :END:
@@ -1400,64 +1459,6 @@ utilisées pour l’interface d’exploration des codes sources
 
 Vous pouvez chercher sur [[https://code.gouv.fr/public/#/groups][code.gouv.fr/public]] l’organisation qui
 correspond à votre direction ou, plus largement, à votre ministère.
-
-** Utiliser des logiciels libres
-   :PROPERTIES:
-   :CUSTOM_ID: faq_utiliser
-   :END:
-
-*** Comment mesurer la maturité d’un logiciel libre ?
-#+cindex: maturité
-
-La fondation OW2 propose un outil de mesure de la maturité Open Source
-d’un projet, le [[https://www.ow2.org/view/MRL/][Market readiness level]].
-
-Une autre structure propose une variante, l’[[https://github.com/finos/open-source-readiness][Open Source Readiness]].
-
-*** Comment m’assurer que le titulaire d’un marché me livre les codes sources ?
-#+cindex: marché public
-
-Vous pouvez l’exiger dans votre marché.
-
-En pratique, vous pourrez l’exiger sur tout ou partie du système que
-vous souhaitez développer et exploiter.
-
-Si vous prévoyez d’ouvrir un code source développé pour vos besoins,
-vous devez exiger que la propriété de ce code vous soit cédée et qu’il
-vous soit livré.
-
-Voir l’[[https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043310689][Arrêté du 30 mars 2021]] portant approbation du cahier des
-clauses administratives générales des marchés publics de techniques de
-l’information et de la communication.
-
-*** Puis-je exiger un logiciel libre dans un marché public ?
-#+cindex: marché public
-
-En tant qu’organisme public, vous avez le droit de publier un marché
-exigeant un logiciel libre et/ou des services autour d’un logiciel
-libre.
-
-Si le nom du logiciel est le même que le nom d’une marque portée par
-une entreprise éditrice, veillez bien à préciser que c’est le logiciel
-libre qui est exigé, indépendamment de son éditeur.
-
-Voir la section 5.6 du livre [[https://www.lgdj.fr/droit-des-logiciels-9782130626152.html][Droit des logiciels]] de F. Pellegrini et
-S. Canevet qui porte sur ce sujet.
-
-*** Qu’est-ce que le socle interministériel de logiciels libres ?
-#+cindex: sill
-
-Le SILL est le catalogue des logiciels libres recommandés pour toutes
-les administrations publiques.
-
-Il est publié par la mission logiciels libres sur [[https://code.gouv.fr/sill][code.gouv.fr/sill]] et
-tout agent public est invité à s’y créer un compte pour déclarer ses
-usages de logiciels ou se proposer comme référent d’un logiciel.
-
-Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
-
-*** Comment créer un SBOM ("software bill of materials") ?
-#+cindex: SBOM
 
 ** Monter un OSPO
    :PROPERTIES:
