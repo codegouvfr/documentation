@@ -8,7 +8,7 @@ pdf:
 txt:
 	emacs --script scripts/export-txt.el
 
-md_mkdocs:
+mkdocs:
 	emacs --script scripts/export-md.el
 	mkdir -p docs/assets
 	cp -r assets docs

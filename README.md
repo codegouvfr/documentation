@@ -1,3 +1,4 @@
+
 [![img](https://img.shields.io/badge/code.gouv.fr-contributif-blue.svg)](https://code.gouv.fr/documentation/#/publier)
 
 # Présentation
@@ -20,7 +21,7 @@ Publier la documentation:
 ```
 cd documentation/
 make env
-make md_mkdocs
+make mkdocs
 ```
 
 Pour publier aussi en version `pdf` et `txt`:

@@ -2,9 +2,9 @@
 
 Cette documentation est proposée par la [mission logiciels libres de la DINUM](https://code.gouv.fr) [en ligne](https://code.gouv.fr/documentation/) et [en PDF](https://code.gouv.fr/documentation/logiciels-libres-et-administration-publique.pdf).
 
-Pour tout commentaire ou suggestion, veuillez nous [contacter](https://code.gouv.fr/fr/contact/).
-
 Vos contributions sont les bienvenues !  Voir ces [instructions](https://github.com/codegouvfr/documentation/blob/main/CONTRIBUTING.fr.md).
+
+Pour tout commentaire ou suggestion, veuillez nous [contacter](https://code.gouv.fr/fr/contact/).
 
 # Licence
 

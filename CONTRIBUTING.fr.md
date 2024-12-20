@@ -2,9 +2,9 @@
 
 ## Quels fichiers modifier ?
 
-Pour les corrections, vous pouvez modifier `index.org`.
+Pour les corrections, vous pouvez modifier le fichier `index.org`.
 
-Pour des suggestions d'ajouts, vous pouvez modifier `temp.org`.
+Pour des suggestions de nouveaux contenus, vous pouvez modifier le fichier `temp.org`.
 
 ## Tester l'export
 
@@ -31,16 +31,19 @@ Pour nettoyer l’environnement de développement :
 ~$ make clean-env
 ```
 
-Ensuite vous pouvez lancer les commandes suivantes pour soit construire le site web avec mkdocs, soit le pdf:
+Ensuite vous pouvez lancer les commandes suivantes pour soit construire le site web avec mkdocs:
 
 ```
-~$ make md
-~$ make pdf
+~$ make mkdocs
 ```
 
 Ce script va générer les fichiers `.md` visuellement rendus par le script mkdocs contenu dans le `/public/index.html`.
 
-Il va aussi générer un fichier `index.texi` puis l'exporter en pdf avec la commande `texi2pdf index.texi`.
+```
+~$ make pdf
+```
+
+Ce script va générer un fichier `index.texi` puis l'exporter en pdf avec la commande `texi2pdf index.texi`.
 
 Pour nettoyer les fichiers générés, vous pouvez lancer la commande `make clean`.
 
