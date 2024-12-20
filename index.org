@@ -1006,22 +1006,25 @@ Si vous avez connaissance de formations logiciels libres proposées aux
 agents publics, n’hésitez pas à nous les [[https://code.gouv.fr/fr/contact/][signaler]].
 
 *** Qu’est-ce qu’un /fork/ ou une « dérivation » ?
+#+cindex: fork
+#+cindex: dérivation
 
 Il y a deux notions distinctes pour qualifier un "fork". Une notion
-technique qui a été popularisée par Github consistant à faire une copie
-du code source d’un projet sur lequel des personnes peuvent contribuer
-sans être dépendantes des mainteneurs du projet originel.
+technique qui a été popularisée par GitHub consistant à faire une
+copie du code source d’un projet sur lequel des personnes peuvent
+contribuer sans être dépendantes des mainteneurs du projet originel.
 
-Soit B le fork du code source A : le fork B (ou la « dérivation » B) est
-une nouvelle version de A dont les versions successives (B2, B3, etc.)
-s’écarteront des versions successives de A (A2, A3, etc.)
+Soit B le fork du code source A : le fork B (ou la « dérivation » B)
+est une nouvelle version de A dont les versions successives (B2, B3,
+etc.) s’écarteront des versions successives de A (A2, A3, etc.)
 
 Il y a aussi une notion plus orientée projet. Dans ce cas, un fork est
 généralement créé lorsque les contributeurs d’un projet sont en
-désaccord et qu’une partie des contributeurs décide de créer une version
-divergente.
+désaccord et qu’une partie des contributeurs décide de créer une
+version divergente.
 
 *** Quelle différence entre « algorithme public » et « code source » ?
+#+cindex: algorithme
 
 L’expression « algorithme public » désigne de façon relâchée les
 algorithmes définis et utilisés par une administration et qui relèvent
@@ -1036,51 +1039,47 @@ documentation, de la gestion de données, etc.
 Les obligations de publication des algorithmes publics et les
 obligations de publication des codes sources ne se confondent pas.
 
-*** Quelle est la différence entre GitHub et GitLab ?
+*** Quelle est la différence entre GitHub, GitLab, SourceHut ?
+#+cindex: GitHub
+#+cindex: GitLab
+#+cindex: SourceHut
 
 Il faut d’abord distinguer le logiciel et le service en ligne :
 github.com et gitlab.com sont les services en ligne délivrés par les
 entreprises Github et Gitlab Inc. Ces services en ligne sont des SaaS
 (Software as a Service).
 
-La principale différence entre GitHub et Gitlab se trouve alors dans la
-licence et le modèle économique.
+La principale différence entre GitHub et Gitlab se trouve alors dans
+la licence et le modèle économique.
 
-GitHub propose son service via un logiciel propriétaire ; le code n’est
-pas visible. GitLab Inc. propose son service en partie via un logiciel
-open source, sous la licence MIT, et en partie via un logiciel /source
-available/ (source lisible, une licence propriétaire). Cela signife que
-l’on peut voir et étudier le code source, sans pour autant pouvoir le
-réutiliser librement.
+GitHub propose son service via un logiciel propriétaire ; le code
+n’est pas visible. GitLab Inc. propose son service en partie via un
+logiciel open source, sous la licence MIT, et en partie via un
+logiciel /source available/ (source lisible, une licence propriétaire).
+Cela signife que l’on peut voir et étudier le code source, sans pour
+autant pouvoir le réutiliser librement.
 
-GitHub a un modèle économique très classique : c’est une platforme basée
+GitHub a un modèle économique classique : c’est une platforme basée
 sur un logiciel propriétaire. GitLab a un modèle dit /open core/ : la
-version du logiciel libre communautaire ([[https://gitlab.com/rluna-gitlab/gitlab-ce][GitLab CE]]), et une
-version plus complète avec des fonctionnalités supplémentaires
-propriétaires payantes disponible sous une licence /source available/.
+version du logiciel libre communautaire ([[https://gitlab.com/rluna-gitlab/gitlab-ce][GitLab CE]]), et une version
+plus complète avec des fonctionnalités supplémentaires propriétaires
+payantes disponible sous une licence /source available/.
 
-*** Qu’est-ce que SourceHut et pourquoi publier sur cette forge ?
-
-Lire notre [[https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut][entrée de blog à ce sujet]].
-
-Pour résumer, voici les raisons :
-
-- Le service sr.ht (proposé par SourceHut) utilise uniquement des
-  logiciels entièrement libre.
-- Parmi les forges dont le code source est entièrement libre, SourceHut
-  est la seule qui propose à la fois de l’intégration continue et des
-  listes de discussion.
-- Si vous voulez contribuer à un projet, vous n’avez pas besoin de créer
-  de compte sur SourceHut : il suffit d’une adresse de courriel pour
-  envoyer des correctifs et proposer des idées.
-- SourceHut et son service sr.ht ne collecte aucune donnée de ses
-  utilisateurs.
+SourceHut est le nom du projet qui déploie des services autour du nom
+de domaine `sr.ht`. Ce service utilise uniquement des logiciels
+entièrement libre. Parmi les forges dont le code source est
+entièrement libre, SourceHut est la seule qui propose à la fois de
+l’intégration continue et des listes de discussion. Si vous voulez
+contribuer à un projet, vous n’avez pas besoin de créer de compte sur
+SourceHut : il suffit d’une adresse de courriel pour envoyer des
+correctifs et proposer des idées. ourceHut et son service sr.ht ne
+collecte aucune donnée de ses utilisateurs.
 
 *** En tant que citoyen, puis-je exiger d’un organisme public qu’il publie un code source ?
 
-Oui, si la publication de ce code source entre bien dans les
-obligations de l’administration. Ce [[https://code.gouv.fr/guides/juridique/][guide juridique]] donne les liens
-vers les textes pertinents.
+    Oui, si la publication de ce code source entre bien dans les
+    obligations de l’administration. Ce [[https://code.gouv.fr/guides/juridique/][guide juridique]] donne les liens
+    vers les textes pertinents.
 
 *** En tant qu’agent, ai-je le droit de contribuer à un projet libre ?
 
@@ -1340,7 +1339,6 @@ un guichet unique : [[https://www.opensource-experts.com/][Open source experts]
 Non, toutes les licences libres que vous pouvez utiliser pour publier
 votre code source autorisent la réutilisation commerciale de ce code.
 
-
 *** Deux administrations développent la même chose, que faire ?
 
 Si vous avez identifié les porteurs de ces projets, envoyez leur un
@@ -1417,6 +1415,7 @@ d’un projet, le [[https://www.ow2.org/view/MRL/][Market readiness level]].
 Une autre structure propose une variante, l’[[https://github.com/finos/open-source-readiness][Open Source Readiness]].
 
 *** Comment m’assurer que le titulaire d’un marché me livre les codes sources ?
+#+cindex: marché public
 
 Vous pouvez l’exiger dans votre marché.
 
@@ -1446,6 +1445,7 @@ Voir la section 5.6 du livre [[https://www.lgdj.fr/droit-des-logiciels-978213062
 S. Canevet qui porte sur ce sujet.
 
 *** Qu’est-ce que le socle interministériel de logiciels libres ?
+#+cindex: sill
 
 Le SILL est le catalogue des logiciels libres recommandés pour toutes
 les administrations publiques.
@@ -1457,6 +1457,7 @@ usages de logiciels ou se proposer comme référent d’un logiciel.
 Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
 
 *** Comment créer un SBOM ("software bill of materials") ?
+#+cindex: SBOM
 
 ** Monter un OSPO
    :PROPERTIES:
@@ -1504,6 +1505,7 @@ développée et promue par la fondation OW2. Vous pouvez consulter [[https://git
 outil]] permettant de la mesurer, et le [[https://ospo-alliance.org/ggi/methodology/#automatic-setup-using-the-ggi-deployment-feature][déployer]].
 
 *** À quoi sert code.gouv.fr ?
+#+cindex: code.gouv.fr
 
 Le site [[https://code.gouv.fr][code.gouv.fr]] est le site de présentation de l’ensemble des
 activités et produits de la mission logiciels libres de la DINUM.
