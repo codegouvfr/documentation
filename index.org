@@ -1092,9 +1092,8 @@ travail.
 
 Vous pouvez nous écrire à =contact@code.gouv.fr=.
 
-Vous pouvez aussi nous contacter lors de nos permanences en ligne.
-
-Voir https://code.gouv.fr/fr/contact/espaces-communication-bluehats/.
+Pour entrer en contact avec d'autres agents publics libristes, voir
+[[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][les espaces de communication entre BlueHats]].
 
 ** Utiliser des logiciels libres
    :PROPERTIES:
