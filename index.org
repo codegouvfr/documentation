@@ -1024,7 +1024,7 @@ désaccord et qu’une partie des contributeurs décide de créer une
 version divergente.
 
 *** Quelle différence entre « algorithme public » et « code source » ?
-#+cindex: algorithme
+#+cindex: algorithme, public
 
 L’expression « algorithme public » désigne de façon relâchée les
 algorithmes définis et utilisés par une administration et qui relèvent
