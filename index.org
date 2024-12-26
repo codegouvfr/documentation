@@ -1077,9 +1077,9 @@ collecte aucune donnée de ses utilisateurs.
 
 *** En tant que citoyen, puis-je exiger d’un organisme public qu’il publie un code source ?
 
-    Oui, si la publication de ce code source entre bien dans les
-    obligations de l’administration. Ce [[https://code.gouv.fr/guides/juridique/][guide juridique]] donne les liens
-    vers les textes pertinents.
+Oui, si la publication de ce code source entre bien dans les
+obligations de l’administration. Ce [[https://code.gouv.fr/guides/juridique/][guide juridique]] donne les liens
+vers les textes pertinents.
 
 *** En tant qu’agent, ai-je le droit de contribuer à un projet libre ?
 
