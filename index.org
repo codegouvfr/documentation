@@ -1526,9 +1526,12 @@ et à [[https://code.gouv.fr/public/][la liste des codes sources publiés par de
    :END:
 #+cindex: algorithme
 
-Un algorithme est la description d’une suite d’étapes permettant d’obtenir un résultat à partir d’éléments fournis en entrée (cf. [[https://www.cnil.fr/fr/definition/algorithme][définition de la CNIL]]).
+Un algorithme est la description d’une suite d’étapes permettant
+d’obtenir un résultat à partir d’éléments fournis en entrée
+(cf. [[https://www.cnil.fr/fr/definition/algorithme][définition de la CNIL]]).
 
-En informatique, cette suite d’étape est une suite d’opérations formelles traitant et produisant des informations.
+En informatique, cette suite d’étape est une suite d’opérations
+formelles traitant et produisant des informations.
 
 ** Algorithme public
    :PROPERTIES:
@@ -1536,7 +1539,10 @@ En informatique, cette suite d’étape est une suite d’opérations formelles 
    :END:
 #+cindex: algorithme, public
 
-Un algorithme /public/ est un suite opératoire (formelle ou non, informatisée ou non, automatisée ou non) sollicitée pour une décision administrative individuelle envers des personnes physiques ou morales, de droit public ou privé nommément désignées.
+Un algorithme /public/ est un suite opératoire (formelle ou non,
+informatisée ou non, automatisée ou non) sollicitée pour une décision
+administrative individuelle envers des personnes physiques ou morales,
+de droit public ou privé nommément désignées.
 
 Voir le [[https://guides.etalab.gouv.fr/algorithmes/][guide des algorithmes publics]] à l’usage des administrations.
 
@@ -1546,11 +1552,16 @@ Voir le [[https://guides.etalab.gouv.fr/algorithmes/][guide des algorithmes publ
    :END:
 #+cindex: bibliothèque
 
-Dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], une bibliothèque est un ensemble de fonctions distribuées sous forme de paquetage via une plateforme dédiée, par exemple https://npmjs.com.
+Dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], une bibliothèque est un ensemble de fonctions
+distribuées sous forme de paquetage via une plateforme dédiée, par
+exemple https://npmjs.com.
 
-Pour ajouter une bibliothèque dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], il suffit que le compte d’organisation depuis lequel vous publiez cette bibliothèque soit ajouté à [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
+Pour ajouter une bibliothèque dans [[https://code.gouv.fr/#/libs][code.gouv.fr]], il suffit que le
+compte d’organisation depuis lequel vous publiez cette bibliothèque
+soit ajouté à [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
 
-Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte à ajouter.
+Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte
+à ajouter.
 
 ** Codes sources
    :PROPERTIES:
@@ -1558,7 +1569,11 @@ Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pou
    :END:
 #+cindex: code source
 
-Le code source d’un programme informatique est ce qu’écrit une programmeuse ou un programmeur. Il peut s’agir de programmes complexes ou de quelques lignes. Ce code source peut être partagé sous licence libre pour permettre aux autres programmeurs de l’étudier, de le modifier, de le diffuser et de partager leurs améliorations.
+Le code source d’un programme informatique est ce qu’écrit une
+programmeuse ou un programmeur. Il peut s’agir de programmes complexes
+ou de quelques lignes. Ce code source peut être partagé sous licence
+libre pour permettre aux autres programmeurs de l’étudier, de le
+modifier, de le diffuser et de partager leurs améliorations.
 
 ** Commit
    :PROPERTIES:
@@ -1574,7 +1589,10 @@ Unité de modification.
    :END:
 #+cindex: commun numérique
 
-Un commun numérique est une ressource disponible sous format numérique, gérée par une communauté qui définit, pour cette ressource, des règles d’utilisation et de contribution, et pour la communauté, des règles de participation.
+Un commun numérique est une ressource disponible sous format
+numérique, gérée par une communauté qui définit, pour cette ressource,
+des règles d’utilisation et de contribution, et pour la communauté,
+des règles de participation.
 
 ** Dépendances logicielles
    :PROPERTIES:
@@ -1582,9 +1600,15 @@ Un commun numérique est une ressource disponible sous format numérique, géré
    :END:
 #+cindex: dépendance
 
-Un logiciel intègre souvent des briques logicielles publiées sous licence libre. Celles-ci sont appelées « dépendances ». Ce site permet de parcourir la liste des dépendances de /mise en production/, non les dépendances de /développement/ ; d’autre part, seules sont comprises les dépendances sollicitées par au moins deux dépôts.
+Un logiciel intègre souvent des briques logicielles publiées sous
+licence libre. Celles-ci sont appelées « dépendances ». Ce site permet
+de parcourir la liste des dépendances de /mise en production/, non les
+dépendances de /développement/ ; d’autre part, seules sont comprises les
+dépendances sollicitées par au moins deux dépôts.
 
-Les dépendances listées dans [[https://code.gouv.fr/#/deps][code.gouv.fr]] sont automatiquement identifiées à partir des dépôts référencés sur cette même plateforme. Ne sont prises en compte que les dépendances de premier niveau.
+Les dépendances listées dans [[https://code.gouv.fr/#/deps][code.gouv.fr]] sont automatiquement
+identifiées à partir des dépôts référencés sur cette même plateforme.
+Ne sont prises en compte que les dépendances de premier niveau.
 
 ** Dépôt de code source
    :PROPERTIES:
@@ -1592,18 +1616,28 @@ Les dépendances listées dans [[https://code.gouv.fr/#/deps][code.gouv.fr]] son
    :END:
 #+cindex: dépôt
 
-Un « dépôt » est un espace dans lequel sont publiés les fichiers de code source. C’est ce que vous voyez lorsque vous visitez un lien vers un code source hébergé sur une forge. C’est aussi ce que vous pouvez copier sur votre machine pour l’explorer localement.
+Un « dépôt » est un espace dans lequel sont publiés les fichiers de
+code source. C’est ce que vous voyez lorsque vous visitez un lien vers
+un code source hébergé sur une forge. C’est aussi ce que vous pouvez
+copier sur votre machine pour l’explorer localement.
 
-Pour ajouter un dépôt dans [[https://code.gouv.fr/#/repos][code.gouv.fr]], envoyez-nous le compte d’organisation GitHub ou le groupe GitLab depuis lequel vous le publiez, nous l’ajouterons dans [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
+Pour ajouter un dépôt dans [[https://code.gouv.fr/#/repos][code.gouv.fr]], envoyez-nous le compte
+d’organisation GitHub ou le groupe GitLab depuis lequel vous le
+publiez, nous l’ajouterons dans [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
 
-Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte à ajouter.
+Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte
+à ajouter.
 
 ** Étoiles (dans GitHub ou GitLab)
    :PROPERTIES:
    :ALT_TITLE: etoile
    :END:
 
-Les « étoiles » (« stars » en anglais) sont un moyen pour les utilisateurs des plates-formes de mettre un dépôt en favori. Pour l’instant, nous collectons cette information sur GitHub, GitLab et les instances de GitLab. Ce n’est pas une mesure de la qualité du code source.
+Les « étoiles » (« stars » en anglais) sont un moyen pour les
+utilisateurs des plates-formes de mettre un dépôt en favori. Pour
+l’instant, nous collectons cette information sur GitHub, GitLab et les
+instances de GitLab. Ce n’est pas une mesure de la qualité du code
+source.
 
 ** Forge
    :PROPERTIES:
@@ -1619,14 +1653,16 @@ Outil de développement logiciel collaboratif.
    :END:
 #+cindex: fork
 
-Un dépôt « forké » en franglais est un dépôt de code source qui a été développé à partir d’un autre.
+Un dépôt « forké » en franglais est un dépôt de code source qui a été
+développé à partir d’un autre.
 
 ** Génie logiciel
    :PROPERTIES:
    :ALT_TITLE: genie_logiciel
    :END:
 
-Champ de l’informatique s’intéressant à la gestion et au cycle de vie des projets logiciels.
+Champ de l’informatique s’intéressant à la gestion et au cycle de vie
+des projets logiciels.
 
 ** Intégration continue
    :PROPERTIES:
@@ -1634,7 +1670,9 @@ Champ de l’informatique s’intéressant à la gestion et au cycle de vie des 
    :END:
 #+cindex: intégration continue
 
-Capacité pour une forge de permettre la construction automatique du logiciel depuis l’ensemble de ses sources et en fonction de certains paramètres.
+Capacité pour une forge de permettre la construction automatique du
+logiciel depuis l’ensemble de ses sources et en fonction de certains
+paramètres.
 
 ** Licence
    :PROPERTIES:
@@ -1642,7 +1680,10 @@ Capacité pour une forge de permettre la construction automatique du logiciel de
    :END:
 #+cindex: licence
 
-Une licence logicielle est un contrat passé entre les auteurs d’un logiciel et ses réutilisateurs. Les licences dites « libres » accordent aux utilisateurs le droit de réutiliser le code source d’un logiciel.
+Une licence logicielle est un contrat passé entre les auteurs d’un
+logiciel et ses réutilisateurs. Les licences dites « libres »
+accordent aux utilisateurs le droit de réutiliser le code source d’un
+logiciel.
 
 ** Logiciel
    :PROPERTIES:
@@ -1665,7 +1706,12 @@ Un logiciel libre est un logiciel dont le code source est publié sous
 l’une des licences reconnues libres par la [[https://www.gnu.org/licenses/licenses.en.html][Free Software Foundation]] ou
 "open source" par l'[[https://opensource.org/licenses][Open Source Initiative]].
 
-Ces licences ont toutes en commun d’octrayer aux utilisateurs quatre libertés : celle d'/utiliser/ le programme informatique comme on le souhaite, pour toute finalité ; celle d'/étudier et de modifier/ le programme à loisir ; celle de redistribuer des copies du programme à d’autres ; celle de redistribuer des versions modifiées du programme à d’autres.
+Ces licences ont toutes en commun d’octrayer aux utilisateurs quatre
+libertés : celle d'/utiliser/ le programme informatique comme on le
+souhaite, pour toute finalité ; celle d'/étudier et de modifier/ le
+programme à loisir ; celle de redistribuer des copies du programme à
+d’autres ; celle de redistribuer des versions modifiées du programme à
+d’autres.
 
 ** Organisation et groupe (dans GitHub ou GitLab)
    :PROPERTIES:
@@ -1698,7 +1744,9 @@ GitLab. /Pull request/ est l’expression utilisée sur les autres forges.
    :ALT_TITLE: reutilisations
    :END:
 
-GitHub permet de connaître le nombre de dépôts qui en utilisent un autre : le nombre de ces dépôts est présenté ici dans la colonne "Réutilisations" de la liste des dépôts.
+GitHub permet de connaître le nombre de dépôts qui en utilisent un
+autre : le nombre de ces dépôts est présenté ici dans la colonne
+"Réutilisations" de la liste des dépôts.
 
 ** Secteur public
    :PROPERTIES:
@@ -1706,7 +1754,11 @@ GitHub permet de connaître le nombre de dépôts qui en utilisent un autre : l
    :END:
 #+cindex: secteur public
 
-Les codes sources développés dans le cadre de missions de service public ont vocation à être publiés, dans certains conditions. Ce site propose de chercher dans l’ensemble des codes sources aujourd’hui identifiés comme provenant d’un organisme remplissant une mission de service public. Il a été développé par [[https://www.etalab.gouv.fr][Etalab]].
+Les codes sources développés dans le cadre de missions de service
+public ont vocation à être publiés, dans certains conditions. Ce site
+propose de chercher dans l’ensemble des codes sources aujourd’hui
+identifiés comme provenant d’un organisme remplissant une mission de
+service public. Il a été développé par [[https://www.etalab.gouv.fr][Etalab]].
 
 ** Socle interministériel de logiciels libres
    :PROPERTIES:
@@ -1715,7 +1767,9 @@ Les codes sources développés dans le cadre de missions de service public ont v
 #+cindex: sill
 #+cindex: socle interministériel de logiciels libres
 
-Le socle interministériel de logiciels libres (SILL) est le catalogue de référence des logiciels libres recommandés par l’Etat pour toute l’administration.
+Le socle interministériel de logiciels libres (SILL) est le catalogue
+de référence des logiciels libres recommandés par l’Etat pour toute
+l’administration.
 
 Voir [[https://code.gouv.fr/sill/][le site du SILL]].
 
@@ -1725,7 +1779,8 @@ Voir [[https://code.gouv.fr/sill/][le site du SILL]].
    :END:
 #+cindex: Software Heritage
 
-Initiative internationale visant à conserver pour l’Histoire les codes source des logiciels dont le code source est public.
+Initiative internationale visant à conserver pour l’Histoire les codes
+source des logiciels dont le code source est public.
 
 ** Tag
    :PROPERTIES:
@@ -1733,9 +1788,13 @@ Initiative internationale visant à conserver pour l’Histoire les codes source
    :END:
 #+cindex: tag
 
-Dans un dépôt de code source géré avec Git, un tag est un label associé à un commit. Ce label peut être annoté ou non. Un tag correspond en général à une nouvelle version du logiciel.
+Dans un dépôt de code source géré avec Git, un tag est un label
+associé à un commit. Ce label peut être annoté ou non. Un tag
+correspond en général à une nouvelle version du logiciel.
 
-[[https://code.gouv.fr/public/#/tags][code.gouv.fr]] recense les tags des dépôts qui possèdent un fichier ~publiccode.yml~, un fichier ~CONTRIBUTING.md~ ou qui sont à l’origine de la publication de [[https://code.gouv.fr/#/libs][bibliothèques]].
+[[https://code.gouv.fr/public/#/tags][code.gouv.fr]] recense les tags des dépôts qui possèdent un fichier
+~publiccode.yml~, un fichier ~CONTRIBUTING.md~ ou qui sont à l’origine de
+la publication de [[https://code.gouv.fr/#/libs][bibliothèques]].
 
 ** Ticket
    :PROPERTIES:
@@ -1743,7 +1802,8 @@ Dans un dépôt de code source géré avec Git, un tag est un label associé à 
    :END:
 #+cindex: ticket
 
-Déclaration en ligne d’un incident ou d’un dysfonctionnement, ou proposition d’amélioration du logiciel.
+Déclaration en ligne d’un incident ou d’un dysfonctionnement, ou
+proposition d’amélioration du logiciel.
 
 * Concept Index
   :PROPERTIES:
