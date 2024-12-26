@@ -967,6 +967,87 @@ Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre proposition de défi
 listés des [[https://code.gouv.fr/fr/ospos/][OSPOs d'organismes publics français]].
 
 * Présentation de code.gouv.fr
+
+Le site [[https://code.gouv.fr][code.gouv.fr]] présente la mission logiciels libres de la DINUM,
+mission qui lui tient lieu d'Open Source Programme Office. La mission
+définit et met en oeuvre la stratégie logiciels libres de la DINUM et
+accompagne toute l'administration dans l'appropriation de ces sujets.
+
+La stratégie logiciels libres s'articule autour de trois activités :
+/utiliser/ des logiciels libres, /publier/ des projets open source et
+animer le réseau des agents publics libristes, la communauté BlueHats.
+Il s'agit de renforcer le recours aux logiciels libres, de faciliter
+la publication des codes sources appartenant aux organismes publics et
+d'encourager la collaboration et l'apprentissage entre agents publics
+ayant des compétences open source.
+
+Nous présentons ici le site code.gouv.fr en quelques images.
+
+La [[https://code.gouv.fr/fr/][page d'accueil]] vous permet de visualiser des logiciels libres à
+utiliser, des logiciels libres produits par l'administration et les
+dernières activités BlueHats.
+
+#+CAPTION: code.gouv.fr: la page d'accueil
+#+NAME:   fig:codegouvfr-home
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
+[[./assets/images/codegouvfr-home.png]]
+
+La [[https://code.gouv.fr/fr/blog/][page d'actualités]] vous emmène sur le blog de la mission.
+
+#+CAPTION: code.gouv.fr: les actualités
+#+NAME:   fig:codegouvfr-blog
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
+[[./assets/images/codegouvfr-blog.png]]
+
+Le [[https://code.gouv.fr/sill/][lien SILL]] vous emmène sur l'application web dédiée au socle
+interministériel de logiciels libres.
+
+#+CAPTION: code.gouv.fr: le SILL
+#+NAME:   fig:codegouvfr-sill
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
+[[./assets/images/codegouvfr-sill.png]]
+
+L'[[https://code.gouv.fr/fr/bluehats/][accueil BlueHats]] présente les différentes activités de la
+communauté.
+
+#+CAPTION: code.gouv.fr: l'accueil BlueHats
+#+NAME:   fig:codegouvfr-bluehats
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
+[[./assets/images/codegouvfr-bluehats.png]]
+
+Le [[https://code.gouv.fr/sources/][lien /sources]] vous emmène sur l'application dédiée à l'inventaire
+des codes sources, exposant les données lisibles et accessibles par
+API depuis le sous-domaine [[https://ecosystem.code.gouv.fr][ecosystem.code.gouv.fr]].
+
+#+CAPTION: code.gouv.fr: l'inventaire des codes sources
+#+NAME:   fig:codegouvfr-sources
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
+[[./assets/images/codegouvfr-sources.png]]
+
+La page « Awesome » propose une liste des projets à ne pas manquer de
+cet inventaire des codes sources.
+
+#+CAPTION: code.gouv.fr: Awesome
+#+NAME:   fig:codegouvfr-awesome
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
+[[./assets/images/codegouvfr-awesome.png]]
+
+Le site propose aussi un moteur de recherche vous permettant de
+naviguer dans tous les contenus publiés, notamment les wébinaires
+BlueHats.
+
+#+CAPTION: code.gouv.fr: le moteur de recherche
+#+NAME:   fig:codegouvfr-recherche
+#+ATTR_MD: :width 600px
+#+ATTR_TEXINFO: :width 5.5in
+[[./assets/images/codegouvfr-recherche.png]]
+
 * Foire aux questions
   :PROPERTIES:
   :ALT_TITLE: faq
