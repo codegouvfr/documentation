@@ -1144,17 +1144,37 @@ S. Canevet qui porte sur ce sujet.
 *** Qu’est-ce que le socle interministériel de logiciels libres ?
 #+cindex: sill
 
-Le SILL est le catalogue des logiciels libres recommandés pour toutes
-les administrations publiques.
+Le socle interministériel de logiciels libres (le "SILL") est le
+catalogue des logiciels libres recommandés pour toutes les
+administrations publiques.
 
 Il est publié par la mission logiciels libres sur [[https://code.gouv.fr/sill][code.gouv.fr/sill]] et
 tout agent public est invité à s’y créer un compte pour déclarer ses
 usages de logiciels ou se proposer comme référent d’un logiciel.
 
+Tous les logiciels libres présentés dans le SILL sont déjà en cours
+d'utilisation, soit par la DSI d'un organisme public soit par un agent
+public dans le cadre de ses fonctions.
+
 Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
 
 *** Comment créer un SBOM ("software bill of materials") ?
 #+cindex: SBOM
+
+Un SBOM est une liste décrivant les composants (open source ou non)
+dont dépend un logiciel.
+
+Maintenir une telle liste avec les métadonnées associées à chaque
+composant permet d'avoir des éléments objectifs pour renforcer la
+conformité légale (le respect des licences) du produit et en vue
+d'améliorer les pratiques de sécurité internes au projet.
+
+Les deux formats principaux de SBOM sont celui du projet [[https://cyclonedx.org][CycloneDX]],
+maintenu par la [[https://owasp.org/][fondation OWASP]], et celui du projet [[https://spdx.dev/use/specifications/][SPDX]], maintenu par
+la [[https://www.linuxfoundation.org][fondation Linux]].
+
+Il existe de nombreux outils pour générer des SBOMs en respectant l'un
+ou l'autre de ces formats.
 
 ** Contribuer à un logiciel libre
 ** Publier un code source
