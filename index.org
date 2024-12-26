@@ -1108,6 +1108,9 @@ d’un projet, le [[https://www.ow2.org/view/MRL/][Market readiness level]].
 
 Une autre structure propose une variante, l’[[https://github.com/finos/open-source-readiness][Open Source Readiness]].
 
+Le projet [[https://chaoss.community][chaoss.community]] propose des métriques sur la « santé » d'un
+projet libre pouvant s'apparenter et/ou compléter ces outils.
+
 *** Comment m’assurer que le titulaire d’un marché me livre les codes sources ?
 #+cindex: marché public
 
