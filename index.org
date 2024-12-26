@@ -1,7 +1,7 @@
 #+title: Logiciels libres et administration publique
 #+subtitle: Définir et mettre en oeuvre votre stratégie logiciels libres dans l'administration publique
 #+author: Équipe de la mission logiciels libres
-#+date: 2022-2024
+#+date: 2022-2025
 #+language: fr
 
 * Introduction
