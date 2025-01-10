@@ -184,7 +184,7 @@ Des associations sont plus spécifiquement ancrées géographiquement :
 
 - [[https://fsfe.org][Free Software Foundation Europe]], promouvant le logiciel libre au
   niveau de l’Union européenne.
-- [[https://framasoft.org/][Framasfot]], en France, promouvant le logiciel libre, et une société
+- [[https://framasoft.org/][Framasoft]], en France, promouvant le logiciel libre, et une société
   libre et décentralisée.
 - [[https://aful.org/][L’AFUL]], l’Association Francophone des Utilisateurs de Logiciels
   Libres.
@@ -341,7 +341,7 @@ Description d’un logiciel qui prétend être open source, mais qui ne dispose 
 La question fondamentale à se poser pour savoir si c’est un projet est
 libre : la licence garantit-elle les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]]
 (étudier, copier, modifier, redistribuer) ou répond-elle aux critères de
-la [[http://www.opensource.org/osd.html][définition de l’OSI]] ?
+la [[https://opensource.org/osd][définition de l’OSI]] ?
 
 Si oui, c’est un logiciel libre. Si non, ce n’est pas un logiciel libre.
 
@@ -397,9 +397,7 @@ basée sur des logiciels libres*.
 
 En effet, l’aspect libre d’un logiciel, déterminé par sa /licence
 libre/, est une caractéristique juridique. Rien ne s’oppose à ce que la
-commande publique requiert des solutions logicielles avec comme
-
-caractéristiques juridiques la possibilité de les étudier, copier,
+commande publique requiert des solutions logicielles avec comme caractéristiques juridiques la possibilité de les étudier, copier,
 modifier, et redistribuer.
 
 En revanche, une commande publique portant sur le développement d’un
@@ -768,7 +766,7 @@ adopter le bon degré d’ouverture, nous vous proposons ces questions :
    l’organisme qui le produit) ?
 3. Le logiciel doit-il bientôt être *maintenu et développé par d’autres* (vs
    votre administration s’engage sur du long terme) ?
-4. L’*utilisateur final* du logiciel a-t-il un *profil technique* (développeur,
+4. L’ *utilisateur final* du logiciel a-t-il un *profil technique* (développeur,
    datascientiste ou designer vs un utilisateur non-technique) ?
 
 *Le niveau A* est recommandé pour les logiciels répondant à au moins
@@ -1153,7 +1151,7 @@ entièrement libre, SourceHut est la seule qui propose à la fois de
 l’intégration continue et des listes de discussion. Si vous voulez
 contribuer à un projet, vous n’avez pas besoin de créer de compte sur
 SourceHut : il suffit d’une adresse de courriel pour envoyer des
-correctifs et proposer des idées. ourceHut et son service sr.ht ne
+correctifs et proposer des idées. SourceHut et son service sr.ht ne
 collecte aucune donnée de ses utilisateurs.
 
 *** En tant que citoyen, puis-je exiger d’un organisme public qu’il publie un code source ?
@@ -1434,7 +1432,7 @@ exemple [[https://gitlab.com][gitlab.com]], [[https://github.com][github.com]] o
 *** Suis-je obligé de permettre la contribution sur mes dépôts ?
 #+cindex: contribution
 
-Non. Vous pouvez consulter à ce sujet nos propositions sur [[https://code.gouv.fr/documentation/#/publier?id=quels-degr%c3%a9s-d39ouverture-pour-les-codes-sources-][les degrés
+Non. Vous pouvez consulter à ce sujet nos propositions sur [[https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources][les degrés
 d’ouverture]].
 
 *** Puis-je publier un code que je ne maintiens plus ?
