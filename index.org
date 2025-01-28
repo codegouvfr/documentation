@@ -371,8 +371,7 @@ d’un logiciel libre au sein d’un système d’information, en constant
 marchés obligent la redistribution de tous les correctifs issus de ses
 activités.
 
-Pour en savoir plus sur les marchés, [[https://code.gouv.fr/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/][rendez-vous ici]]
-
+Pour en savoir plus sur les marchés, [[https://code.gouv.fr/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/][rendez-vous ici]].
 
 *** Plus de détail sur le marché public pour le logiciel libre
 
@@ -1078,11 +1077,11 @@ validation par l’OSI ou la FSF.
 *** Existe-t-il des formations aux logiciels libres dans l’administration ?
 #+cindex: formation
 
-Si vous êtes agent public avec un accès à la plateforme Mentor, vous
+Si vous êtes agent public avec un accès à la plateforme [[https://mentor.gouv.fr][Mentor]], vous
 pouvez consulter [[https://mentor.gouv.fr/catalog/1754][une capsule introductive]] produite par la DINUM.
 
-Si vous avez connaissance de formations logiciels libres proposées aux
-agents publics, n’hésitez pas à nous les [[https://code.gouv.fr/fr/contact/][signaler]].
+Le site code.gouv.fr liste des [[https://code.gouv.fr/fr/formations/][offres de formation logiciels libres]]
+existantes, mais qui ne ciblent pas spécifiquement les agents publics.
 
 *** Qu’est-ce qu’un /fork/ ou une « dérivation » ?
 #+cindex: fork
@@ -1145,7 +1144,7 @@ plus complète avec des fonctionnalités supplémentaires propriétaires
 payantes disponible sous une licence /source available/.
 
 SourceHut est le nom du projet qui déploie des services autour du nom
-de domaine `sr.ht`. Ce service utilise uniquement des logiciels
+de domaine ~sr.ht~. Ce service utilise uniquement des logiciels
 entièrement libre. Parmi les forges dont le code source est
 entièrement libre, SourceHut est la seule qui propose à la fois de
 l’intégration continue et des listes de discussion. Si vous voulez
@@ -1217,15 +1216,15 @@ Si le nom du logiciel est le même que le nom d’une marque portée par
 une entreprise éditrice, veillez bien à préciser que c’est le logiciel
 libre qui est exigé, indépendamment de son éditeur.
 
-Voir la section 5.6 du livre [[https://www.lgdj.fr/droit-des-logiciels-9782130626152.html][Droit des logiciels]] de F. Pellegrini et
-S. Canevet qui porte sur ce sujet.
+Voir la section 5.6 du livre [[https://www.lgdj.fr/droit-des-logiciels-9782130626152.html][Droit des logiciels]] de Pellegrini et
+Canevet qui porte sur ce sujet.
 
 *** Qu’est-ce que le socle interministériel de logiciels libres ?
 #+cindex: sill
 
-Le socle interministériel de logiciels libres (le "SILL") est le
-catalogue des logiciels libres recommandés pour toutes les
-administrations publiques.
+Le socle interministériel de logiciels libres (SILL) est le catalogue
+des logiciels libres recommandés pour toutes les administrations
+publiques.
 
 Il est publié par la mission logiciels libres sur [[https://code.gouv.fr/sill][code.gouv.fr/sill]] et
 tout agent public est invité à s’y créer un compte pour déclarer ses
@@ -1240,8 +1239,8 @@ Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de
 *** Comment créer un SBOM ("software bill of materials") ?
 #+cindex: SBOM
 
-Un SBOM est une liste décrivant les composants (open source ou non)
-dont dépend un logiciel.
+Un SBOM (/Software Bill of Materials/) est une liste décrivant les
+composants (libres ou non) dont dépend un logiciel.
 
 Maintenir une telle liste avec les métadonnées associées à chaque
 composant permet d'avoir des éléments objectifs pour renforcer la
@@ -1268,8 +1267,7 @@ Juridique :
 - Les licences des dépendances appelées par votre code source.
 - Les licences des codes sources modifiés et/ou améliorés par votre code.
 - Quelles licences pouvez/voulez-vous utiliser pour votre code ?
-- Vos licences choisies sont-elles bien déclarées dans votre code (cf.
-  les conventions de https://reuse.software) ?
+- Vos licences choisies sont-elles bien déclarées dans votre code (cf. les conventions de [[https://reuse.software][reuse.software]]) ?
 
 Sécurité :
 
@@ -1311,7 +1309,7 @@ en écrivant à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]].
 
 Dès que vous publiez un code développé par votre administration,
 assurez-vous que la forge et l’organisation via laquelle vous publiez
-sont référencés sur [[https://code.gouv.fr/public/][code.gouv.fr/public]] : si ce n’est pas le cas,
+sont référencés sur [[https://code.gouv.fr/sources/][code.gouv.fr/sources]] : si ce n’est pas le cas,
 [[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
 
 *** Qu’est-ce qu’un Administrateur Ministériel des Données, des Algorithmes et des Codes sources ?
@@ -1325,7 +1323,7 @@ Algorithmes et des Codes sources ». Les AMDACs veillent à appliquer le
 principe d’ouverture par défaut des données publiques, incluant les
 codes sources des administrations.
 
-Vous trouverez sur data.gouv.fr [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
+Vous trouverez [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs sur data.gouv.fr]].
 
 *** Quelle gouvernance mettre en place dans un projet de logiciel libre ?
 #+cindex: gouvernance
@@ -1390,7 +1388,7 @@ ni au fichier PDF, n’étant pas des œuvres dérivées du logiciel.
 *** Quelles langues utiliser pour mon code source et ma documentation ?
 
 Le code source est écrit dans un langage de programmation (par exemple
-en Javascript).  Les commentaires dans le code source sont considérés
+en Javascript). Les commentaires dans le code source sont considérés
 comme faisant partie du code et doivent être écrits en anglais.
 
 Si le code source est développé en lien avec un référentiel, alors les
@@ -1469,17 +1467,17 @@ communauté [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][B
 
 *** Comment détecter et effacer des secrets dans mon historique Git ?
 
-Adopter les bonnes pratiques dès la création du dépôt git est
-crucial. Ces bonnes pratiques sont nombreuses, mais notamment utiliser
-des variables d’environnements pour les secrets plutôt que de les écrire
+Adopter les bonnes pratiques dès la création du dépôt git est crucial.
+Ces bonnes pratiques sont nombreuses, mais notamment utiliser des
+variables d’environnements pour les secrets plutôt que de les écrire
 noir sur blanc dans les fichiers commités est un bon réflexe.
 
 Néanmoins, si l’erreur a été faite il existe certains outils :
 
-- [[https://github.com/trufflesecurity/trufflehog][TruffleHog]] sous AGPL
-- [[https://github.com/gitleaks/gitleaks][Gitleaks]] sous MIT
-- [[https://github.com/Yelp/detect-secrets][Detect Secrets]] sous Apache 2
-- [[https://github.com/GitGuardian][Gitgardian]] sous MIT
+- [[https://github.com/trufflesecurity/trufflehog][TruffleHog]] sous licence AGPL
+- [[https://github.com/gitleaks/gitleaks][Gitleaks]] sous licence MIT
+- [[https://github.com/Yelp/detect-secrets][Detect Secrets]] sous licence Apache 2
+- [[https://github.com/GitGuardian][Gitgardian]] sous licence MIT
 
 *** Puis-je créer une marque pour protéger mon logiciel libre ?
 
@@ -1491,8 +1489,8 @@ Il n’y a pas de catalogue centralisé exhaustif, mais des initiatives
 existent. Notamment, le [[https://cnll.fr/][CNLL]] regroupe les principales associations et
 entreprises de l’écosystème open source en France.
 
-Plusieurs entreprises du libre se sont rassemblées pour créer
-un guichet unique : [[https://www.opensource-experts.com/][Open source experts]] (OSE)
+Plusieurs entreprises du libre se sont rassemblées pour créer un
+guichet unique : [[https://www.opensource-experts.com/][Open source experts]] (OSE)
 
 *** Puis-je interdire la réutilisation commerciale des codes sources publiés ?
 
@@ -1540,8 +1538,8 @@ d’un projet libre sont invités à accepter /avant/ de contribuer: il
 donne la garantie au projet que le contributeur a fait toutes les
 vérifications nécessaires au sujet de sa contribution.
 
-Voir https://developercertificate.org qui est le texte du DCO pour le
-noyau Linux.
+Voir [[https://developercertificate.org][developercertificate.org]] qui est le texte du DCO pour le noyau
+Linux.
 
 Il est d’usage que la signature des commits (avec =git commit -s=)
 signifie que le contributeur accepte le DCO déclaré par le projet.
@@ -1554,11 +1552,11 @@ publics.
 
 À terme, ce sont les données exposées via [[https://data.code.gouv.fr][data.code.gouv.fr]] qui seront
 utilisées pour l’interface d’exploration des codes sources
-[[https://code.gouv.fr/public/][code.gouv.fr/public/]].
+[[https://code.gouv.fr/sources/][code.gouv.fr/sources/]].
 
 *** Où trouver tous les dépôts publiés par mon ministère ?
 
-Vous pouvez chercher sur [[https://code.gouv.fr/public/#/groups][code.gouv.fr/public]] l’organisation qui
+Vous pouvez chercher sur [[https://code.gouv.fr/sources/#/groups][code.gouv.fr/sources]] l’organisation qui
 correspond à votre direction ou, plus largement, à votre ministère.
 
 ** Monter un OSPO
@@ -1613,7 +1611,7 @@ Le site [[https://code.gouv.fr][code.gouv.fr]] est le site de présentation de l
 activités et produits de la mission logiciels libres de la DINUM.
 
 Il donne notamment accès au [[https://code.gouv.fr/sill][socle interministériel de logiciels libres]]
-et à [[https://code.gouv.fr/public/][la liste des codes sources publiés par des administrations]].
+et à [[https://code.gouv.fr/sources/][la liste des codes sources publiés par des administrations]].
 
 * Glossaire
   :PROPERTIES:
@@ -1892,10 +1890,6 @@ source des logiciels dont le code source est public.
 Dans un dépôt de code source géré avec Git, un tag est un label
 associé à un commit. Ce label peut être annoté ou non. Un tag
 correspond en général à une nouvelle version du logiciel.
-
-[[https://code.gouv.fr/public/#/tags][code.gouv.fr]] recense les tags des dépôts qui possèdent un fichier
-~publiccode.yml~, un fichier ~CONTRIBUTING.md~ ou qui sont à l’origine de
-la publication de [[https://code.gouv.fr/#/libs][bibliothèques]].
 
 ** Ticket
    :PROPERTIES:
