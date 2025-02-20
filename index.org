@@ -350,20 +350,21 @@ Pour vous faciliter la vie, l’OSI maintient une [[http://www.opensource.org/li
 ** Le marché public pour le logiciel libre
 
 Une administration publique peut passer commande sur la prestation de
-services sur des logiciels libres /explicitement nommés/. Tant que cela ne
-relève pas de la marque du logiciel, le nommer explicitement ne
+services sur des logiciels libres /explicitement nommés/. Tant que cela
+ne relève pas de la marque du logiciel, le nommer explicitement ne
 contrevient pas au principe d’égalité de traitement des candidats.
 
-De plus, une administration peut demander le développement de logiciels
-libres /spécifiquement/ en prévoyant la dévolution des droits
-d’auteurs. L’[[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043320056][article 46]] du CCAG-TIC prévoit cette dévolution des droits,
-permettant la préservation d’une mutualisation sous licence libre.
+De plus, une administration peut demander le développement de
+logiciels libres /spécifiquement/ en prévoyant la dévolution des droits
+d’auteurs. L’[[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043320056][article 46]] du CCAG-TIC prévoit cette dévolution des
+droits, permettant la préservation d’une mutualisation sous licence
+libre.
 
 *** Marchés interministériels support et expertise à l'usage des logiciels libres
 
-La Direction Générale des Finances Publiques (DGFIP) pilote deux marchés
-interministériels à l’usage des logiciels libres : le marché support et
-le marché d’expertise.
+La Direction Générale des Finances Publiques (DGFIP) pilote deux
+marchés interministériels à l’usage des logiciels libres : le marché
+support et le marché d’expertise.
 
 Ces deux marchés ont pour objet de couvrir l’ensemble du cycle de vie
 d’un logiciel libre au sein d’un système d’information, en constant
@@ -377,8 +378,8 @@ Pour en savoir plus sur les marchés, [[https://code.gouv.fr/fr/utiliser/marches
 
 À défaut des logiciels privatifs, un logiciel libre peut être utilisé,
 copié, modifié, par n’importe qui, y compris des entreprises
-concurrentes proposant des services autour d’un logiciel libre. Dans ce
-cadre-là, exiger un logiciel libre précis ne déroge en rien aux
+concurrentes proposant des services autour d’un logiciel libre. Dans
+ce cadre-là, exiger un logiciel libre précis ne déroge en rien aux
 principes de libertés d’accès et d’égalité de traitement du Code de la
 commande publique. Le logiciel libre, /par définition/, garantit le
 principe d’égalité.
@@ -396,7 +397,8 @@ basée sur des logiciels libres*.
 
 En effet, l’aspect libre d’un logiciel, déterminé par sa /licence
 libre/, est une caractéristique juridique. Rien ne s’oppose à ce que la
-commande publique requiert des solutions logicielles avec comme caractéristiques juridiques la possibilité de les étudier, copier,
+commande publique requiert des solutions logicielles avec comme
+caractéristiques juridiques la possibilité de les étudier, copier,
 modifier, et redistribuer.
 
 En revanche, une commande publique portant sur le développement d’un
@@ -408,8 +410,8 @@ prévue par une clause spécifique. L’[[https://www.legifrance.gouv.fr/loda/ar
 cette dévolution des droits permettant la préservation d’une
 mutualisation sous licence libre.
 
-Ensuite, vient la question de l’égalité de traitement des candidats.  Ce
-cas est plus délicat lorsqu’une entreprise est déjà engagée dans la
+Ensuite, vient la question de l’égalité de traitement des candidats.
+Ce cas est plus délicat lorsqu’une entreprise est déjà engagée dans la
 gouvernance d’un logiciel libre que l’administration pourrait être
 amenée à passer commande. Néanmoins, cela ne saurait remettre en cause
 le principe d’égalité de traitement des candidats, puisque le logiciel
@@ -419,8 +421,8 @@ va dans ce sens.
 
 Aussi, certains textes de lois priorisent les logiciels libres, comme
 [[https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000027736697?init=true&page=1&query=Loi+n%C2%B02013-660+du+22+juillet+2013+relative+%C3%A0+l%27enseignement+sup%C3%A9rieur+et+%C3%A0+la+recherche+&searchField=ALL&tab_selection=all][l’article 9]] de la loi n° 2013-660 du 22 juillet 2013 relative à
-l’enseignement supérieur et à la recherche modifiant l’article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027747749/2013-07-24][L123-4-1
-du Code de l’éducation]]
+l’enseignement supérieur et à la recherche modifiant l’article
+[[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027747749/2013-07-24][L123-4-1 du Code de l’éducation]]
 
 * Publier un code source
   :PROPERTIES:
