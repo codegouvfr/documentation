@@ -21,6 +21,8 @@ Publier la documentation:
 ```
 cd documentation/
 make env
+# Move the index.md stub
+mv index.md _index.md
 make mkdocs
 ```
 

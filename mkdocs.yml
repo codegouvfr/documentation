@@ -4,7 +4,7 @@ site_description: Documentation destinée aux administrations publiques pour rec
 site_author: Mission logiciels libres
 
 repo_url: https://github.com/codegouvfr/documentation
-edit_uri: https://github.com/codegouvfr/documentation/blob/main/index.org
+edit_uri: blob/main/
 
 nav:
 - Documentation: 'index.md'
