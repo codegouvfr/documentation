@@ -41,6 +41,7 @@ markdown_extensions:
   - toc:
       permalink: false
       anchorlink: true
+      anchorlink_class: "fr-raw-link"
   - attr_list
   - def_list
   - tables
