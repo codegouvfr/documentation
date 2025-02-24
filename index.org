@@ -1265,6 +1265,19 @@ Il existe de nombreux outils pour générer des SBOMs en respectant l'un
 ou l'autre de ces formats.
 
 ** Contribuer à un logiciel libre
+*** Une administration peut-elle « sponsoriser » un logiciel libre ?
+
+Une administration soutenir des structures privées (association,
+fondation, entreprise) qui développent des logiciels libres et/ou
+contribuent à des logiciels libres :
+
+- en subventionnant des structures ;
+- en adhérant comme membre à des associations ;
+- en passant commande.
+
+Ces démarches doivent respecter le cadre légal de la subvention, de
+l'adhésion et de la commande publiques.
+
 ** Publier un code source
    :PROPERTIES:
    :CUSTOM_ID: faq_publier
