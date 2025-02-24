@@ -954,15 +954,24 @@ requiert simplement de signer (/sign-off/) chaque commit.
   :CUSTOM_ID: ospo
   :END:
 
-Un OSPO est une entité au sein d'une organisation en charge de définir
-et de mettre en oeuvre la stratégie Open Source de l'organisation.
+Un Open Source Programme Office (ou une mission logiciels libres) est
+une entité au sein d'une organisation en charge de définir et de
+mettre en oeuvre sa stratégie Open Source (ou "logiciels libres").
 
-Une stratégie logiciels libres explique la façon dont vous allez
-*utiliser* des logiciels libres, *développer* des logiciels libres et
-*contribuer* à l’écosystème existant.
+Une stratégie logiciels libres présente la façon dont l'organisation
+*utilise* des logiciels libres, *développe* des nouveaux logiciels libres
+et *contribue* à l’écosystème open source.
 
-Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre proposition de définition détaillée]] et la page où sont
-listés des [[https://code.gouv.fr/fr/ospos/][OSPOs d'organismes publics français]].
+La DINUM encourage les administrateurs ministériels de données,
+algorithmes et codes sources à soutenir la mise en place, au sein de
+leurs ministères et des opérateurs qui en dépendent, des Open Source
+Programme Offices. Ceux-ci permettront d'institutionnaliser et de
+pérenniser les moyens mis pour respecter le cadre juridique actuel et
+tirer le meilleur parti des logiques de mutualisation à l'oeuvre dans
+l'écosystème open source.
+
+Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre proposition de définition détaillée d'un OSPO]] et la page où
+sont listés les [[https://code.gouv.fr/fr/ospos/][OSPOs d'organismes publics français]].
 
 * Présentation de code.gouv.fr
 
