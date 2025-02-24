@@ -153,15 +153,7 @@ mais devraient être rédigés en anglais.
 
 ** TODO Métriques de qualité d’un projet libre
 * FAQ
-** TODO Une administration peut-elle sponsoriser un logiciel libre ?
-** TODO Comment construire une communauté open source autour de son projet ?
-** TODO En tant qu’administration, comment soutenir un projet libre ?
 ** TODO Comment aborder le sujet de la communication au sein d’un projet de logiciel libre ?
-** TODO Comment faire connaître le logiciel libre que mon administration développe ?
-
-Vous pouvez consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des
-pistes.
-
 ** TODO Comment mettre fin à un projet libre ?
 ** TODO Dois-je créer un compte GitHub pour moi ou mon organisation pour contribuer aux logiciels libres ?
 

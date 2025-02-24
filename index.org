@@ -1296,6 +1296,12 @@ l'adhésion et de la commande publiques.
 9. Allez chercher votre première contribution
 10. Améliorez en itérant sur toutes ces étapes
 
+*** Comment faire connaître le logiciel libre que mon administration développe ?
+
+- Si votre logiciel est d'intérêt pour d'autres organismes publics,
+  faites-le référencer dans [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]].
+- Consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des pistes.
+
 *** Quels points vérifier avant d’ouvrir un code source existant ?
 
 Juridique :
