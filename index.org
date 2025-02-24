@@ -4,9 +4,9 @@
 #+date: 2022-2025
 #+language: fr
 
-* Introduction
+* Présentation
   :PROPERTIES:
-  :CUSTOM_ID: introduction
+  :CUSTOM_ID: presentation
   :END:
 
 Cette documentation est publiée par la [[https://code.gouv.fr/fr/][mission logiciels libres]] de la
@@ -16,24 +16,23 @@ Vous pouvez la lire [[https://code.gouv.fr/documentation][en ligne]] et [[https:
 
 Elle s’adresse à plusieurs audiences :
 
-- les équipes métier et les chefs de projet qui souhaitent /publier/ le
-  code source de leurs projets et applications sous licence libre ;
-- les équipes métier et les chefs de projet qui souhaitent /contribuer/
-  à des projets libres existants ;
-- les DSI qui veulent renforcer /l’utilisation/ des logiciels libres
+- les missions logiciels libres ou /Open Source Programme Offices/ des
+  administrations publiques (voir [[https://code.gouv.fr/fr/ospos/][cette liste]]) ou les administrations
+  qui souhaitent en déployer ;
+- les équipes métier et chefs de projet qui veulent /publier/ des codes
+  sources sous licence libre ;
+- les équipes métier et chefs de projet qui souhaitent /contribuer/ à
+  des projets libres existants ;
+- les DSI qui cherchent à renforcer /l’utilisation/ des logiciels libres
   dans leurs systèmes d'information ;
-- les directeurs d’administration et équipes métier voulant mettre en
-  cohérence leur stratégie open source en s’investissant dans une
-  mission logiciels libres (MLL) ou /Open Source Program Office/ (OSPO).
 
-Sa rédaction est ouvertes aux organismes publics ayant une expertise
-sur les logiciels libres, qu’ils en utilisent, y contribuent ou en
-publient. Voir ces [[https://github.com/codegouvfr/documentation/blob/main/CONTRIBUTING.fr.md][instructions pour contribuer]].
+Tout agent public peut proposer des modifications en suivant [[https://github.com/codegouvfr/documentation/blob/main/CONTRIBUTING.fr.md][ces
+instructions]].
 
-Les sujets abordés portent sur les logiciels libres ; il ne sera pas
-question de logiciels sous licence non libre, ni de services en ligne,
-ni des bonnes pratiques de développement qui ne sont pas spécifiques
-aux logiciels libres.
+Cette documentation ne porte pas sur les logiciels non libres. Elle ne
+porte pas non plus sur les bonnes pratiques de développement, à moins
+que celles-ci soit propres au libre ou inspiré de pratiques issues des
+communautés open source.
 
 Si ces sujets sont nouveaux pour vous, un [[#glossaire][glossaire]] est disponible.
 
