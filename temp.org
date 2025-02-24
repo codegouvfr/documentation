@@ -199,12 +199,9 @@ autonomie
 https://www.numerique.gouv.fr/publications/politique-logiciel-libre/
 
 ** TODO Comment faire pour démarer la démarche d’ouverture du code source
-
 ** TODO Comment intéragir avec la DSI dans le cadre de l’ouverture d’un code source ?
-
 ** TODO [#A] Qu’est-ce que cela apporte au-delà du respect de la législation ?
-
-** TODO En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? Si oui dans quelles conditions ?
+*** En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant et utilisé dans mon administration/service sur mon temps de travail? Si oui dans quelles conditions ?
 
 Si le logiciel est réalisé par un ou plusieurs salariés dans le cadre
 d’une relation de subordination à leur employeur : les droits moraux

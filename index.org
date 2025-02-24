@@ -1278,6 +1278,29 @@ contribuent à des logiciels libres :
 Ces démarches doivent respecter le cadre légal de la subvention, de
 l'adhésion et de la commande publiques.
 
+*** En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant ?
+
+Si votre hiérarchie est d'accord, oui. 
+
+Le document qui acte de cette possibilité de contribuer à des
+logiciels libres existants est la [[https://www.numerique.gouv.fr/publications/politique-logiciel-libre/][politique de contribution open
+source de 2018]].
+
+Les droits d'exploitation sur le code source contribué sont transmis
+de plein droit à l'administration qui vous emploie (Art. L. [[https://www.legifrance.gouv.fr/codes/id/LEGIARTI000006278959/2024-07-19/?isSuggest=true][131-3-1 du
+Code de la propriété intellectuelle]]) : vous devez en tenir compte au
+moment où vous faites votre contribution. Le projet auquel vous
+contribuez se trouve dans l'une de ces trois situations :
+
+- Il exige un "Corporate Contributor License Agreement" : dans ce cas,
+  vous devez demander à votre administration de le signer pour que le
+  projet commence à accepter vos contributions.
+- Il exige un "Contributor License Agreement" inviduel : dans ce cas,
+  vous devez demander à votre hiérarchie s'il vous est permis de le
+  signer.
+- Il exige la signature d'un [[https://developercertificate.org][DCO]] ou il n'exige rien de particulier :
+  dans ces deux cas, le seul accord de votre hiérarchie suffit.
+
 ** Publier un code source
    :PROPERTIES:
    :CUSTOM_ID: faq_publier
