@@ -1283,6 +1283,19 @@ l'adhésion et de la commande publiques.
    :CUSTOM_ID: faq_publier
    :END:
 
+*** Comment construire une communauté open source autour de son projet ?
+
+1. Développez un logiciel qui sera utile à d'autres
+2. Choisissez une licence libre utile à ces « autres »
+3. Identifiez les utilisateurs potentiels
+4. Identifiez les contributeurs potentiels
+5. Ajoutez un CONTRIBUTING.md pour les guider
+6. Allez chercher des utilisateurs
+7. Allez chercher des contributeurs
+8. Communiquez de façon publique et prédictible
+9. Allez chercher votre première contribution
+10. Améliorez en itérant sur toutes ces étapes
+
 *** Quels points vérifier avant d’ouvrir un code source existant ?
 
 Juridique :
