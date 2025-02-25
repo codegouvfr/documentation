@@ -429,21 +429,20 @@ l’enseignement supérieur et à la recherche modifiant l’article
   :CUSTOM_ID: publier
   :END:
 
-** Introduction
+** Doctrine
 
 La doctrine de la DINUM sur les licences à utiliser pour la
 publication des codes sources est d’utiliser des licences permissives.
 Les libertés octroyées par ces licences permettent en tout temps à
 n’importe quel acteur de réutiliser le code produit par des agents
-publics, et ce, même à des fins lucratives et d’intégration dans un
+publics, et ce, même à des fins lucratives et/ou d’intégration dans un
 logiciel propriétaire.
 
-Si la réutilisation et l’intégration d’un code source dans un modèle
+Si la réutilisation et l’intégration d’un code source dans un logiciel
 propriétaire est considéré comme une menace avérée pour l’intérêt
-général, alors un choix de licence à copyleft fort est conseillé,
-voire, dans le cas de menace de SaaS (/Software as a Service/), la
-licence AGPL. La notion « d’intérêt général » est laissée à
-l’appréciation des administrations.
+général, alors un choix de licence à réciprocité (ou « copyleft ») est
+conseillé. L'évaluation des risques pesant sur « l’intérêt général »
+est laissée à l’appréciation des administrations.
 
 Par exemple, une mission de service public finance le développement
 d’un logiciel A, publie son code source, et en fait un service pour
@@ -457,9 +456,8 @@ source A sous la licence AGPL (qui oblige la redistribution des
 contributions sous la même licence même lorsque le logiciel est
 distribué en SaaS) est fortement conseillé.
 
-Pour plus de détails sur le copyleft fort, se référer à [[#copyleft][cette section]].
-Attention, le copyleft fort (ou la licence AGPL) n’empêche pas la
-vente des codes sources.
+Pour plus de détails sur le copyleft, se référer à [[#copyleft][cette section]].
+Attention, le copyleft n’empêche pas la vente des codes sources.
 
 ** Cadre juridique
 
