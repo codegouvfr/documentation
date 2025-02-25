@@ -884,6 +884,12 @@ prévisible que l’acronyme ne serait plus d’actualité.
 
 Exemple de bon nom : https://github.com/etalab/ car la marque perdure.
 
+*** Comment faire connaître et valoriser votre logiciel libre ?
+
+Si votre logiciel libre gagne à être connu et déployé par d'autres
+organismes publics, vous pouvez envisager de proposer qu'il rejoigne
+la liste [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]].
+
 ** Promouvoir votre projet de logiciel libre
 * Contribuer à un logiciel libre
   :PROPERTIES:
@@ -1185,6 +1191,22 @@ la [[https://www.linuxfoundation.org][fondation Linux]].
 
 Il existe de nombreux outils pour générer des SBOMs en respectant l'un
 ou l'autre de ces formats.
+
+*** Comment mettre l'interface d'un logiciel libre au système de design de l'État ?
+
+Vous avez le droit de modifier ou d'enrichir le code source d'un
+logiciel libre pour que son interface web utilise le [[https://www.systeme-de-design.gouv.fr][système de design
+de l'État]] (ci-après "DSFR").
+
+Notez que l'utilisation de ce système de design est strictement
+encadrée. En cas de doute, référez-vous à ses [[https://github.com/GouvernementFR/dsfr/blob/main/doc/legal/cgu.md][conditions d'utilisation]]
+et prenez contact avec le Service d'information du gouvernement.
+
+Pour trouver des bibliothèques de code implémentant le DSFR, vous
+pouvez [[https://code.gouv.fr/sources/#/repos?q=dsfr][chercher "dsfr" dans l'inventaire des codes sources]] publics.
+
+Une implémentation du DSFR pour React largement réutilisée est le
+dépôt [[https://github.com/codegouvfr/react-dsfr][react-dsfr]].
 
 ** Contribuer à un logiciel libre
 *** Une administration peut-elle « sponsoriser » un logiciel libre ?
