@@ -153,6 +153,7 @@ mais devraient être rédigés en anglais.
 
 ** TODO Métriques de qualité d’un projet libre
 * FAQ
+** TODO Qu'est-ce que le Cyber Resilience Act ?
 ** TODO Comment aborder le sujet de la communication au sein d’un projet de logiciel libre ?
 ** TODO Comment mettre fin à un projet libre ?
 ** TODO Dois-je créer un compte GitHub pour moi ou mon organisation pour contribuer aux logiciels libres ?
@@ -307,8 +308,6 @@ des différents sujets.
   création de fichiers ~publiccode.yml~.
 - https://publiccodenet.github.io/assessment-eligibility/ : site web
   pour tester votre éligibilité au [[https://standard.publiccode.net/][standard pour un code public]].
-- https://github.com/finos/open-source-readiness
-- https://www.ow2.org/view/MRL/
 
 ** Sites référençant des logiciels libres
    :PROPERTIES:
