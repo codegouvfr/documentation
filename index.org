@@ -44,7 +44,19 @@ Si ces sujets sont nouveaux pour vous, un [[#glossaire][glossaire]] est disponib
 
 ** Trouver des logiciels libres répondant à vos besoins
 
-La mission logiciels libres maintient plusieurs sources :
+Trouver un logiciel libre peut se décomposer en deux étapes : 
+- Identifier des projets existants 
+- Analyser et comparer les divers projets identifiés
+
+*** Identifier : diverses sources 
+
+Lorsqu'il s'agit de trouver un logiciel libre, la multiplication des pistes est une bonne option. 
+Les deux pistes les plus courantes sont internet et les communautés. Elles sont bien évidemment 
+complémentaires. 
+
+**** Internet
+
+La mission logiciels libres maintient plusieurs sources disponibles en ligne :
 
 - [[https://code.gouv.fr/fr/awesome/][code.gouv.fr/awesome]] liste les logiciels libres développés par des
   administrations, à fort potentiel de réutilisation et à forte valeur
@@ -71,7 +83,19 @@ trouver des modules logiciels. Dans les deux cas, [[https://spdx.org/licenses/][
 licence est libre]], c'est-à-dire approuvée telle par la Free Software
 Foundation et l'Open Source Initiative.
 
-*** Comment vérifier la licence d’un logiciel ?
+**** Les communautés 
+
+Quelque soit votre contexte, vous pouvez demander à vos paires 
+s'ils ont connaissance de logiciels libres adaptés à votre domaine 
+et vos besoins. 
+
+Vous pouvez également solliciter les [[https://code.gouv.fr/fr/bluehats/][Bluehats]] 
+sur leurs [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][canaux d'échanges]]. 
+
+*** Analyser : vérifier la licence d’un logiciel 
+
+Avant d'utiliser un logiciel, il est nécessaire de vérifier la licence 
+afin d'éviter d'utiliser un logiciel sans en avoir les droits. 
 
 Une recherche sur internet permet de localiser le site de présentation
 et de mise à disposition du logiciel. Une fois l’URL identifiée, une
@@ -89,6 +113,40 @@ S’il n’est pas possible de trouver une information directe et fiable
 sur la licence d’un logiciel avec la technique précendente, il faut se
 rendre sur le dépôt de code source du logiciel. La licence doit se
 trouver soit à la racine du dépôt soit dans un répertoire =LICENSES=.
+
+*** Analyser : les autres aspects 
+
+Si la licence est l'élément indispensable que l'on vérifie 
+avant d'aller plus loin, il en est trois autres à ne pas négliger : les fonctionnalités, la sécurité et la communauté. 
+
+**** Fonctionnalités 
+
+Il n'est pas rare qu'un logiciel ne couvre pas entièrement les besoins fonctionnels visés. 
+Et c'est là que la magie opère : vous pouvez [[#contribuer-a-un-logiciel-libre][contribuer]] 
+au projet et ainsi participer à l'effort collectif, récompenser la communauté. 
+
+Il est donc utile de distinguer au sein des fonctionnalités attendues, 
+celles qui sont couvertes et celles qui ne le sont pas. Parmi ces 
+dernières, il est utile de mettre en balance leur criticité pour vous 
+et leur moyen d'intégration dans le projet (ex. "Est-ce facile à intégrer 
+via des plugins ou cela nécessite-t-il une modification du coeur ?"). 
+
+**** Sécurité 
+
+La sécurité est un sujet que l'on ne peut plus ignorer. Cet aspect d'un projet 
+peut être analysé sur la base de divers critères. 
+La OpenSSF dresse la liste des [[https://www.bestpractices.dev/fr/criteria][critères]] 
+qu'elle utilise pour labelliser des projets. C'est une base de départ solide. 
+
+**** Communauté 
+
+Avant d'utiliser un projet, nous vous conseillons de regarder l'état de santé 
+de la communauté qui l'entoure. Pour cela, il existe plusieurs métriques 
+intéressantes. Le projet [[https://chaoss.community/kb-metrics-and-metrics-models/][CHAOSS]] 
+en répertorie de nombreuses et les documente bien. 
+
+Un projet entouré d'une grande et forte communauté nécessite peu d'investissement. Par contre, il est plus compliqué d'influencer sa trajectoire. 
+Un projet orphelin de communauté demandera plus d'investissement mais vous aurez la liberté de choisir quand ou où investir. 
 
 ** Trouver de l’expertise sur une solution libre
 
