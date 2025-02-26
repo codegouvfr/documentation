@@ -1021,7 +1021,7 @@ pouvez consulter [[https://mentor.gouv.fr/catalog/1754][une capsule introductive
 Le site code.gouv.fr liste des [[https://code.gouv.fr/fr/formations/][offres de formation logiciels libres]]
 existantes, mais qui ne ciblent pas spécifiquement les agents publics.
 
-*** Qu’est-ce qu’un /fork/ ou une « dérivation » ?
+*** Qu’est-ce qu’un fork ou une « dérivation » ?
 #+cindex: fork
 #+cindex: dérivation
 
@@ -1553,7 +1553,7 @@ Linux.
 Il est d’usage que la signature des commits (avec =git commit -s=)
 signifie que le contributeur accepte le DCO déclaré par le projet.
 
-*** À quoi sert la plateforme [[https://data.code.gouv.fr][data.code.gouv.fr]] ?
+*** À quoi sert la plateforme data.code.gouv.fr ?
 
 [[https://data.code.gouv.fr][data.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour collecter
 des données sur les forges où sont publiés des dépôts d’organismes
