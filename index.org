@@ -117,7 +117,7 @@ trouver soit à la racine du dépôt soit dans un répertoire =LICENSES=.
 *** Analyser : les autres aspects 
 
 Si la licence est l'élément indispensable que l'on vérifie 
-avant d'aller plus loin, il en est trois autres à ne pas négliger : les fonctionnalités, la sécurité et la communauté. 
+avant d'aller plus loin, il en est trois autres à ne pas négliger : les fonctionnalités, la sécurité et les communautés. 
 
 **** Fonctionnalités 
 
