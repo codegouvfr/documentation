@@ -85,7 +85,7 @@ Foundation et l'Open Source Initiative.
 
 **** Les communautés 
 
-Quelque soit votre contexte, vous pouvez demander à vos paires 
+Quelque soit votre contexte, vous pouvez demander à vos pairs 
 s'ils ont connaissance de logiciels libres adaptés à votre domaine 
 et vos besoins. 
 
@@ -95,7 +95,7 @@ sur leurs [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][can
 *** Analyser : vérifier la licence d’un logiciel 
 
 Avant d'utiliser un logiciel, il est nécessaire de vérifier la licence 
-afin d'éviter d'utiliser un logiciel sans en avoir les droits. 
+afin d'éviter d'utiliser un logiciel sans en avoir le droit. 
 
 Une recherche sur internet permet de localiser le site de présentation
 et de mise à disposition du logiciel. Une fois l’URL identifiée, une
@@ -134,19 +134,32 @@ via des plugins ou cela nécessite-t-il une modification du coeur ?").
 **** Sécurité 
 
 La sécurité est un sujet que l'on ne peut plus ignorer. Cet aspect d'un projet 
-peut être analysé sur la base de divers critères. 
-La OpenSSF dresse la liste des [[https://www.bestpractices.dev/fr/criteria][critères]] 
-qu'elle utilise pour labelliser des projets. C'est une base de départ solide. 
+peut être analysé sur la base de divers critères. On pourra analyser deux facettes : 
+- Les dépendances : Est-ce que le projet fait appel à des dépendances à jour ? Est-ce que le projet utilise des outils pour assurer une mise à jour régulière ? 
+- Le code lui-même : Est-ce que le code contient des vulnérabilités connues ? 
 
-**** Communauté 
+Des outils existent et permettent d'analyser le code automatiquement comme [[https://securityscorecards.dev][le scorecard]] de la OpenSSF. 
 
-Avant d'utiliser un projet, nous vous conseillons de regarder l'état de santé 
-de la communauté qui l'entoure. Pour cela, il existe plusieurs métriques 
+Cette dernière dresse la liste des [[https://www.bestpractices.dev/fr/criteria][critères]] 
+qu'elle utilise pour labelliser des projets. C'est une base de départ solide pour découvrir ce sujet. 
+
+**** Communautés 
+
+Il existe a minima deux types de communautés : celles qui utilisent 
+et celles qui développent le projet. Les unes comme les autres peuvent 
+être plus ou moins grandes. 
+
+Bien évidemment, la présence et la taille des communautés  
+ne devraient pas freiner l'utilisation d'un projet. Dans tous les cas, nous 
+vous conseillons d'analyser la situation afin de savoir dans quoi vous vous engagez. 
+
+Voici quelques exemples : 
+- Un projet entouré d'une grande et forte communauté de développement nécessite peu d'investissement. Par contre, il est plus compliqué d'influencer sa trajectoire. 
+- Un projet entouré d'une petite communauté pourrait demander plus d'investissement mais en contrepartie, vous aurez la liberté de choisir quand ou où investir. 
+
+Pour analyser l'aspect communautaire d'un projet, il existe plusieurs métriques 
 intéressantes. Le projet [[https://chaoss.community/kb-metrics-and-metrics-models/][CHAOSS]] 
 en répertorie de nombreuses et les documente bien. 
-
-Un projet entouré d'une grande et forte communauté nécessite peu d'investissement. Par contre, il est plus compliqué d'influencer sa trajectoire. 
-Un projet orphelin de communauté demandera plus d'investissement mais vous aurez la liberté de choisir quand ou où investir. 
 
 ** Trouver de l’expertise sur une solution libre
 
