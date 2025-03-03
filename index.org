@@ -92,10 +92,10 @@ et vos besoins.
 Vous pouvez également solliciter les [[https://code.gouv.fr/fr/bluehats/][Bluehats]] 
 sur leurs [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][canaux d'échanges]]. 
 
-*** Analyser : vérifier la licence d’un logiciel 
+*** Analyser : vérifier la licence d’un logiciel
 
-Avant d'utiliser un logiciel, il est nécessaire de vérifier la licence 
-afin d'éviter d'utiliser un logiciel sans en avoir le droit. 
+Avant d'utiliser un logiciel, il est nécessaire de vérifier la licence
+afin d'éviter d'utiliser un logiciel sans en avoir le droit.
 
 Une recherche sur internet permet de localiser le site de présentation
 et de mise à disposition du logiciel. Une fois l’URL identifiée, une
@@ -104,8 +104,8 @@ page indiquant sous quelle licence le logiciel est mis à disposition.
 Par exemple, pour le projet LibreOffice :
 
 - une recherche de =LibreOffice= donne l’url du site projet :
-  http://www.libreoffice.org.
-- Une recherche de =license site:https://www.libreoffice.org/= donne la
+  http://www.libreoffice.org ;
+- une recherche de =license site:https://www.libreoffice.org/= donne la
   page https://www.libreoffice.org/about-us/licenses qui contient
   effectivement les éléments d’informations relatifs à la licence.
 
@@ -114,29 +114,37 @@ sur la licence d’un logiciel avec la technique précendente, il faut se
 rendre sur le dépôt de code source du logiciel. La licence doit se
 trouver soit à la racine du dépôt soit dans un répertoire =LICENSES=.
 
-*** Analyser : les autres aspects 
+*** Analyser : les autres aspects 
 
-Si la licence est l'élément indispensable que l'on vérifie 
-avant d'aller plus loin, il en est trois autres à ne pas négliger : les fonctionnalités, la sécurité et les communautés. 
+Si la licence est l'élément indispensable que l'on vérifie avant
+d'aller plus loin, il en est trois autres à ne pas négliger : les
+fonctionnalités, la sécurité et les communautés.
 
 **** Fonctionnalités 
 
-Il n'est pas rare qu'un logiciel ne couvre pas entièrement les besoins fonctionnels visés. 
-Et c'est là que la magie opère : vous pouvez [[#contribuer-a-un-logiciel-libre][contribuer]] 
-au projet et ainsi participer à l'effort collectif, récompenser la communauté. 
+Il n'est pas rare qu'un logiciel ne couvre pas entièrement les besoins
+fonctionnels visés. Et c'est là que la magie opère : vous pouvez
+[[#contribuer-a-un-logiciel-libre][contribuer]] au projet et ainsi participer à l'effort collectif,
+récompenser la communauté.
 
-Il est donc utile de distinguer au sein des fonctionnalités attendues, 
-celles qui sont couvertes et celles qui ne le sont pas. Parmi ces 
-dernières, il est utile de mettre en balance leur criticité pour vous 
-et leur moyen d'intégration dans le projet (ex. "Est-ce facile à intégrer 
-via des plugins ou cela nécessite-t-il une modification du coeur ?"). 
+Il est donc utile de distinguer au sein des fonctionnalités attendues,
+celles qui sont couvertes et celles qui ne le sont pas. Parmi ces
+dernières, il est utile de mettre en balance leur criticité pour vous
+et leur moyen d'intégration dans le projet (ex. "Est-ce facile à
+intégrer via des plugins ou cela nécessite-t-il une modification du
+coeur ?").
 
 **** Sécurité 
 
-La sécurité est un sujet que l'on ne peut plus ignorer. Cet aspect d'un projet 
-peut être analysé sur la base de divers critères. On pourra analyser deux facettes : 
-- Les dépendances : Est-ce que le projet fait appel à des dépendances à jour ? Est-ce que le projet utilise des outils pour assurer une mise à jour régulière ? 
-- Le code lui-même : Est-ce que le code contient des vulnérabilités connues ? 
+La sécurité est un sujet que l'on ne peut plus ignorer. Cet aspect
+d'un projet peut être analysé sur la base de divers critères. On
+pourra analyser deux facettes :
+
+- Les dépendances : Est-ce que le projet fait appel à des dépendances
+  à jour ? Est-ce que le projet utilise des outils pour assurer une
+  mise à jour régulière ?
+- Le code lui-même : Est-ce que le code contient des vulnérabilités
+  connues ?
 
 Des outils existent et permettent d'analyser le code automatiquement comme [[https://securityscorecards.dev][le scorecard]] de la OpenSSF. 
 
@@ -1447,7 +1455,7 @@ Vous devez prioriser le choix d’une licence permissive et n’utiliser
 de licence à réciprocité que si la publication sous licence permissive
 présente un risque duement justifié pour l’intérêt général.
 
-*** Le code source hérite-t-il de la licence du langage de programmation ?
+*** Le code source hérite-t-il de la licence du langage de programmation ?
 
 Un langage de programmation ne relève pas du droit d’auteur, tout
 comme la langue française ne relève pas du droit d’auteur. En
@@ -1474,12 +1482,12 @@ en Javascript). Les commentaires dans le code source sont considérés
 comme faisant partie du code et doivent être écrits en anglais.
 
 Si le code source est développé en lien avec un référentiel, alors les
-noms de variable et de fonction doivent reprendre ce référentiel.  Par
+noms de variable et de fonction doivent reprendre ce référentiel. Par
 exemple, si le référentiel est en français, les noms de variable et de
 fonction seront en français.
 
 Le manuel destiné au développeur du projet ou à une personne qui va
-réutiliser le projet (l’intégrer, le déployer, etc.)  doit être écrit
+réutiliser le projet (l’intégrer, le déployer, etc.) doit être écrit
 en français.
 
 Le manuel destiné à l’utilisateur final doit être écrit en français.
@@ -1498,7 +1506,7 @@ Vous pouvez vérifier sur [[https://code.gouv.fr/data/platforms.csv][cette liste
 une forge et si oui, contacter les personnes en interne qui pourront
 vous aider à y publier vos codes sources.
 
-Si vous êtes une administration centrale et souhaitez publier sur  une
+Si vous êtes une administration centrale et souhaitez publier sur une
 forge interministérielle, vous pouvez contacter les responsables de la
 forge [[https://gitlab.mim-libre.fr][gitlab.mim-libre.fr]].
 
