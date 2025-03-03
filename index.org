@@ -1060,6 +1060,8 @@ sont listés les [[https://code.gouv.fr/fr/ospos/][OSPOs d'organismes publics fr
   :CUSTOM_ID: faq
   :END:
 
+Vous pouvez aussi naviguer dans cette FAQ depuis [[https://code.gouv.fr/faq][code.gouv.fr/faq]].
+
 Si vous avez des questions que vous voulez voir figurer dans cette
 FAQ, écrivez à =contact@code.gouv.fr=.
 
