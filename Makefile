@@ -21,15 +21,7 @@ mkdocs:
 	~/.local/bin/pipenv run mkdocs build --verbose -d public/
 
 clean:
-	rm -rf *texi *log *aux *toc *pdf *info *ky *cp *fn *tp *pg *vr *cps
-	rm -f index.md
-	rm -f preambule.md
-	rm -f utiliser.md
-	rm -f publier.md
-	rm -f contribuer.md
-	rm -f ospo.md
-	rm -f faq.md
-	rm -f glossaire.md
+	rm -rf *texi *log *aux *toc *pdf *info *ky *cp *fn *tp *pg *vr *cps *txt
 	rm -rf public docs mkdocs
 	touch index.org
 
