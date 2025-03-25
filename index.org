@@ -541,8 +541,8 @@ moraux*.
 
 Toute personne utilisant, copiant, modifiant ou diffusant le logiciel
 sans autorisation explicite du détenteur des droits patrimoniaux est
-*coupable de contrefaçon et passible de trois ans d’emprisonnement et de
-300 000 € d’amende* ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655082?isSuggest=true][Art. L. 335-2 du CPI]])
+*coupable de contrefaçon et passible de trois ans d’emprisonnement et
+de 300 000 € d’amende* ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655082?isSuggest=true][Art. L. 335-2 du CPI]])
 
 Concernant le logiciel, le droit d’utilisation ouvre de manière encadrée
 ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044365559?isSuggest=true][Art. L122-6-1 du CPI]]), les possibilités de :
@@ -554,15 +554,29 @@ Concernant le logiciel, le droit d’utilisation ouvre de manière encadrée
 - Reproduire et traduire du code dans un but d’inter-opérabilité avec
   d’autres applicatifs
 
-La protection au titre des droits patrimoniaux est limitée dans le temps
-(Pour la France, 70 ans après le décès de l’auteur (personne physique)
-ou de la première publication (personne morale). Au delà, le logiciel,
-pour une version donnée *s’élève dans le domaine public*, il est utilisable
-par quiconque sans aucune restriction.
+La protection au titre des droits patrimoniaux est limitée dans le
+temps (Pour la France, 70 ans après le décès de l’auteur (personne
+physique) ou de la première publication (personne morale). Au delà, le
+logiciel, pour une version donnée, *s’élève dans le domaine public*,
+il est utilisable par quiconque sans aucune restriction.
 
 Les droits moraux, quant à eux, sont inaliénables. Pour le logiciel,
-cela se résume au respect du nom des auteurs ayant travaillé au
+cela se résume au respect du nom des auteurs ayant travaillé sur
 logiciel.
+
+Néanmoins, lorsque des « logiciels et leur documentation [sont] créés
+par un ou plusieurs employés dans l'exercice de leurs fonctions ou
+d'après les instructions de leur employeur » ([[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039279818][Art. L113-9 du Code de
+la propriété intellectuelle]]), les droits patrimoniaux sont
+automatiquement dévolus à l’employuer. Dans le cadre des
+adminisrtations publiques, lorsrque les développements sont réalisés
+sur le temps professionnel et son en lien direct avec les instructions
+de l’employeur, au sens de l’article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039279818][L113-9]], les droits patrimoniaux
+sont alors automatiquement dévolus à l’État. De plus, l’auteur voit
+ses droit moraux diminués selon l’article [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278899][L121-7 du Code de la
+propriété intellectuelle]] et perd donc son droit de se repentir ou de
+retrait, et son droit au respect de l’œuvre.
+
 
 *** Pour qu’un code source soit communicable
 
