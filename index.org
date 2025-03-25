@@ -85,9 +85,9 @@ Foundation et l'Open Source Initiative.
 
 **** Les communautés 
 
-Quelque soit votre contexte, vous pouvez demander à vos pairs 
-s'ils ont connaissance de logiciels libres adaptés à votre domaine 
-et vos besoins. 
+Quel que soit votre contexte, vous pouvez demander à vos pairs s'ils
+ont connaissance de logiciels libres adaptés à votre domaine et vos
+besoins.
 
 Vous pouvez également solliciter les [[https://code.gouv.fr/fr/bluehats/][Bluehats]] 
 sur leurs [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][canaux d'échanges]]. 
@@ -1087,11 +1087,10 @@ Vous pouvez aussi naviguer dans cette FAQ depuis [[https://code.gouv.fr/faq][cod
 Si vous avez des questions que vous voulez voir figurer dans cette
 FAQ, écrivez à =contact@code.gouv.fr=.
 
-** Généralités
+** Généralités sur les logiciels libres
    :PROPERTIES:
    :CUSTOM_ID: faq_generalites
    :END:
-
 *** Qu’est-ce qu’un logiciel libre ?
 #+cindex: logiciel libre
 
@@ -1106,15 +1105,6 @@ l’Open Source Initiative.  Une licence libre octroie quatre libertés :
 
 Voir [[https://spdx.org/licenses/][spdx.org/licenses]] pour la liste des licences et de leur
 validation par l’OSI ou la FSF.
-
-*** Existe-t-il des formations aux logiciels libres dans l’administration ?
-#+cindex: formation
-
-Si vous êtes agent public avec un accès à la plateforme [[https://mentor.gouv.fr][Mentor]], vous
-pouvez consulter [[https://mentor.gouv.fr/catalog/1754][une capsule introductive]] produite par la DINUM.
-
-Le site code.gouv.fr liste des [[https://code.gouv.fr/fr/formations/][offres de formation logiciels libres]]
-existantes, mais qui ne ciblent pas spécifiquement les agents publics.
 
 *** Qu’est-ce qu’un fork ou une « dérivation » ?
 #+cindex: fork
@@ -1198,6 +1188,19 @@ Oui, si votre responsable est d’accord, il n’y a aucun obstacle à ce
 que vous puissiez contribuer à des logiciels libres sur votre temps de
 travail.
 
+*** Qu’est-ce qu’un Administrateur Ministériel des Données, des Algorithmes et des Codes sources ?
+    :PROPERTIES:
+    :CUSTOM_ID: AMDAC
+    :END:
+#+cindex: AMDAC
+
+AMDAC est l’acronyme de « Administrateur Ministériel des Données, des
+Algorithmes et des Codes sources ». Les AMDACs veillent à appliquer le
+principe d’ouverture par défaut des données publiques, incluant les
+codes sources des administrations.
+
+Vous trouverez [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs sur data.gouv.fr]].
+
 *** Comment contacter la mission logiciels libres ?
 #+cindex: mission
 
@@ -1210,6 +1213,22 @@ Pour entrer en contact avec d'autres agents publics libristes, voir
    :PROPERTIES:
    :CUSTOM_ID: faq_utiliser
    :END:
+*** Qu’est-ce que le socle interministériel de logiciels libres ?
+#+cindex: sill
+
+Le socle interministériel de logiciels libres (SILL) est le catalogue
+des logiciels libres recommandés pour toutes les administrations
+publiques.
+
+Il est publié par la mission logiciels libres sur [[https://code.gouv.fr/sill][code.gouv.fr/sill]] et
+tout agent public est invité à s’y créer un compte pour déclarer ses
+usages de logiciels ou se proposer comme référent d’un logiciel.
+
+Tous les logiciels libres présentés dans le SILL sont déjà en cours
+d'utilisation, soit par la DSI d'un organisme public soit par un agent
+public dans le cadre de ses fonctions.
+
+Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
 
 *** Comment mesurer la maturité d’un logiciel libre ?
 #+cindex: maturité
@@ -1221,6 +1240,15 @@ Une autre structure propose une variante, l’[[https://github.com/finos/open-so
 
 Le projet [[https://chaoss.community][chaoss.community]] propose des métriques sur la « santé » d'un
 projet libre pouvant s'apparenter et/ou compléter ces outils.
+
+*** Existe-t-il des formations aux logiciels libres dans l’administration ?
+#+cindex: formation
+
+Si vous êtes agent public avec un accès à la plateforme [[https://mentor.gouv.fr][Mentor]], vous
+pouvez consulter [[https://mentor.gouv.fr/catalog/1754][une capsule introductive]] produite par la DINUM.
+
+Le site code.gouv.fr liste des [[https://code.gouv.fr/fr/formations/][offres de formation logiciels libres]]
+existantes, mais qui ne ciblent pas spécifiquement les agents publics.
 
 *** Comment m’assurer que le titulaire d’un marché me livre les codes sources ?
 #+cindex: marché public
@@ -1252,24 +1280,7 @@ libre qui est exigé, indépendamment de son éditeur.
 Voir la section 5.6 du livre [[https://www.lgdj.fr/droit-des-logiciels-9782130626152.html][Droit des logiciels]] de Pellegrini et
 Canevet qui porte sur ce sujet.
 
-*** Qu’est-ce que le socle interministériel de logiciels libres ?
-#+cindex: sill
-
-Le socle interministériel de logiciels libres (SILL) est le catalogue
-des logiciels libres recommandés pour toutes les administrations
-publiques.
-
-Il est publié par la mission logiciels libres sur [[https://code.gouv.fr/sill][code.gouv.fr/sill]] et
-tout agent public est invité à s’y créer un compte pour déclarer ses
-usages de logiciels ou se proposer comme référent d’un logiciel.
-
-Tous les logiciels libres présentés dans le SILL sont déjà en cours
-d'utilisation, soit par la DSI d'un organisme public soit par un agent
-public dans le cadre de ses fonctions.
-
-Voir [[https://code.gouv.fr/sill/readme][code.gouv.fr/sill/readme]] pour plus de détails.
-
-*** Comment créer un SBOM ("software bill of materials") ?
+*** Qu'est-ce que le Software Bill Of Materials (SBOM) ?
 #+cindex: SBOM
 
 Un SBOM (/Software Bill of Materials/) est une liste décrivant les
@@ -1287,23 +1298,15 @@ la [[https://www.linuxfoundation.org][fondation Linux]].
 Il existe de nombreux outils pour générer des SBOMs en respectant l'un
 ou l'autre de ces formats.
 
-*** Comment mettre l'interface d'un logiciel libre au système de design de l'État ?
+*** Où trouver les codes sources publiés par mon ministère ?
 
-Vous avez le droit de modifier ou d'enrichir le code source d'un
-logiciel libre pour que son interface web utilise le [[https://www.systeme-de-design.gouv.fr][système de design
-de l'État]] (ci-après "DSFR").
+Vous pouvez chercher sur [[https://code.gouv.fr/sources/#/groups][code.gouv.fr/sources]] l’organisation qui
+correspond à votre direction ou, plus largement, à votre ministère.
 
-Notez que l'utilisation de ce système de design est strictement
-encadrée. En cas de doute, référez-vous à ses [[https://github.com/GouvernementFR/dsfr/blob/main/doc/legal/cgu.md][conditions d'utilisation]]
-et prenez contact avec le Service d'information du gouvernement.
+Vous pouvez aussi parcourir la liste [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]] qui présente
+des logiciels libres à fort potentiel de réutilisation.
 
-Pour trouver des bibliothèques de code implémentant le DSFR, vous
-pouvez [[https://code.gouv.fr/sources/#/repos?q=dsfr][chercher "dsfr" dans l'inventaire des codes sources]] publics.
-
-Une implémentation du DSFR pour React largement réutilisée est le
-dépôt [[https://github.com/codegouvfr/react-dsfr][react-dsfr]].
-
-** Contribuer à un logiciel libre
+** Contribuer à un logiciel libre existant
 *** Une administration peut-elle « sponsoriser » un logiciel libre ?
 
 Une administration soutenir des structures privées (association,
@@ -1318,8 +1321,9 @@ Ces démarches doivent respecter le cadre légal de la subvention, de
 l'adhésion et de la commande publiques.
 
 *** En tant qu’agent de l’État, puis-je contribuer à un logiciel libre existant ?
+#+cindex: contribuer
 
-Si votre hiérarchie est d'accord, oui. 
+Si votre hiérarchie est d'accord, oui.
 
 Le document qui acte de cette possibilité de contribuer à des
 logiciels libres existants est la [[https://www.numerique.gouv.fr/publications/politique-logiciel-libre/][politique de contribution open
@@ -1340,50 +1344,27 @@ contribuez se trouve dans l'une de ces trois situations :
 - Il exige la signature d'un [[https://developercertificate.org][DCO]] ou il n'exige rien de particulier :
   dans ces deux cas, le seul accord de votre hiérarchie suffit.
 
-** Publier un code source
+*** Comment mettre l'interface d'un logiciel libre au système de design de l'État ?
+#+cindex: dsfr
+
+Vous avez le droit de modifier ou d'enrichir le code source d'un
+logiciel libre pour que son interface web utilise le [[https://www.systeme-de-design.gouv.fr][système de design
+de l'État]] (ci-après "DSFR").
+
+Notez que l'utilisation de ce système de design est strictement
+encadrée. En cas de doute, référez-vous à ses [[https://github.com/GouvernementFR/dsfr/blob/main/doc/legal/cgu.md][conditions d'utilisation]]
+et prenez contact avec le Service d'information du gouvernement.
+
+Pour trouver des bibliothèques de code implémentant le DSFR, vous
+pouvez [[https://code.gouv.fr/sources/#/repos?q=dsfr][chercher "dsfr" dans l'inventaire des codes sources]] publics.
+
+Une implémentation du DSFR pour React largement réutilisée est le
+dépôt [[https://github.com/codegouvfr/react-dsfr][react-dsfr]].
+
+** Comprendre les licences libres
    :PROPERTIES:
-   :CUSTOM_ID: faq_publier
+   :CUSTOM_ID: faq_licences
    :END:
-
-*** Comment construire une communauté open source autour de son projet ?
-
-1. Développez un logiciel qui sera utile à d'autres
-2. Choisissez une licence libre utile à ces « autres »
-3. Identifiez les utilisateurs potentiels
-4. Identifiez les contributeurs potentiels
-5. Ajoutez un CONTRIBUTING.md pour les guider
-6. Allez chercher des utilisateurs
-7. Allez chercher des contributeurs
-8. Communiquez de façon publique et prédictible
-9. Allez chercher votre première contribution
-10. Améliorez en itérant sur toutes ces étapes
-
-*** Comment faire connaître le logiciel libre que mon administration développe ?
-
-- Si votre logiciel est d'intérêt pour d'autres organismes publics,
-  faites-le référencer dans [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]].
-- Consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des pistes.
-
-*** Quels points vérifier avant d’ouvrir un code source existant ?
-
-Juridique :
-
-- Les licences des dépendances appelées par votre code source.
-- Les licences des codes sources modifiés et/ou améliorés par votre code.
-- Quelles licences pouvez/voulez-vous utiliser pour votre code ?
-- Vos licences choisies sont-elles bien déclarées dans votre code (cf. les conventions de [[https://reuse.software][reuse.software]]) ?
-
-Sécurité :
-
-- Est-ce que l’historique Git de votre dépôt contient des données sensibles ?
-- Avez-vous testé les éléments de sécurité de votre code ?
-
-Documentation :
-
-- Avez-vous une documentation pour l’utilisateur final ?
-- Avez-vous une documentation pour l’administrateur système ?
-- Avez-vous une documentation pour les contributeurs ?
-
 *** Quelle licence libre utiliser pour publier des codes sources de l'administration ?
 #+cindex: licence
 
@@ -1397,47 +1378,6 @@ toutes rédigées en français.
 Si vous tenez absolument à utiliser une licence rédigée en français,
 vous pouvez utiliser la licence [[https://eupl.eu/1.2/fr/][EUPL 1.2]] ou l’une des licences [[http://cecill.info/][CeCILL]].
 
-*** Qui peut m’aider à publier les codes sources de mon organisme public ?
-#+cindex: publier
-
-Vous pouvez interroger vos collègues et votre direction pour savoir si
-vous disposez d’une forge et/ou de comptes d’organisation dédiés où
-publier vos codes sources.
-
-À défaut de réponse, vous pouvez solliciter l’Administrateur
-Ministériel des Données, des Algorithmes et des Codes sources de votre
-ministère. Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
-
-Vous pouvez enfin solliciter directement la mission logiciels libres
-en écrivant à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]].
-
-Dès que vous publiez un code développé par votre administration,
-assurez-vous que la forge et l’organisation via laquelle vous publiez
-sont référencés sur [[https://code.gouv.fr/sources/][code.gouv.fr/sources]] : si ce n’est pas le cas,
-[[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
-
-*** Qu’est-ce qu’un Administrateur Ministériel des Données, des Algorithmes et des Codes sources ?
-    :PROPERTIES:
-    :CUSTOM_ID: AMDAC
-    :END:
-#+cindex: AMDAC
-
-AMDAC est l’acronyme de « Administrateur Ministériel des Données, des
-Algorithmes et des Codes sources ». Les AMDACs veillent à appliquer le
-principe d’ouverture par défaut des données publiques, incluant les
-codes sources des administrations.
-
-Vous trouverez [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs sur data.gouv.fr]].
-
-*** Quelle gouvernance mettre en place dans un projet de logiciel libre ?
-#+cindex: gouvernance
-
-Pour mettre en place une gouvernance open source dans un projet, vous
-pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce guide en anglais]] de la fondation Eclipse.
-
-*** Sous quelle licence dois-je publier mes codes sources ?
-#+cindex: licence
-
 En tant que mission de service public, la loi pour une République
 numérique exige la publication des codes sources sous l’une des
 licences référencées à l’[[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034504993][article D323-2-2]] du Code des Relations entre
@@ -1445,29 +1385,6 @@ le Public et les Administrations.
 
 Le portail data.gouv.fr présente ces [[https://www.data.gouv.fr/fr/pages/legal/licences/][licences de réutilisations]], pour
 les données comme pour les logiciels.
-
-Licences permissives :
-
-- Apache License 2.0
-- BSD 2-Clause "Simplified" License
-- BSD 3-Clause "New" or "Revised" License
-- CeCILL-B Free Software License Agreement
-- MIT License
-
-Licences à réciprocité :
-
-- CeCILL Free Software License Agreement v2.1
-- CeCILL-C Free Software License Agreement
-- GNU General Public License v3.0 or later
-- GNU Lesser General Public License v3.0 or later
-- GNU Affero General Public License v3.0 or later
-- Mozilla Public License 2.0
-- Eclipse Public License 2.0
-- European Union Public License 1.2
-
-Vous devez prioriser le choix d’une licence permissive et n’utiliser
-de licence à réciprocité que si la publication sous licence permissive
-présente un risque duement justifié pour l’intérêt général.
 
 *** Le code source hérite-t-il de la licence du langage de programmation ?
 
@@ -1489,6 +1406,111 @@ Par exemple, lorsque vous convertissez un fichier .odt en PDF via
 LibreOffice, la licence LibreOffice ne s’applique ni au fichier .odt
 ni au fichier PDF, n’étant pas des œuvres dérivées du logiciel.
 
+*** Puis-je créer une marque pour protéger mon logiciel libre ?
+
+Oui.
+
+*** Puis-je interdire la réutilisation commerciale des codes sources publiés ?
+
+Non, toutes les licences libres que vous pouvez utiliser pour publier
+votre code source autorisent la réutilisation commerciale de ce code.
+
+*** À qui appartiennent les droits d’auteur d’un logiciel développé par une administration ?
+
+S’il est développé par des agents de cette administration, les droits
+patrimoniaux appartiennent à l’administration.
+
+S’il est développé par un prestataire et si le contrat a précisé que
+l’administration récupère les droits patrimoniaux du logiciel, alors
+ils appartiennent à l’administration.
+
+*** Qu’est-ce qu’un Copyright License Agreement (CLA) ?
+
+- https://contributoragreements.org
+- https://www.harmonyagreements.org
+
+*** Qu’est-ce qu’un Developer Certificate of Origin (DCO) ?
+
+Le /Developer Certificate of Origin/ est un texte que les contributeurs
+d’un projet libre sont invités à accepter /avant/ de contribuer: il
+donne la garantie au projet que le contributeur a fait toutes les
+vérifications nécessaires au sujet de sa contribution.
+
+Voir [[https://developercertificate.org][developercertificate.org]] qui est le texte du DCO pour le noyau
+Linux.
+
+Il est d’usage que la signature des commits (avec =git commit -s=)
+signifie que le contributeur accepte le DCO déclaré par le projet.
+
+** Développer et publier un logiciel libre
+   :PROPERTIES:
+   :CUSTOM_ID: faq_publier
+   :END:
+*** Comment vérifier qu'un logiciel libre n'est pas déjà développé ?
+
+Vous pouvez vérifier dans [[https://code.gouv.fr/sources/][l'inventaire des codes sources]] et dans le
+[[https://code.gouv.fr/sill/][Socle Interministériel des Logiciels Libres]].
+
+Vous pouvez aussi vérifier au-delà, sur les forges « grand public ».
+
+*** Quelles sont les bonnes pratiques de développement d'un logiciel libre ?
+
+- Choisir une licence : [[https://choosealicense.com][choosealicense.com]] et le [[https://code.gouv.fr/guides/juridique/][guide DINUM]]
+- Rédiger un fichier README : [[https://www.makeareadme.com][www.makeareadme.com]]
+- Publier un fichier de ChangeLog : [[https://keepachangelog.com/fr/1.0.0/][keepachangelog.com]]
+- Utiliser le versionnement sémantique : [[https://semver.org/spec/v2.0.0.html][semver.org]]
+- Rédiger des messages de commit : [[https://www.conventionalcommits.org/en/v1.0.0/][conventionalcommits.org]]
+- Ajouter un [[https://opensource.guide/code-of-conduct/][code de conduite]]
+
+En plus de ces conventions assez consensuelles :
+
+- Utiliser [[https://gitmoji.dev][gitmoji]] pour les commits
+- Afficher les contributeurs avec [[https://allcontributors.org/docs/en/bot/installation][allcontributors.org]]
+
+*** Comment faire connaître le logiciel libre que mon administration développe ?
+#+cindex: communauté
+
+- Si votre logiciel est d'intérêt pour d'autres organismes publics,
+  faites-le référencer dans [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]].
+- Consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des pistes.
+
+*** Comment construire une communauté open source autour de son projet ?
+#+cindex: contributeurs
+#+cindex: communauté
+
+1. Développez un logiciel qui sera utile à d'autres
+2. Choisissez une licence libre utile à ces « autres »
+3. Identifiez les utilisateurs potentiels
+4. Identifiez les contributeurs potentiels
+5. Ajoutez un CONTRIBUTING.md pour les guider
+6. Allez chercher des utilisateurs
+7. Allez chercher des contributeurs
+8. Communiquez de façon publique et prédictible
+9. Allez chercher votre première contribution
+10. Améliorez en itérant sur toutes ces étapes
+
+Vous pouvez faciliter les contributions en publiant un fichier
+=CONTRIBUTING.md= à la racine de votre dépôt ou vous expliquerez aux
+potentiels contributeurs le moyen de vous aider.
+
+*** Quel processus de contribution mettre en place pour mon projet libre ?
+#+cindex: DCO
+#+cindex: CLA
+#+cindex: contribuer
+#+cindex: communauté
+
+Vous pouvez exiger la signature d'un [[https://developercertificate.org][Developer's Certificate of Origin]]
+et/ou un [[https://en.wikipedia.org/wiki/Contributor_License_Agreement][Contributor License Agreement]].
+
+La convention est de décrire les modalités de contribution en anglais
+dans un fichier =CONTRIBUTING.md= à la racine du dépôt.
+
+*** Quelle gouvernance mettre en place pour un logiciel libre ?
+#+cindex: gouvernance
+
+Pour mettre en place une gouvernance open source dans un projet, vous
+pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce guide en anglais]] de la fondation Eclipse.
+
 *** Quelles langues utiliser pour mon code source et ma documentation ?
 
 Le code source est écrit dans un langage de programmation (par exemple
@@ -1505,6 +1527,58 @@ réutiliser le projet (l’intégrer, le déployer, etc.) doit être écrit
 en français.
 
 Le manuel destiné à l’utilisateur final doit être écrit en français.
+
+*** Où trouver des entreprises capables de développer un logiciel libre ?
+
+Il n’y a pas de catalogue centralisé exhaustif, mais des initiatives
+existent. Notamment, le [[https://cnll.fr/][CNLL]] regroupe les principales associations et
+entreprises de l’écosystème open source en France.
+
+Plusieurs entreprises du libre se sont rassemblées pour créer un
+guichet unique : [[https://www.opensource-experts.com/][Open source experts]] (OSE)
+
+** Publier un logiciel libre déjà développé
+   :PROPERTIES:
+   :CUSTOM_ID: faq_publier
+   :END:
+*** Quels points vérifier avant d’ouvrir un code source existant ?
+
+Au niveau juridique :
+
+- Les licences des dépendances appelées par votre code source.
+- Les licences des codes sources modifiés et/ou améliorés par votre code.
+- Quelles licences pouvez/voulez-vous utiliser pour votre code ?
+- Vos licences choisies sont-elles bien déclarées dans votre code (cf. les conventions de [[https://reuse.software][reuse.software]]) ?
+
+Au niveau de la sécurité :
+
+- Est-ce que l’historique Git de votre dépôt contient des données sensibles ?
+- Avez-vous testé les éléments de sécurité de votre code ?
+
+Pour ce qui est de la documentation :
+
+- Avez-vous une documentation pour l’utilisateur final ?
+- Avez-vous une documentation pour l’administrateur système ?
+- Avez-vous une documentation pour les contributeurs ?
+
+*** Qui peut m’aider à publier les codes sources de mon organisme public ?
+#+cindex: publier
+
+Vous pouvez interroger vos collègues et votre direction pour savoir si
+vous disposez d’une forge et/ou de comptes d’organisation dédiés où
+publier vos codes sources.
+
+À défaut de réponse, vous pouvez solliciter l’Administrateur
+Ministériel des Données, des Algorithmes et des Codes sources de votre
+ministère. Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
+
+Vous pouvez enfin solliciter directement la mission logiciels libres
+en écrivant à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]].
+
+Dès que vous publiez un code développé par votre administration,
+assurez-vous que la forge et l’organisation via laquelle vous publiez
+sont référencés sur [[https://code.gouv.fr/sources/][code.gouv.fr/sources]] : si ce n’est pas le cas,
+[[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
 
 *** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
 #+cindex: github.com
@@ -1532,7 +1606,7 @@ Sinon, vous pouvez publier votre code sur la forge de votre choix, par
 exemple [[https://gitlab.com][gitlab.com]], [[https://github.com][github.com]] ou [[https://sourcehut.org/][SourceHut]].
 
 *** Suis-je obligé de permettre la contribution sur mes dépôts ?
-#+cindex: contribution
+#+cindex: contribuer
 
 Non. Vous pouvez consulter à ce sujet nos propositions sur [[https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources][les degrés
 d’ouverture]].
@@ -1564,7 +1638,7 @@ prestation est une mauvaise pratique.
 Pour les projets des administrations centrales qui ne sont pas
 ouverts, il existe une forge GitLab privée gérée par la DGFiP.
 
-*** Pouvez-vous m’aider avec Git ?
+*** Pouvez-vous m’aider à utiliser Git ?
 
 Vous trouverez de l’aide en contactant l’un des membres de la
 communauté [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][BlueHats]].
@@ -1583,91 +1657,27 @@ Néanmoins, si l’erreur a été faite il existe certains outils :
 - [[https://github.com/Yelp/detect-secrets][Detect Secrets]] sous licence Apache 2
 - [[https://github.com/GitGuardian][Gitgardian]] sous licence MIT
 
-*** Puis-je créer une marque pour protéger mon logiciel libre ?
-
-Oui.
-
-*** Où trouver des entreprises capables de développer un logiciel libre ?
-
-Il n’y a pas de catalogue centralisé exhaustif, mais des initiatives
-existent. Notamment, le [[https://cnll.fr/][CNLL]] regroupe les principales associations et
-entreprises de l’écosystème open source en France.
-
-Plusieurs entreprises du libre se sont rassemblées pour créer un
-guichet unique : [[https://www.opensource-experts.com/][Open source experts]] (OSE)
-
-*** Puis-je interdire la réutilisation commerciale des codes sources publiés ?
-
-Non, toutes les licences libres que vous pouvez utiliser pour publier
-votre code source autorisent la réutilisation commerciale de ce code.
-
 *** Deux administrations développent la même chose, que faire ?
 
 Si vous avez identifié les porteurs de ces projets, envoyez leur un
 mail pour les mettre en contact en ajoutant =contact@code.gouv.fr= en
 copie.
 
-*** Comment attirer des contributeurs sur mes dépôts publiés ?
-#+cindex: contributeurs
+*** À quoi sert la plateforme ecosystem.code.gouv.fr ?
+#+cindex: code.gouv.fr
 
-Vous pouvez faciliter les contributions en publiant un fichier
-=CONTRIBUTING.md= à la racine de votre dépôt ou vous expliquerez aux
-potentiels contributeurs le moyen de vous aider.
+[[https://ecosystem.code.gouv.fr][ecosystem.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour
+collecter des données sur les forges où sont publiés des dépôts
+d’organismes publics.
 
-*** À qui appartiennent les droits d’auteur d’un logiciel développé par une administration ?
-
-S’il est développé par des agents de cette administration, les droits
-patrimoniaux appartiennent à l’administration.
-
-S’il est développé par un prestataire et si le contrat a précisé que
-l’administration récupère les droits patrimoniaux du logiciel, alors
-ils appartiennent à l’administration.
-
-*** Quel processus de contribution mettre en place pour mon projet libre ?
-
-Vous pouvez exiger un DCO et/ou un CLA (voir plus haut).
-
-La convention est de décrire les modalités de contribution en anglais
-dans un fichier =CONTRIBUTING.md= à la racine du dépôt.
-
-*** Qu’est-ce qu’un Copyright License Agreement (CLA) ?
-
-- https://contributoragreements.org
-- https://www.harmonyagreements.org
-
-*** Qu’est-ce qu’un Developer Certificate of Origin (DCO) ?
-
-Le /Developer Certificate of Origin/ est un texte que les contributeurs
-d’un projet libre sont invités à accepter /avant/ de contribuer: il
-donne la garantie au projet que le contributeur a fait toutes les
-vérifications nécessaires au sujet de sa contribution.
-
-Voir [[https://developercertificate.org][developercertificate.org]] qui est le texte du DCO pour le noyau
-Linux.
-
-Il est d’usage que la signature des commits (avec =git commit -s=)
-signifie que le contributeur accepte le DCO déclaré par le projet.
-
-*** À quoi sert la plateforme data.code.gouv.fr ?
-
-[[https://data.code.gouv.fr][data.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour collecter
-des données sur les forges où sont publiés des dépôts d’organismes
-publics.
-
-À terme, ce sont les données exposées via [[https://data.code.gouv.fr][data.code.gouv.fr]] qui seront
-utilisées pour l’interface d’exploration des codes sources
+À terme, ce sont les données exposées via [[https://ecosystem.code.gouv.fr][ecosystem.code.gouv.fr]] qui
+seront utilisées pour l’interface d’exploration des codes sources
 [[https://code.gouv.fr/sources/][code.gouv.fr/sources/]].
 
-*** Où trouver tous les dépôts publiés par mon ministère ?
-
-Vous pouvez chercher sur [[https://code.gouv.fr/sources/#/groups][code.gouv.fr/sources]] l’organisation qui
-correspond à votre direction ou, plus largement, à votre ministère.
-
-** Monter un OSPO
+** Monter un Open Source Programme Office
    :PROPERTIES:
    :CUSTOM_ID: faq_ospo
    :END:
-
 *** Qu’est-ce qu’un Open Source Program Office (OSPO) ?
     :PROPERTIES:
     :CUSTOM_ID: OSPO
@@ -1678,7 +1688,8 @@ C’est une entité dans une entreprise ou une administration dédiée à la
 définition et à la mise en oeuvre d’une stratégie open source pour
 cette entreprise ou administration.
 
-Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre entrée de blog au sujet des OSPOs]].
+Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre entrée de blog au sujet des OSPOs]] et la [[https://code.gouv.fr/fr/ospos/][liste des OSPOs du
+secteur public]].
 
 *** Une administration peut-elle faire de l’« inner source » ?
 #+cindex: innersource
@@ -1699,7 +1710,7 @@ Pour aller plus loin, vous pouvez lire le livre "[[https://innersourcecommons.or
 InnerSource Checklist]]" publié en 2017 chez O’Reilly Media par Silona
 Bonewald.
 
-*** Quelle gouvernance mettre en place dans un organisme public ?
+*** Quelle gouvernance open source mettre en place dans un organisme public ?
 #+cindex: gouvernance
 #+cindex: OSPO
 
@@ -1708,7 +1719,7 @@ organisation, vous pouvez vous référer à la [[https://www.ow2.org/view/OSS_Go
 développée et promue par la fondation OW2. Vous pouvez consulter [[https://gitlab.ow2.org/ggi/my-ggi-board][cet
 outil]] permettant de la mesurer, et le [[https://ospo-alliance.org/ggi/methodology/#automatic-setup-using-the-ggi-deployment-feature][déployer]].
 
-*** À quoi sert code.gouv.fr ?
+*** À quoi sert le site code.gouv.fr ?
 #+cindex: code.gouv.fr
 
 Le site [[https://code.gouv.fr][code.gouv.fr]] est le site de présentation de l’ensemble des
@@ -1716,7 +1727,6 @@ activités et produits de la mission logiciels libres de la DINUM.
 
 Il donne notamment accès au [[https://code.gouv.fr/sill][socle interministériel de logiciels libres]]
 et à [[https://code.gouv.fr/sources/][la liste des codes sources publiés par des administrations]].
-
 * Glossaire
   :PROPERTIES:
   :ALT_TITLE: glossaire
