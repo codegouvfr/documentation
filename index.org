@@ -501,7 +501,7 @@ Aussi, certains textes de lois priorisent les logiciels libres, comme
 l’enseignement supérieur et à la recherche modifiant l’article
 [[https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027747749/2013-07-24][L123-4-1 du Code de l’éducation]]
 
-* Publier un code source
+* Publier un logiciel libre
   :PROPERTIES:
   :CUSTOM_ID: publier
   :END:
@@ -1047,6 +1047,20 @@ qu’il donne son accord pour que ses contributions soient utilisées et
 redistribuées sous la licence libre choisie par le projet. Un DCO
 requiert simplement de signer (/sign-off/) chaque commit.
 
+* Comprendre les licences libres
+  :PROPERTIES:
+  :CUSTOM_ID: licences
+  :END:
+
+* Comprendre les modèles économiques du libre
+  :PROPERTIES:
+  :CUSTOM_ID: modeles-economiques
+  :END:
+
+* Comprendre les logiques communautaires du libre
+  :PROPERTIES:
+  :CUSTOM_ID: communautes
+  :END:
 * Monter un Open Source Programme Office
   :PROPERTIES:
   :CUSTOM_ID: ospo
@@ -1070,6 +1084,11 @@ l'écosystème open source.
 
 Voir [[https://code.gouv.fr/fr/blog/definition-ospo/][notre proposition de définition détaillée d'un OSPO]] et la page où
 sont listés les [[https://code.gouv.fr/fr/ospos/][OSPOs d'organismes publics français]].
+
+* Participer au mouvement BlueHats
+  :PROPERTIES:
+  :CUSTOM_ID: bluehats
+  :END:
 
 * Foire aux questions
   :PROPERTIES:
@@ -1300,7 +1319,238 @@ correspond à votre direction ou, plus largement, à votre ministère.
 Vous pouvez aussi parcourir la liste [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]] qui présente
 des logiciels libres à fort potentiel de réutilisation.
 
-** Contribuer à un logiciel libre existant
+** Publier un logiciel libre
+   :PROPERTIES:
+   :CUSTOM_ID: faq_publier
+   :END:
+*** Comment vérifier qu'un logiciel libre n'est pas déjà développé ?
+
+Vous pouvez vérifier dans [[https://code.gouv.fr/sources/][l'inventaire des codes sources]] et dans le
+[[https://code.gouv.fr/sill/][Socle Interministériel des Logiciels Libres]].
+
+Vous pouvez aussi vérifier au-delà, sur les forges « grand public ».
+
+*** Comment faire connaître le logiciel libre que mon administration développe ?
+#+cindex: communauté
+
+- Si votre logiciel est d'intérêt pour d'autres organismes publics,
+  faites-le référencer dans [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]].
+- Consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des pistes.
+
+*** Comment construire une communauté open source autour de son projet ?
+#+cindex: contributeurs
+#+cindex: communauté
+
+1. Développez un logiciel qui sera utile à d'autres
+2. Choisissez une licence libre utile à ces « autres »
+3. Identifiez les utilisateurs potentiels
+4. Identifiez les contributeurs potentiels
+5. Ajoutez un CONTRIBUTING.md pour les guider
+6. Allez chercher des utilisateurs
+7. Allez chercher des contributeurs
+8. Communiquez de façon publique et prédictible
+9. Allez chercher votre première contribution
+10. Améliorez en itérant sur toutes ces étapes
+
+Vous pouvez faciliter les contributions en publiant un fichier
+=CONTRIBUTING.md= à la racine de votre dépôt ou vous expliquerez aux
+potentiels contributeurs le moyen de vous aider.
+
+*** Quelles sont les bonnes pratiques de développement d'un logiciel libre ?
+
+- Choisir une licence : [[https://choosealicense.com][choosealicense.com]] et le [[https://code.gouv.fr/guides/juridique/][guide DINUM]]
+- Rédiger un fichier README : [[https://www.makeareadme.com][www.makeareadme.com]]
+- Publier un fichier de ChangeLog : [[https://keepachangelog.com/fr/1.0.0/][keepachangelog.com]]
+- Utiliser le versionnement sémantique : [[https://semver.org/spec/v2.0.0.html][semver.org]]
+- Rédiger des messages de commit : [[https://www.conventionalcommits.org/en/v1.0.0/][conventionalcommits.org]]
+- Ajouter un [[https://opensource.guide/code-of-conduct/][code de conduite]]
+
+En plus de ces conventions assez consensuelles :
+
+- Utiliser [[https://gitmoji.dev][gitmoji]] pour les commits
+- Afficher les contributeurs avec [[https://allcontributors.org/docs/en/bot/installation][allcontributors.org]]
+
+*** Quel processus de contribution mettre en place pour mon projet libre ?
+#+cindex: DCO
+#+cindex: CLA
+#+cindex: contribuer
+#+cindex: communauté
+
+Vous pouvez exiger la signature d'un [[https://developercertificate.org][Developer's Certificate of Origin]]
+et/ou un [[https://en.wikipedia.org/wiki/Contributor_License_Agreement][Contributor License Agreement]].
+
+La convention est de décrire les modalités de contribution en anglais
+dans un fichier =CONTRIBUTING.md= à la racine du dépôt.
+
+*** Quelle gouvernance mettre en place pour un logiciel libre ?
+#+cindex: gouvernance
+
+Pour mettre en place une gouvernance open source dans un projet, vous
+pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce guide en anglais]] de la fondation Eclipse.
+
+*** Quelles langues utiliser pour mon code source et ma documentation ?
+
+Le code source est écrit dans un langage de programmation (par exemple
+en Javascript). Les commentaires dans le code source sont considérés
+comme faisant partie du code et doivent être écrits en anglais.
+
+Si le code source est développé en lien avec un référentiel, alors les
+noms de variable et de fonction doivent reprendre ce référentiel. Par
+exemple, si le référentiel est en français, les noms de variable et de
+fonction seront en français.
+
+Le manuel destiné au développeur du projet ou à une personne qui va
+réutiliser le projet (l’intégrer, le déployer, etc.) doit être écrit
+en français.
+
+Le manuel destiné à l’utilisateur final doit être écrit en français.
+
+*** Où trouver des entreprises capables de développer un logiciel libre ?
+
+Il n’y a pas de catalogue centralisé exhaustif, mais des initiatives
+existent. Notamment, le [[https://cnll.fr/][CNLL]] regroupe les principales associations et
+entreprises de l’écosystème open source en France.
+
+Plusieurs entreprises du libre se sont rassemblées pour créer un
+guichet unique : [[https://www.opensource-experts.com/][Open source experts]] (OSE)
+
+*** Quels points vérifier avant d’ouvrir un code source existant ?
+
+Au niveau juridique :
+
+- Les licences des dépendances appelées par votre code source.
+- Les licences des codes sources modifiés et/ou améliorés par votre code.
+- Quelles licences pouvez/voulez-vous utiliser pour votre code ?
+- Vos licences choisies sont-elles bien déclarées dans votre code (cf. les conventions de [[https://reuse.software][reuse.software]]) ?
+
+Au niveau de la sécurité :
+
+- Est-ce que l’historique Git de votre dépôt contient des données sensibles ?
+- Avez-vous testé les éléments de sécurité de votre code ?
+
+Pour ce qui est de la documentation :
+
+- Avez-vous une documentation pour l’utilisateur final ?
+- Avez-vous une documentation pour l’administrateur système ?
+- Avez-vous une documentation pour les contributeurs ?
+
+*** Qui peut m’aider à publier les codes sources de mon organisme public ?
+#+cindex: publier
+
+Vous pouvez interroger vos collègues et votre direction pour savoir si
+vous disposez d’une forge et/ou de comptes d’organisation dédiés où
+publier vos codes sources.
+
+À défaut de réponse, vous pouvez solliciter l’Administrateur
+Ministériel des Données, des Algorithmes et des Codes sources de votre
+ministère. Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
+
+Vous pouvez enfin solliciter directement la mission logiciels libres
+en écrivant à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]].
+
+Dès que vous publiez un code développé par votre administration,
+assurez-vous que la forge et l’organisation via laquelle vous publiez
+sont référencés sur [[https://code.gouv.fr/sources/][code.gouv.fr/sources]] : si ce n’est pas le cas,
+[[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
+
+*** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
+#+cindex: github.com
+#+cindex: gitlab.com
+
+Non, il n’y a pas d’obstacle légal à la publication des codes sources
+d’une administration sur github.com ou gitlab.com.
+
+*** Quelle forge dois-je choisir pour publier mes codes sources ?
+#+cindex: forge
+
+Vous pouvez vérifier sur [[https://code.gouv.fr/data/platforms.csv][cette liste]] si votre organisme public déploie
+une forge et si oui, contacter les personnes en interne qui pourront
+vous aider à y publier vos codes sources.
+
+Si vous êtes une administration centrale et souhaitez publier sur une
+forge interministérielle, vous pouvez contacter les responsables de la
+forge [[https://gitlab.mim-libre.fr][gitlab.mim-libre.fr]].
+
+Si vous souhaitez publier sur une forge hébergée en France via le
+partenariat que la DINUM a avec l’ADULLACT, vous pouvez contacter les
+responsables de la forge [[https://gitlab.adullact.net][gitlab.adullact.net]].
+
+Sinon, vous pouvez publier votre code sur la forge de votre choix, par
+exemple [[https://gitlab.com][gitlab.com]], [[https://github.com][github.com]] ou [[https://sourcehut.org/][SourceHut]].
+
+*** Suis-je obligé de permettre la contribution sur mes dépôts ?
+#+cindex: contribuer
+
+Non. Vous pouvez consulter à ce sujet nos propositions sur [[https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources][les degrés
+d’ouverture]].
+
+*** Puis-je publier un code que je ne maintiens plus ?
+#+cindex: maintenance
+
+Oui. Dans ce cas, indiquez bien dans le fichier ~README.md~ que le code
+source n’est plus maintenu.
+
+Si vous le souhaitez, vous pouvez préciser dans ce ~README.md~ qu’un
+nouveau mainteneur est recherché.
+
+*** Le prestataire doit-il m’envoyer le code source qu’il a développé pour moi ?
+
+Si le contrat prévoit que le prestataire cède ses droits patrimoniaux
+sur le code source développé pour une administration, il est obligé de
+vous mettre à disposition ces codes sources.
+
+Nous recommandons d’exiger que ces codes sources soient mis à
+disposition sur une forge gérée par l’administration dès le premier
+commit : attendre le versement d’un code source après la fin d’une
+prestation est une mauvaise pratique.
+
+*** Existe-t-il une forge interministérielle publique ?
+
+À ce jour, [[https://gitlab.mim-libre.fr/][gitlab.mim-libre.fr]] fait office de forge interministérielle.
+
+Pour les projets des administrations centrales qui ne sont pas
+ouverts, il existe une forge GitLab privée gérée par la DGFiP.
+
+*** Pouvez-vous m’aider à utiliser Git ?
+
+Vous trouverez de l’aide en contactant l’un des membres de la
+communauté [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][BlueHats]].
+
+*** Comment détecter et effacer des secrets dans mon historique Git ?
+
+Adopter les bonnes pratiques dès la création du dépôt git est crucial.
+Ces bonnes pratiques sont nombreuses, mais notamment utiliser des
+variables d’environnements pour les secrets plutôt que de les écrire
+noir sur blanc dans les fichiers commités est un bon réflexe.
+
+Néanmoins, si l’erreur a été faite il existe certains outils :
+
+- [[https://github.com/trufflesecurity/trufflehog][TruffleHog]] sous licence AGPL
+- [[https://github.com/gitleaks/gitleaks][Gitleaks]] sous licence MIT
+- [[https://github.com/Yelp/detect-secrets][Detect Secrets]] sous licence Apache 2
+- [[https://github.com/GitGuardian][Gitgardian]] sous licence MIT
+
+*** Deux administrations développent la même chose, que faire ?
+
+Si vous avez identifié les porteurs de ces projets, envoyez leur un
+mail pour les mettre en contact en ajoutant =contact@code.gouv.fr= en
+copie.
+
+*** À quoi sert la plateforme ecosystem.code.gouv.fr ?
+#+cindex: code.gouv.fr
+
+[[https://ecosystem.code.gouv.fr][ecosystem.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour
+collecter des données sur les forges où sont publiés des dépôts
+d’organismes publics.
+
+À terme, ce sont les données exposées via [[https://ecosystem.code.gouv.fr][ecosystem.code.gouv.fr]] qui
+seront utilisées pour l’interface d’exploration des codes sources
+[[https://code.gouv.fr/sources/][code.gouv.fr/sources/]].
+
+** Contribuer à un logiciel libre
+   :PROPERTIES:
+   :CUSTOM_ID: faq_contribuer
+   :END:
 *** Une administration peut-elle « sponsoriser » un logiciel libre ?
 
 Une administration soutenir des structures privées (association,
@@ -1436,238 +1686,14 @@ Linux.
 Il est d’usage que la signature des commits (avec =git commit -s=)
 signifie que le contributeur accepte le DCO déclaré par le projet.
 
-** Développer et publier un logiciel libre
+** Comprendre les modèles économiques du libre
    :PROPERTIES:
-   :CUSTOM_ID: faq_publier
+   :CUSTOM_ID: modeles_economiques
    :END:
-*** Comment vérifier qu'un logiciel libre n'est pas déjà développé ?
-
-Vous pouvez vérifier dans [[https://code.gouv.fr/sources/][l'inventaire des codes sources]] et dans le
-[[https://code.gouv.fr/sill/][Socle Interministériel des Logiciels Libres]].
-
-Vous pouvez aussi vérifier au-delà, sur les forges « grand public ».
-
-*** Quelles sont les bonnes pratiques de développement d'un logiciel libre ?
-
-- Choisir une licence : [[https://choosealicense.com][choosealicense.com]] et le [[https://code.gouv.fr/guides/juridique/][guide DINUM]]
-- Rédiger un fichier README : [[https://www.makeareadme.com][www.makeareadme.com]]
-- Publier un fichier de ChangeLog : [[https://keepachangelog.com/fr/1.0.0/][keepachangelog.com]]
-- Utiliser le versionnement sémantique : [[https://semver.org/spec/v2.0.0.html][semver.org]]
-- Rédiger des messages de commit : [[https://www.conventionalcommits.org/en/v1.0.0/][conventionalcommits.org]]
-- Ajouter un [[https://opensource.guide/code-of-conduct/][code de conduite]]
-
-En plus de ces conventions assez consensuelles :
-
-- Utiliser [[https://gitmoji.dev][gitmoji]] pour les commits
-- Afficher les contributeurs avec [[https://allcontributors.org/docs/en/bot/installation][allcontributors.org]]
-
-*** Comment faire connaître le logiciel libre que mon administration développe ?
-#+cindex: communauté
-
-- Si votre logiciel est d'intérêt pour d'autres organismes publics,
-  faites-le référencer dans [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]].
-- Consulter [[https://code.gouv.fr/fr/bluehats/promouvoir-votre-projet-libre/][cette présentation BlueHats]] qui propose des pistes.
-
-*** Comment construire une communauté open source autour de son projet ?
-#+cindex: contributeurs
-#+cindex: communauté
-
-1. Développez un logiciel qui sera utile à d'autres
-2. Choisissez une licence libre utile à ces « autres »
-3. Identifiez les utilisateurs potentiels
-4. Identifiez les contributeurs potentiels
-5. Ajoutez un CONTRIBUTING.md pour les guider
-6. Allez chercher des utilisateurs
-7. Allez chercher des contributeurs
-8. Communiquez de façon publique et prédictible
-9. Allez chercher votre première contribution
-10. Améliorez en itérant sur toutes ces étapes
-
-Vous pouvez faciliter les contributions en publiant un fichier
-=CONTRIBUTING.md= à la racine de votre dépôt ou vous expliquerez aux
-potentiels contributeurs le moyen de vous aider.
-
-*** Quel processus de contribution mettre en place pour mon projet libre ?
-#+cindex: DCO
-#+cindex: CLA
-#+cindex: contribuer
-#+cindex: communauté
-
-Vous pouvez exiger la signature d'un [[https://developercertificate.org][Developer's Certificate of Origin]]
-et/ou un [[https://en.wikipedia.org/wiki/Contributor_License_Agreement][Contributor License Agreement]].
-
-La convention est de décrire les modalités de contribution en anglais
-dans un fichier =CONTRIBUTING.md= à la racine du dépôt.
-
-*** Quelle gouvernance mettre en place pour un logiciel libre ?
-#+cindex: gouvernance
-
-Pour mettre en place une gouvernance open source dans un projet, vous
-pouvez vous référer à [[https://gitlab.eclipse.org/eclipse/os-gov/os-gov][ce guide en anglais]] de la fondation Eclipse.
-
-*** Quelles langues utiliser pour mon code source et ma documentation ?
-
-Le code source est écrit dans un langage de programmation (par exemple
-en Javascript). Les commentaires dans le code source sont considérés
-comme faisant partie du code et doivent être écrits en anglais.
-
-Si le code source est développé en lien avec un référentiel, alors les
-noms de variable et de fonction doivent reprendre ce référentiel. Par
-exemple, si le référentiel est en français, les noms de variable et de
-fonction seront en français.
-
-Le manuel destiné au développeur du projet ou à une personne qui va
-réutiliser le projet (l’intégrer, le déployer, etc.) doit être écrit
-en français.
-
-Le manuel destiné à l’utilisateur final doit être écrit en français.
-
-*** Où trouver des entreprises capables de développer un logiciel libre ?
-
-Il n’y a pas de catalogue centralisé exhaustif, mais des initiatives
-existent. Notamment, le [[https://cnll.fr/][CNLL]] regroupe les principales associations et
-entreprises de l’écosystème open source en France.
-
-Plusieurs entreprises du libre se sont rassemblées pour créer un
-guichet unique : [[https://www.opensource-experts.com/][Open source experts]] (OSE)
-
-** Publier un logiciel libre déjà développé
+** Comprendre les logiques communautaires du libre
    :PROPERTIES:
-   :CUSTOM_ID: faq_publier
+   :CUSTOM_ID: faq_communautes
    :END:
-*** Quels points vérifier avant d’ouvrir un code source existant ?
-
-Au niveau juridique :
-
-- Les licences des dépendances appelées par votre code source.
-- Les licences des codes sources modifiés et/ou améliorés par votre code.
-- Quelles licences pouvez/voulez-vous utiliser pour votre code ?
-- Vos licences choisies sont-elles bien déclarées dans votre code (cf. les conventions de [[https://reuse.software][reuse.software]]) ?
-
-Au niveau de la sécurité :
-
-- Est-ce que l’historique Git de votre dépôt contient des données sensibles ?
-- Avez-vous testé les éléments de sécurité de votre code ?
-
-Pour ce qui est de la documentation :
-
-- Avez-vous une documentation pour l’utilisateur final ?
-- Avez-vous une documentation pour l’administrateur système ?
-- Avez-vous une documentation pour les contributeurs ?
-
-*** Qui peut m’aider à publier les codes sources de mon organisme public ?
-#+cindex: publier
-
-Vous pouvez interroger vos collègues et votre direction pour savoir si
-vous disposez d’une forge et/ou de comptes d’organisation dédiés où
-publier vos codes sources.
-
-À défaut de réponse, vous pouvez solliciter l’Administrateur
-Ministériel des Données, des Algorithmes et des Codes sources de votre
-ministère. Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
-
-Vous pouvez enfin solliciter directement la mission logiciels libres
-en écrivant à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]].
-
-Dès que vous publiez un code développé par votre administration,
-assurez-vous que la forge et l’organisation via laquelle vous publiez
-sont référencés sur [[https://code.gouv.fr/sources/][code.gouv.fr/sources]] : si ce n’est pas le cas,
-[[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
-
-*** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
-#+cindex: github.com
-#+cindex: gitlab.com
-
-Non, il n’y a pas d’obstacle légal à la publication des codes sources
-d’une administration sur github.com ou gitlab.com.
-
-*** Quelle forge dois-je choisir pour publier mes codes sources ?
-#+cindex: forge
-
-Vous pouvez vérifier sur [[https://code.gouv.fr/data/platforms.csv][cette liste]] si votre organisme public déploie
-une forge et si oui, contacter les personnes en interne qui pourront
-vous aider à y publier vos codes sources.
-
-Si vous êtes une administration centrale et souhaitez publier sur une
-forge interministérielle, vous pouvez contacter les responsables de la
-forge [[https://gitlab.mim-libre.fr][gitlab.mim-libre.fr]].
-
-Si vous souhaitez publier sur une forge hébergée en France via le
-partenariat que la DINUM a avec l’ADULLACT, vous pouvez contacter les
-responsables de la forge [[https://gitlab.adullact.net][gitlab.adullact.net]].
-
-Sinon, vous pouvez publier votre code sur la forge de votre choix, par
-exemple [[https://gitlab.com][gitlab.com]], [[https://github.com][github.com]] ou [[https://sourcehut.org/][SourceHut]].
-
-*** Suis-je obligé de permettre la contribution sur mes dépôts ?
-#+cindex: contribuer
-
-Non. Vous pouvez consulter à ce sujet nos propositions sur [[https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources][les degrés
-d’ouverture]].
-
-*** Puis-je publier un code que je ne maintiens plus ?
-#+cindex: maintenance
-
-Oui. Dans ce cas, indiquez bien dans le fichier ~README.md~ que le code
-source n’est plus maintenu.
-
-Si vous le souhaitez, vous pouvez préciser dans ce ~README.md~ qu’un
-nouveau mainteneur est recherché.
-
-*** Le prestataire doit-il m’envoyer le code source qu’il a développé pour moi ?
-
-Si le contrat prévoit que le prestataire cède ses droits patrimoniaux
-sur le code source développé pour une administration, il est obligé de
-vous mettre à disposition ces codes sources.
-
-Nous recommandons d’exiger que ces codes sources soient mis à
-disposition sur une forge gérée par l’administration dès le premier
-commit : attendre le versement d’un code source après la fin d’une
-prestation est une mauvaise pratique.
-
-*** Existe-t-il une forge interministérielle publique ?
-
-À ce jour, [[https://gitlab.mim-libre.fr/][gitlab.mim-libre.fr]] fait office de forge interministérielle.
-
-Pour les projets des administrations centrales qui ne sont pas
-ouverts, il existe une forge GitLab privée gérée par la DGFiP.
-
-*** Pouvez-vous m’aider à utiliser Git ?
-
-Vous trouverez de l’aide en contactant l’un des membres de la
-communauté [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][BlueHats]].
-
-*** Comment détecter et effacer des secrets dans mon historique Git ?
-
-Adopter les bonnes pratiques dès la création du dépôt git est crucial.
-Ces bonnes pratiques sont nombreuses, mais notamment utiliser des
-variables d’environnements pour les secrets plutôt que de les écrire
-noir sur blanc dans les fichiers commités est un bon réflexe.
-
-Néanmoins, si l’erreur a été faite il existe certains outils :
-
-- [[https://github.com/trufflesecurity/trufflehog][TruffleHog]] sous licence AGPL
-- [[https://github.com/gitleaks/gitleaks][Gitleaks]] sous licence MIT
-- [[https://github.com/Yelp/detect-secrets][Detect Secrets]] sous licence Apache 2
-- [[https://github.com/GitGuardian][Gitgardian]] sous licence MIT
-
-*** Deux administrations développent la même chose, que faire ?
-
-Si vous avez identifié les porteurs de ces projets, envoyez leur un
-mail pour les mettre en contact en ajoutant =contact@code.gouv.fr= en
-copie.
-
-*** À quoi sert la plateforme ecosystem.code.gouv.fr ?
-#+cindex: code.gouv.fr
-
-[[https://ecosystem.code.gouv.fr][ecosystem.code.gouv.fr]] déploie le logiciel libre [[https://ecosyste.ms][ecosyste.ms]] pour
-collecter des données sur les forges où sont publiés des dépôts
-d’organismes publics.
-
-À terme, ce sont les données exposées via [[https://ecosystem.code.gouv.fr][ecosystem.code.gouv.fr]] qui
-seront utilisées pour l’interface d’exploration des codes sources
-[[https://code.gouv.fr/sources/][code.gouv.fr/sources/]].
-
 ** Monter un Open Source Programme Office
    :PROPERTIES:
    :CUSTOM_ID: faq_ospo
@@ -1721,6 +1747,10 @@ activités et produits de la mission logiciels libres de la DINUM.
 
 Il donne notamment accès au [[https://code.gouv.fr/sill][socle interministériel de logiciels libres]]
 et à [[https://code.gouv.fr/sources/][la liste des codes sources publiés par des administrations]].
+** Participer au mouvement BlueHats
+   :PROPERTIES:
+   :CUSTOM_ID: faq_bluehats
+   :END:
 * Glossaire
   :PROPERTIES:
   :CUSTOM_ID: glossaire
