@@ -38,7 +38,6 @@ Si ces sujets sont nouveaux pour vous, un [[#glossaire][glossaire]] est disponib
 
 * Utiliser des logiciels libres
   :PROPERTIES:
-  :ALT_TITLE: utiliser
   :CUSTOM_ID: utiliser
   :END:
 
@@ -504,7 +503,6 @@ l’enseignement supérieur et à la recherche modifiant l’article
 
 * Publier un code source
   :PROPERTIES:
-  :ALT_TITLE: publier
   :CUSTOM_ID: publier
   :END:
 
@@ -649,7 +647,6 @@ décret :
 
 **** Le « copyleft »
      :PROPERTIES:
-     :ALT_TITLE: copyleft
      :CUSTOM_ID: copyleft
      :END:
 
@@ -986,7 +983,6 @@ la liste [[https://code.gouv.fr/sources/#/awesome][Awesome code.gouv.fr]].
 ** Promouvoir votre projet de logiciel libre
 * Contribuer à un logiciel libre
   :PROPERTIES:
-  :ALT_TITLE: contribuer
   :CUSTOM_ID: contribuer
   :END:
 
@@ -1053,7 +1049,6 @@ requiert simplement de signer (/sign-off/) chaque commit.
 
 * Monter un Open Source Programme Office
   :PROPERTIES:
-  :ALT_TITLE: ospo
   :CUSTOM_ID: ospo
   :END:
 
@@ -1078,7 +1073,6 @@ sont listés les [[https://code.gouv.fr/fr/ospos/][OSPOs d'organismes publics fr
 
 * Foire aux questions
   :PROPERTIES:
-  :ALT_TITLE: faq
   :CUSTOM_ID: faq
   :END:
 
@@ -1729,13 +1723,11 @@ Il donne notamment accès au [[https://code.gouv.fr/sill][socle interministérie
 et à [[https://code.gouv.fr/sources/][la liste des codes sources publiés par des administrations]].
 * Glossaire
   :PROPERTIES:
-  :ALT_TITLE: glossaire
   :CUSTOM_ID: glossaire
   :END:
 
 ** Algorithme
    :PROPERTIES:
-   :ALT_TITLE: algorithme
    :END:
 #+cindex: algorithme
 
@@ -1748,7 +1740,6 @@ formelles traitant et produisant des informations.
 
 ** Algorithme public
    :PROPERTIES:
-   :ALT_TITLE: algorithme_public
    :END:
 #+cindex: algorithme, public
 
@@ -1761,7 +1752,6 @@ Voir le [[https://guides.etalab.gouv.fr/algorithmes/][guide des algorithmes publ
 
 ** Bibliothèque
    :PROPERTIES:
-   :ALT_TITLE: bibliothèque
    :END:
 #+cindex: bibliothèque
 
@@ -1778,7 +1768,6 @@ Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pou
 
 ** Codes sources
    :PROPERTIES:
-   :ALT_TITLE: code_source
    :END:
 #+cindex: code source
 
@@ -1790,7 +1779,6 @@ modifier, de le diffuser et de partager leurs améliorations.
 
 ** Commit
    :PROPERTIES:
-   :ALT_TITLE: commit
    :END:
 #+cindex: commit
 
@@ -1798,7 +1786,6 @@ Unité de modification.
 
 ** Commun numérique
    :PROPERTIES:
-   :ALT_TITLE: commun_numérique
    :END:
 #+cindex: commun numérique
 
@@ -1809,7 +1796,6 @@ des règles de participation.
 
 ** Dépendances logicielles
    :PROPERTIES:
-   :ALT_TITLE: dépendances
    :END:
 #+cindex: dépendance
 
@@ -1825,7 +1811,6 @@ Ne sont prises en compte que les dépendances de premier niveau.
 
 ** Dépôt de code source
    :PROPERTIES:
-   :ALT_TITLE: depot
    :END:
 #+cindex: dépôt
 
@@ -1843,7 +1828,6 @@ Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pou
 
 ** Étoiles (dans GitHub ou GitLab)
    :PROPERTIES:
-   :ALT_TITLE: etoile
    :END:
 
 Les « étoiles » (« stars » en anglais) sont un moyen pour les
@@ -1854,7 +1838,6 @@ source.
 
 ** Forge
    :PROPERTIES:
-   :ALT_TITLE: forge
    :END:
 #+cindex: forge
 
@@ -1862,7 +1845,6 @@ Outil de développement logiciel collaboratif.
 
 ** Fork
    :PROPERTIES:
-   :ALT_TITLE: fork
    :END:
 #+cindex: fork
 
@@ -1871,7 +1853,6 @@ développé à partir d’un autre.
 
 ** Génie logiciel
    :PROPERTIES:
-   :ALT_TITLE: genie_logiciel
    :END:
 
 Champ de l’informatique s’intéressant à la gestion et au cycle de vie
@@ -1879,7 +1860,6 @@ des projets logiciels.
 
 ** Intégration continue
    :PROPERTIES:
-   :ALT_TITLE: integration_continue
    :END:
 #+cindex: intégration continue
 
@@ -1889,7 +1869,6 @@ paramètres.
 
 ** Licence
    :PROPERTIES:
-   :ALT_TITLE: licence
    :END:
 #+cindex: licence
 
@@ -1900,7 +1879,6 @@ logiciel.
 
 ** Logiciel
    :PROPERTIES:
-   :ALT_TITLE: logiciel
    :END:
 #+cindex: logiciel
 
@@ -1911,7 +1889,6 @@ instructions sont en code objet, généralement en binaire.
 
 ** Logiciel libre
    :PROPERTIES:
-   :ALT_TITLE: logiciel_libre
    :END:
 #+cindex: logiciel libre
 
@@ -1928,7 +1905,6 @@ d’autres.
 
 ** Organisation et groupe (dans GitHub ou GitLab)
    :PROPERTIES:
-   :ALT_TITLE: organisation_et_groupe
    :END:
 
 GitHub permet d’avoir des comptes personnels pour y héberger du code
@@ -1944,7 +1920,6 @@ Vous pouvez écrire à =contact@code.gouv.fr= pour nous indiquer un compte
 
 ** Pull/merge request
    :PROPERTIES:
-   :ALT_TITLE: pull-merge_request.
    :END:
 #+cindex: PR, MR
 #+cindex: MR, PR
@@ -1954,7 +1929,6 @@ GitLab. /Pull request/ est l’expression utilisée sur les autres forges.
 
 ** Réutilisations
    :PROPERTIES:
-   :ALT_TITLE: reutilisations
    :END:
 
 GitHub permet de connaître le nombre de dépôts qui en utilisent un
@@ -1963,7 +1937,6 @@ autre : le nombre de ces dépôts est présenté ici dans la colonne
 
 ** Secteur public
    :PROPERTIES:
-   :ALT_TITLE: secteur_public
    :END:
 #+cindex: secteur public
 
@@ -1975,7 +1948,6 @@ service public. Il a été développé par [[https://www.etalab.gouv.fr][Etalab]
 
 ** Socle interministériel de logiciels libres
    :PROPERTIES:
-   :ALT_TITLE: sill
    :END:
 #+cindex: sill
 #+cindex: socle interministériel de logiciels libres
@@ -1988,7 +1960,6 @@ Voir [[https://code.gouv.fr/sill/][le site du SILL]].
 
 ** Software Heritage
    :PROPERTIES:
-   :ALT_TITLE: software_heritage
    :END:
 #+cindex: Software Heritage
 
@@ -1997,7 +1968,6 @@ source des logiciels dont le code source est public.
 
 ** Tag
    :PROPERTIES:
-   :ALT_TITLE: tag
    :END:
 #+cindex: tag
 
@@ -2007,7 +1977,6 @@ correspond en général à une nouvelle version du logiciel.
 
 ** Ticket
    :PROPERTIES:
-   :ALT_TITLE: ticket
    :END:
 #+cindex: ticket
 
