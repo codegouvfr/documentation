@@ -51,7 +51,7 @@ Pour nettoyer les fichiers générés, vous pouvez lancer la commande `make clea
 
 Le développement de cette documentation a lieu sur [ce dépôt](https://github.com/codegouvfr/documentation/).
 
-Pour des commentaires privés, utilisez [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
+Pour des commentaires privés, utilisez [floss@numerique.gouv.fr](mailto:floss@numerique.gouv.fr).
 
 Nous n'acceptons que les commits signés en utilisant le vrai nom du contributeur.
 

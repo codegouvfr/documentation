@@ -1098,7 +1098,7 @@ sont listés les [[https://code.gouv.fr/fr/ospos/][OSPOs d'organismes publics fr
 Vous pouvez aussi naviguer dans cette FAQ depuis [[https://code.gouv.fr/faq][code.gouv.fr/faq]].
 
 Si vous avez des questions que vous voulez voir figurer dans cette
-FAQ, écrivez à =contact@code.gouv.fr=.
+FAQ, écrivez à =floss@numerique.gouv.fr=.
 
 ** Généralités sur les logiciels libres
    :PROPERTIES:
@@ -1217,7 +1217,7 @@ Vous trouverez [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-
 *** Comment contacter la mission logiciels libres ?
 #+cindex: mission
 
-Vous pouvez nous écrire à =contact@code.gouv.fr=.
+Vous pouvez nous écrire à =floss@numerique.gouv.fr=.
 
 Pour entrer en contact avec d'autres agents publics libristes, voir
 [[https://code.gouv.fr/fr/contact/espaces-communication-bluehats/][les espaces de communication entre BlueHats]].
@@ -1446,12 +1446,12 @@ Ministériel des Données, des Algorithmes et des Codes sources de votre
 ministère. Voir [[https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees-des-algorithmes-et-des-codes-sources/][la liste des AMDACs]].
 
 Vous pouvez enfin solliciter directement la mission logiciels libres
-en écrivant à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]].
+en écrivant à [[mailto:floss@numerique.gouv.fr][floss@numerique.gouv.fr]].
 
 Dès que vous publiez un code développé par votre administration,
 assurez-vous que la forge et l’organisation via laquelle vous publiez
 sont référencés sur [[https://code.gouv.fr/sources/][code.gouv.fr/sources]] : si ce n’est pas le cas,
-[[mailto:contact@code.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
+[[mailto:floss@numerique.gouv.fr][écrivez-nous]] pour que nous procédions à ce référencement.
 
 *** Est-il interdit de publier ses codes sources sur github.com ou gitlab.com ?
 #+cindex: github.com
@@ -1533,7 +1533,7 @@ Néanmoins, si l’erreur a été faite il existe certains outils :
 *** Deux administrations développent la même chose, que faire ?
 
 Si vous avez identifié les porteurs de ces projets, envoyez leur un
-mail pour les mettre en contact en ajoutant =contact@code.gouv.fr= en
+mail pour les mettre en contact en ajoutant =floss@numerique.gouv.fr= en
 copie.
 
 *** À quoi sert la plateforme ecosystem.code.gouv.fr ?
@@ -1793,7 +1793,7 @@ Pour ajouter une bibliothèque dans [[https://code.gouv.fr/#/libs][code.gouv.fr]
 compte d’organisation depuis lequel vous publiez cette bibliothèque
 soit ajouté à [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
 
-Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte
+Vous pouvez écrire à [[mailto:floss@numerique.gouv.fr][floss@numerique.gouv.fr]] pour nous indiquer un compte
 à ajouter.
 
 ** Codes sources
@@ -1853,7 +1853,7 @@ Pour ajouter un dépôt dans [[https://code.gouv.fr/#/repos][code.gouv.fr]], env
 d’organisation GitHub ou le groupe GitLab depuis lequel vous le
 publiez, nous l’ajouterons dans [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
 
-Vous pouvez écrire à [[mailto:contact@code.gouv.fr][contact@code.gouv.fr]] pour nous indiquer un compte
+Vous pouvez écrire à [[mailto:floss@numerique.gouv.fr][floss@numerique.gouv.fr]] pour nous indiquer un compte
 à ajouter.
 
 ** Étoiles (dans GitHub ou GitLab)
@@ -1945,7 +1945,7 @@ et/ou groupes sur une ou plusieurs forges. p Pour ajouter une
 organisation dans [[https://code.gouv.fr/#/groups][code.gouv.fr]], il suffit que le compte d’organisation
 GitHub ou le groupe GitLab soit ajouté dans [[https://github.com/codegouvfr/codegouvfr-data/blob/main/comptes-organismes-publics.yml][ce fichier]].
 
-Vous pouvez écrire à =contact@code.gouv.fr= pour nous indiquer un compte
+Vous pouvez écrire à =floss@numerique.gouv.fr= pour nous indiquer un compte
 à ajouter.
 
 ** Pull/merge request

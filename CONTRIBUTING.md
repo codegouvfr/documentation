@@ -2,7 +2,7 @@
 
 The development of this repository happens on [the GitHub repository](https://github.com/codegouvfr/documentation).
 
-For confidential feedback, use [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
+For confidential feedback, use [floss@numerique.gouv.fr](mailto:floss@numerique.gouv.fr).
 
 We only accept commits that are signed off using the real name of the contributor.
 

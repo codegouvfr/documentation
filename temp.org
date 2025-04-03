@@ -160,7 +160,7 @@ mais devraient être rédigés en anglais.
 
 Chercher une forge proche en consultant https://code.gouv.fr/sources/#/repos
 Un compte d’organisation car ce sont les seuls prix en compte sur code. gouv.
-Penser à demander de référencer la forge de l’orga à contact@code.gouv.fr
+Penser à demander de référencer la forge de l’orga à floss@numerique.gouv.fr
 Si l’organisation à plusieurs forges ou comptes d’orga : pas de problème.
 Si nouveaux codes : forge/compte d’organisation
 Si projet existant : fork sur la forge d’organisation. Les forks sont listés sur code.gouv.fr
