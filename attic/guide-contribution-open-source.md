@@ -29,9 +29,14 @@ Ou tout simplement, vous souhaitez en apprendre plus sur le cadre de la contribu
 
 ## Pour contribuer à titre professionnel, nous vous recommandons les bonnes pratiques suivantes:
 
-- Ne pas utiliser d'adresses mails électroniques génériques ou anonymes.
-- Si vous contribuez dans le cadre de votre activité professionnelle, nous recommandons que les commits ne soient pas fais depuis votre compte personnel. Dans ce cas votre contribution devra être alignée avec les valeurs de votre administration.
-- Vérifiez la pertinence du projet auquel vous souhaitez contribuer
+- **Ne pas utiliser d'adresses mails électroniques génériques ou anonymes.**  
+  L'utilisation d'une adresse professionnelle nominative permet d'assurer la traçabilité des contributions, de faciliter les échanges avec les mainteneurs du projet, et de valoriser l'engagement de votre organisation. Les adresses génériques (ex: `noreply@`, `admin@`, `contact@`) ou anonymes nuisent à la transparence et peuvent poser des problèmes juridiques en cas de litige sur les droits d'auteur ou les licences.
+
+- **Si vous contribuez dans le cadre de votre activité professionnelle, nous recommandons que les commits ne soient pas faits depuis votre compte personnel.**  
+  Dans ce cas, votre contribution devra être alignée avec les valeurs de votre administration. Utiliser un compte et une adresse email professionnels permet de clarifier que la contribution est effectuée au nom de l'organisation, ce qui sécurise les aspects juridiques (droits d'auteur, propriété intellectuelle) et renforce la légitimité institutionnelle de la démarche.
+
+- **Vérifiez la pertinence du projet auquel vous souhaitez contribuer.**  
+  Assurez-vous que le projet correspond aux besoins métiers, aux valeurs et à la stratégie open source de votre organisation. Une contribution pertinente maximise l'impact de votre investissement en temps et renforce la crédibilité de votre structure au sein de l'écosystème open source.
 
 ---
 
