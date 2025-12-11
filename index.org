@@ -406,12 +406,12 @@ alors qu’elles ne publient pas de code libre.
 mots-valises en -/washing/). Le mot /[[https://www.fauxpensource.org/][fauxpen]]/ signifie la même chose :
 
 #+begin_export md
-!> Description d’un logiciel qui prétend être open source, mais qui ne dispose pas de toutes les libertés requises par la définition de l’Open Source Initiative [ou de la FSF].
+    Description d’un logiciel qui prétend être open source, mais dont la licence ne garantit pas toutes les libertés requises par la FSF ou l'OSI.
 #+end_export
 
 #+begin_export texinfo
 @quotation
-Description d’un logiciel qui prétend être open source, mais qui ne dispose pas de toutes les libertés requises par la définition de l’Open Source Initiative [ou de la FSF].
+Description d’un logiciel qui prétend être open source, mais dont la licence ne garantit pas toutes les libertés requises par la FSF ou l'OSI.
 @end quotation
 #+end_export
 
