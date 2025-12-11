@@ -415,14 +415,16 @@ Description d’un logiciel qui prétend être open source, mais qui ne dispose 
 @end quotation
 #+end_export
 
-La question fondamentale à se poser pour savoir si c’est un projet est
-libre : la licence garantit-elle les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés fondamentales]]
-(étudier, copier, modifier, redistribuer) ou répond-elle aux critères de
-la [[https://opensource.org/osd][définition de l’OSI]] ?
+La question fondamentale à se poser pour savoir si c’est un code
+source est libre : sa licence garantit-elle les [[https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms][quatre libertés
+fondamentales]] (étudier, copier, modifier, redistribuer) ou répond-elle
+aux critères de la [[https://opensource.org/osd][définition de l’OSI]] ?
 
-Si oui, c’est un logiciel libre. Si non, ce n’est pas un logiciel libre.
+Si oui, c’est un logiciel libre. Si non, ce n’est pas un logiciel
+libre.
 
-Pour vous faciliter la vie, l’OSI maintient une [[http://www.opensource.org/licenses][liste de licences acceptées]].
+Pour vous faciliter la vie, vous pouvez consulter cette [[https://spdx.org/licenses][liste de
+licences libres]].
 
 ** Le marché public pour le logiciel libre
 
