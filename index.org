@@ -587,7 +587,8 @@ retrait, et son droit au respect de l’œuvre.
 - Le code source doit être « achevé » : dès lors qu’une version du code est
   mise en oeuvre dans l’administration, cette version est considérée comme
   « achevée ». Notamment une version dite bêta ou inférieure à 1.0, si elle est
-  effectivement utilisée, est bien achevée et communicable.
+  effectivement utilisée, est bien achevée et communicable. (voir le [[point 8 
+  de la décision du 10 mars 2016 du TA de Paris][https://www.april.org/files/20160216-jugement-tribunal-administratif-demande-communication-code-source-impots.pdf]]) 
 - Sa communication ne doit pas porter atteinte :
   - au secret commercial et industriel ;
   - à la sûreté de l’État, à la sécurité publique, à la sécurité des personnes
