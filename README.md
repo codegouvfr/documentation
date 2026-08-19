@@ -3,9 +3,9 @@
 
 # Présentation
 
-Cette documentation est proposée par la [mission logiciels libres de la DINUM](https://code.gouv.fr) [en ligne](https://code.gouv.fr/documentation/) et [en PDF](https://code.gouv.fr/documentation/logiciels-libres-et-administration-publique.pdf).
+Cette belle documentation a été proposée par la [mission logiciels libres de la DINUM](https://code.gouv.fr) [en ligne](https://code.gouv.fr/documentation/) et [en PDF](https://code.gouv.fr/documentation/logiciels-libres-et-administration-publique.pdf). Elle est archivé car la nouvelle version est sur [https://documentation.ouvert.numerique.gouv.fr/](https://documentation.ouvert.numerique.gouv.fr/). 
 
-Pour tout commentaire ou suggestion, veuillez nous [contacter](https://code.gouv.fr/fr/contact/).
+Pour tout commentaire ou suggestion, veuillez nous [contacter](https://documentation.ouvert.numerique.gouv.fr/contact/).
 
 # Publier
 
